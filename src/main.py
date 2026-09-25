@@ -17,6 +17,8 @@ from src.config import load_config
 from src.bonchat_reader import BonChatReader
 from src.ai_intelligence import AIIntelligence
 from src.telegram_bot import TelegramNotifier
+from src.watermark_tracker import WatermarkTracker
+from src.knowledge_base import KnowledgeBase
 
 def setup_logging():
     log_dir = BASE_DIR / "logs"
@@ -35,7 +37,7 @@ def setup_logging():
 
 def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_channel: str = None) -> bool:
     logger = logging.getLogger("MainOrchestrator")
-    logger.info(f"=== Starting BonChat Visual Intelligence Run: Shift={shift_label} ===")
+    logger.info(f"=== Starting BonChat Incremental Intelligence Run: Shift={shift_label} ===")
 
     cfg = load_config()
 
@@ -45,6 +47,9 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
     if not hwnd:
         logger.error("Could not find BonChat window. Ensure BonChat is running on TIMI_GHOST.")
         return False
+
+    watermark_tracker = WatermarkTracker()
+    kb = KnowledgeBase()
 
     # 2. Channels to scan
     targets = cfg.get("channel_targets", [])
@@ -57,15 +62,17 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
 
     ai = AIIntelligence(
         gemini_keys=cfg.get("gemini_keys", []),
-        groq_key=cfg.get("groq_key")
+        groq_key=cfg.get("groq_key"),
+        quota_cfg=cfg.get("quota_protection")
     )
 
     channel_reports = {}
     today_str = datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S")
     raw_crops_dir = BASE_DIR / "data" / "captures" / today_str
-    raw_crops_dir.mkdir(parents=True, exist_ok=True)
 
-    # 3. Process each channel
+    max_scroll_passes = cfg.get("max_scroll_passes", 15)
+
+    # 3. Process each channel incrementally
     for target in targets:
         c_name = target.get("canonical_name", "Canal")
         d_name = target.get("display_name", c_name)
@@ -78,25 +85,31 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
 
         time.sleep(1.0)
 
-        # Capture visual chat pane images (multimodal)
-        chat_images = reader.capture_chat_images(scroll_passes=2)
-        if not chat_images:
-            logger.warning(f"No visual capture obtained for '{c_name}'.")
+        # Deep scroll backwards until hitting previous scan's watermark
+        new_frames = reader.scan_channel_incremental(
+            channel_canonical=c_name,
+            watermark_tracker=watermark_tracker,
+            max_scroll_passes=max_scroll_passes
+        )
+
+        if not new_frames:
+            logger.info(f"Channel '{c_name}' is already up to date with previous scan. 0 new frames to process.")
             continue
 
         # Save crops for auditing
-        for idx, img in enumerate(chat_images):
+        raw_crops_dir.mkdir(parents=True, exist_ok=True)
+        for idx, img in enumerate(new_frames):
             clean_name = "".join(c for c in c_name if c.isalnum() or c in ('_', '-'))
-            img.save(str(raw_crops_dir / f"{clean_name}_pass_{idx+1}.jpg"), format="JPEG", quality=85)
+            img.save(str(raw_crops_dir / f"{clean_name}_frame_{idx+1}.jpg"), format="JPEG", quality=85)
 
-        # Multimodal AI analysis directly on the images
-        logger.info(f"Analyzing images for '{c_name}' with Gemini Vision...")
-        analysis = ai.analyze_channel_capture(c_name, chat_images)
-        if analysis:
+        # Analyze new frames with Gemini Multimodal Vision (with Quota Guard)
+        logger.info(f"Analyzing {len(new_frames)} new frame(s) for '{c_name}' with Gemini Vision...")
+        analysis = ai.analyze_channel_capture(c_name, new_frames)
+        if analysis and "sem novidades" not in analysis.lower():
             logger.info(f"Findings for '{c_name}': {analysis[:80]}...")
             channel_reports[d_name] = analysis
         else:
-            logger.info(f"No critical updates found in '{c_name}'.")
+            logger.info(f"No critical authority updates found in '{c_name}'.")
 
     # 4. Generate final briefing
     full_digest = ai.generate_full_briefing(channel_reports, shift_label=shift_label)
@@ -127,7 +140,7 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
 
 def main():
     setup_logging()
-    parser = argparse.ArgumentParser(description="BonChat Visual Intelligence Agent")
+    parser = argparse.ArgumentParser(description="BonChat Incremental Intelligence Agent")
     parser.add_argument("--now", action="store_true", help="Run briefing immediately")
     parser.add_argument("--shift", type=str, default="MANUAL", help="Shift label (e.g. 13:30, 21:30)")
     parser.add_argument("--channel", type=str, default=None, help="Scan a single specific channel")

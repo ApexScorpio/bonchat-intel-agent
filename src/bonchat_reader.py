@@ -41,11 +41,13 @@ class BonChatReader:
                 with open(slot_meta, "r", encoding="utf-8") as f:
                     data = json.load(f)
                     h = data.get("hwnd")
-                    if h and win32gui.IsWindow(h):
-                        self.hwnd = int(h)
-                        self.is_ghost = True
-                        logger.info(f"Adopted BonChat from runtime slot: HWND {self.hwnd}")
-                        return self.hwnd
+                    if h:
+                        set_thread_to_ghost_desktop()
+                        if win32gui.IsWindow(h):
+                            self.hwnd = int(h)
+                            self.is_ghost = True
+                            logger.info(f"Adopted BonChat from runtime slot: HWND {self.hwnd}")
+                            return self.hwnd
             except Exception as e:
                 logger.debug(f"Slot read check note: {e}")
 
@@ -195,29 +197,82 @@ class BonChatReader:
 
         return False
 
-    def capture_chat_images(self, scroll_passes: int = 2) -> List[Image.Image]:
+    def scroll_chat_up(self, notches: int = 5):
+        """Scrolls the chat pane up to reveal earlier messages."""
+        if not self.hwnd:
+            return
+        wr = win32gui.GetWindowRect(self.hwnd)
+        w, h = wr[2] - wr[0], wr[3] - wr[1]
+        chat_x = int(w * 0.65)
+        chat_y = int(h * 0.5)
+        lp = win32api.MAKELONG(chat_x, chat_y)
+        for _ in range(notches):
+            win32gui.PostMessage(self.hwnd, win32con.WM_MOUSEWHEEL, win32api.MAKELONG(0, 1200), lp)
+            time.sleep(0.08)
+
+    def scan_channel_incremental(
+        self,
+        channel_canonical: str,
+        watermark_tracker,
+        max_scroll_passes: int = 15
+    ) -> List[Image.Image]:
         """
-        Captures the visual chat pane (including flyers, posters, pinned banners)
-        so it can be directly analyzed with Gemini Multimodal Vision.
+        Deep scrolls upwards through group messages looking for important announcements,
+        but stops immediately once it hits messages or frames that were already read in a previous scan.
         """
-        images = []
-        for p in range(scroll_passes):
+        unprocessed_frames: List[Image.Image] = []
+        collected_signatures: List[str] = []
+        collected_frame_hashes: List[str] = []
+
+        logger.info(f"Beginning incremental scroll scan for '{channel_canonical}' (max_passes={max_scroll_passes})...")
+
+        for pass_idx in range(max_scroll_passes):
             full_img = self.capture_window()
             if not full_img:
+                logger.warning("Could not capture window during scroll.")
                 break
+
             w, h = full_img.size
-            # Crop chat pane (X: 310 to 1250, Y: 45 to h - 70)
             chat_pane = full_img.crop((310, 45, min(w, 1300), h - 70))
-            images.append(chat_pane)
+            frame_hash = watermark_tracker.compute_frame_hash(chat_pane)
 
-            if p < scroll_passes - 1:
-                # Scroll chat up slightly to see earlier announcements
-                chat_x = int(w * 0.65)
-                chat_y = int(h * 0.5)
-                lp = win32api.MAKELONG(chat_x, chat_y)
-                for _ in range(4):
-                    win32gui.PostMessage(self.hwnd, win32con.WM_MOUSEWHEEL, win32api.MAKELONG(0, 1200), lp)
-                    time.sleep(0.1)
-                time.sleep(0.5)
+            # Quick local OCR (zero AI tokens) to check for message signatures
+            try:
+                quick_text = pytesseract.image_to_string(chat_pane, lang='por+eng', config='--psm 6')
+            except Exception:
+                quick_text = ""
 
-        return images
+            signatures = watermark_tracker.extract_text_signatures(quick_text)
+
+            # Check if this frame hits the previous scan's watermark
+            reached, reason = watermark_tracker.is_watermark_reached(channel_canonical, signatures, frame_hash)
+            if reached:
+                logger.info(
+                    f"🛑 [WATERMARK CHECKPOINT] Atingido o limite da leitura anterior no passo {pass_idx+1} ({reason})! "
+                    f"Parando scroll — mensagens anteriores já foram lidas."
+                )
+                break
+
+            # Frame is new: store for analysis
+            unprocessed_frames.append(chat_pane)
+            collected_signatures.extend(signatures)
+            collected_frame_hashes.append(frame_hash)
+
+            if pass_idx < max_scroll_passes - 1:
+                # Scroll chat upwards to reveal older messages
+                self.scroll_chat_up(notches=5)
+                time.sleep(0.4)
+
+        # Update and persist watermark with newly seen signatures and hashes
+        if collected_signatures or collected_frame_hashes:
+            watermark_tracker.commit_channel_watermark(
+                channel_canonical,
+                collected_signatures,
+                collected_frame_hashes
+            )
+
+        logger.info(
+            f"Finished incremental scan for '{channel_canonical}': "
+            f"captured {len(unprocessed_frames)} new frame(s) to analyze."
+        )
+        return unprocessed_frames
