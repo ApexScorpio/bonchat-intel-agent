@@ -5,7 +5,6 @@ from typing import Dict, Any, List, Optional, Tuple
 import ctypes
 import ctypes.wintypes
 import win32gui
-import win32ui
 import win32con
 import win32process
 import win32api
@@ -43,32 +42,42 @@ class BonChatReader:
             w, h_dim = wr[2] - wr[0], wr[3] - wr[1]
             if w < 300 or h_dim < 300:
                 return True
-            try:
-                _, pid = win32process.GetWindowThreadProcessId(h)
-                proc = psutil.Process(pid)
-                if "bonchat" in proc.name().lower():
-                    candidates.append(h)
-            except Exception:
-                pass
+            candidates.append(h)
             return True
 
-        # First check current desktop
-        win32gui.EnumWindows(enum_cb, None)
-        if candidates:
-            self.hwnd = candidates[0]
-            self.is_ghost = False
-            logger.info(f"Found BonChat on active desktop: HWND {self.hwnd}")
-            return self.hwnd
-
-        # Next check TIMI_GHOST desktop
-        if set_thread_to_ghost_desktop():
+        # 1. First check TIMI_GHOST desktop (where BonChat runs in production)
+        switched = set_thread_to_ghost_desktop()
+        logger.debug(f"Switched to ghost desktop: {switched}")
+        if switched:
             candidates.clear()
-            win32gui.EnumWindows(enum_cb, None)
+            def ghost_cb(h, _):
+                t = (win32gui.GetWindowText(h) or "").strip()
+                if "bonchat" in t.lower() and win32gui.IsWindowVisible(h):
+                    wr = win32gui.GetWindowRect(h)
+                    if (wr[2] - wr[0] >= 300) and (wr[3] - wr[1] >= 300):
+                        candidates.append(h)
+                return True
+            win32gui.EnumWindows(ghost_cb, None)
             if candidates:
                 self.hwnd = candidates[0]
                 self.is_ghost = True
                 logger.info(f"Found BonChat on TIMI_GHOST desktop: HWND {self.hwnd}")
                 return self.hwnd
+
+        # 2. Fallback check active/default desktop in a fresh thread to avoid desktop locking
+        import threading
+        def check_default_desktop():
+            win32gui.EnumWindows(enum_cb, None)
+        
+        candidates.clear()
+        t = threading.Thread(target=check_default_desktop)
+        t.start()
+        t.join(timeout=3)
+        if candidates:
+            self.hwnd = candidates[0]
+            self.is_ghost = False
+            logger.info(f"Found BonChat on active desktop: HWND {self.hwnd}")
+            return self.hwnd
 
         logger.warning("BonChat window not found on any desktop.")
         return None
@@ -85,6 +94,7 @@ class BonChatReader:
             if w < 100 or h < 100:
                 return None
 
+            import win32ui
             hwnd_dc = win32gui.GetWindowDC(self.hwnd)
             mfc_dc = win32ui.CreateDCFromHandle(hwnd_dc)
             save_dc = mfc_dc.CreateCompatibleDC()
