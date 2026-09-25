@@ -11,6 +11,9 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR))
 
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+
 from src.config import load_config
 from src.bonchat_reader import BonChatReader
 from src.ai_intelligence import AIIntelligence
