@@ -1,0 +1,33 @@
+{
+  "telegram_bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+  "telegram_chat_id": "YOUR_TELEGRAM_CHAT_ID",
+  "gemini_keys": [
+    "YOUR_GEMINI_API_KEY_1",
+    "YOUR_GEMINI_API_KEY_2",
+    "YOUR_GEMINI_API_KEY_3"
+  ],
+  "groq_key": "YOUR_GROQ_API_KEY_FALLBACK",
+  "tesseract_cmd": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+  "channels_to_monitor": [
+    "timi 08",
+    "timi 64",
+    "grupo de agentes 20",
+    "equipa de agentes de elite de timi",
+    "grupo dde agentes portimao",
+    "timi new",
+    "Grupo de reunioes"
+  ],
+  "vip_senders": [
+    "Theodore",
+    "Johnathan",
+    "Marcia"
+  ],
+  "priority_channels": [
+    "timi 08",
+    "Aviso 08"
+  ],
+  "schedule_times": [
+    "13:30",
+    "21:30"
+  ]
+}
