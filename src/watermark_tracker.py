@@ -12,6 +12,14 @@ logger = logging.getLogger("WatermarkTracker")
 BASE_DIR = Path(__file__).resolve().parent.parent
 WATERMARK_FILE = BASE_DIR / "data" / "watermarks.json"
 
+GENERIC_GREETINGS = {
+    "bom dia", "bom diaa", "bom diaaa", "bkm dia", "bom dia maltinha",
+    "boa tarde", "boa tarde pessoal", "boa tarde agentes",
+    "boa noite", "ola", "olá", "ola miguel", "olaa",
+    "obrigado", "obrigada", "top", "sim", "nao", "não",
+    "ok", "está bem", "esta bem", "boa sorte", "parabens", "parabéns"
+}
+
 class WatermarkTracker:
     def __init__(self, watermark_path: Optional[Path] = None):
         self.watermark_path = watermark_path or WATERMARK_FILE
@@ -38,88 +46,174 @@ class WatermarkTracker:
         return hashlib.sha256(small.tobytes()).hexdigest()
 
     @staticmethod
-    def extract_text_signatures(ocr_text: str) -> List[str]:
+    def is_generic_text(text: str) -> bool:
+        """Checks if a snippet is merely a trivial greeting/casual chatter."""
+        clean = re.sub(r'[^a-zA-ZÀ-ÿ0-9 ]', '', text.lower()).strip()
+        if not clean or len(clean) < 4:
+            return True
+        if clean in GENERIC_GREETINGS:
+            return True
+        for g in GENERIC_GREETINGS:
+            if clean == g or clean.startswith(f"{g} ") or clean.endswith(f" {g}"):
+                if len(clean) - len(g) < 6:
+                    return True
+        return False
+
+    @staticmethod
+    def parse_chat_messages(ocr_text: str) -> List[Dict[str, str]]:
         """
-        Extracts sender+timestamp or header signatures from OCR text.
-        Example signatures:
-        - 'Theodore_12:28'
-        - 'Jonathan_20:00'
-        - 'Adalberto_10:03'
-        - 'Numero_sorte_678126'
+        Parses visible messages in a frame into structured items:
+        [{ 'sender': 'antonio', 'text': 'ABCDE', 'time': '14:20', 'is_generic': False }]
         """
-        signatures = []
+        messages = []
         if not ocr_text:
-            return signatures
+            return messages
 
-        # Match name + time (e.g., "Theodore 12:28", "Andrei Marjineanu: 17:51")
-        matches = re.findall(r'([A-Za-zÀ-ÿ0-9\.\-\_ ]{3,25})\s*[:\s]\s*(\d{1,2}:\d{2})', ocr_text)
-        for name, tm in matches:
-            clean_name = re.sub(r'[^a-zA-Z0-9]', '', name).lower()
-            if len(clean_name) >= 3:
-                signatures.append(f"{clean_name}_{tm}")
+        lines = [ln.strip() for ln in ocr_text.splitlines() if ln.strip()]
+        current_sender = ""
+        current_time = ""
+        current_body = []
 
-        # Pinned messages / special markers
-        if "mensagem fixada" in ocr_text.lower():
-            signatures.append("marker_mensagem_fixada")
-        if "aviso importante" in ocr_text.lower():
-            signatures.append("marker_aviso_importante")
-        if "campanha de apoio" in ocr_text.lower():
-            signatures.append("marker_campanha_apoio")
+        for line in lines:
+            # Check for sender + time pattern e.g. "Adalberto 10:03" or "Theodore 12:28"
+            match = re.search(r'^([A-Za-zÀ-ÿ0-9\.\-\_ ]{3,25})\s*[:\s]\s*(\d{1,2}:\d{2})$', line)
+            if not match:
+                # Also check header line with time at end
+                match = re.search(r'([A-Za-zÀ-ÿ0-9\.\-\_ ]{3,25})\s+(\d{1,2}:\d{2})', line)
 
-        return list(set(signatures))
+            if match:
+                # Flush previous message if any
+                if current_sender and current_body:
+                    body_str = " ".join(current_body)
+                    messages.append({
+                        "sender": current_sender,
+                        "text": body_str,
+                        "time": current_time,
+                        "is_generic": WatermarkTracker.is_generic_text(body_str)
+                    })
+                current_sender = re.sub(r'[^a-zA-ZÀ-ÿ0-9]', '', match.group(1)).lower()
+                current_time = match.group(2)
+                current_body = []
+            else:
+                if current_sender:
+                    current_body.append(line)
 
-    def get_channel_signatures(self, channel_canonical: str) -> Set[str]:
-        """Gets known signatures for a given channel."""
-        data = self.watermarks.get(channel_canonical, {})
-        return set(data.get("known_signatures", []))
+        # Flush final message
+        if current_sender and current_body:
+            body_str = " ".join(current_body)
+            messages.append({
+                "sender": current_sender,
+                "text": body_str,
+                "time": current_time,
+                "is_generic": WatermarkTracker.is_generic_text(body_str)
+            })
 
-    def is_watermark_reached(self, channel_canonical: str, frame_signatures: List[str], frame_hash: str) -> Tuple[bool, Optional[str]]:
+        return messages
+
+    def is_watermark_reached(
+        self,
+        channel_canonical: str,
+        visible_messages: List[Dict[str, str]],
+        frame_hash: str
+    ) -> Tuple[bool, Optional[str]]:
         """
-        Checks whether the currently visible chat frame contains signatures or visual hashes
-        that were already processed in a previous scan.
+        Determines whether we hit the boundary of the previous scan.
+        Applies strict anti-false-positive rules:
+        - NEVER stops on a single generic greeting (e.g. Antonio saying 'Bom dia').
+        - STOPS if a distinctive non-generic message (e.g. Antonio saying 'ABCDE') matches.
+        - STOPS if a multi-message chain (2+ consecutive messages) matches the previous boundary.
+        - STOPS if the exact visual frame hash matches.
         """
         ch_data = self.watermarks.get(channel_canonical)
         if not ch_data:
             return False, None
 
-        known_sigs = set(ch_data.get("known_signatures", []))
+        anchor_chain = ch_data.get("anchor_chain", [])
         known_hashes = set(ch_data.get("known_frame_hashes", []))
 
-        # Check visual frame hash match
+        # 1. Direct visual frame hash match
         if frame_hash in known_hashes:
-            return True, f"frame_hash:{frame_hash[:8]}"
+            return True, f"frame_hash_match:{frame_hash[:8]}"
 
-        # Check text signature match
-        for sig in frame_signatures:
-            if sig in known_sigs:
-                return True, f"signature:{sig}"
+        if not anchor_chain or not visible_messages:
+            return False, None
+
+        # Build quick lookups for visible messages
+        # 2. Check Strong Single Match (non-generic distinctive message)
+        for anchor in anchor_chain:
+            if anchor.get("is_generic", False):
+                continue  # Never stop solely on generic greeting!
+
+            a_sender = anchor.get("sender", "").lower()
+            a_text = anchor.get("text", "").lower().strip()
+            a_time = anchor.get("time", "")
+
+            for vm in visible_messages:
+                v_sender = vm.get("sender", "").lower()
+                v_text = vm.get("text", "").lower().strip()
+                v_time = vm.get("time", "")
+
+                # Must match sender AND distinctive content snippet
+                if a_sender and (a_sender in v_sender or v_sender in a_sender):
+                    # Check text overlap or time
+                    if (len(a_text) >= 5 and (a_text in v_text or v_text in a_text)) or (a_time and a_time == v_time and not vm.get("is_generic")):
+                        reason = f"distinct_message:[{a_sender}: '{a_text[:20]}']"
+                        logger.info(f"Watermark verified: {reason}")
+                        return True, reason
+
+        # 3. Check Multi-Message Chain Match (sequence of 2+ messages matching, even if one is casual)
+        if len(anchor_chain) >= 2 and len(visible_messages) >= 2:
+            matched_count = 0
+            matched_senders = []
+
+            for anchor in anchor_chain:
+                a_sender = anchor.get("sender", "").lower()
+                a_time = anchor.get("time", "")
+                for vm in visible_messages:
+                    v_sender = vm.get("sender", "").lower()
+                    v_time = vm.get("time", "")
+                    if a_sender in v_sender and (not a_time or not v_time or a_time == v_time):
+                        matched_count += 1
+                        matched_senders.append(a_sender)
+                        break
+
+            # If at least 2 distinct anchor messages are present together in this frame
+            if matched_count >= 2:
+                reason = f"chain_sequence_match:{matched_senders[:2]}"
+                logger.info(f"Watermark verified: {reason}")
+                return True, reason
 
         return False, None
 
     def commit_channel_watermark(
         self,
         channel_canonical: str,
-        new_signatures: List[str],
-        new_frame_hashes: List[str],
-        max_signatures: int = 150
+        new_messages: List[Dict[str, str]],
+        new_frame_hashes: List[str]
     ):
         """
-        Updates the channel watermark with new signatures and frame hashes seen in this scan,
-        keeping a sliding window of the most recent entries.
+        Commits the newest messages as the anchor chain for the next scan.
+        Filters out pure greeting noise from being the sole anchor whenever possible.
         """
-        ch_data = self.watermarks.get(channel_canonical, {
-            "known_signatures": [],
-            "known_frame_hashes": [],
-            "last_scan_utc": ""
-        })
-
         import datetime
+        ch_data = self.watermarks.get(channel_canonical, {})
         ch_data["last_scan_utc"] = datetime.datetime.utcnow().isoformat()
 
-        # Merge and keep recent window
-        existing_sigs = ch_data.get("known_signatures", [])
-        combined_sigs = list(dict.fromkeys(new_signatures + existing_sigs))
-        ch_data["known_signatures"] = combined_sigs[:max_signatures]
+        if new_messages:
+            # Pick up to 5 distinct recent messages, prioritizing non-generic ones
+            distinct_recent = []
+            seen = set()
+            for m in reversed(new_messages):
+                key = (m.get("sender"), m.get("text")[:20], m.get("time"))
+                if key not in seen:
+                    seen.add(key)
+                    distinct_recent.append(m)
+                if len(distinct_recent) >= 5:
+                    break
+            
+            # Store in chronological order
+            distinct_recent.reverse()
+            ch_data["anchor_chain"] = distinct_recent
 
         existing_hashes = ch_data.get("known_frame_hashes", [])
         combined_hashes = list(dict.fromkeys(new_frame_hashes + existing_hashes))
@@ -127,4 +221,4 @@ class WatermarkTracker:
 
         self.watermarks[channel_canonical] = ch_data
         self.save()
-        logger.info(f"Committed watermark for '{channel_canonical}': {len(ch_data['known_signatures'])} signatures tracked.")
+        logger.info(f"Committed anchor chain for '{channel_canonical}' ({len(ch_data.get('anchor_chain', []))} messages).")

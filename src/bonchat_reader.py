@@ -242,10 +242,10 @@ class BonChatReader:
             except Exception:
                 quick_text = ""
 
-            signatures = watermark_tracker.extract_text_signatures(quick_text)
+            visible_messages = watermark_tracker.parse_chat_messages(quick_text)
 
-            # Check if this frame hits the previous scan's watermark
-            reached, reason = watermark_tracker.is_watermark_reached(channel_canonical, signatures, frame_hash)
+            # Check if this frame hits the previous scan's watermark with anti-false-positive checks
+            reached, reason = watermark_tracker.is_watermark_reached(channel_canonical, visible_messages, frame_hash)
             if reached:
                 logger.info(
                     f"🛑 [WATERMARK CHECKPOINT] Atingido o limite da leitura anterior no passo {pass_idx+1} ({reason})! "
@@ -255,7 +255,7 @@ class BonChatReader:
 
             # Frame is new: store for analysis
             unprocessed_frames.append(chat_pane)
-            collected_signatures.extend(signatures)
+            collected_signatures.extend(visible_messages)
             collected_frame_hashes.append(frame_hash)
 
             if pass_idx < max_scroll_passes - 1:
@@ -263,7 +263,7 @@ class BonChatReader:
                 self.scroll_chat_up(notches=5)
                 time.sleep(0.4)
 
-        # Update and persist watermark with newly seen signatures and hashes
+        # Update and persist watermark with newly seen messages and hashes
         if collected_signatures or collected_frame_hashes:
             watermark_tracker.commit_channel_watermark(
                 channel_canonical,
