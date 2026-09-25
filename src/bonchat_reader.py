@@ -30,7 +30,7 @@ class BonChatReader:
         self.hwnd: Optional[int] = None
         self.is_ghost: bool = False
 
-    def find_bonchat_window(self) -> Optional[int]:
+    def find_bonchat_window(self, auto_launch: bool = True) -> Optional[int]:
         """
         Locates the BonChat window reliably across desktops.
         """
@@ -91,6 +91,20 @@ class BonChatReader:
         if self.hwnd:
             logger.info(f"Found BonChat on active desktop: HWND {self.hwnd}")
             return self.hwnd
+
+        # 4. Auto-launch BonChat on TIMI_GHOST desktop if not running
+        if auto_launch:
+            bonchat_exe = r"S:\Users\lopes\AppData\Roaming\BonChat\BonChat.exe"
+            if os.path.exists(bonchat_exe):
+                logger.info("BonChat not running. Launching BonChat on TIMI_GHOST desktop...")
+                from .desktop_isolation import launch_process_on_ghost_desktop
+                launch_process_on_ghost_desktop(bonchat_exe)
+                for attempt in range(10):
+                    time.sleep(1.2)
+                    h = self.find_bonchat_window(auto_launch=False)
+                    if h:
+                        logger.info(f"BonChat successfully launched and adopted: HWND {h}")
+                        return h
 
         logger.warning("BonChat window not found.")
         return None

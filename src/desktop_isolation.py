@@ -3,6 +3,7 @@ import sys
 import json
 import ctypes
 import ctypes.wintypes
+import subprocess
 import logging
 from typing import Optional, Tuple, List, Dict, Any
 
@@ -49,6 +50,8 @@ def open_ghost_desktop_handle() -> Optional[int]:
         h_desk = user32.OpenDesktopW(DESKTOP_NAME, 0, False, 0x01FF)
         if not h_desk:
             h_desk = user32.OpenDesktopW(DESKTOP_NAME, 0, False, 0x41)
+        if not h_desk:
+            h_desk = user32.CreateDesktopW(DESKTOP_NAME, None, None, 0, GENERIC_ALL, None)
         return h_desk or None
     except Exception as e:
         logging.error(f"Error opening {FULL_DESKTOP_PATH}: {e}")
@@ -60,3 +63,25 @@ def set_thread_to_ghost_desktop() -> bool:
         return False
     ok = bool(user32.SetThreadDesktop(h_desk))
     return ok
+
+def launch_process_on_ghost_desktop(cmd: Any, cwd: Optional[str] = None) -> Optional[subprocess.Popen]:
+    """
+    Launches a process explicitly on WinSta0\\TIMI_GHOST so it runs invisibly in background.
+    """
+    try:
+        open_ghost_desktop_handle()
+        si = subprocess.STARTUPINFO()
+        si.lpDesktop = FULL_DESKTOP_PATH
+        si.dwFlags |= subprocess.STARTF_USESHOWWINDOW
+        si.wShowWindow = 4  # SW_SHOWNOACTIVATE
+        
+        proc = subprocess.Popen(
+            cmd,
+            startupinfo=si,
+            cwd=cwd,
+            creationflags=0x00000010  # CREATE_NEW_CONSOLE
+        )
+        return proc
+    except Exception as e:
+        logging.error(f"Error launching process on {FULL_DESKTOP_PATH}: {e}")
+        return None
