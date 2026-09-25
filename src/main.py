@@ -39,6 +39,16 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
     logger = logging.getLogger("MainOrchestrator")
     logger.info(f"=== Starting BonChat Incremental Intelligence Run: Shift={shift_label} ===")
 
+    # 0. Maestro & Activator Collision Guard
+    from src.process_guard import is_maestro_running
+    maestro_active, reason = is_maestro_running()
+    if maestro_active:
+        logger.warning(
+            f"🛑 [MAESTRO GUARD] O Maestro da TIMI está em execução ativa ({reason})! "
+            f"A execução do BonChat Intel Agent foi cancelada para evitar sobreposição de scripts."
+        )
+        return False
+
     cfg = load_config()
 
     # 1. Setup reader & find window
