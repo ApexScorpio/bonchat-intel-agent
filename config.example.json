@@ -8,23 +8,44 @@
   ],
   "groq_key": "YOUR_GROQ_API_KEY_FALLBACK",
   "tesseract_cmd": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
-  "channels_to_monitor": [
-    "timi 08",
-    "timi 64",
-    "grupo de agentes 20",
-    "equipa de agentes de elite de timi",
-    "grupo dde agentes portimao",
-    "timi new",
-    "Grupo de reunioes"
+  "channel_targets": [
+    {
+      "canonical_name": "TIMI 08 / Avisos",
+      "aliases": ["timi-no", "time-no", "aviso 08", "timi 08", "timi-08", "aviso"]
+    },
+    {
+      "canonical_name": "TIMI 64",
+      "aliases": ["timi-64", "time-64", "timi 64", "64"]
+    },
+    {
+      "canonical_name": "Teodoro Grupo de Agentes 20",
+      "aliases": ["teodoro.grupo de agentes20", "grupo de agentes 20", "agentes20", "teodoro"]
+    },
+    {
+      "canonical_name": "Equipa de Agentes de Elite da TIMI",
+      "aliases": ["equipa de agentes de elite", "elite da timi", "elite"]
+    },
+    {
+      "canonical_name": "Grupo de Agentes de Portimão",
+      "aliases": ["grupo de agentes de portimao", "portimao", "portimão"]
+    },
+    {
+      "canonical_name": "TIMI News",
+      "aliases": ["timi news", "timinews", "timi new", "gmtnews"]
+    },
+    {
+      "canonical_name": "Grupo de Reuniões",
+      "aliases": ["grupo de reunioes", "grupo de reuniões", "reunioes", "reuniões"]
+    }
   ],
   "vip_senders": [
     "Theodore",
+    "Teodoro",
+    "Jonathan",
     "Johnathan",
-    "Marcia"
-  ],
-  "priority_channels": [
-    "timi 08",
-    "Aviso 08"
+    "TIMI Jonathan",
+    "Marcia",
+    "Márcia"
   ],
   "schedule_times": [
     "13:30",

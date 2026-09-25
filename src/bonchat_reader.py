@@ -147,48 +147,71 @@ class BonChatReader:
             win32gui.PostMessage(self.hwnd, win32con.WM_MOUSEWHEEL, win32api.MAKELONG(0, delta), lp)
             time.sleep(0.12)
 
-    def find_group_in_sidebar(self, target_name: str) -> Optional[Tuple[int, int]]:
+    def scroll_sidebar(self, direction_down: bool = True, steps: int = 5):
+        """Scrolls the sidebar channel list up or down."""
+        if not self.hwnd:
+            return
+        sidebar_x = 160
+        sidebar_y = 500
+        lp = win32api.MAKELONG(sidebar_x, sidebar_y)
+        delta = -1200 if direction_down else 1200
+        for _ in range(steps):
+            win32gui.PostMessage(self.hwnd, win32con.WM_MOUSEWHEEL, win32api.MAKELONG(0, delta), lp)
+            time.sleep(0.12)
+
+    def find_group_in_sidebar(self, targets: Any) -> Optional[Tuple[int, int]]:
         """
-        Uses OCR on the sidebar to find the click coordinates for a given channel name.
+        Locates channel coordinates in sidebar using OCR with alias list and auto-scrolling.
         """
-        img = self.capture_window()
-        if not img:
-            return None
+        if isinstance(targets, str):
+            target_list = [targets]
+        else:
+            target_list = list(targets)
 
-        w, h = img.size
-        sidebar_w = int(w * 0.35)
-        sidebar = img.crop((0, 0, sidebar_w, h))
+        normalized_targets = [re.sub(r'[^a-zA-Z0-9]', '', t.lower()) for t in target_list]
 
-        # Enhance contrast for OCR
-        gray = ImageOps.autocontrast(sidebar.convert("L"))
-        sharpened = gray.filter(ImageFilter.SHARPEN)
+        # Search visible view, if not found scroll down up to 2 times
+        for scroll_attempt in range(3):
+            img = self.capture_window()
+            if not img:
+                return None
 
-        data = pytesseract.image_to_data(sharpened, output_type=pytesseract.Output.DICT)
-        
-        # Build lines of text with coordinates
-        normalized_target = re.sub(r'[^a-zA-Z0-9]', '', target_name.lower())
-        
-        num_boxes = len(data['text'])
-        for i in range(num_boxes):
-            word = data['text'][i].strip()
-            if not word:
-                continue
-            
-            # Check single word or multi-word substring match
-            norm_word = re.sub(r'[^a-zA-Z0-9]', '', word.lower())
-            if len(norm_word) >= 3 and norm_word in normalized_target:
-                x = data['left'][i] + data['width'][i] // 2
-                y = data['top'][i] + data['height'][i] // 2
-                # Ensure it's in the channel list area (not top header)
-                if y > 80:
-                    logger.info(f"Target '{target_name}' matched word '{word}' at ({x}, {y})")
-                    return (x, y)
+            w, h = img.size
+            sidebar_w = int(w * 0.32)
+            sidebar = img.crop((0, 0, sidebar_w, h))
 
+            gray = ImageOps.autocontrast(sidebar.convert("L"))
+            sharpened = gray.filter(ImageFilter.SHARPEN)
+
+            data = pytesseract.image_to_data(sharpened, lang='por+eng', output_type=pytesseract.Output.DICT)
+            num_boxes = len(data['text'])
+
+            for i in range(num_boxes):
+                word = data['text'][i].strip()
+                if not word:
+                    continue
+                norm_word = re.sub(r'[^a-zA-Z0-9]', '', word.lower())
+                if len(norm_word) >= 3:
+                    for n_target in normalized_targets:
+                        if norm_word in n_target or n_target in norm_word:
+                            x = data['left'][i] + data['width'][i] // 2
+                            y = data['top'][i] + data['height'][i] // 2
+                            if 100 < y < h - 40:
+                                logger.info(f"Matched target '{targets}' via '{word}' at ({x}, {y})")
+                                return (x, y)
+
+            if scroll_attempt < 2:
+                logger.debug(f"Target '{targets}' not in view. Scrolling sidebar down...")
+                self.scroll_sidebar(direction_down=True, steps=6)
+                time.sleep(0.6)
+
+        # Reset sidebar to top after search
+        self.scroll_sidebar(direction_down=False, steps=12)
         return None
 
     def read_active_chat(self, scroll_passes: int = 3) -> str:
         """
-        Reads all visible messages in the active chat pane, scrolling up to gather history.
+        Reads visible messages and pinned announcements in the exact chat pane (X: 350 to 1150).
         """
         collected_texts = []
         
@@ -198,17 +221,17 @@ class BonChatReader:
                 break
             
             w, h = img.size
-            chat_pane = img.crop((int(w * 0.35), 70, w, h - 80))
+            # Exact chat column determined from visual inspection
+            chat_pane = img.crop((350, 70, min(w, 1150), h - 90))
             
-            # OCR chat area
             text = pytesseract.image_to_string(chat_pane, lang='por+eng')
             if text.strip():
-                collected_texts.append(text)
+                collected_texts.append(text.strip())
             
             if p < scroll_passes - 1:
-                self.scroll_chat(steps=4, direction_up=True)
-                time.sleep(0.4)
+                self.scroll_chat(steps=5, direction_up=True)
+                time.sleep(0.5)
 
-        # Combine text while removing exact duplicate blocks
-        all_text = "\n---\n".join(collected_texts)
-        return all_text
+        # Reverse so earlier scrolled messages appear first
+        collected_texts.reverse()
+        return "\n---\n".join(collected_texts)
