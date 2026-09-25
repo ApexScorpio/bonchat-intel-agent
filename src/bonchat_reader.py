@@ -1,5 +1,7 @@
+import os
 import time
 import re
+import json
 import logging
 from typing import Dict, Any, List, Optional, Tuple
 import ctypes
@@ -8,16 +10,18 @@ import win32gui
 import win32con
 import win32process
 import win32api
-import psutil
-from PIL import Image, ImageOps, ImageFilter, ImageEnhance
+from PIL import Image, ImageOps, ImageFilter
 import pytesseract
 
 from .desktop_isolation import (
     set_thread_to_ghost_desktop,
+    open_ghost_desktop_handle,
     get_current_desktop_name,
 )
 
 logger = logging.getLogger("BonChatReader")
+
+user32 = ctypes.windll.user32
 
 class BonChatReader:
     def __init__(self, tesseract_cmd: Optional[str] = None):
@@ -28,58 +32,65 @@ class BonChatReader:
 
     def find_bonchat_window(self) -> Optional[int]:
         """
-        Locates the BonChat window either on active desktop or TIMI_GHOST desktop.
+        Locates the BonChat window reliably across desktops.
         """
-        candidates = []
+        # 1. Quick check active telemetry slot metadata if available
+        slot_meta = r"C:\Users\lopes\.gemini\antigravity-ide\scratch\TIMI-ativador-repo\_runtime\slots\bonchat.json"
+        if os.path.exists(slot_meta):
+            try:
+                with open(slot_meta, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    h = data.get("hwnd")
+                    if h and win32gui.IsWindow(h):
+                        self.hwnd = int(h)
+                        self.is_ghost = True
+                        logger.info(f"Adopted BonChat from runtime slot: HWND {self.hwnd}")
+                        return self.hwnd
+            except Exception as e:
+                logger.debug(f"Slot read check note: {e}")
 
-        def enum_cb(h, _):
-            if not win32gui.IsWindow(h) or not win32gui.IsWindowVisible(h) or win32gui.IsIconic(h):
-                return True
-            title = (win32gui.GetWindowText(h) or "").strip()
-            if not title.lower().startswith("bonchat"):
-                return True
-            wr = win32gui.GetWindowRect(h)
-            w, h_dim = wr[2] - wr[0], wr[3] - wr[1]
-            if w < 300 or h_dim < 300:
-                return True
-            candidates.append(h)
-            return True
+        # 2. Enumerate windows directly on TIMI_GHOST desktop handle
+        h_desk = open_ghost_desktop_handle()
+        if h_desk:
+            cb_t = ctypes.WINFUNCTYPE(ctypes.wintypes.BOOL, ctypes.wintypes.HWND, ctypes.wintypes.LPARAM)
+            candidates = []
 
-        # 1. First check TIMI_GHOST desktop (where BonChat runs in production)
-        switched = set_thread_to_ghost_desktop()
-        logger.debug(f"Switched to ghost desktop: {switched}")
-        if switched:
-            candidates.clear()
-            def ghost_cb(h, _):
-                t = (win32gui.GetWindowText(h) or "").strip()
-                if "bonchat" in t.lower() and win32gui.IsWindowVisible(h):
+            def cb(h, _):
+                if win32gui.IsWindow(h) and win32gui.IsWindowVisible(h):
+                    title = (win32gui.GetWindowText(h) or "").strip()
                     wr = win32gui.GetWindowRect(h)
-                    if (wr[2] - wr[0] >= 300) and (wr[3] - wr[1] >= 300):
-                        candidates.append(h)
+                    w, h_dim = wr[2] - wr[0], wr[3] - wr[1]
+                    if "bonchat" in title.lower() and w >= 300 and h_dim >= 300:
+                        candidates.append(int(h))
                 return True
-            win32gui.EnumWindows(ghost_cb, None)
+
+            callback = cb_t(cb)
+            user32.EnumDesktopWindows(h_desk, callback, 0)
+            user32.CloseDesktop(h_desk)
+
             if candidates:
                 self.hwnd = candidates[0]
                 self.is_ghost = True
-                logger.info(f"Found BonChat on TIMI_GHOST desktop: HWND {self.hwnd}")
+                logger.info(f"Found BonChat on TIMI_GHOST via EnumDesktopWindows: HWND {self.hwnd}")
                 return self.hwnd
 
-        # 2. Fallback check active/default desktop in a fresh thread to avoid desktop locking
-        import threading
-        def check_default_desktop():
-            win32gui.EnumWindows(enum_cb, None)
-        
-        candidates.clear()
-        t = threading.Thread(target=check_default_desktop)
-        t.start()
-        t.join(timeout=3)
-        if candidates:
-            self.hwnd = candidates[0]
-            self.is_ghost = False
+        # 3. Fallback check active desktop
+        def def_cb(h, _):
+            if win32gui.IsWindow(h) and win32gui.IsWindowVisible(h) and not win32gui.IsIconic(h):
+                title = (win32gui.GetWindowText(h) or "").strip()
+                if "bonchat" in title.lower():
+                    wr = win32gui.GetWindowRect(h)
+                    if (wr[2] - wr[0] >= 300) and (wr[3] - wr[1] >= 300):
+                        self.hwnd = int(h)
+                        self.is_ghost = False
+            return True
+
+        win32gui.EnumWindows(def_cb, None)
+        if self.hwnd:
             logger.info(f"Found BonChat on active desktop: HWND {self.hwnd}")
             return self.hwnd
 
-        logger.warning("BonChat window not found on any desktop.")
+        logger.warning("BonChat window not found.")
         return None
 
     def capture_window(self) -> Optional[Image.Image]:
@@ -87,6 +98,9 @@ class BonChatReader:
         if not self.hwnd or not win32gui.IsWindow(self.hwnd):
             if not self.find_bonchat_window():
                 return None
+
+        # Ensure calling thread is attached to ghost desktop before drawing
+        set_thread_to_ghost_desktop()
 
         try:
             wr = win32gui.GetWindowRect(self.hwnd)
@@ -132,106 +146,78 @@ class BonChatReader:
         win32gui.PostMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lp)
         time.sleep(0.2)
 
-    def scroll_chat(self, steps: int = 5, direction_up: bool = True):
-        """Scrolls the chat pane up or down."""
-        if not self.hwnd:
-            return
-        wr = win32gui.GetWindowRect(self.hwnd)
-        w, h = wr[2] - wr[0], wr[3] - wr[1]
-        chat_x = int(w * 0.65)
-        chat_y = int(h * 0.5)
-        lp = win32api.MAKELONG(chat_x, chat_y)
-        delta = 1200 if direction_up else -1200
-
-        for _ in range(steps):
-            win32gui.PostMessage(self.hwnd, win32con.WM_MOUSEWHEEL, win32api.MAKELONG(0, delta), lp)
-            time.sleep(0.12)
-
-    def scroll_sidebar(self, direction_down: bool = True, steps: int = 5):
-        """Scrolls the sidebar channel list up or down."""
-        if not self.hwnd:
-            return
-        sidebar_x = 160
-        sidebar_y = 500
-        lp = win32api.MAKELONG(sidebar_x, sidebar_y)
-        delta = -1200 if direction_down else 1200
-        for _ in range(steps):
-            win32gui.PostMessage(self.hwnd, win32con.WM_MOUSEWHEEL, win32api.MAKELONG(0, delta), lp)
-            time.sleep(0.12)
-
-    def find_group_in_sidebar(self, targets: Any) -> Optional[Tuple[int, int]]:
+    def select_channel(self, channel_target: Dict[str, Any]) -> bool:
         """
-        Locates channel coordinates in sidebar using OCR with alias list and auto-scrolling.
+        Navigates to a specific channel using calibrated visual coordinates or search.
         """
-        if isinstance(targets, str):
-            target_list = [targets]
-        else:
-            target_list = list(targets)
+        canonical = channel_target.get("canonical_name", "")
+        default_y = channel_target.get("default_y")
+        search_term = channel_target.get("search_term")
 
-        normalized_targets = [re.sub(r'[^a-zA-Z0-9]', '', t.lower()) for t in target_list]
+        # 1. Direct calibrated click
+        if default_y:
+            logger.info(f"Selecting '{canonical}' at calibrated sidebar Y={default_y}")
+            self.click_window(180, default_y)
+            time.sleep(0.8)
+            return True
 
-        # Search visible view, if not found scroll down up to 2 times
-        for scroll_attempt in range(3):
-            img = self.capture_window()
-            if not img:
-                return None
+        # 2. Search box lookup
+        if search_term:
+            logger.info(f"Searching channel via search bar: '{search_term}'")
+            # Click search input
+            self.click_window(180, 100)
+            time.sleep(0.2)
 
-            w, h = img.size
-            sidebar_w = int(w * 0.32)
-            sidebar = img.crop((0, 0, sidebar_w, h))
+            # Select all and delete previous query
+            win32gui.PostMessage(self.hwnd, win32con.WM_KEYDOWN, win32con.VK_CONTROL, 0)
+            win32gui.PostMessage(self.hwnd, win32con.WM_KEYDOWN, ord('A'), 0)
+            win32gui.PostMessage(self.hwnd, win32con.WM_KEYUP, ord('A'), 0)
+            win32gui.PostMessage(self.hwnd, win32con.WM_KEYUP, win32con.VK_CONTROL, 0)
+            time.sleep(0.05)
+            win32gui.PostMessage(self.hwnd, win32con.WM_KEYDOWN, win32con.VK_BACK, 0)
+            win32gui.PostMessage(self.hwnd, win32con.WM_KEYUP, win32con.VK_BACK, 0)
+            time.sleep(0.1)
 
-            gray = ImageOps.autocontrast(sidebar.convert("L"))
-            sharpened = gray.filter(ImageFilter.SHARPEN)
+            # Type search term
+            for ch in search_term:
+                win32gui.PostMessage(self.hwnd, win32con.WM_CHAR, ord(ch), 0)
+                time.sleep(0.04)
+            time.sleep(0.6)
 
-            data = pytesseract.image_to_data(sharpened, lang='por+eng', output_type=pytesseract.Output.DICT)
-            num_boxes = len(data['text'])
+            # Click top search result (Y ~160)
+            self.click_window(180, 160)
+            time.sleep(0.8)
 
-            for i in range(num_boxes):
-                word = data['text'][i].strip()
-                if not word:
-                    continue
-                norm_word = re.sub(r'[^a-zA-Z0-9]', '', word.lower())
-                if len(norm_word) >= 3:
-                    for n_target in normalized_targets:
-                        if norm_word in n_target or n_target in norm_word:
-                            x = data['left'][i] + data['width'][i] // 2
-                            y = data['top'][i] + data['height'][i] // 2
-                            if 100 < y < h - 40:
-                                logger.info(f"Matched target '{targets}' via '{word}' at ({x}, {y})")
-                                return (x, y)
+            # Clear search
+            win32gui.PostMessage(self.hwnd, win32con.WM_KEYDOWN, win32con.VK_ESCAPE, 0)
+            win32gui.PostMessage(self.hwnd, win32con.WM_KEYUP, win32con.VK_ESCAPE, 0)
+            return True
 
-            if scroll_attempt < 2:
-                logger.debug(f"Target '{targets}' not in view. Scrolling sidebar down...")
-                self.scroll_sidebar(direction_down=True, steps=6)
-                time.sleep(0.6)
+        return False
 
-        # Reset sidebar to top after search
-        self.scroll_sidebar(direction_down=False, steps=12)
-        return None
-
-    def read_active_chat(self, scroll_passes: int = 3) -> str:
+    def capture_chat_images(self, scroll_passes: int = 2) -> List[Image.Image]:
         """
-        Reads visible messages and pinned announcements in the exact chat pane (X: 350 to 1150).
+        Captures the visual chat pane (including flyers, posters, pinned banners)
+        so it can be directly analyzed with Gemini Multimodal Vision.
         """
-        collected_texts = []
-        
+        images = []
         for p in range(scroll_passes):
-            img = self.capture_window()
-            if not img:
+            full_img = self.capture_window()
+            if not full_img:
                 break
-            
-            w, h = img.size
-            # Exact chat column determined from visual inspection
-            chat_pane = img.crop((350, 70, min(w, 1150), h - 90))
-            
-            text = pytesseract.image_to_string(chat_pane, lang='por+eng')
-            if text.strip():
-                collected_texts.append(text.strip())
-            
+            w, h = full_img.size
+            # Crop chat pane (X: 310 to 1250, Y: 45 to h - 70)
+            chat_pane = full_img.crop((310, 45, min(w, 1300), h - 70))
+            images.append(chat_pane)
+
             if p < scroll_passes - 1:
-                self.scroll_chat(steps=5, direction_up=True)
+                # Scroll chat up slightly to see earlier announcements
+                chat_x = int(w * 0.65)
+                chat_y = int(h * 0.5)
+                lp = win32api.MAKELONG(chat_x, chat_y)
+                for _ in range(4):
+                    win32gui.PostMessage(self.hwnd, win32con.WM_MOUSEWHEEL, win32api.MAKELONG(0, 1200), lp)
+                    time.sleep(0.1)
                 time.sleep(0.5)
 
-        # Reverse so earlier scrolled messages appear first
-        collected_texts.reverse()
-        return "\n---\n".join(collected_texts)
+        return images

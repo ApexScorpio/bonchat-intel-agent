@@ -7,7 +7,6 @@ import datetime
 import logging
 from pathlib import Path
 
-# Ensure package root is in sys.path
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR))
 
@@ -36,77 +35,85 @@ def setup_logging():
 
 def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_channel: str = None) -> bool:
     logger = logging.getLogger("MainOrchestrator")
-    logger.info(f"=== Starting BonChat Intelligence Run: Shift={shift_label} ===")
+    logger.info(f"=== Starting BonChat Visual Intelligence Run: Shift={shift_label} ===")
 
     cfg = load_config()
-    
-    # 1. Setup reader
+
+    # 1. Setup reader & find window
     reader = BonChatReader(tesseract_cmd=cfg.get("tesseract_cmd"))
     hwnd = reader.find_bonchat_window()
     if not hwnd:
-        logger.error("Could not find BonChat window. Ensure BonChat is running.")
+        logger.error("Could not find BonChat window. Ensure BonChat is running on TIMI_GHOST.")
         return False
 
     # 2. Channels to scan
     targets = cfg.get("channel_targets", [])
-    if not targets:
-        # Fallback to simple string list
-        targets = [{"canonical_name": c, "aliases": [c]} for c in cfg.get("channels_to_monitor", [])]
-
     if specific_channel:
-        targets = [{"canonical_name": specific_channel, "aliases": [specific_channel]}]
+        targets = [t for t in targets if specific_channel.lower() in t.get("canonical_name", "").lower()]
+        if not targets:
+            targets = [{"canonical_name": specific_channel, "display_name": specific_channel, "search_term": specific_channel}]
 
     logger.info(f"Target channels to scan ({len(targets)} channels)")
 
-    # 3. Read channels
-    extracted_data = {}
-    for target in targets:
-        c_name = target.get("canonical_name", "Canal")
-        aliases = target.get("aliases", [c_name])
-        logger.info(f"Locating channel '{c_name}' (aliases: {aliases})...")
-        
-        coords = reader.find_group_in_sidebar(aliases)
-        if coords:
-            reader.click_window(coords[0], coords[1])
-            time.sleep(1.2)
-            
-            # Read chat pane
-            chat_text = reader.read_active_chat(scroll_passes=3)
-            logger.info(f"Channel '{c_name}' captured {len(chat_text)} characters.")
-            extracted_data[c_name] = chat_text
-        else:
-            logger.warning(f"Could not locate channel '{c_name}' in sidebar.")
-            extracted_data[c_name] = ""
-
-    # 4. Save raw dump to data/
-    today_str = datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S")
-    data_dir = BASE_DIR / "data" / "raw_captures"
-    data_dir.mkdir(parents=True, exist_ok=True)
-    raw_file = data_dir / f"capture_{today_str}.json"
-    with open(raw_file, "w", encoding="utf-8") as f:
-        json.dump(extracted_data, f, ensure_ascii=False, indent=2)
-
-    # 5. AI Summarization & Noise Filtering
     ai = AIIntelligence(
         gemini_keys=cfg.get("gemini_keys", []),
         groq_key=cfg.get("groq_key")
     )
-    
-    summary = ai.summarize_channels(extracted_data, shift_label=shift_label)
-    logger.info("AI Briefing generated successfully.")
 
-    # Save summary locally
+    channel_reports = {}
+    today_str = datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S")
+    raw_crops_dir = BASE_DIR / "data" / "captures" / today_str
+    raw_crops_dir.mkdir(parents=True, exist_ok=True)
+
+    # 3. Process each channel
+    for target in targets:
+        c_name = target.get("canonical_name", "Canal")
+        d_name = target.get("display_name", c_name)
+        logger.info(f"Navigating to '{c_name}'...")
+
+        ok = reader.select_channel(target)
+        if not ok:
+            logger.warning(f"Could not navigate to channel '{c_name}'.")
+            continue
+
+        time.sleep(1.0)
+
+        # Capture visual chat pane images (multimodal)
+        chat_images = reader.capture_chat_images(scroll_passes=2)
+        if not chat_images:
+            logger.warning(f"No visual capture obtained for '{c_name}'.")
+            continue
+
+        # Save crops for auditing
+        for idx, img in enumerate(chat_images):
+            clean_name = "".join(c for c in c_name if c.isalnum() or c in ('_', '-'))
+            img.save(str(raw_crops_dir / f"{clean_name}_pass_{idx+1}.jpg"), format="JPEG", quality=85)
+
+        # Multimodal AI analysis directly on the images
+        logger.info(f"Analyzing images for '{c_name}' with Gemini Vision...")
+        analysis = ai.analyze_channel_capture(c_name, chat_images)
+        if analysis:
+            logger.info(f"Findings for '{c_name}': {analysis[:80]}...")
+            channel_reports[d_name] = analysis
+        else:
+            logger.info(f"No critical updates found in '{c_name}'.")
+
+    # 4. Generate final briefing
+    full_digest = ai.generate_full_briefing(channel_reports, shift_label=shift_label)
+    logger.info("Executive Briefing finalized.")
+
+    # Save digest
     digest_dir = BASE_DIR / "data" / "digests"
     digest_dir.mkdir(parents=True, exist_ok=True)
     digest_file = digest_dir / f"digest_{today_str}.md"
-    digest_file.write_text(summary, encoding="utf-8")
-    logger.info(f"Saved digest to {digest_file}")
+    digest_file.write_text(full_digest, encoding="utf-8")
+    logger.info(f"Digest saved to {digest_file}")
 
-    # 6. Send to Telegram
+    # 5. Dispatch to Telegram
     if dry_run:
-        logger.info("[DRY RUN] Skipping Telegram dispatch. Summary:")
+        logger.info("[DRY RUN] Skipping Telegram dispatch. Briefing output:")
         print("\n" + "="*50)
-        print(summary)
+        print(full_digest)
         print("="*50 + "\n")
         return True
 
@@ -114,18 +121,17 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
         bot_token=cfg.get("telegram_bot_token", ""),
         chat_id=cfg.get("telegram_chat_id", "")
     )
-    
-    ok = telegram.send_message(summary)
-    logger.info(f"Run completed. Telegram status: {ok}")
-    return ok
+    sent = telegram.send_message(full_digest)
+    logger.info(f"Telegram notification sent: {sent}")
+    return sent
 
 def main():
     setup_logging()
-    parser = argparse.ArgumentParser(description="BonChat Intelligence & Daily Briefing Agent")
+    parser = argparse.ArgumentParser(description="BonChat Visual Intelligence Agent")
     parser.add_argument("--now", action="store_true", help="Run briefing immediately")
-    parser.add_argument("--shift", type=str, default="MANUAL", help="Shift label (e.g. 13:30, 21:30, MORNING, NIGHT)")
+    parser.add_argument("--shift", type=str, default="MANUAL", help="Shift label (e.g. 13:30, 21:30)")
     parser.add_argument("--channel", type=str, default=None, help="Scan a single specific channel")
-    parser.add_argument("--dry-run", action="store_true", help="Do not send Telegram notification, print to console only")
+    parser.add_argument("--dry-run", action="store_true", help="Print briefing to console without sending to Telegram")
     parser.add_argument("--schedule", action="store_true", help="Start background scheduler service")
 
     args = parser.parse_args()
