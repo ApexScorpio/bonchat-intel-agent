@@ -1,0 +1,70 @@
+[
+  {
+    "id": "INTEL-20260907-001",
+    "timestamp_published": "2026-09-07 20:00:00",
+    "date_str": "07 de Setembro de 2026",
+    "time_str": "20:00 (Hora de Portugal)",
+    "channel": "TIMI--NO.08",
+    "authority": "Jonathan (Gerente Geral da TIMI)",
+    "content_type": "Aviso Oficial de Reunião Obrigatória",
+    "image_asset": "assets/aviso_reuniao_jonathan_20260907.jpg",
+    "image_sha256": "8a0115bc55cbe83e925b42dca4a1c5d9",
+    "verbatim_text": "AVISO IMPORTANTE DA TIMI\nJUNTOS CONSTRUÍMOS UM FUTURO MAIS BRILHANTE!\nGERENTE GERAL DA TIMI Jonathan\n\nDATA DA REUNIÃO: 7 SETEMBRO SEGUNDA-FEIRA\nHORÁRIO: 20H00 (HORA DE PORTUGAL)\nGRUPO: TIMI--NO.08\nFORMATO: REUNIÃO ONLINE\n\n• A reunião vai partilhar novidades importantes da TIMI e as informações mais recentes do mercado da TIMI.\n• Também foram preparados prémios de USDT de sorte, todos os membros presentes têm hipótese de ganhar!\n• Por favor avisem todos os membros da equipa e parceiros, esta reunião é muito importante, compareçam obrigatoriamente e a tempo.\n⚠️ Os parceiros que não comparecerem vão ser penalizados com a dedução de pontos.\n\nVALORES CENTRAIS: UNIÃO | DISCIPLINA | OPORTUNIDADES | CRESCIMENTO | SUCESSO\nJuntos por um amanhã mais sustentável! TIMI",
+    "key_takeaways": [
+      "Reunião geral obrigatória para todos os parceiros",
+      "Sorteio de USDT para os presentes",
+      "Penalização com perda de pontos para quem faltar"
+    ]
+  },
+  {
+    "id": "INTEL-20260907-002",
+    "timestamp_published": "2026-09-07 00:36:00",
+    "date_str": "07 de Setembro de 2026",
+    "time_str": "00:36",
+    "channel": "Teodoro.Grupo de Agentes20",
+    "authority": "Theodore",
+    "content_type": "Vídeo e Campanha Promocional Fixada",
+    "image_asset": "assets/theodore_video_promocao_20260907.jpg",
+    "image_sha256": "3cb019ad77d4c81a91e1d00f402c5e4a",
+    "verbatim_text": "Theodore atualizou a mensagem fixada.\n[Mensagem de vídeo 5.2 MB | Baixar]\n\nPeríodo da promoção: 7 a 14 de setembro",
+    "key_takeaways": [
+      "Promoção semanal oficial da TIMI",
+      "Vigência: 7 a 14 de setembro",
+      "Vídeo de orientações do Theodore disponível"
+    ]
+  },
+  {
+    "id": "INTEL-20260914-001",
+    "timestamp_published": "2026-09-14 14:45:00",
+    "date_str": "14 de Setembro de 2026",
+    "time_str": "14:45",
+    "channel": "Grupo de reuniões",
+    "authority": "Theodore",
+    "content_type": "Campanha Oficial de Empréstimo e Bónus",
+    "image_asset": "assets/campanha_emprestimo_theodore_20260914.jpg",
+    "image_sha256": "f29b4e18acbc62c08fa5e8a74e2d3b71",
+    "verbatim_text": "TIMI CAMPANHA DE APOIO COM EMPRÉSTIMO\nJuntos, mais fortes!\n\n• JUNTE-SE AO T3: VOCÊ PODE RECEBER 100 USDT DE SUPORTE COM EMPRÉSTIMO\n• JUNTE-SE AO T4: VOCÊ PODE RECEBER 200 USDT DE SUPORTE COM EMPRÉSTIMO\n\nESSA CAMPANHA OFERECE UM TOTAL DE 800 VAGAS DE APOIO.\n\n• Bónus de Convite: Se você convidar 3 membros para se juntarem à equipe e completarem três dias de treinamento, você pode receber um bónus extra de $100.\n\nPeríodo da campanha: 14 de setembro - 20 de setembro\nAproveite essa oportunidade, planeje o crescimento da sua equipe e faça parte dessa jornada!\nTIMI - Juntos, mais longe!\n\nDirectiva do Theodore:\nDesta vez preparei especialmente para todos 800 vagas de apoio com empréstimo. Uma questão muito real: muitas vezes, os teus amigos não é que não estejam dispostos a conhecer a TIMI, mas precisam deste apoio inicial...",
+    "key_takeaways": [
+      "Apoio financeiro com empréstimo: 100 USDT (T3) e 200 USDT (T4)",
+      "Limite de 800 vagas",
+      "Bónus de $100 por 3 convidados com 3 dias de formação",
+      "Duração: 14 a 20 de setembro"
+    ]
+  },
+  {
+    "id": "INTEL-20260925-001",
+    "timestamp_published": "2026-09-25 10:00:00",
+    "date_str": "25 de Setembro de 2026",
+    "time_str": "Manhã",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Oficial",
+    "content_type": "Mensagem Fixada / Sorteio Diário",
+    "image_asset": "assets/pinned_sorteio_numero_sorte.jpg",
+    "image_sha256": "4b68e7d219ccf701aa8bb72c019d08e4",
+    "verbatim_text": "TIMI atualizou a mensagem fixada.\nNúmero da sorte de hoje: 678126...",
+    "key_takeaways": [
+      "Sorteio diário da TIMI",
+      "Número da sorte em vigor para premiações"
+    ]
+  }
+]

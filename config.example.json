@@ -66,11 +66,16 @@
     "GERENTE GERAL DA TIMI Jonathan",
     "Márcia",
     "Marcia",
-    "Joana",
-    "Rui Santos"
+    "TIMI",
+    "TIMI--NO.08"
   ],
   "schedule_times": [
     "13:30",
     "21:30"
-  ]
+  ],
+  "quota_protection": {
+    "enable_hash_caching": true,
+    "max_gemini_calls_per_hour": 15,
+    "min_seconds_between_scans": 300
+  }
 }
