@@ -1,5 +1,6 @@
 import os
 import sys
+import re
 import json
 import hashlib
 import logging
@@ -66,6 +67,7 @@ class KnowledgeBase:
         img_hash = ""
         saved_rel_path = ""
 
+        # Deduplication check: image hash OR identical verbatim text for authority/channel/date
         if image:
             img_hash = self.compute_image_hash(image)
             if self.is_known_hash(img_hash):
@@ -80,6 +82,18 @@ class KnowledgeBase:
             dest_path = ASSETS_DIR / asset_filename
             image.convert("RGB").save(str(dest_path), "JPEG", quality=90)
             saved_rel_path = f"assets/{asset_filename}"
+
+        clean_text_sub = re.sub(r'\s+', ' ', verbatim_text).strip().lower()
+        if clean_text_sub and len(clean_text_sub) > 15:
+            for e in self.entries:
+                existing_sub = re.sub(r'\s+', ' ', e.get("verbatim_text", "")).strip().lower()
+                if (
+                    e.get("channel", "").lower() == channel.lower()
+                    and e.get("authority", "").lower() == authority.lower()
+                    and (clean_text_sub[:60] == existing_sub[:60] or clean_text_sub in existing_sub or existing_sub in clean_text_sub)
+                ):
+                    logger.info(f"Duplicate text entry detected for '{authority}' in '{channel}'. Skipping duplicate.")
+                    return None
 
         today_stamp = datetime.datetime.now().strftime("%Y%m%d")
         new_id = f"INTEL-{today_stamp}-{len(self.entries) + 1:03d}"

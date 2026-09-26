@@ -1,14 +1,18 @@
 import os
 import io
+import re
 import json
 import base64
 import time
+import datetime
 import hashlib
 import logging
 from pathlib import Path
-from typing import Dict, Any, List, Optional
+from typing import Dict, Any, List, Optional, Tuple
 import requests
 from PIL import Image
+
+from .date_pill_detector import DatePillDetector
 
 logger = logging.getLogger("AIIntelligence")
 
@@ -35,9 +39,15 @@ REGRAS RÍGIDAS DE FILTRAGEM:
    - 🎯 CAMPANHAS, EMPRÉSTIMOS & BÓNUS (valores em USDT, vagas, condições de adesão)
    - ⚙️ NOVIDADES DE FUNCIONAMENTO (regras, rotas, ferramentas, orientações de chefia)
 
-4. FORMATO DE SAÍDA:
+4. IDENTIFICAÇÃO RIGOROSA DA DATA DE CADA MENSAGEM:
+   - Identifica o dia a que cada mensagem pertence observando as pílulas de data centrais do BonChat (ex: "9/17", "9/18", "9/26", "Hoje", "Ontem").
+   - Todas as mensagens situadas por baixo de uma pílula de data pertencem a esse dia, até surgir uma nova pílula.
+   - ATENÇÃO: Nunca confundas datas impressas dentro de capturas de ecrã/fotos enviadas por membros (ex: prints de depósitos, transações) com a pílula de data nativa do chat do BonChat.
+
+5. FORMATO DE SAÍDA:
    - Resumo executivo ultra-direto, profissional e pronto para leitura rápida no Telegram (Markdown).
    - Usa emojis para fácil identificação visual.
+   - Bloco estruturado JSON no fim com todas as entradas de inteligência das autoridades identificadas.
    - Se não houver avisos de relevo no dia, responde exatamente: "Sem novidades operacionais críticas no turno."
 """
 
@@ -120,7 +130,7 @@ class AIIntelligence:
             return None
 
         parts = [{"text": f"{SYSTEM_PROMPT}\n\n{prompt_text}"}]
-        for img in images[:3]:
+        for img in images[:8]:
             # Resize image if large to save bandwidth & token quota
             w, h = img.size
             if w > 1200 or h > 1200:
@@ -150,7 +160,7 @@ class AIIntelligence:
                     "contents": [{"role": "user", "parts": parts}],
                     "generationConfig": {
                         "temperature": 0.2,
-                        "maxOutputTokens": 2048
+                        "maxOutputTokens": 4096
                     }
                 }
 
@@ -175,35 +185,109 @@ class AIIntelligence:
 
         return None
 
-    def analyze_channel_capture(self, channel_name: str, images: List[Image.Image]) -> str:
+    def analyze_channel_capture(self, channel_name: str, images: List[Image.Image]) -> Tuple[str, List[Dict[str, Any]]]:
         """
-        Analyzes captures of a channel visually using multimodal AI with local hash caching.
+        Analyzes captures of a channel visually using multimodal AI and DatePillDetector.
+        Returns:
+            clean_summary (str): Formatted executive briefing for Telegram
+            extracted_entries (List[Dict[str, Any]]): Structured intel records for the Knowledge Base
         """
         if not images:
-            return ""
+            return "", []
 
-        # Compute hash of primary chat crop to check if screen changed
-        primary = images[0]
-        small = primary.convert("L").resize((64, 64))
-        img_hash = hashlib.sha256(small.tobytes()).hexdigest()
+        # Process frames in batches of up to 6 frames so deep scroll history is fully analyzed
+        batch_size = 6
+        all_entries = []
+        all_summaries = []
 
-        cached_analysis = self._get_cached_hash_analysis(img_hash)
-        if cached_analysis:
-            logger.info(f"Using cached analysis for '{channel_name}' (Hash: {img_hash[:8]}) - 0 API tokens spent.")
-            return cached_analysis
+        detector = DatePillDetector()
+        latest_known_date = datetime.datetime.now().strftime("%Y-%m-%d")
 
-        prompt = (
-            f"Analisa as capturas do canal '{channel_name}'. "
-            f"Observa com atenção mensagens fixadas no topo, cartazes, folhetos gráficos, campanhas e comunicados das autoridades (Theodore, Jonathan, Márcia, TIMI Oficial). "
-            f"Ignora completamente mensagens de utilizadores comuns, Joana ou Rui Santos. "
-            f"Extrai apenas o que for diretiva oficial, convocatória, sorteio ou campanha."
-        )
+        for b_idx in range(0, len(images), batch_size):
+            chunk_imgs = images[b_idx : b_idx + batch_size]
+            chunk_num = (b_idx // batch_size) + 1
+            total_chunks = (len(images) + batch_size - 1) // batch_size
 
-        analysis = self._call_gemini_multimodal(prompt, images)
-        if analysis:
-            self._save_cached_hash_analysis(img_hash, analysis)
-            return analysis
-        return ""
+            # Detect date pills in this chunk
+            detected_pills_info = []
+            for idx_local, img in enumerate(chunk_imgs):
+                pills = detector.detect_date_pills(img)
+                for p in pills:
+                    latest_known_date = p['date_str']
+                    detected_pills_info.append(
+                        f"- Frame {b_idx + idx_local + 1}: Pílula de data '{p['raw_text']}' -> {p['date_str']} em Y={p['y']}"
+                    )
+
+            if detected_pills_info:
+                pill_ctx_str = (
+                    "📌 PÍLULAS DE DATA CENTRAIS DO BONCHAT DETETADAS NESTE LOTE (GROUND TRUTH):\n"
+                    + "\n".join(detected_pills_info)
+                    + "\n👉 REGRA TEMPORAL: As pílulas de data centrais do BonChat marcam o início do dia.\n"
+                    + "   - Mensagens abaixo de uma pílula pertencem à data dessa pílula.\n"
+                    + "   - Mensagens acima da pílula pertencem ao dia anterior.\n"
+                    + "   - NUNCA uses datas de prints/comprovativos partilhados por membros; usa APENAS a data da interface do BonChat."
+                )
+            else:
+                pill_ctx_str = (
+                    f"📌 PÍLULAS DE DATA: Nenhuma pílula visível neste lote de mensagens. "
+                    f"Atribui as mensagens a {latest_known_date} salvo evidência clara de transição de dia."
+                )
+
+            # Check cache per chunk
+            primary = chunk_imgs[0]
+            small = primary.convert("L").resize((64, 64))
+            chunk_hash = hashlib.sha256(small.tobytes()).hexdigest()
+
+            cached = self._get_cached_hash_analysis(chunk_hash)
+            if cached:
+                json_m = re.search(r'```json\s*(\[.*?\])\s*```', cached, re.DOTALL)
+                if json_m:
+                    try: all_entries.extend(json.loads(json_m.group(1)))
+                    except Exception: pass
+                clean_text = re.sub(r'```json\s*\[.*?\]\s*```', '', cached, flags=re.DOTALL).strip()
+                if clean_text and "sem novidades" not in clean_text.lower():
+                    all_summaries.append(clean_text)
+                continue
+
+            prompt = (
+                f"Analisa as capturas do canal '{channel_name}' (Lote {chunk_num}/{total_chunks}).\n\n"
+                f"{pill_ctx_str}\n\n"
+                f"Observa com atenção mensagens das seguintes autoridades oficiais:\n"
+                f"- Theodore / Teodoro\n"
+                f"- Jonathan / TIMI-Jonathan / GERENTE GERAL DA TIMI Jonathan\n"
+                f"- Márcia\n"
+                f"- TIMI Oficial / TIMI--NO.08\n\n"
+                f"Ignora utilizadores comuns, Joana, Rui Santos, cumprimentos e piadas.\n\n"
+                f"PRODUZ:\n"
+                f"1. Resumo executivo em português com emojis para o Telegram.\n"
+                f"2. No final, OBRIGATORIAMENTE um bloco ```json com todas as mensagens das autoridades encontradas, rigorosamente associadas ao dia correspondente:\n"
+                f"```json\n"
+                f"[\n"
+                f"  {{\n"
+                f"    \"date_str\": \"YYYY-MM-DD\",\n"
+                f"    \"time_str\": \"HH:MM\",\n"
+                f"    \"authority\": \"Theodore\",\n"
+                f"    \"content_type\": \"Campanha / Aviso / Reunião / Diretiva\",\n"
+                f"    \"verbatim_text\": \"Texto literal integral da mensagem...\",\n"
+                f"    \"key_takeaways\": [\"Ponto chave 1\", \"Ponto chave 2\"]\n"
+                f"  }}\n"
+                f"]\n"
+                f"```"
+            )
+
+            analysis = self._call_gemini_multimodal(prompt, chunk_imgs)
+            if analysis:
+                self._save_cached_hash_analysis(chunk_hash, analysis)
+                json_m = re.search(r'```json\s*(\[.*?\])\s*```', analysis, re.DOTALL)
+                if json_m:
+                    try: all_entries.extend(json.loads(json_m.group(1)))
+                    except Exception: pass
+                clean_text = re.sub(r'```json\s*\[.*?\]\s*```', '', analysis, flags=re.DOTALL).strip()
+                if clean_text and "sem novidades" not in clean_text.lower():
+                    all_summaries.append(clean_text)
+
+        combined_summary = "\n\n".join(all_summaries).strip() if all_summaries else "Sem novidades operacionais críticas no turno."
+        return combined_summary, all_entries
 
     def generate_full_briefing(self, channel_summaries: Dict[str, str], shift_label: str = "DIÁRIO") -> str:
         """Combines per-channel visual findings into an executive Telegram briefing."""

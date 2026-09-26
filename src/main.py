@@ -74,9 +74,9 @@ def sync_to_github(commit_msg: str = "chore(intel): auto-sync intelligence and d
     except Exception as e:
         logging.getLogger("GitSync").warning(f"Erro ao sincronizar com GitHub: {e}")
 
-def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_channel: str = None) -> bool:
+def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_channel: str = None, deep_extract: bool = False) -> bool:
     logger = logging.getLogger("MainOrchestrator")
-    logger.info(f"=== Starting BonChat Incremental Intelligence Run: Shift={shift_label} ===")
+    logger.info(f"=== Starting BonChat Intelligence Run: Shift={shift_label}, DeepExtract={deep_extract} ===")
 
     # Keep local PC clean: purge transient capture files
     purge_transient_data()
@@ -109,6 +109,14 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
         return False
 
     watermark_tracker = WatermarkTracker()
+    if deep_extract:
+        # For full deep extraction, ignore previous watermarks so we scan all history
+        watermark_tracker.channel_states = {}
+        max_scroll_passes = 25
+        logger.info("Deep extraction mode enabled: Watermark bypassed, max_scroll_passes=25.")
+    else:
+        max_scroll_passes = cfg.get("max_scroll_passes", 15)
+
     kb = KnowledgeBase()
 
     # 2. Channels to scan
@@ -128,8 +136,6 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
 
     channel_reports = {}
     today_str = datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S")
-
-    max_scroll_passes = cfg.get("max_scroll_passes", 15)
     total_channels = len(targets)
 
     # 3. Process each channel incrementally
@@ -159,7 +165,8 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
         new_frames = reader.scan_channel_incremental(
             channel_canonical=c_name,
             watermark_tracker=watermark_tracker,
-            max_scroll_passes=max_scroll_passes
+            max_scroll_passes=max_scroll_passes,
+            ignore_watermark=deep_extract
         )
 
         if not new_frames:
@@ -173,7 +180,22 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
         logger.info(ai_msg)
         LiveViewBridge.get_instance().emit_event(ai_msg)
 
-        analysis = ai.analyze_channel_capture(c_name, new_frames)
+        analysis, entries = ai.analyze_channel_capture(c_name, new_frames)
+        
+        # Record structured intel entries into Knowledge Base
+        if entries:
+            for item in entries:
+                kb.add_entry(
+                    date_str=item.get("date_str", datetime.datetime.now().strftime("%Y-%m-%d")),
+                    time_str=item.get("time_str", "N/A"),
+                    channel=c_name,
+                    authority=item.get("authority", "Autoridade"),
+                    content_type=item.get("content_type", "Aviso"),
+                    verbatim_text=item.get("verbatim_text", ""),
+                    key_takeaways=item.get("key_takeaways", [])
+                )
+            logger.info(f"{step_prefix} [BASE DE DADOS] {len(entries)} registo(s) estruturado(s) adicionados à base de conhecimento para '{c_name}'.")
+
         if analysis and "sem novidades" not in analysis.lower():
             logger.info(f"{step_prefix} [ACHADOS] '{c_name}': {analysis[:80]}...")
             LiveViewBridge.get_instance().emit_event(f"{step_prefix} [INTELIGÊNCIA] Novidade detetada em '{c_name}'!")
@@ -223,6 +245,7 @@ def main():
     parser.add_argument("--shift", type=str, default="MANUAL", help="Shift label (e.g. 13:30, 21:30)")
     parser.add_argument("--channel", type=str, default=None, help="Scan a single specific channel")
     parser.add_argument("--dry-run", action="store_true", help="Print briefing to console without sending to Telegram")
+    parser.add_argument("--deep-extract", action="store_true", help="Perform deep historical extraction of VIP messages across channels")
     parser.add_argument("--schedule", action="store_true", help="Start background scheduler service")
 
     args = parser.parse_args()
@@ -231,7 +254,12 @@ def main():
         from src.scheduler import start_scheduler
         start_scheduler()
     else:
-        run_agent(shift_label=args.shift, dry_run=args.dry_run, specific_channel=args.channel)
+        run_agent(
+            shift_label=args.shift,
+            dry_run=args.dry_run,
+            specific_channel=args.channel,
+            deep_extract=args.deep_extract
+        )
 
 if __name__ == "__main__":
     main()

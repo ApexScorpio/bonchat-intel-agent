@@ -31,18 +31,45 @@ class BonChatReader:
         self.hwnd: Optional[int] = None
         self.is_ghost: bool = False
 
+    def dismiss_image_preview(self):
+        """If any modal/image preview window (Qt5QWindowToolSaveBits) is open, close it with ESC."""
+        from .desktop_isolation import get_ghost_windows, set_thread_to_ghost_desktop
+        set_thread_to_ghost_desktop()
+        ghost_wins = get_ghost_windows()
+        for w in ghost_wins:
+            if "toolsavebits" in w.get("class", "").lower():
+                user32.PostMessageW(w["hwnd"], win32con.WM_KEYDOWN, win32con.VK_ESCAPE, 0)
+                user32.PostMessageW(w["hwnd"], win32con.WM_KEYUP, win32con.VK_ESCAPE, 0)
+                time.sleep(0.08)
+
     def find_bonchat_window(self, auto_launch: bool = True) -> Optional[int]:
         """
         Locates the BonChat window reliably on TIMI_GHOST desktop.
+        Prioritizes the main application window (Qt5QWindowIcon) over image preview tool windows.
         """
         from .desktop_isolation import get_ghost_windows, launch_process_on_ghost_desktop
 
+        # Dismiss any open image preview overlay
+        self.dismiss_image_preview()
+
         # 1. Enumerate windows directly on TIMI_GHOST
         ghost_wins = get_ghost_windows()
+
+        # First pass: find main Qt5QWindowIcon window
         for w in ghost_wins:
             t = w.get("title", "").lower()
             c = w.get("class", "").lower()
-            if "bonchat" in t or "bonchat" in c or "ajuda" in t:
+            if "qt5qwindowicon" in c and ("bonchat" in t or w.get("w", 0) > 800):
+                self.hwnd = w["hwnd"]
+                self.is_ghost = True
+                logger.info(f"Found BonChat Main Window on TIMI_GHOST: HWND {self.hwnd} ('{w.get('title')}')")
+                return self.hwnd
+
+        # Second pass: any bonchat window that is not a tool save bits window
+        for w in ghost_wins:
+            t = w.get("title", "").lower()
+            c = w.get("class", "").lower()
+            if ("bonchat" in t or "bonchat" in c or "ajuda" in t) and "toolsavebits" not in c:
                 self.hwnd = w["hwnd"]
                 self.is_ghost = True
                 logger.info(f"Found BonChat on TIMI_GHOST: HWND {self.hwnd} ('{w.get('title')}')")
@@ -76,7 +103,7 @@ class BonChatReader:
                     for w in ghost_wins:
                         t = w.get("title", "").lower()
                         c = w.get("class", "").lower()
-                        if "bonchat" in t or "bonchat" in c or "ajuda" in t:
+                        if "qt5qwindowicon" in c and ("bonchat" in t or w.get("w", 0) > 800):
                             self.hwnd = w["hwnd"]
                             self.is_ghost = True
                             logger.info(f"BonChat window detected: HWND {self.hwnd} ('{w.get('title')}')")
@@ -90,6 +117,9 @@ class BonChatReader:
         if not self.hwnd or not win32gui.IsWindow(self.hwnd):
             if not self.find_bonchat_window():
                 return None
+
+        # Ensure image viewer popup is dismissed
+        self.dismiss_image_preview()
 
         # Ensure calling thread is attached to ghost desktop before drawing
         set_thread_to_ghost_desktop()
@@ -164,12 +194,15 @@ class BonChatReader:
     def select_channel(self, channel_target: Dict[str, Any]) -> bool:
         """
         Navigates to a specific channel using lateral sidebar visual template matching
-        or calibrated coordinates. Never uses the search box to find groups.
+        or dynamic OCR text matching. Never uses the search box to find groups.
+        If a group is not currently available/visible, returns False without false clicks.
         """
         canonical = channel_target.get("canonical_name", "")
         default_y = channel_target.get("default_y")
         template_name = channel_target.get("template_name")
+        aliases = channel_target.get("aliases", [canonical])
 
+        self.dismiss_image_preview()
         # 1. Always ensure search box is cleared so full lateral sidebar is shown
         self.clear_search_bar()
 
@@ -189,8 +222,6 @@ class BonChatReader:
                 else:
                     c_low = canonical.lower()
                     tpl_map = {
-                        "theodore": "theodore.png",
-                        "teodoro": "theodore.png",
                         "68": "timi_68.png",
                         "news": "timi_news.png",
                         "08": "timi_08.png"
@@ -210,58 +241,87 @@ class BonChatReader:
 
                 if tpl_file and os.path.exists(tpl_file):
                     cv_img = cv2.cvtColor(np.array(full_img), cv2.COLOR_RGB2BGR)
-                    search_roi = cv_img[100:750, 30:220]
+                    search_roi = cv_img[100:750, 30:240]
                     tpl = cv2.imread(tpl_file)
                     if tpl is not None:
                         res = cv2.matchTemplate(search_roi, tpl, cv2.TM_CCOEFF_NORMED)
                         _, max_val, _, max_loc = cv2.minMaxLoc(res)
                         if max_val >= 0.80:
-                            target_x = 30 + max_loc[0] + tpl.shape[1] // 2 + 40
+                            target_x = 30 + max_loc[0] + tpl.shape[1] // 2 + 30
                             target_y = 100 + max_loc[1] + tpl.shape[0] // 2
                             logger.info(f"Visual match for '{canonical}' ({os.path.basename(tpl_file)}) at (X={target_x}, Y={target_y}) conf={max_val:.2f}")
                             self.click_window(target_x, target_y)
                             time.sleep(0.8)
                             return True
-                        else:
-                            logger.debug(f"Template match for '{canonical}' below threshold: conf={max_val:.2f}")
             except Exception as e:
                 logger.debug(f"Visual matching note: {e}")
 
-        # 3. Fallback to calibrated coordinate
-        if default_y:
-            logger.info(f"Selecting '{canonical}' at calibrated sidebar Y={default_y}")
+        # 3. Dynamic OCR check on sidebar for channel name or aliases
+        if full_img:
+            try:
+                cv_img = cv2.cvtColor(np.array(full_img), cv2.COLOR_RGB2BGR)
+                sidebar_crop = full_img.crop((50, 110, 260, 750))
+                ocr_data = pytesseract.image_to_data(sidebar_crop, output_type=pytesseract.Output.DICT)
+                for i in range(len(ocr_data['text'])):
+                    word = ocr_data['text'][i].strip().lower()
+                    if len(word) >= 3:
+                        for alias in aliases:
+                            a_low = alias.lower()
+                            if word in a_low or a_low in word:
+                                item_y = 110 + ocr_data['top'][i] + ocr_data['height'][i] // 2
+                                logger.info(f"Sidebar OCR matched '{canonical}' (word '{word}') at Y={item_y}")
+                                self.click_window(150, item_y)
+                                time.sleep(0.8)
+                                return True
+            except Exception as e:
+                logger.debug(f"Sidebar OCR match error: {e}")
+
+        # 4. Fallback to calibrated coordinate ONLY for the core 4 verified channels
+        verified_core_channels = ["timi-68", "timi-news", "timi--no.08", "theodore"]
+        if default_y and any(v in canonical.lower() for v in verified_core_channels):
+            logger.info(f"Selecting core channel '{canonical}' at calibrated sidebar Y={default_y}")
             self.click_window(150, default_y)
             time.sleep(0.8)
             return True
 
-        logger.warning(f"Could not locate channel '{canonical}' on lateral sidebar.")
+        logger.info(f"Canal '{canonical}' não encontrado na barra lateral (não disponível nesta conta BonChat). A avançar...")
         return False
 
     def scroll_chat_up(self, notches: int = 5):
-        """Scrolls the chat pane up to reveal earlier messages."""
+        """
+        Scrolls the chat pane up using WM_MOUSEWHEEL with screen coordinates.
+        Completely prevents opening image preview popups.
+        """
         if not self.hwnd:
             return
         set_thread_to_ghost_desktop()
-        LiveViewBridge.get_instance().register_action("SCROLL", "Chat PageUp", (600, 500))
-        # Ensure chat pane has focus
-        self.click_window(600, 500)
-        time.sleep(0.08)
-        # Send Page Up key (VK_PRIOR = 0x21) to scroll by pages
+        LiveViewBridge.get_instance().register_action("SCROLL", "Chat MouseWheel Up", (1000, 500))
+
+        # Send WM_MOUSEWHEEL (0x020A) with screen coordinates (X=1000, Y=500)
+        screen_x = 1000
+        screen_y = 500
+        lparam = (screen_y << 16) | (screen_x & 0xFFFF)
+        delta = 120 * 4 # positive delta = scroll up
+        wparam = (delta & 0xFFFF) << 16
+
         for _ in range(notches):
-            user32.PostMessageW(self.hwnd, 0x0100, 0x21, 0) # WM_KEYDOWN
+            user32.PostMessageW(self.hwnd, 0x020A, wparam, lparam)
             time.sleep(0.04)
-            user32.PostMessageW(self.hwnd, 0x0101, 0x21, 0) # WM_KEYUP
-            time.sleep(0.15)
+
+        time.sleep(0.3)
+        self.dismiss_image_preview()
 
     def scan_channel_incremental(
         self,
         channel_canonical: str,
         watermark_tracker,
-        max_scroll_passes: int = 15
+        max_scroll_passes: int = 15,
+        ignore_watermark: bool = False
     ) -> List[Image.Image]:
         """
         Deep scrolls upwards through group messages looking for important announcements,
         but stops immediately once it hits messages or frames that were already read in a previous scan.
+        If ignore_watermark is True, scans through all passes without early stop for historical extraction.
         """
         unprocessed_frames: List[Image.Image] = []
         collected_signatures: List[str] = []
@@ -280,7 +340,7 @@ class BonChatReader:
             LiveViewBridge.get_instance().emit_event(f"[{channel_canonical}] Scroll pass {pass_idx + 1}/{max_scroll_passes}")
 
             w, h = full_img.size
-            chat_pane = full_img.crop((310, 45, min(w, 1300), h - 70))
+            chat_pane = full_img.crop((300, 45, w - 20, h - 60))
             frame_hash = watermark_tracker.compute_frame_hash(chat_pane)
 
             # Quick local OCR (zero AI tokens) to check for message signatures
@@ -292,13 +352,14 @@ class BonChatReader:
             visible_messages = watermark_tracker.parse_chat_messages(quick_text)
 
             # Check if this frame hits the previous scan's watermark with anti-false-positive checks
-            reached, reason = watermark_tracker.is_watermark_reached(channel_canonical, visible_messages, frame_hash)
-            if reached:
-                logger.info(
-                    f"🛑 [WATERMARK CHECKPOINT] Atingido o limite da leitura anterior no passo {pass_idx+1} ({reason})! "
-                    f"Parando scroll — mensagens anteriores já foram lidas."
-                )
-                break
+            if not ignore_watermark:
+                reached, reason = watermark_tracker.is_watermark_reached(channel_canonical, visible_messages, frame_hash)
+                if reached:
+                    logger.info(
+                        f"🛑 [WATERMARK CHECKPOINT] Atingido o limite da leitura anterior no passo {pass_idx+1} ({reason})! "
+                        f"Parando scroll — mensagens anteriores já foram lidas."
+                    )
+                    break
 
             # Frame is new: store for analysis
             unprocessed_frames.append(chat_pane)
