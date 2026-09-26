@@ -13,6 +13,7 @@ data/
 *.jpeg
 !knowledge_base/assets/*.jpg
 !knowledge_base/assets/*.png
+!knowledge_base/documents/**
 !src/templates/*.png
 
 # Python artifacts

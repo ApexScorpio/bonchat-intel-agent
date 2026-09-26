@@ -36,6 +36,42 @@
       "aliases": ["theodore", "teodoro"],
       "default_y": 400,
       "template_name": "theodore.png"
+    },
+    {
+      "canonical_name": "Equipa de Agentes de Elite da TIMI",
+      "display_name": "Equipa de Agentes de Elite da TIMI",
+      "aliases": ["equipa de agentes de elite da timi", "agentes de elite", "elite"],
+      "default_y": 460
+    },
+    {
+      "canonical_name": "Teodoro.Grupo de Agentes20",
+      "display_name": "Teodoro Grupo de Agentes 20",
+      "aliases": ["teodoro.grupo de agentes20", "grupo de agentes 20", "agentes20"],
+      "default_y": 515
+    },
+    {
+      "canonical_name": "Grupo de agentes de Portimão",
+      "display_name": "Grupo de Agentes de Portimão",
+      "aliases": ["grupo de agentes de portimão", "grupo de agentes de portimao", "portimão", "portimao"],
+      "default_y": 570
+    },
+    {
+      "canonical_name": "Grupo de reuniões",
+      "display_name": "Grupo de Reuniões",
+      "aliases": ["grupo de reuniões", "grupo de reunioes", "reuniões", "reunioes"],
+      "default_y": 625
+    },
+    {
+      "canonical_name": "Grupo de Recompensas por Objetivos 1",
+      "display_name": "Grupo de Recompensas por Objetivos 1",
+      "aliases": ["grupo de recompensas por objetivos 1", "recompensas", "objetivos 1"],
+      "default_y": 680
+    },
+    {
+      "canonical_name": "TIMI PORTUGAL DREAM TEAM",
+      "display_name": "TIMI Portugal Dream Team",
+      "aliases": ["timi portugal dream team", "dream team"],
+      "default_y": 735
     }
   ],
   "vip_senders": [

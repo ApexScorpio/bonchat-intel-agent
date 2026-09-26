@@ -51,6 +51,14 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
 
     cfg = load_config()
 
+    # 0.1 Autonomous harvest of official documents & slides
+    try:
+        from src.document_harvester import DocumentHarvester
+        harvester = DocumentHarvester()
+        harvester.run_harvest()
+    except Exception as e:
+        logger.warning(f"Document harvesting note: {e}")
+
     # 1. Setup reader & find window
     reader = BonChatReader(tesseract_cmd=cfg.get("tesseract_cmd"))
     hwnd = reader.find_bonchat_window()
