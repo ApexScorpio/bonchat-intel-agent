@@ -1,7 +1,7 @@
 # 📁 Acervo de Documentos e Materiais Oficiais TIMI
 
 > **Repositório:** [ApexScorpio/bonchat-intel-agent](https://github.com/ApexScorpio/bonchat-intel-agent)  
-> **Última Atualização:** 2026-09-27 00:58:48  
+> **Última Atualização:** 2026-09-27 01:14:01  
 > **Finalidade:** Todos os ficheiros PDF, guias operacionais e diapositivos partilhados pelas chefias oficiais descarregados e arquivados localmente.
 
 ---
@@ -11,8 +11,11 @@
 | Ficheiro | Descrição | Tamanho | SHA256 Checksum | Origem |
 |---|---|:---:|---|:---:|
 | [TIMI_Apresentacao_Oficial.pdf](documents/TIMI_Apresentacao_Oficial.pdf) | Apresentação Oficial da Empresa e Modelo de Mobilidade (enviada pelo Theodore) | 25.98 MB | `951b3f388601dbc5...` | BonChat Direct (Theodore / Equipa) |
+| [TIMI_Manual_Operacional_V1.pdf](documents/TIMI_Manual_Operacional_V1.pdf) | Manual e Apresentação Operacional TIMI | 7.62 MB | `5a8490b9c10adf91...` | BonChat Direct (Theodore / Equipa) |
 | [Guia_Levantamento_TIMI.pdf](documents/Guia_Levantamento_TIMI.pdf) | Guia Oficial de Levantamentos e Regras de Liquidação | 13.51 MB | `d11044732c1967e3...` | BonChat Direct (Theodore / Equipa) |
 | [Guia_Completo_Registo_Levantamentos_v7.pdf](documents/Guia_Completo_Registo_Levantamentos_v7.pdf) | Guia Completo de Registo de Levantamentos TIMI Atualizado | 13.5 MB | `b2002854acb3a3b9...` | BonChat Direct (Theodore / Equipa) |
+| [Guia_Fluxos_Deposito_v2.pdf](documents/Guia_Fluxos_Deposito_v2.pdf) | Guia Oficial Corrigido de Fluxos de Depósito | 13.63 MB | `18cb307dd2dd7ff9...` | BonChat Direct (Theodore / Equipa) |
+| [Guia_Passos_7_a_10.pdf](documents/Guia_Passos_7_a_10.pdf) | Guia Completo com Passos TIMI 7 a 10 | 13.46 MB | `6f628a4eead905e9...` | BonChat Direct (Theodore / Equipa) |
 
 ---
 

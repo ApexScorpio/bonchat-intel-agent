@@ -29,19 +29,30 @@ class DocumentHarvester:
                 h.update(chunk)
         return h.hexdigest()
 
+    FORBIDDEN_EXTENSIONS = {".mp4", ".mov", ".avi", ".mkv", ".webm", ".flv", ".wmv", ".m4v", ".3gp"}
+    ALLOWED_EXTENSIONS = {".pdf", ".docx", ".xlsx", ".pptx", ".png", ".jpg", ".jpeg", ".webp"}
+
     def harvest_local_downloads(self) -> List[Dict[str, Any]]:
-        """Harvests known TIMI PDF documents from Downloads folder."""
+        """Harvests known TIMI PDF documents from Downloads folder, strictly rejecting videos."""
         harvested = []
         downloads_dir = Path(r"S:\Users\lopes\Downloads")
         
         target_patterns = [
             ("TIMI ..pdf", "TIMI_Apresentacao_Oficial.pdf", "Apresentação Oficial da Empresa e Modelo de Mobilidade (enviada pelo Theodore)"),
+            ("TIMI.PDF", "TIMI_Manual_Operacional_V1.pdf", "Manual e Apresentação Operacional TIMI"),
             ("Guia Levantamento TIMI.pdf", "Guia_Levantamento_TIMI.pdf", "Guia Oficial de Levantamentos e Regras de Liquidação"),
-            ("guia_completo_registo_levantamentos_v7_timi_atualizado.pdf", "Guia_Completo_Registo_Levantamentos_v7.pdf", "Guia Completo de Registo de Levantamentos TIMI Atualizado")
+            ("guia_completo_registo_levantamentos_v7_timi_atualizado.pdf", "Guia_Completo_Registo_Levantamentos_v7.pdf", "Guia Completo de Registo de Levantamentos TIMI Atualizado"),
+            ("guia_completo_CORRIGIDO_fluxos_deposito_v2.pdf", "Guia_Fluxos_Deposito_v2.pdf", "Guia Oficial Corrigido de Fluxos de Depósito"),
+            ("guia_completo_FINAL_com_passos_timi_7_a_10.pdf", "Guia_Passos_7_a_10.pdf", "Guia Completo com Passos TIMI 7 a 10")
         ]
 
         for src_name, dest_name, desc in target_patterns:
             src_file = downloads_dir / src_name
+            # Strict safety check: Never harvest videos
+            if src_file.suffix.lower() in self.FORBIDDEN_EXTENSIONS:
+                logger.warning(f"Skipping video file per policy: {src_file.name}")
+                continue
+
             if src_file.exists():
                 dest_file = DOCS_DIR / dest_name
                 if not dest_file.exists() or src_file.stat().st_size != dest_file.stat().st_size:

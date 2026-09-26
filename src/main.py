@@ -19,6 +19,7 @@ from src.ai_intelligence import AIIntelligence
 from src.telegram_bot import TelegramNotifier
 from src.watermark_tracker import WatermarkTracker
 from src.knowledge_base import KnowledgeBase
+from src.telemetry_bridge import LiveViewBridge
 
 def setup_logging():
     log_dir = BASE_DIR / "logs"
@@ -89,21 +90,32 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
     raw_crops_dir = BASE_DIR / "data" / "captures" / today_str
 
     max_scroll_passes = cfg.get("max_scroll_passes", 15)
+    total_channels = len(targets)
 
     # 3. Process each channel incrementally
-    for target in targets:
+    for idx_target, target in enumerate(targets, 1):
         c_name = target.get("canonical_name", "Canal")
         d_name = target.get("display_name", c_name)
-        logger.info(f"Navigating to '{c_name}'...")
+        step_prefix = f"[PASSO {idx_target}/{total_channels}]"
+        
+        step_msg = f"{step_prefix} [NAVEGAÇÃO] Mudando para o canal '{c_name}'..."
+        logger.info(step_msg)
+        LiveViewBridge.get_instance().emit_event(step_msg)
 
         ok = reader.select_channel(target)
         if not ok:
-            logger.warning(f"Could not navigate to channel '{c_name}'.")
+            warn_msg = f"{step_prefix} [AVISO] Não foi possível selecionar o canal '{c_name}' no sidebar."
+            logger.warning(warn_msg)
+            LiveViewBridge.get_instance().emit_event(warn_msg)
             continue
 
         time.sleep(1.0)
 
         # Deep scroll backwards until hitting previous scan's watermark
+        scroll_msg = f"{step_prefix} [SCROLL] A efetuar leitura incremental de mensagens antigas..."
+        logger.info(scroll_msg)
+        LiveViewBridge.get_instance().emit_event(scroll_msg)
+
         new_frames = reader.scan_channel_incremental(
             channel_canonical=c_name,
             watermark_tracker=watermark_tracker,
@@ -111,7 +123,9 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
         )
 
         if not new_frames:
-            logger.info(f"Channel '{c_name}' is already up to date with previous scan. 0 new frames to process.")
+            uptodate_msg = f"{step_prefix} [WATERMARK] Canal '{c_name}' 100% atualizado. 0 novas mensagens a processar."
+            logger.info(uptodate_msg)
+            LiveViewBridge.get_instance().emit_event(uptodate_msg)
             continue
 
         # Save crops for auditing
@@ -121,13 +135,19 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
             img.save(str(raw_crops_dir / f"{clean_name}_frame_{idx+1}.jpg"), format="JPEG", quality=85)
 
         # Analyze new frames with Gemini Multimodal Vision (with Quota Guard)
-        logger.info(f"Analyzing {len(new_frames)} new frame(s) for '{c_name}' with Gemini Vision...")
+        ai_msg = f"{step_prefix} [IA VISION] A analisar {len(new_frames)} novos frames para '{c_name}'..."
+        logger.info(ai_msg)
+        LiveViewBridge.get_instance().emit_event(ai_msg)
+
         analysis = ai.analyze_channel_capture(c_name, new_frames)
         if analysis and "sem novidades" not in analysis.lower():
-            logger.info(f"Findings for '{c_name}': {analysis[:80]}...")
+            logger.info(f"{step_prefix} [ACHADOS] '{c_name}': {analysis[:80]}...")
+            LiveViewBridge.get_instance().emit_event(f"{step_prefix} [INTELIGÊNCIA] Novidade detetada em '{c_name}'!")
             channel_reports[d_name] = analysis
         else:
-            logger.info(f"No critical authority updates found in '{c_name}'.")
+            no_news_msg = f"{step_prefix} [STATUS] Sem comunicados críticos da autoridade em '{c_name}'."
+            logger.info(no_news_msg)
+            LiveViewBridge.get_instance().emit_event(no_news_msg)
 
     # 4. Generate final briefing
     full_digest = ai.generate_full_briefing(channel_reports, shift_label=shift_label)

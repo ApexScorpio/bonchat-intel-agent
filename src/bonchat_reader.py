@@ -18,6 +18,7 @@ from .desktop_isolation import (
     open_ghost_desktop_handle,
     get_current_desktop_name,
 )
+from .telemetry_bridge import LiveViewBridge
 
 logger = logging.getLogger("BonChatReader")
 
@@ -122,6 +123,10 @@ class BonChatReader:
             save_dc.DeleteDC()
             mfc_dc.DeleteDC()
             win32gui.ReleaseDC(self.hwnd, hwnd_dc)
+
+            if img:
+                LiveViewBridge.get_instance().publish_frame(img, self.hwnd)
+
             return img
         except Exception as e:
             logger.error(f"Error capturing window: {e}")
@@ -132,6 +137,7 @@ class BonChatReader:
         if not self.hwnd:
             return
         set_thread_to_ghost_desktop()
+        LiveViewBridge.get_instance().register_action("CLICK", f"BonChat ({x},{y})", (x, y))
         lp = (int(y) << 16) | (int(x) & 0xFFFF)
         # WM_LBUTTONDOWN = 0x0201, MK_LBUTTON = 0x0001
         user32.PostMessageW(self.hwnd, 0x0201, 0x0001, lp)
@@ -236,6 +242,7 @@ class BonChatReader:
         if not self.hwnd:
             return
         set_thread_to_ghost_desktop()
+        LiveViewBridge.get_instance().register_action("SCROLL", "Chat PageUp", (600, 500))
         # Ensure chat pane has focus
         self.click_window(600, 500)
         time.sleep(0.08)
@@ -260,13 +267,17 @@ class BonChatReader:
         collected_signatures: List[str] = []
         collected_frame_hashes: List[str] = []
 
-        logger.info(f"Beginning incremental scroll scan for '{channel_canonical}' (max_passes={max_scroll_passes})...")
+        msg = f"Iniciando varredura incremental de '{channel_canonical}' (máx {max_scroll_passes} páginas)..."
+        logger.info(msg)
+        LiveViewBridge.get_instance().emit_event(f"[{channel_canonical}] {msg}")
 
         for pass_idx in range(max_scroll_passes):
             full_img = self.capture_window()
             if not full_img:
                 logger.warning("Could not capture window during scroll.")
                 break
+
+            LiveViewBridge.get_instance().emit_event(f"[{channel_canonical}] Scroll pass {pass_idx + 1}/{max_scroll_passes}")
 
             w, h = full_img.size
             chat_pane = full_img.crop((310, 45, min(w, 1300), h - 70))
