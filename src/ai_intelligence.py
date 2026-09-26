@@ -150,7 +150,7 @@ class AIIntelligence:
                     "contents": [{"role": "user", "parts": parts}],
                     "generationConfig": {
                         "temperature": 0.2,
-                        "maxOutputTokens": 1024
+                        "maxOutputTokens": 2048
                     }
                 }
 

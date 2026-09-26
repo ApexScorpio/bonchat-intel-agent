@@ -131,10 +131,13 @@ class BonChatReader:
         """Sends background mouse click to window relative coordinates."""
         if not self.hwnd:
             return
-        lp = win32api.MAKELONG(int(x), int(y))
-        win32gui.PostMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lp)
+        set_thread_to_ghost_desktop()
+        lp = (int(y) << 16) | (int(x) & 0xFFFF)
+        # WM_LBUTTONDOWN = 0x0201, MK_LBUTTON = 0x0001
+        user32.PostMessageW(self.hwnd, 0x0201, 0x0001, lp)
         time.sleep(0.06)
-        win32gui.PostMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lp)
+        # WM_LBUTTONUP = 0x0202
+        user32.PostMessageW(self.hwnd, 0x0202, 0, lp)
         time.sleep(0.2)
 
     def select_channel(self, channel_target: Dict[str, Any]) -> bool:
@@ -148,40 +151,33 @@ class BonChatReader:
         # 1. Direct calibrated click
         if default_y:
             logger.info(f"Selecting '{canonical}' at calibrated sidebar Y={default_y}")
-            self.click_window(180, default_y)
+            self.click_window(150, default_y)
             time.sleep(0.8)
             return True
 
         # 2. Search box lookup
         if search_term:
             logger.info(f"Searching channel via search bar: '{search_term}'")
-            # Click search input
-            self.click_window(180, 100)
-            time.sleep(0.2)
+            set_thread_to_ghost_desktop()
+            # Click clear search button first (X=208, Y=95)
+            self.click_window(208, 95)
+            time.sleep(0.15)
+            # Click search input (X=120, Y=95)
+            self.click_window(120, 95)
+            time.sleep(0.15)
 
-            # Select all and delete previous query
-            win32gui.PostMessage(self.hwnd, win32con.WM_KEYDOWN, win32con.VK_CONTROL, 0)
-            win32gui.PostMessage(self.hwnd, win32con.WM_KEYDOWN, ord('A'), 0)
-            win32gui.PostMessage(self.hwnd, win32con.WM_KEYUP, ord('A'), 0)
-            win32gui.PostMessage(self.hwnd, win32con.WM_KEYUP, win32con.VK_CONTROL, 0)
-            time.sleep(0.05)
-            win32gui.PostMessage(self.hwnd, win32con.WM_KEYDOWN, win32con.VK_BACK, 0)
-            win32gui.PostMessage(self.hwnd, win32con.WM_KEYUP, win32con.VK_BACK, 0)
-            time.sleep(0.1)
-
-            # Type search term
+            # Type search term via WM_CHAR (0x0102)
             for ch in search_term:
-                win32gui.PostMessage(self.hwnd, win32con.WM_CHAR, ord(ch), 0)
+                user32.PostMessageW(self.hwnd, 0x0102, ord(ch), 0)
                 time.sleep(0.04)
             time.sleep(0.6)
 
-            # Click top search result (Y ~160)
-            self.click_window(180, 160)
+            # Click top search result (Y ~168)
+            self.click_window(150, 168)
             time.sleep(0.8)
 
-            # Clear search
-            win32gui.PostMessage(self.hwnd, win32con.WM_KEYDOWN, win32con.VK_ESCAPE, 0)
-            win32gui.PostMessage(self.hwnd, win32con.WM_KEYUP, win32con.VK_ESCAPE, 0)
+            # Clear search box by clicking (x)
+            self.click_window(208, 95)
             return True
 
         return False
@@ -190,14 +186,16 @@ class BonChatReader:
         """Scrolls the chat pane up to reveal earlier messages."""
         if not self.hwnd:
             return
-        wr = win32gui.GetWindowRect(self.hwnd)
-        w, h = wr[2] - wr[0], wr[3] - wr[1]
-        chat_x = int(w * 0.65)
-        chat_y = int(h * 0.5)
-        lp = win32api.MAKELONG(chat_x, chat_y)
+        set_thread_to_ghost_desktop()
+        # Ensure chat pane has focus
+        self.click_window(600, 500)
+        time.sleep(0.08)
+        # Send Page Up key (VK_PRIOR = 0x21) to scroll by pages
         for _ in range(notches):
-            win32gui.PostMessage(self.hwnd, win32con.WM_MOUSEWHEEL, win32api.MAKELONG(0, 1200), lp)
-            time.sleep(0.08)
+            user32.PostMessageW(self.hwnd, 0x0100, 0x21, 0) # WM_KEYDOWN
+            time.sleep(0.04)
+            user32.PostMessageW(self.hwnd, 0x0101, 0x21, 0) # WM_KEYUP
+            time.sleep(0.15)
 
     def scan_channel_incremental(
         self,
