@@ -7,10 +7,12 @@ config.local.json
 # Local data and cache
 data/
 *.log
+*.tmp
 *.png
 *.jpg
 *.jpeg
-*.tmp
+!knowledge_base/assets/*.jpg
+!knowledge_base/assets/*.png
 
 # Python artifacts
 __pycache__/

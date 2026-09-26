@@ -1,22 +1,5 @@
 [
   {
-    "id": "INTEL-20260907-001",
-    "timestamp_published": "2026-09-07 20:00:00",
-    "date_str": "07 de Setembro de 2026",
-    "time_str": "20:00 (Hora de Portugal)",
-    "channel": "TIMI--NO.08",
-    "authority": "Jonathan (Gerente Geral da TIMI)",
-    "content_type": "Aviso Oficial de Reunião Obrigatória",
-    "image_asset": "assets/aviso_reuniao_jonathan_20260907.jpg",
-    "image_sha256": "8a0115bc55cbe83e925b42dca4a1c5d9",
-    "verbatim_text": "AVISO IMPORTANTE DA TIMI\nJUNTOS CONSTRUÍMOS UM FUTURO MAIS BRILHANTE!\nGERENTE GERAL DA TIMI Jonathan\n\nDATA DA REUNIÃO: 7 SETEMBRO SEGUNDA-FEIRA\nHORÁRIO: 20H00 (HORA DE PORTUGAL)\nGRUPO: TIMI--NO.08\nFORMATO: REUNIÃO ONLINE\n\n• A reunião vai partilhar novidades importantes da TIMI e as informações mais recentes do mercado da TIMI.\n• Também foram preparados prémios de USDT de sorte, todos os membros presentes têm hipótese de ganhar!\n• Por favor avisem todos os membros da equipa e parceiros, esta reunião é muito importante, compareçam obrigatoriamente e a tempo.\n⚠️ Os parceiros que não comparecerem vão ser penalizados com a dedução de pontos.\n\nVALORES CENTRAIS: UNIÃO | DISCIPLINA | OPORTUNIDADES | CRESCIMENTO | SUCESSO\nJuntos por um amanhã mais sustentável! TIMI",
-    "key_takeaways": [
-      "Reunião geral obrigatória para todos os parceiros",
-      "Sorteio de USDT para os presentes",
-      "Penalização com perda de pontos para quem faltar"
-    ]
-  },
-  {
     "id": "INTEL-20260907-002",
     "timestamp_published": "2026-09-07 00:36:00",
     "date_str": "07 de Setembro de 2026",
@@ -31,6 +14,23 @@
       "Promoção semanal oficial da TIMI",
       "Vigência: 7 a 14 de setembro",
       "Vídeo de orientações do Theodore disponível"
+    ]
+  },
+  {
+    "id": "INTEL-20260907-001",
+    "timestamp_published": "2026-09-07 20:00:00",
+    "date_str": "07 de Setembro de 2026",
+    "time_str": "20:00 (Hora de Portugal)",
+    "channel": "TIMI--NO.08",
+    "authority": "Jonathan (Gerente Geral da TIMI)",
+    "content_type": "Aviso Oficial de Reunião Obrigatória",
+    "image_asset": "assets/aviso_reuniao_jonathan_20260907.jpg",
+    "image_sha256": "8a0115bc55cbe83e925b42dca4a1c5d9",
+    "verbatim_text": "AVISO IMPORTANTE DA TIMI\nJUNTOS CONSTRUÍMOS UM FUTURO MAIS BRILHANTE!\nGERENTE GERAL DA TIMI Jonathan\n\nDATA DA REUNIÃO: 7 SETEMBRO SEGUNDA-FEIRA\nHORÁRIO: 20H00 (HORA DE PORTUGAL)\nGRUPO: TIMI--NO.08\nFORMATO: REUNIÃO ONLINE\n\n• A reunião vai partilhar novidades importantes da TIMI e as informações mais recentes do mercado da TIMI.\n• Também foram preparados prémios de USDT de sorte, todos os membros presentes têm hipótese de ganhar!\n• Por favor avisem todos os membros da equipa e parceiros, esta reunião é muito importante, compareçam obrigatoriamente e a tempo.\n⚠️ Os parceiros que não comparecerem vão ser penalizados com a dedução de pontos.\n\nVALORES CENTRAIS: UNIÃO | DISCIPLINA | OPORTUNIDADES | CRESCIMENTO | SUCESSO\nJuntos por um amanhã mais sustentável! TIMI",
+    "key_takeaways": [
+      "Reunião geral obrigatória para todos os parceiros",
+      "Sorteio de USDT para os presentes",
+      "Penalização com perda de pontos para quem faltar"
     ]
   },
   {
@@ -52,6 +52,23 @@
     ]
   },
   {
+    "id": "INTEL-20260917-001",
+    "timestamp_published": "2026-09-17 14:24:00",
+    "date_str": "17 de Setembro de 2026",
+    "time_str": "14:24 (Válido: 11h-13h e 19h-22h)",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Oficial",
+    "content_type": "Código de Viagem Dinâmico (Pedale com um clique)",
+    "image_asset": "assets/voucher_codigo_viagem_20260917.jpg",
+    "image_sha256": "3a70e83b8b1a8f0e5b7b6c7a9e2d1c4f",
+    "verbatim_text": "TIMI Pedale com um clique\nData: 17 de setembro 11:00 às 13:00\nCódigo de viagem: 627352\n\nInstruções de uso:\n• O código dinâmico das 11:00 é válido de: 11:00-13:00\n• O código dinâmico das 19:00 é válido de: 19:00-22:00\n\nObservação:\nAtive o código de viagem dentro do horário estipulado para o seu dispositivo.\nSe o código de viagem não for iniciado dentro do horário, o dispositivo não poderá ser ativado e não haverá rendimento.",
+    "key_takeaways": [
+      "Código de viagem dinâmico: 627352",
+      "Janelas de validade: 11:00 às 13:00 e 19:00 às 22:00",
+      "Obrigatório ativar no horário previsto para garantir o rendimento do dispositivo"
+    ]
+  },
+  {
     "id": "INTEL-20260925-001",
     "timestamp_published": "2026-09-25 10:00:00",
     "date_str": "25 de Setembro de 2026",
@@ -65,6 +82,108 @@
     "key_takeaways": [
       "Sorteio diário da TIMI",
       "Número da sorte em vigor para premiações"
+    ]
+  },
+  {
+    "id": "INTEL-20260925-002",
+    "timestamp_published": "2026-09-25 14:27:00",
+    "date_str": "25 de Setembro de 2026",
+    "time_str": "14:27",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Oficial",
+    "content_type": "Infográfico Oficial de Parcerias e Comissões USDT",
+    "image_asset": "assets/infografico_parceiros_promocao_timi.jpg",
+    "image_sha256": "9b12a83c7e4d5f1a2b3c4d5e6f7a8b9c",
+    "verbatim_text": "POR QUE COOPERAR? BENEFÍCIOS PARA OS COMERCIANTES E PARCEIROS DE PROMOÇÃO:\n• Receba 100 USDT por cada parceria bem-sucedida com um comerciante (1 loja/dia = 100 USDT; 30 lojas/mês = 3.000 USDT).\n• Teste gratuito do dispositivo TIMI por 2 meses (= 230 USDT).\n• Após o teste, pague apenas a diferença (T2 para T3: 560 - 230 = 330 USDT) ou apenas 110 USDT e usufrua de 365 dias úteis de lucros!\n• Comissões quando o comerciante atualiza: T2 -> T3: 56 USDT comissão direta; T2 -> T4: 195 USDT comissão direta.\n• Abordagem simples em 3 passos: 1. Imprimir logótipo TIMI; 2. Negociar parceria com comerciante; 3. Registar endereço no Google com localização exata e nome TIMI.",
+    "key_takeaways": [
+      "100 USDT por cada comerciante parceiro angariado (até 3.000 USDT/mês)",
+      "Comissão direta de 56 USDT no upgrade T3 e 195 USDT no upgrade T4",
+      "Dispositivo T2 com 2 meses de teste grátis para comerciantes"
+    ]
+  },
+  {
+    "id": "INTEL-20260925-003",
+    "timestamp_published": "2026-09-25 21:15:00",
+    "date_str": "25 de Setembro de 2026",
+    "time_str": "21:15 / 23:21",
+    "channel": "Theodore",
+    "authority": "Theodore",
+    "content_type": "Diretiva de Recrutamento T4, Bónus de $80 e Pontos",
+    "image_asset": "assets/agenda_atividades_semanais_theodore.jpg",
+    "image_sha256": "4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f",
+    "verbatim_text": "Theodore (Canal Direto):\n\"Além disso, se convidares 3 amigos para se juntarem à TIMI, ainda podes receber 100 dólares de rendimento. Consegues entender isto?\"\n\n\"Muito bom. Agora dou-te um exemplo com o T4: Por exemplo, se convidares 3 membros T4 para se juntarem, podes receber 195+195+195=585USDT de comissão de recrutamento. Além disso, por cada parceiro que recrutares para se juntar, também podes receber 3 pontos de recompensa. E ainda podes ser promovido a agente júnior e receber 80 dólares de recompensa. No total: 585+80=665USDT.\"\n\n\"Se durante o processo de desenvolvimento tiveres algum problema, fala comigo a qualquer momento. Eu ajudo-te a resolver.\"",
+    "key_takeaways": [
+      "Comissão T4: 195 USDT por cada membro recrutado",
+      "3 membros T4 geram 585 USDT de comissão direta",
+      "Promoção a Agente Júnior com bónus de 80 USD adicionais (Total = 665 USDT)",
+      "Atribuição de 3 pontos de recompensa por cada parceiro recrutado"
+    ]
+  },
+  {
+    "id": "INTEL-20260925-004",
+    "timestamp_published": "2026-09-25 23:30:00",
+    "date_str": "25 de Setembro de 2026",
+    "time_str": "Noite",
+    "channel": "Theodore",
+    "authority": "Theodore",
+    "content_type": "Agenda Semanal Oficial de Atividades da Equipa",
+    "image_asset": "assets/agenda_atividades_semanais_theodore.jpg",
+    "image_sha256": "1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d",
+    "verbatim_text": "AVISO SOBRE AS ATIVIDADES DA EQUIPA PARA ESTA SEMANA\nA partir desta semana, a equipa passa a executar oficialmente as seguintes atividades fixas:\n\n• SEGUNDA / QUARTA / SEXTA: REUNIÃO OFICIAL DA EQUIPA\n  > Conteúdo principal: divisão de metas, partilha de experiências, avanço dos negócios\n\n• TERÇA / QUINTA / SÁBADO: INTERAÇÃO E COMUNICAÇÃO NO GRUPO\n  > Conteúdo principal: esclarecimento de dúvidas, discussão de casos, troca de ideias entre membros\n\n• DOMINGO: REUNIÃO DE BALANÇO DA EQUIPA + SORTEIO DE SORTE\n  > Conteúdo principal: resumo da semana + atividade de sorteio ao vivo\n\nAVISO ESPECIAL:\nNão se esqueçam de participar pontualmente no sorteio de boa sorte ao domingo à noite. Não percam o vosso momento de boa sorte!\nVamos juntos, crescer e conquistar mais!",
+    "key_takeaways": [
+      "Segundas, Quartas e Sextas: Reuniões oficiais de metas e negócios",
+      "Terças, Quintas e Sábados: Sessões de dúvidas e discussão de casos no grupo",
+      "Domingos à noite: Reunião geral de balanço e sorteio obrigatório ao vivo"
+    ]
+  },
+  {
+    "id": "INTEL-20260925-005",
+    "timestamp_published": "2026-09-25 23:37:00",
+    "date_str": "25 de Setembro de 2026",
+    "time_str": "23:37",
+    "channel": "Theodore",
+    "authority": "Theodore",
+    "content_type": "Campanha Business Alliance 2026 e Expansão",
+    "image_asset": "assets/business_alliance_2026_theodore.jpg",
+    "image_sha256": "7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b",
+    "verbatim_text": "TIMI BUSINESS ALLIANCE 2026:\nMeta da TIMI: Estabelecer cooperação com mais de 3.000 comerciantes em Portugal, criando gratuitamente uma rede local de serviços estável.\n\nDiretiva do Theodore às 23:37:\n\"Se conhecer um comerciante adequado e conseguir convidar o proprietário a juntar-se à TIMI como loja parceira, poderá receber uma recompensa de 100 dólares. O comerciante parceiro também poderá usufruir de dois meses de experiência com o dispositivo T2. Quando o proprietário se juntar oficialmente, você ainda receberá a recompensa de convite correspondente.\"",
+    "key_takeaways": [
+      "Meta corporativa de 3.000 comerciantes parceiros em Portugal",
+      "Recompensa de 100 dólares por comerciante aderente",
+      "Comerciante parceiro usufrui de 2 meses de teste gratuito de dispositivo T2"
+    ]
+  },
+  {
+    "id": "INTEL-20260926-001",
+    "timestamp_published": "2026-09-26 15:38:00",
+    "date_str": "26 de Setembro de 2026",
+    "time_str": "15:38",
+    "channel": "TIMI-NeWs",
+    "authority": "TIMI--NO.08",
+    "content_type": "Sessão TIMI de Aprendizagem (Plano de Desenvolvimento e Visão)",
+    "image_asset": "assets/sessao_aprendizagem_conhecimento_timi.jpg",
+    "image_sha256": "5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c",
+    "verbatim_text": "TIMI--NO.08:\nSessão TIMI de Aprendizagem\nPlano de Desenvolvimento da Empresa e Visão de Futuro\n\nA TIMI, através de uma filosofia de cooperação de benefício mútuo e de um modelo de negócio rentável de desenvolvimento conjunto, aliado a um plano de marketing multinível, implementará no mercado europeu o seguinte plano de desenvolvimento:\n\nO principal país de desenvolvimento da empresa é Portugal. A TIMI encontra-se atualmente a recrutar ativamente talentos locais para colaborarem connosco no desenvolvimento deste projeto, tirando partido das vantagens das equipas locais para expandir o mercado de forma mais eficaz, aumentar a notoriedade da empresa e, por fim, concretizar o lançamento oficial e a operação contínua do projeto de partilha de bicicletas em Portugal.\n\nA TIMI é também uma plataforma que combina mobilidade partilhada e economia digital. O nosso objetivo é permitir que mais pessoas desfrutem de formas de deslocação convenientes, obtendo simultaneamente rendimentos sustentáveis através de bicicletas e equipamentos partilhados.",
+    "key_takeaways": [
+      "Portugal definido como principal mercado europeu de desenvolvimento da TIMI",
+      "Recrutamento ativo de talentos e expansão via equipas locais e marketing multinível",
+      "Modelo híbrido de mobilidade sustentável e economia digital"
+    ]
+  },
+  {
+    "id": "INTEL-20260926-002",
+    "timestamp_published": "2026-09-26 23:34:00",
+    "date_str": "26 de Setembro de 2026",
+    "time_str": "23:34",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Oficial",
+    "content_type": "Mensagem Fixada / Sorteio Diário",
+    "image_asset": "assets/pinned_sorteio_numero_sorte.jpg",
+    "image_sha256": "84b74600302c734f874d436b2e4554e1",
+    "verbatim_text": "TIMI atualizou a mensagem fixada.\nNúmero da sorte de hoje: 949889...",
+    "key_takeaways": [
+      "Sorteio diário em vigor no canal 08",
+      "Número da sorte oficial: 949889..."
     ]
   }
 ]
