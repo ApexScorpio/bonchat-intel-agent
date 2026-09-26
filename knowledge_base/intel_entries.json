@@ -1,5 +1,168 @@
 [
   {
+    "id": "INTEL-20260927-021",
+    "timestamp_published": "2026-09-27 01:54:31",
+    "date_str": "2026-09-17",
+    "time_str": "15:38",
+    "channel": "Theodore",
+    "authority": "TIMI--NO.08",
+    "content_type": "Diretiva / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Sessão TIMI de Aprendizagem\nPlano de Desenvolvimento da Empresa e Visão de Futuro\nA TIMI, através de uma filosofia de cooperação de benefício mútuo e de um modelo de negócio rentável de desenvolvimento conjunto, aliado a um plano de marketing multinível, implementará no mercado europeu o seguinte plano de desenvolvimento:\nO principal país de desenvolvimento da empresa é Portugal. A TIMI encontrar-se-á atualmente a recrutar e promover talentos locais para acelerar a promoção e o desenvolvimento das equipas, tirando partido das vantagens das equipas locais para expandir o mercado de forma mais eficaz, aumentar a notoriedade da empresa e, por fim, concretizar o lançamento oficial e a operação contínua do projeto de partilha de bicicletas em Portugal.\nA TIMI é também uma plataforma que combina mobilidade partilhada e economia digital. O nosso objetivo é permitir que mais pessoas desfrutem de formas de deslocação convenientes, obtendo simultaneamente rendimentos sustentáveis através de bicicletas e equipamentos partilhados",
+    "key_takeaways": [
+      "Plano de desenvolvimento da TIMI focado em Portugal.",
+      "Recrutamento e promoção de talentos e equipas locais em Portugal.",
+      "Objetivo de acelerar a entrada no mercado e lançar oficialmente as operações.",
+      "Continuação do projeto de partilha de bicicletas em Portugal.",
+      "TIMI é uma plataforma de mobilidade partilhada e economia digital."
+    ]
+  },
+  {
+    "id": "INTEL-20260927-020",
+    "timestamp_published": "2026-09-27 01:53:01",
+    "date_str": "2026-09-17",
+    "time_str": "14:30",
+    "channel": "TIMI--NO.08",
+    "authority": "Márcia",
+    "content_type": "Orientação de Chefia",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "O que me deixa mais curioso é como é que estas lojas foram... Podes pensar assim: o número de 700 lojas parceiras não é realmente apenas um número. Por trás dele está todo um processo de muitos companheiros a percorrer o mercado. Por cada loja parceira encontrada, pode receber-se uma recompensa",
+    "key_takeaways": [
+      "As 700 lojas parceiras representam um esforço coletivo significativo no mercado.",
+      "Há potencial de recompensa por cada loja parceira encontrada pelos agentes."
+    ]
+  },
+  {
+    "id": "INTEL-20260927-019",
+    "timestamp_published": "2026-09-27 01:53:01",
+    "date_str": "2026-09-16",
+    "time_str": "09:05",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI--NO.08",
+    "content_type": "Campanha / Diretiva Operacional",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Imagem com título 'Pedale com um clique'. Data: 17 de setembro 11:00 às 13:00. Código de viagem: 627352. Instruções de uso: O código dinâmico das 11:00 é válido de: 11:00-13:00. O código dinâmico das 19:00 é válido de: 19:00-22:00. Observação: Ative o código de viagem dentro do horário estipulado no seu dispositivo. Se o código de viagem não for iniciado dentro do horário, o dispositivo não poderá ser ativado e não haverá rendimento.",
+    "key_takeaways": [
+      "Campanha 'Pedale com um clique' agendada para 2026-09-17.",
+      "Código de viagem para 2026-09-17: 627352.",
+      "Horários de validade do código dinâmico: 11:00-13:00 e 19:00-22:00.",
+      "O código deve ser ativado dentro do horário estipulado para garantir ativação e rendimento."
+    ]
+  },
+  {
+    "id": "INTEL-20260927-018",
+    "timestamp_published": "2026-09-27 01:53:01",
+    "date_str": "2026-09-16",
+    "time_str": "09:00",
+    "channel": "TIMI--NO.08",
+    "authority": "TIManualizou",
+    "content_type": "Aviso de Sistema / Sorteio",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "TIManualizou alterou a mensagem fixada. Número da sorte de hoje: 94989...",
+    "key_takeaways": [
+      "Número da sorte diário para 2026-09-16 é 94989."
+    ]
+  },
+  {
+    "id": "INTEL-20260927-017",
+    "timestamp_published": "2026-09-27 01:49:45",
+    "date_str": "2026-09-27",
+    "time_str": "22:16",
+    "channel": "TIMI-68",
+    "authority": "Theodore",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Agora vamos de 1 a 30.",
+    "key_takeaways": [
+      "Nova fase ou intervalo de seleção/atividade definido para '1 a 30'."
+    ]
+  },
+  {
+    "id": "INTEL-20260927-016",
+    "timestamp_published": "2026-09-27 01:49:45",
+    "date_str": "2026-09-27",
+    "time_str": "22:17",
+    "channel": "TIMI-68",
+    "authority": "TIMI Oficial",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Conteúdo do cartaz da campanha 'TIMI ALL PEOPLE BICYCLE': Bónus de $50 e $100. Condições: Não é permitido emprestar duas contas. Primeiro depósito não ultrapassar 50 USDT. Segundo depósito não ultrapassar 100 USDT.",
+    "key_takeaways": [
+      "Campanha 'TIMI ALL PEOPLE BICYCLE' ativa.",
+      "Bónus de $50 e $100.",
+      "Proibido emprestar duas contas.",
+      "Limite de 50 USDT para o primeiro depósito.",
+      "Limite de 100 USDT para o segundo depósito."
+    ]
+  },
+  {
+    "id": "INTEL-20260927-015",
+    "timestamp_published": "2026-09-27 01:49:45",
+    "date_str": "2026-09-27",
+    "time_str": "22:17",
+    "channel": "TIMI-68",
+    "authority": "Theodore",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Já escolheram todos? Vou começar",
+    "key_takeaways": [
+      "Theodore está a iniciar uma nova fase de seleção/atividade.",
+      "Agentes devem ter feito as suas escolhas."
+    ]
+  },
+  {
+    "id": "INTEL-20260927-014",
+    "timestamp_published": "2026-09-27 01:49:45",
+    "date_str": "2026-09-27",
+    "time_str": "22:19",
+    "channel": "TIMI-68",
+    "authority": "Theodore",
+    "content_type": "Informação",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Enviou uma imagem",
+    "key_takeaways": [
+      "Theodore enviou uma imagem no chat (conteúdo não visível)."
+    ]
+  },
+  {
+    "id": "INTEL-20260927-013",
+    "timestamp_published": "2026-09-27 01:49:45",
+    "date_str": "2026-09-27",
+    "time_str": "22:20",
+    "channel": "TIMI-68",
+    "authority": "Theodore",
+    "content_type": "Diretiva / Confirmação",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Sim",
+    "key_takeaways": [
+      "Theodore confirma a sua participação na atividade de test drive."
+    ]
+  },
+  {
+    "id": "INTEL-20260927-012",
+    "timestamp_published": "2026-09-27 01:49:45",
+    "date_str": "2026-09-27",
+    "time_str": "22:20",
+    "channel": "TIMI-68",
+    "authority": "Theodore",
+    "content_type": "Diretiva / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Amanhã há alguém que vai participar na atividade de test dri... Vou amanhã.",
+    "key_takeaways": [
+      "Theodore participará na atividade de test drive amanhã."
+    ]
+  },
+  {
     "id": "INTEL-20260907-002",
     "timestamp_published": "2026-09-07 00:36:00",
     "date_str": "07 de Setembro de 2026",
