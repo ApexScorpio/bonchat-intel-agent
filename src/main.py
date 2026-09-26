@@ -36,9 +36,50 @@ def setup_logging():
         ]
     )
 
+def purge_transient_data(max_digest_days: int = 3):
+    """Purges transient capture files to prevent disk bloat on the local PC."""
+    try:
+        import shutil
+        captures_dir = BASE_DIR / "data" / "captures"
+        if captures_dir.exists():
+            shutil.rmtree(str(captures_dir), ignore_errors=True)
+        # Clean digests older than max_digest_days (since all are preserved on GitHub)
+        digest_dir = BASE_DIR / "data" / "digests"
+        if digest_dir.exists():
+            now = time.time()
+            for f in digest_dir.glob("*.md"):
+                if now - f.stat().st_mtime > max_digest_days * 86400:
+                    try: f.unlink()
+                    except Exception: pass
+    except Exception:
+        pass
+
+def sync_to_github(commit_msg: str = "chore(intel): auto-sync intelligence and digests to GitHub"):
+    """Automatically synchronizes all intelligence and documents directly to GitHub."""
+    try:
+        import subprocess
+        logger = logging.getLogger("GitSync")
+        logger.info("Sincronizando base de dados de inteligência diretamente para o GitHub...")
+        subprocess.run(["git", "add", "data/digests", "knowledge_base"], cwd=str(BASE_DIR), capture_output=True, check=False)
+        diff_check = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=str(BASE_DIR))
+        if diff_check.returncode != 0:
+            subprocess.run(["git", "commit", "-m", commit_msg], cwd=str(BASE_DIR), capture_output=True, check=False)
+            push_res = subprocess.run(["git", "push", "origin", "main"], cwd=str(BASE_DIR), capture_output=True, text=True, check=False)
+            if push_res.returncode == 0:
+                logger.info("Base de dados no GitHub atualizada com sucesso.")
+            else:
+                logger.warning(f"Git push status: {push_res.stderr.strip()}")
+        else:
+            logger.info("GitHub já se encontra 100% atualizado.")
+    except Exception as e:
+        logging.getLogger("GitSync").warning(f"Erro ao sincronizar com GitHub: {e}")
+
 def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_channel: str = None) -> bool:
     logger = logging.getLogger("MainOrchestrator")
     logger.info(f"=== Starting BonChat Incremental Intelligence Run: Shift={shift_label} ===")
+
+    # Keep local PC clean: purge transient capture files
+    purge_transient_data()
 
     # 0. Maestro & Activator Collision Guard
     from src.process_guard import is_maestro_running
@@ -87,7 +128,6 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
 
     channel_reports = {}
     today_str = datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S")
-    raw_crops_dir = BASE_DIR / "data" / "captures" / today_str
 
     max_scroll_passes = cfg.get("max_scroll_passes", 15)
     total_channels = len(targets)
@@ -128,14 +168,8 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
             LiveViewBridge.get_instance().emit_event(uptodate_msg)
             continue
 
-        # Save crops for auditing
-        raw_crops_dir.mkdir(parents=True, exist_ok=True)
-        for idx, img in enumerate(new_frames):
-            clean_name = "".join(c for c in c_name if c.isalnum() or c in ('_', '-'))
-            img.save(str(raw_crops_dir / f"{clean_name}_frame_{idx+1}.jpg"), format="JPEG", quality=85)
-
-        # Analyze new frames with Gemini Multimodal Vision (with Quota Guard)
-        ai_msg = f"{step_prefix} [IA VISION] A analisar {len(new_frames)} novos frames para '{c_name}'..."
+        # In-memory AI Multimodal Vision analysis (zero disk bloat)
+        ai_msg = f"{step_prefix} [IA VISION] A analisar {len(new_frames)} novos frames em memória para '{c_name}'..."
         logger.info(ai_msg)
         LiveViewBridge.get_instance().emit_event(ai_msg)
 
@@ -153,12 +187,18 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
     full_digest = ai.generate_full_briefing(channel_reports, shift_label=shift_label)
     logger.info("Executive Briefing finalized.")
 
-    # Save digest
+    # Save digest locally and push immediately to GitHub cloud database
     digest_dir = BASE_DIR / "data" / "digests"
     digest_dir.mkdir(parents=True, exist_ok=True)
     digest_file = digest_dir / f"digest_{today_str}.md"
     digest_file.write_text(full_digest, encoding="utf-8")
     logger.info(f"Digest saved to {digest_file}")
+
+    # Auto-sync intelligence & documents to GitHub database
+    sync_to_github(commit_msg=f"chore(intel): auto-sync briefing {today_str} to GitHub")
+
+    # Purge any remaining temporary artifacts
+    purge_transient_data()
 
     # 5. Dispatch to Telegram
     if dry_run:
