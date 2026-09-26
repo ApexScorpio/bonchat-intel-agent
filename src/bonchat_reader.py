@@ -140,46 +140,95 @@ class BonChatReader:
         user32.PostMessageW(self.hwnd, 0x0202, 0, lp)
         time.sleep(0.2)
 
+    def clear_search_bar(self):
+        """Ensures search box is empty so all sidebar chats are visible."""
+        if not self.hwnd:
+            return
+        set_thread_to_ghost_desktop()
+        self.click_window(208, 95)
+        time.sleep(0.08)
+        self.click_window(120, 95)
+        time.sleep(0.05)
+        for _ in range(4):
+            user32.PostMessageW(self.hwnd, 0x0100, 0x08, 0)
+            user32.PostMessageW(self.hwnd, 0x0101, 0x08, 0)
+            time.sleep(0.03)
+        time.sleep(0.2)
+
     def select_channel(self, channel_target: Dict[str, Any]) -> bool:
         """
-        Navigates to a specific channel using calibrated visual coordinates or search.
+        Navigates to a specific channel using lateral sidebar visual template matching
+        or calibrated coordinates. Never uses the search box to find groups.
         """
         canonical = channel_target.get("canonical_name", "")
         default_y = channel_target.get("default_y")
-        search_term = channel_target.get("search_term")
+        template_name = channel_target.get("template_name")
 
-        # 1. Direct calibrated click
+        # 1. Always ensure search box is cleared so full lateral sidebar is shown
+        self.clear_search_bar()
+
+        # 2. Visual template matching on sidebar ROI
+        full_img = self.capture_window()
+        if full_img and (template_name or canonical):
+            try:
+                import cv2
+                import numpy as np
+
+                src_tpl_dir = os.path.join(os.path.dirname(__file__), "templates")
+                data_tpl_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "templates")
+
+                tpl_filename = None
+                if template_name:
+                    tpl_filename = template_name
+                else:
+                    c_low = canonical.lower()
+                    tpl_map = {
+                        "theodore": "theodore.png",
+                        "teodoro": "theodore.png",
+                        "68": "timi_68.png",
+                        "news": "timi_news.png",
+                        "08": "timi_08.png"
+                    }
+                    for k, v in tpl_map.items():
+                        if k in c_low:
+                            tpl_filename = v
+                            break
+
+                tpl_file = None
+                if tpl_filename:
+                    for d in [src_tpl_dir, data_tpl_dir]:
+                        p = os.path.join(d, tpl_filename)
+                        if os.path.exists(p):
+                            tpl_file = p
+                            break
+
+                if tpl_file and os.path.exists(tpl_file):
+                    cv_img = cv2.cvtColor(np.array(full_img), cv2.COLOR_RGB2BGR)
+                    search_roi = cv_img[100:750, 30:220]
+                    tpl = cv2.imread(tpl_file)
+                    if tpl is not None:
+                        res = cv2.matchTemplate(search_roi, tpl, cv2.TM_CCOEFF_NORMED)
+                        _, max_val, _, max_loc = cv2.minMaxLoc(res)
+                        if max_val >= 0.80:
+                            target_x = 30 + max_loc[0] + tpl.shape[1] // 2 + 40
+                            target_y = 100 + max_loc[1] + tpl.shape[0] // 2
+                            logger.info(f"Visual match for '{canonical}' ({os.path.basename(tpl_file)}) at (X={target_x}, Y={target_y}) conf={max_val:.2f}")
+                            self.click_window(target_x, target_y)
+                            time.sleep(0.8)
+                            return True
+                        else:
+                            logger.debug(f"Template match for '{canonical}' below threshold: conf={max_val:.2f}")
+            except Exception as e:
+                logger.debug(f"Visual matching note: {e}")
+
+        # 3. Fallback to calibrated coordinate
         if default_y:
             logger.info(f"Selecting '{canonical}' at calibrated sidebar Y={default_y}")
             self.click_window(150, default_y)
             time.sleep(0.8)
             return True
 
-        # 2. Search box lookup
-        if search_term:
-            logger.info(f"Searching channel via search bar: '{search_term}'")
-            set_thread_to_ghost_desktop()
-            # Click clear search button first (X=208, Y=95)
-            self.click_window(208, 95)
-            time.sleep(0.15)
-            # Click search input (X=120, Y=95)
-            self.click_window(120, 95)
-            time.sleep(0.15)
-
-            # Type search term via WM_CHAR (0x0102)
-            for ch in search_term:
-                user32.PostMessageW(self.hwnd, 0x0102, ord(ch), 0)
-                time.sleep(0.04)
-            time.sleep(0.6)
-
-            # Click top search result (Y ~168)
-            self.click_window(150, 168)
-            time.sleep(0.8)
-
-            # Clear search box by clicking (x)
-            self.click_window(208, 95)
-            return True
-
+        logger.warning(f"Could not locate channel '{canonical}' on lateral sidebar.")
         return False
 
     def scroll_chat_up(self, notches: int = 5):

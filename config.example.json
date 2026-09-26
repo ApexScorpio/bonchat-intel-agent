@@ -10,52 +10,32 @@
   "tesseract_cmd": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
   "channel_targets": [
     {
-      "canonical_name": "TIMI--NO.08",
-      "display_name": "TIMI 08 / Avisos Oficiais",
-      "aliases": ["timi--no.08", "timi-no.08", "timi 08", "no.08", "aviso 08"],
-      "default_y": 340
-    },
-    {
-      "canonical_name": "Equipa de Agentes de Elite da TIMI",
-      "display_name": "Equipa de Agentes de Elite",
-      "aliases": ["equipa de agentes de elite da timi", "agentes de elite", "elite"],
-      "default_y": 400
-    },
-    {
-      "canonical_name": "Teodoro.Grupo de Agentes20",
-      "display_name": "Teodoro Grupo de Agentes 20",
-      "aliases": ["teodoro.grupo de agentes20", "grupo de agentes 20", "agentes20"],
-      "default_y": 460
-    },
-    {
-      "canonical_name": "Theodore",
-      "display_name": "Theodore (Canal Direto)",
-      "aliases": ["theodore", "teodoro"],
-      "default_y": 580
-    },
-    {
-      "canonical_name": "Grupo de agentes de Portimão",
-      "display_name": "Grupo de Agentes de Portimão",
-      "aliases": ["grupo de agentes de portimão", "grupo de agentes de portimao", "portimão", "portimao"],
-      "default_y": 640
+      "canonical_name": "TIMI-68",
+      "display_name": "TIMI 68 / Reunião Noturna",
+      "aliases": ["timi-68", "timi 68", "68", "timi-64", "timi 64", "64"],
+      "default_y": 245,
+      "template_name": "timi_68.png"
     },
     {
       "canonical_name": "TIMI-NeWs",
       "display_name": "TIMI-NeWs",
       "aliases": ["timi-news", "timi news", "news", "timi-new"],
-      "default_y": 700
+      "default_y": 295,
+      "template_name": "timi_news.png"
     },
     {
-      "canonical_name": "Grupo de reuniões",
-      "display_name": "Grupo de Reuniões",
-      "aliases": ["grupo de reuniões", "grupo de reunioes", "reuniões", "reunioes"],
-      "default_y": 760
+      "canonical_name": "TIMI--NO.08",
+      "display_name": "TIMI 08 / Avisos Oficiais",
+      "aliases": ["timi--no.08", "timi-no.08", "timi 08", "no.08", "aviso 08"],
+      "default_y": 350,
+      "template_name": "timi_08.png"
     },
     {
-      "canonical_name": "TIMI-64",
-      "display_name": "TIMI 64",
-      "aliases": ["timi-64", "timi 64", "64"],
-      "search_term": "64"
+      "canonical_name": "Theodore",
+      "display_name": "Theodore (Canal Direto)",
+      "aliases": ["theodore", "teodoro"],
+      "default_y": 400,
+      "template_name": "theodore.png"
     }
   ],
   "vip_senders": [
