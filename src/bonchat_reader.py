@@ -32,81 +32,56 @@ class BonChatReader:
 
     def find_bonchat_window(self, auto_launch: bool = True) -> Optional[int]:
         """
-        Locates the BonChat window reliably across desktops.
+        Locates the BonChat window reliably on TIMI_GHOST desktop.
         """
-        # 1. Quick check active telemetry slot metadata if available
+        from .desktop_isolation import get_ghost_windows, launch_process_on_ghost_desktop
+
+        # 1. Enumerate windows directly on TIMI_GHOST
+        ghost_wins = get_ghost_windows()
+        for w in ghost_wins:
+            t = w.get("title", "").lower()
+            c = w.get("class", "").lower()
+            if "bonchat" in t or "bonchat" in c or "ajuda" in t:
+                self.hwnd = w["hwnd"]
+                self.is_ghost = True
+                logger.info(f"Found BonChat on TIMI_GHOST: HWND {self.hwnd} ('{w.get('title')}')")
+                return self.hwnd
+
+        # 2. Check active slot metadata as fallback
         slot_meta = r"C:\Users\lopes\.gemini\antigravity-ide\scratch\TIMI-ativador-repo\_runtime\slots\bonchat.json"
         if os.path.exists(slot_meta):
             try:
                 with open(slot_meta, "r", encoding="utf-8") as f:
                     data = json.load(f)
                     h = data.get("hwnd")
-                    if h:
-                        set_thread_to_ghost_desktop()
-                        if win32gui.IsWindow(h):
-                            self.hwnd = int(h)
-                            self.is_ghost = True
-                            logger.info(f"Adopted BonChat from runtime slot: HWND {self.hwnd}")
-                            return self.hwnd
+                    if h and user32.IsWindow(h):
+                        self.hwnd = int(h)
+                        self.is_ghost = True
+                        logger.info(f"Adopted BonChat from runtime slot: HWND {self.hwnd}")
+                        return self.hwnd
             except Exception as e:
                 logger.debug(f"Slot read check note: {e}")
 
-        # 2. Enumerate windows directly on TIMI_GHOST desktop handle
-        h_desk = open_ghost_desktop_handle()
-        if h_desk:
-            cb_t = ctypes.WINFUNCTYPE(ctypes.wintypes.BOOL, ctypes.wintypes.HWND, ctypes.wintypes.LPARAM)
-            candidates = []
-
-            def cb(h, _):
-                if win32gui.IsWindow(h) and win32gui.IsWindowVisible(h):
-                    title = (win32gui.GetWindowText(h) or "").strip()
-                    wr = win32gui.GetWindowRect(h)
-                    w, h_dim = wr[2] - wr[0], wr[3] - wr[1]
-                    if "bonchat" in title.lower() and w >= 300 and h_dim >= 300:
-                        candidates.append(int(h))
-                return True
-
-            callback = cb_t(cb)
-            user32.EnumDesktopWindows(h_desk, callback, 0)
-            user32.CloseDesktop(h_desk)
-
-            if candidates:
-                self.hwnd = candidates[0]
-                self.is_ghost = True
-                logger.info(f"Found BonChat on TIMI_GHOST via EnumDesktopWindows: HWND {self.hwnd}")
-                return self.hwnd
-
-        # 3. Fallback check active desktop
-        def def_cb(h, _):
-            if win32gui.IsWindow(h) and win32gui.IsWindowVisible(h) and not win32gui.IsIconic(h):
-                title = (win32gui.GetWindowText(h) or "").strip()
-                if "bonchat" in title.lower():
-                    wr = win32gui.GetWindowRect(h)
-                    if (wr[2] - wr[0] >= 300) and (wr[3] - wr[1] >= 300):
-                        self.hwnd = int(h)
-                        self.is_ghost = False
-            return True
-
-        win32gui.EnumWindows(def_cb, None)
-        if self.hwnd:
-            logger.info(f"Found BonChat on active desktop: HWND {self.hwnd}")
-            return self.hwnd
-
-        # 4. Auto-launch BonChat on TIMI_GHOST desktop if not running
+        # 3. Auto-launch BonChat on TIMI_GHOST desktop if not running
         if auto_launch:
             bonchat_exe = r"S:\Users\lopes\AppData\Roaming\BonChat\BonChat.exe"
             if os.path.exists(bonchat_exe):
                 logger.info("BonChat not running. Launching BonChat on TIMI_GHOST desktop...")
-                from .desktop_isolation import launch_process_on_ghost_desktop
-                launch_process_on_ghost_desktop(bonchat_exe)
-                for attempt in range(10):
-                    time.sleep(1.2)
-                    h = self.find_bonchat_window(auto_launch=False)
-                    if h:
-                        logger.info(f"BonChat successfully launched and adopted: HWND {h}")
-                        return h
+                pid = launch_process_on_ghost_desktop(bonchat_exe)
+                logger.info(f"Launched BonChat with PID {pid}. Waiting for window to register...")
+                for attempt in range(12):
+                    time.sleep(1.0)
+                    ghost_wins = get_ghost_windows()
+                    for w in ghost_wins:
+                        t = w.get("title", "").lower()
+                        c = w.get("class", "").lower()
+                        if "bonchat" in t or "bonchat" in c or "ajuda" in t:
+                            self.hwnd = w["hwnd"]
+                            self.is_ghost = True
+                            logger.info(f"BonChat window detected: HWND {self.hwnd} ('{w.get('title')}')")
+                            return self.hwnd
 
-        logger.warning("BonChat window not found.")
+        logger.warning("BonChat window not found on TIMI_GHOST.")
         return None
 
     def capture_window(self) -> Optional[Image.Image]:
