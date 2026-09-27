@@ -37,22 +37,43 @@ def setup_logging():
     )
 
 def purge_transient_data(max_digest_days: int = 3):
-    """Purges transient capture files to prevent disk bloat on the local PC."""
+    """Purges ALL transient/temporary files to prevent disk bloat on the local PC."""
+    import shutil
+    purge_logger = logging.getLogger("PurgeGuard")
+    freed = 0
     try:
-        import shutil
+        # 1. In-flight frame captures (always safe to delete — all knowledge is in KB)
         captures_dir = BASE_DIR / "data" / "captures"
         if captures_dir.exists():
+            sz = sum(f.stat().st_size for f in captures_dir.rglob("*") if f.is_file())
             shutil.rmtree(str(captures_dir), ignore_errors=True)
-        # Clean digests older than max_digest_days (since all are preserved on GitHub)
+            freed += sz
+
+        # 2. Digests older than max_digest_days (preserved on GitHub, not needed locally)
+        now = time.time()
         digest_dir = BASE_DIR / "data" / "digests"
         if digest_dir.exists():
-            now = time.time()
             for f in digest_dir.glob("*.md"):
                 if now - f.stat().st_mtime > max_digest_days * 86400:
-                    try: f.unlink()
+                    try:
+                        freed += f.stat().st_size
+                        f.unlink()
                     except Exception: pass
-    except Exception:
-        pass
+
+        # 3. AI hash cache entries older than 7 days (safe to rebuild)
+        cache_dir = BASE_DIR / "data" / "cache"
+        if cache_dir.exists():
+            for f in cache_dir.iterdir():
+                if f.is_file() and now - f.stat().st_mtime > 7 * 86400:
+                    try:
+                        freed += f.stat().st_size
+                        f.unlink()
+                    except Exception: pass
+
+        if freed > 0:
+            purge_logger.info(f"🧹 [PURGE] Libertados {freed / (1024**2):.1f} MB de ficheiros temporários do PC.")
+    except Exception as e:
+        purge_logger.debug(f"Purge note: {e}")
 
 def sync_to_github(commit_msg: str = "chore(intel): auto-sync intelligence and digests to GitHub"):
     """Automatically synchronizes all intelligence and documents directly to GitHub."""
@@ -211,6 +232,19 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
             no_news_msg = f"{step_prefix} [STATUS] Sem comunicados críticos da autoridade em '{c_name}'."
             logger.info(no_news_msg)
             LiveViewBridge.get_instance().emit_event(no_news_msg)
+
+        # ── PER-CHANNEL SYNC & PURGE ──────────────────────────────────────────
+        # Immediately commit the new knowledge for this channel to GitHub and
+        # purge all temporary in-flight frame data from the local disk so that
+        # long multi-group runs never fill up S:
+        sync_channel_msg = f"{step_prefix} [SYNC] A sincronizar conhecimento do canal '{c_name}' para o GitHub e a limpar temporários..."
+        logger.info(sync_channel_msg)
+        LiveViewBridge.get_instance().emit_event(sync_channel_msg)
+        sync_to_github(commit_msg=f"chore(intel): [{c_name}] knowledge sync {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}")
+        purge_transient_data(max_digest_days=3)
+        # Release frame list from memory immediately
+        new_frames.clear()
+        # ─────────────────────────────────────────────────────────────────────
 
     # 4. Generate final briefing
     full_digest = ai.generate_full_briefing(channel_reports, shift_label=shift_label)
