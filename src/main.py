@@ -110,10 +110,10 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
 
     watermark_tracker = WatermarkTracker()
     if deep_extract:
-        # For full deep extraction, ignore previous watermarks so we scan all history
+        # For full deep extraction across September, ignore watermarks and allow up to 80 passes
         watermark_tracker.channel_states = {}
-        max_scroll_passes = 25
-        logger.info("Deep extraction mode enabled: Watermark bypassed, max_scroll_passes=25.")
+        max_scroll_passes = 80
+        logger.info("Deep extraction mode enabled: Watermark bypassed, max_scroll_passes=80.")
     else:
         max_scroll_passes = cfg.get("max_scroll_passes", 15)
 

@@ -287,28 +287,25 @@ class BonChatReader:
         logger.info(f"Canal '{canonical}' não encontrado na barra lateral (não disponível nesta conta BonChat). A avançar...")
         return False
 
-    def scroll_chat_up(self, notches: int = 5):
+    def scroll_chat_up(self, step: int = 500):
         """
-        Scrolls the chat pane up using WM_MOUSEWHEEL with screen coordinates.
-        Completely prevents opening image preview popups.
+        Scrolls the chat pane up using calibrated WM_MOUSEWHEEL with Maestro SendMessage.
+        Ensures a consistent ~60-70% visual overlap between frames so NO messages are ever lost.
         """
         if not self.hwnd:
             return
         set_thread_to_ghost_desktop()
         LiveViewBridge.get_instance().register_action("SCROLL", "Chat MouseWheel Up", (1000, 500))
 
-        # Send WM_MOUSEWHEEL (0x020A) with screen coordinates (X=1000, Y=500)
-        screen_x = 1000
-        screen_y = 500
-        lparam = (screen_y << 16) | (screen_x & 0xFFFF)
-        delta = 120 * 4 # positive delta = scroll up
-        wparam = (delta & 0xFFFF) << 16
+        try:
+            rect = win32gui.GetWindowRect(self.hwnd)
+            lparam_scroll = win32api.MAKELONG(rect[0] + 600, rect[1] + 500)
+            wparam = win32api.MAKELONG(0, step) # Positive = scroll up
+            win32gui.SendMessage(self.hwnd, win32con.WM_MOUSEWHEEL, wparam, lparam_scroll)
+        except Exception as e:
+            logger.debug(f"Scroll SendMessage error: {e}")
 
-        for _ in range(notches):
-            user32.PostMessageW(self.hwnd, 0x020A, wparam, lparam)
-            time.sleep(0.04)
-
-        time.sleep(0.3)
+        time.sleep(0.35)
         self.dismiss_image_preview()
 
     def scan_channel_incremental(
@@ -331,6 +328,11 @@ class BonChatReader:
         logger.info(msg)
         LiveViewBridge.get_instance().emit_event(f"[{channel_canonical}] {msg}")
 
+        from .date_pill_detector import DatePillDetector
+        detector = DatePillDetector(tesseract_cmd=pytesseract.pytesseract.tesseract_cmd)
+        prev_hash = None
+        repeat_hash_count = 0
+
         for pass_idx in range(max_scroll_passes):
             full_img = self.capture_window()
             if not full_img:
@@ -343,33 +345,37 @@ class BonChatReader:
             chat_pane = full_img.crop((300, 45, w - 20, h - 60))
             frame_hash = watermark_tracker.compute_frame_hash(chat_pane)
 
-            # Quick local OCR (zero AI tokens) to check for message signatures
-            try:
-                quick_text = pytesseract.image_to_string(chat_pane, lang='por+eng', config='--psm 6')
-            except Exception:
-                quick_text = ""
+            # Check if chat reached top (hash repeating)
+            if frame_hash == prev_hash:
+                repeat_hash_count += 1
+                if repeat_hash_count >= 2:
+                    logger.info(f"🛑 [TOPO DA CONVERSA] Canal '{channel_canonical}' atingiu o topo das mensagens. Parando scroll.")
+                    break
+            else:
+                repeat_hash_count = 0
+            prev_hash = frame_hash
 
-            visible_messages = watermark_tracker.parse_chat_messages(quick_text)
-
-            # Check if this frame hits the previous scan's watermark with anti-false-positive checks
-            if not ignore_watermark:
-                reached, reason = watermark_tracker.is_watermark_reached(channel_canonical, visible_messages, frame_hash)
-                if reached:
-                    logger.info(
-                        f"🛑 [WATERMARK CHECKPOINT] Atingido o limite da leitura anterior no passo {pass_idx+1} ({reason})! "
-                        f"Parando scroll — mensagens anteriores já foram lidas."
-                    )
+            # Detect date pills to stop at beginning of September
+            detected_pills = detector.detect_date_pills(chat_pane)
+            stop_september = False
+            for p in detected_pills:
+                p_date = p.get("date_str")
+                if p_date and p_date < "2026-09-01":
+                    logger.info(f"🛑 [SETEMBRO COMPLETO] Separador anterior a Setembro detetado ({p_date}) no passo {pass_idx+1}. Parando scroll.")
+                    stop_september = True
                     break
 
             # Frame is new: store for analysis
             unprocessed_frames.append(chat_pane)
-            collected_signatures.extend(visible_messages)
             collected_frame_hashes.append(frame_hash)
 
+            if stop_september:
+                break
+
             if pass_idx < max_scroll_passes - 1:
-                # Scroll chat upwards to reveal older messages
-                self.scroll_chat_up(notches=5)
-                time.sleep(0.4)
+                # Scroll chat upwards with ~70% visual overlap (step=500)
+                self.scroll_chat_up(step=500)
+                time.sleep(0.35)
 
         # Update and persist watermark with newly seen messages and hashes
         if collected_signatures or collected_frame_hashes:

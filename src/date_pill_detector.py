@@ -65,7 +65,10 @@ class DatePillDetector:
         h, w, _ = cv_img.shape
 
         if chat_bounds is None:
-            chat_left, chat_right = 0, w
+            if w > 700:
+                chat_left, chat_right = 320, w
+            else:
+                chat_left, chat_right = 0, w
         else:
             chat_left, chat_right = chat_bounds
             chat_left = max(0, min(chat_left, w - 100))
@@ -73,9 +76,9 @@ class DatePillDetector:
 
         center_x = (chat_left + chat_right) // 2
 
-        # Horizontal search window around center (±120 pixels)
-        strip_x1 = max(0, center_x - 120)
-        strip_x2 = min(w, center_x + 120)
+        # Horizontal search window around center (±160 pixels)
+        strip_x1 = max(0, center_x - 160)
+        strip_x2 = min(w, center_x + 160)
         strip_y1 = 30
         strip_y2 = max(strip_y1 + 50, h - 50)
 
