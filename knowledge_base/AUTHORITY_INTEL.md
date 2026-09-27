@@ -10,6 +10,7 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20260927-030` | 2026-09-27 09:00 | `TIMI--NO.08` | TIMI--NO.08 | Aviso / Sorteio Oficial | [Ver Anexo](#intel-20260927-030) |
 | `INTEL-20260927-029` | 2026-09-17 01:04 | `Theodore` | Theodore | Diretiva / Onboarding | [Ver Anexo](#intel-20260927-029) |
 | `INTEL-20260927-028` | 2026-09-17 01:00 | `Theodore` | Leonor | Resposta | [Ver Anexo](#intel-20260927-028) |
 | `INTEL-20260927-027` | 2026-09-17 00:57 | `Theodore` | Theodore | Diretiva / Onboarding | [Ver Anexo](#intel-20260927-027) |
@@ -43,6 +44,24 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20260927-030"></a>[INTEL-20260927-030] — Aviso / Sorteio Oficial
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 09:00
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI--NO.08`
+- **🏷️ Categoria:** Aviso / Sorteio Oficial
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+TIMI atualizou a mensagem fixada. Número da sorte de hoje: 949889...
+```
+
+#### 💡 Pontos-Chave:
+- Número da sorte diário
+- 949889
 
 ---
 

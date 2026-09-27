@@ -1,5 +1,21 @@
 [
   {
+    "id": "INTEL-20260927-030",
+    "timestamp_published": "2026-09-27 12:30:21",
+    "date_str": "2026-09-27",
+    "time_str": "09:00",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI--NO.08",
+    "content_type": "Aviso / Sorteio Oficial",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "TIMI atualizou a mensagem fixada. Número da sorte de hoje: 949889...",
+    "key_takeaways": [
+      "Número da sorte diário",
+      "949889"
+    ]
+  },
+  {
     "id": "INTEL-20260927-029",
     "timestamp_published": "2026-09-27 12:19:51",
     "date_str": "2026-09-17",
