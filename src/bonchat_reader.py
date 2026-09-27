@@ -444,7 +444,9 @@ class BonChatReader:
             if frame_hash == prev_hash:
                 repeat_hash_count += 1
                 if repeat_hash_count >= 2:
-                    logger.info(f"🛑 [TOPO DA CONVERSA] Canal '{channel_canonical}' atingiu o topo das mensagens no passo {pass_idx}. Parando scroll.")
+                    top_msg = f"🛑 [TOPO DA CONVERSA] Canal '{channel_canonical}' atingiu o topo das mensagens no passo {pass_idx}. Parando scroll."
+                    logger.info(top_msg)
+                    LiveViewBridge.get_instance().emit_event(top_msg)
                     break
             else:
                 repeat_hash_count = 0
@@ -454,7 +456,9 @@ class BonChatReader:
             if not ignore_watermark:
                 is_wm, wm_reason = watermark_tracker.is_watermark_reached(channel_canonical, [], frame_hash)
                 if is_wm:
-                    logger.info(f"🛑 [WATERMARK ATINGIDA] Mensagens já lidas encontradas ({wm_reason}) no passo {pass_idx}. Parando scroll.")
+                    wm_msg = f"🛑 [WATERMARK ATINGIDA] Mensagens já lidas alcançadas ({wm_reason}) no passo {pass_idx}. Parando scroll."
+                    logger.info(wm_msg)
+                    LiveViewBridge.get_instance().emit_event(wm_msg)
                     break
 
             # 3. Detect date pills to stop at beginning of September
@@ -463,7 +467,9 @@ class BonChatReader:
             for p in detected_pills:
                 p_date = p.get("date_str")
                 if p_date and p_date < "2026-09-01":
-                    logger.info(f"🛑 [SETEMBRO COMPLETO] Separador anterior a Setembro detetado ({p_date}) no passo {pass_idx}. Parando scroll.")
+                    sep_msg = f"🛑 [SETEMBRO COMPLETO] Separador anterior a Setembro detetado ({p_date}) no passo {pass_idx}. Parando scroll."
+                    logger.info(sep_msg)
+                    LiveViewBridge.get_instance().emit_event(sep_msg)
                     stop_september = True
                     break
 

@@ -13,6 +13,7 @@ import requests
 from PIL import Image
 
 from .date_pill_detector import DatePillDetector
+from .telemetry_bridge import LiveViewBridge
 
 logger = logging.getLogger("AIIntelligence")
 
@@ -20,19 +21,16 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 CACHE_DIR = BASE_DIR / "data" / "cache"
 
 SYSTEM_PROMPT = """Tu és o Analista de Inteligência Operacional de Elite para a equipa TIMI.
-A tua missão é olhar diretamente para as capturas de ecrã dos canais do BonChat e extrair EXCLUSIVAMENTE o que é crítico e operacionalmente relevante para um agente em campo.
+A tua missão é olhar diretamente para as capturas de ecrã dos canais do BonChat e extrair o conteúdo das mensagens, anúncios e discussões relevantes de TODOS os autores e participantes em campo.
 
-REGRAS RÍGIDAS DE FILTRAGEM:
-1. FILTRA 100% DO LIXO:
-   - Elimina cumprimentos banais ("bom dia", "boa tarde", "olá", "boa noite", etc.).
-   - Elimina conversas casuais, piadas, memes, emojis soltos e agradecimentos.
-   - Elimina mensagens de membros comuns, conversas da Joana e do Rui Santos (foca-te apenas nas autoridades).
+REGRAS DE FILTRAGEM:
+1. FILTRA APENAS RUÍDO TRIVIAL:
+   - Elimina cumprimentos banais isolados sem conteúdo adicional ("bom dia", "olá", "obrigado", emojis soltos).
+   - Mantém todas as mensagens informativas, diretivas, questões operacionais, respostas e discussões de TODOS os autores (liderança e membros).
 
-2. MÁXIMA ATENÇÃO EXCLUSIVA ÀS AUTORIDADES:
-   - Theodore (diretivas, vídeos, promoções)
-   - Jonathan / TIMI-Jonathan (Gerente Geral da TIMI - convocações, penalizações, regras)
-   - Márcia (avisos operacionais)
-   - Canal oficial TIMI--NO.08 (sorteios oficiais, avisos de sistema)
+2. ATENÇÃO A TODOS OS PARTICIPANTES:
+   - Theodore, Jonathan / TIMI-Jonathan, Márcia, TIMI--NO.08.
+   - Líderes de equipa, formadores, agentes de campo e membros participantes.
 
 3. FOCA-TE NO CONTEÚDO REAL DE CARTAZES, IMAGENS E MENSAGENS FIXADAS:
    - 📢 AVISOS & REUNIÕES (datas, horários obrigatórios, penalizações de pontos)
@@ -207,6 +205,10 @@ class AIIntelligence:
             chunk_imgs = images[b_idx : b_idx + batch_size]
             chunk_num = (b_idx // batch_size) + 1
             total_chunks = (len(images) + batch_size - 1) // batch_size
+
+            msg_chunk = f"[{channel_name}] IA Vision: a analisar lote {chunk_num}/{total_chunks} ({len(chunk_imgs)} frames)..."
+            logger.info(msg_chunk)
+            LiveViewBridge.get_instance().emit_event(msg_chunk)
 
             # Detect date pills in this chunk
             detected_pills_info = []
