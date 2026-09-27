@@ -398,19 +398,22 @@ class BonChatReader:
         self,
         channel_canonical: str,
         watermark_tracker,
-        max_scroll_passes: int = 15,
-        ignore_watermark: bool = False
+        ignore_watermark: bool = False,
+        circuit_breaker_limit: int = 1000
     ) -> List[Image.Image]:
         """
-        Deep scrolls upwards through group messages looking for important announcements,
-        but stops immediately once it hits messages or frames that were already read in a previous scan.
-        If ignore_watermark is True, scans through all passes without early stop for historical extraction.
+        Deep scrolls upwards through group messages looking for important announcements.
+        100% dynamic without artificial pass limits:
+        Stops ONLY on intelligent conditions:
+        1. Top of Chat reached (chat window content no longer moves).
+        2. Date pill earlier than target period detected (e.g. before September 1st).
+        3. Watermark reached (previously parsed messages met, unless ignore_watermark=True).
         """
         unprocessed_frames: List[Image.Image] = []
         collected_signatures: List[str] = []
         collected_frame_hashes: List[str] = []
 
-        msg = f"Iniciando varredura incremental de '{channel_canonical}' (máx {max_scroll_passes} páginas)..."
+        msg = f"Iniciando varredura dinâmica de '{channel_canonical}' (sem limite artificial de passos)..."
         logger.info(msg)
         LiveViewBridge.get_instance().emit_event(f"[{channel_canonical}] {msg}")
 
@@ -418,36 +421,49 @@ class BonChatReader:
         detector = DatePillDetector(tesseract_cmd=pytesseract.pytesseract.tesseract_cmd)
         prev_hash = None
         repeat_hash_count = 0
+        pass_idx = 0
 
-        for pass_idx in range(max_scroll_passes):
+        while True:
+            pass_idx += 1
+            if pass_idx > circuit_breaker_limit:
+                logger.warning(f"⚠️ Circuit breaker de segurança atingido ({circuit_breaker_limit} passos). Parando scroll.")
+                break
+
             full_img = self.capture_window()
             if not full_img:
                 logger.warning("Could not capture window during scroll.")
                 break
 
-            LiveViewBridge.get_instance().emit_event(f"[{channel_canonical}] Scroll pass {pass_idx + 1}/{max_scroll_passes}")
+            LiveViewBridge.get_instance().emit_event(f"[{channel_canonical}] Scroll passo {pass_idx} (a verificar topo/data)...")
 
             w, h = full_img.size
             chat_pane = full_img.crop((300, 45, w - 20, h - 60))
             frame_hash = watermark_tracker.compute_frame_hash(chat_pane)
 
-            # Check if chat reached top (hash repeating)
+            # 1. Check if chat reached top (hash repeating)
             if frame_hash == prev_hash:
                 repeat_hash_count += 1
                 if repeat_hash_count >= 2:
-                    logger.info(f"🛑 [TOPO DA CONVERSA] Canal '{channel_canonical}' atingiu o topo das mensagens. Parando scroll.")
+                    logger.info(f"🛑 [TOPO DA CONVERSA] Canal '{channel_canonical}' atingiu o topo das mensagens no passo {pass_idx}. Parando scroll.")
                     break
             else:
                 repeat_hash_count = 0
             prev_hash = frame_hash
 
-            # Detect date pills to stop at beginning of September
+            # 2. Check if watermark was reached (incremental mode)
+            if not ignore_watermark:
+                is_wm, wm_reason = watermark_tracker.is_watermark_reached(channel_canonical, [], frame_hash)
+                if is_wm:
+                    logger.info(f"🛑 [WATERMARK ATINGIDA] Mensagens já lidas encontradas ({wm_reason}) no passo {pass_idx}. Parando scroll.")
+                    break
+
+            # 3. Detect date pills to stop at beginning of September
             detected_pills = detector.detect_date_pills(chat_pane)
             stop_september = False
             for p in detected_pills:
                 p_date = p.get("date_str")
                 if p_date and p_date < "2026-09-01":
-                    logger.info(f"🛑 [SETEMBRO COMPLETO] Separador anterior a Setembro detetado ({p_date}) no passo {pass_idx+1}. Parando scroll.")
+                    logger.info(f"🛑 [SETEMBRO COMPLETO] Separador anterior a Setembro detetado ({p_date}) no passo {pass_idx}. Parando scroll.")
                     stop_september = True
                     break
 
@@ -458,10 +474,9 @@ class BonChatReader:
             if stop_september:
                 break
 
-            if pass_idx < max_scroll_passes - 1:
-                # Scroll chat upwards with ~70% visual overlap (step=500)
-                self.scroll_chat_up(step=500)
-                time.sleep(0.35)
+            # Scroll chat upwards with ~70% visual overlap (step=500)
+            self.scroll_chat_up(step=500)
+            time.sleep(0.35)
 
         # Update and persist watermark with newly seen messages and hashes
         if collected_signatures or collected_frame_hashes:
@@ -472,7 +487,7 @@ class BonChatReader:
             )
 
         logger.info(
-            f"Finished incremental scan for '{channel_canonical}': "
-            f"captured {len(unprocessed_frames)} new frame(s) to analyze."
+            f"Finished dynamic scan for '{channel_canonical}': "
+            f"captured {len(unprocessed_frames)} frame(s) to analyze across {pass_idx} scroll steps."
         )
         return unprocessed_frames

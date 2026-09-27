@@ -110,12 +110,11 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
 
     watermark_tracker = WatermarkTracker()
     if deep_extract:
-        # For full deep extraction across September, ignore watermarks and allow up to 80 passes
+        # Full deep extraction across September: bypass watermark and scroll until top or date boundary
         watermark_tracker.channel_states = {}
-        max_scroll_passes = 80
-        logger.info("Deep extraction mode enabled: Watermark bypassed, max_scroll_passes=80.")
+        logger.info("Modo de extração contínua ativo: scroll dinâmico sem limite artificial de passos.")
     else:
-        max_scroll_passes = cfg.get("max_scroll_passes", 15)
+        logger.info("Modo incremental diário: scroll dinâmico até bater em mensagens já vistas (watermark) ou topo.")
 
     kb = KnowledgeBase()
 
@@ -174,7 +173,6 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
         new_frames = reader.scan_channel_incremental(
             channel_canonical=c_name,
             watermark_tracker=watermark_tracker,
-            max_scroll_passes=max_scroll_passes,
             ignore_watermark=deep_extract
         )
 
