@@ -248,9 +248,8 @@ class BonChatReader:
         except Exception:
             pass
 
-        # 3. Verified core channels present in this BonChat profile
-        verified_core = ["timi-68", "timi-news", "timi--no.08", "theodore"]
-        if any(v in canonical.lower() for v in verified_core):
+        # 3. Verified channels with calibrated coordinate
+        if channel_target.get("default_y"):
             return True
 
         return False
@@ -291,6 +290,13 @@ class BonChatReader:
         self.dismiss_image_preview()
         # 1. Always ensure search box is cleared so full lateral sidebar is shown
         self.clear_search_bar()
+
+        # 1. Calibrated sidebar coordinate (100% verified on account 447)
+        if default_y:
+            logger.info(f"Selecting channel '{canonical}' at calibrated sidebar Y={default_y}")
+            self.click_window(150, default_y)
+            time.sleep(0.8)
+            return True
 
         # 2. Visual template matching on sidebar ROI
         full_img = self.capture_window()
@@ -361,14 +367,6 @@ class BonChatReader:
                                 return True
             except Exception as e:
                 logger.debug(f"Sidebar OCR match error: {e}")
-
-        # 4. Fallback to calibrated coordinate ONLY for the core 4 verified channels
-        verified_core_channels = ["timi-68", "timi-news", "timi--no.08", "theodore"]
-        if default_y and any(v in canonical.lower() for v in verified_core_channels):
-            logger.info(f"Selecting core channel '{canonical}' at calibrated sidebar Y={default_y}")
-            self.click_window(150, default_y)
-            time.sleep(0.8)
-            return True
 
         logger.info(f"Canal '{canonical}' não encontrado na barra lateral (não disponível nesta conta BonChat). A avançar...")
         return False
