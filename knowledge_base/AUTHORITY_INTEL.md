@@ -10,6 +10,33 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20260927-057` | 2026-09-27 22:40 | `TIMI-68` | Aline | Geral | [Ver Anexo](#intel-20260927-057) |
+| `INTEL-20260927-056` | 2026-09-27 22:40 | `TIMI-68` | Andreia | Geral | [Ver Anexo](#intel-20260927-056) |
+| `INTEL-20260927-055` | 2026-09-27 22:39 | `TIMI-68` | Denis Cabral | Geral | [Ver Anexo](#intel-20260927-055) |
+| `INTEL-20260927-054` | 2026-09-27 22:39 | `TIMI-68` | Miguel Libanio | Diretiva | [Ver Anexo](#intel-20260927-054) |
+| `INTEL-20260927-053` | 2026-09-27 22:39 | `TIMI-68` | Salomé | Geral | [Ver Anexo](#intel-20260927-053) |
+| `INTEL-20260927-052` | 2026-09-27 22:39 | `TIMI-68` | Jo Rodrigues | Geral | [Ver Anexo](#intel-20260927-052) |
+| `INTEL-20260927-051` | 2026-09-27 22:38 | `TIMI-68` | Rafael Lima | Geral | [Ver Anexo](#intel-20260927-051) |
+| `INTEL-20260927-050` | 2026-09-27 22:38 | `TIMI-68` | Marco | Geral | [Ver Anexo](#intel-20260927-050) |
+| `INTEL-20260927-049` | 2026-09-27 22:38 | `TIMI-68` | Salomé | Geral | [Ver Anexo](#intel-20260927-049) |
+| `INTEL-20260927-048` | 2026-09-27 22:38 | `TIMI-68` | Rafael Lima | Geral | [Ver Anexo](#intel-20260927-048) |
+| `INTEL-20260927-047` | 2026-09-27 22:38 | `TIMI-68` | Salomé | Geral | [Ver Anexo](#intel-20260927-047) |
+| `INTEL-20260927-046` | 2026-09-27 22:37 | `TIMI-68` | Aline | Geral | [Ver Anexo](#intel-20260927-046) |
+| `INTEL-20260927-045` | 2026-09-27 09:30 | `TIMI-68` | Pro Dos Santos | Resposta | [Ver Anexo](#intel-20260927-045) |
+| `INTEL-20260927-044` | 2026-09-27 09:25 | `TIMI-68` | Agracia Costa | Resposta | [Ver Anexo](#intel-20260927-044) |
+| `INTEL-20260927-043` | 2026-09-27 09:20 | `TIMI-68` | Pro Dos Santos | Resposta | [Ver Anexo](#intel-20260927-043) |
+| `INTEL-20260927-042` | 2026-09-27 09:15 | `TIMI-68` | David | Campanha | [Ver Anexo](#intel-20260927-042) |
+| `INTEL-20260927-041` | 2026-09-27 09:10 | `TIMI-68` | Jeche Sebastiao | Geral | [Ver Anexo](#intel-20260927-041) |
+| `INTEL-20260927-040` | 2026-09-27 09:05 | `TIMI-68` | Nataliina Dos Reis | Campanha | [Ver Anexo](#intel-20260927-040) |
+| `INTEL-20260927-039` | 2026-09-27 09:00 | `TIMI-68` | Shirley | Resposta | [Ver Anexo](#intel-20260927-039) |
+| `INTEL-20260927-038` | 2026-09-26 22:51 | `TIMI-68` | Daisy | Geral | [Ver Anexo](#intel-20260927-038) |
+| `INTEL-20260927-037` | 2026-09-27 23:00 | `TIMI-68` | Agente de Campo / Membro | Campanha | [Ver Anexo](#intel-20260927-037) |
+| `INTEL-20260927-036` | 2026-09-27 23:00 | `TIMI-68` | Agente de Campo / Membro | Geral | [Ver Anexo](#intel-20260927-036) |
+| `INTEL-20260927-035` | 2026-09-27 23:04 | `TIMI-68` | TIMI--NO.08 | Diretiva / Geral | [Ver Anexo](#intel-20260927-035) |
+| `INTEL-20260927-034` | 2026-09-27 Desconhecido | `TIMI-68` | Shirley | Geral | [Ver Anexo](#intel-20260927-034) |
+| `INTEL-20260927-033` | 2026-09-27 23:22 | `TIMI-68` | Filipa Pires | Geral | [Ver Anexo](#intel-20260927-033) |
+| `INTEL-20260927-032` | 2026-09-27 23:21 | `TIMI-68` | Rafael Lima | Resposta | [Ver Anexo](#intel-20260927-032) |
+| `INTEL-20260927-031` | 2026-09-27 23:20 | `TIMI-68` | Anna Patterson | Geral | [Ver Anexo](#intel-20260927-031) |
 | `INTEL-20260927-030` | 2026-09-27 09:00 | `TIMI--NO.08` | TIMI--NO.08 | Aviso / Sorteio Oficial | [Ver Anexo](#intel-20260927-030) |
 | `INTEL-20260927-029` | 2026-09-17 01:04 | `Theodore` | Theodore | Diretiva / Onboarding | [Ver Anexo](#intel-20260927-029) |
 | `INTEL-20260927-028` | 2026-09-17 01:00 | `Theodore` | Leonor | Resposta | [Ver Anexo](#intel-20260927-028) |
@@ -44,6 +71,490 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20260927-057"></a>[INTEL-20260927-057] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 22:40
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Aline`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Também gosto 🐶
+```
+
+#### 💡 Pontos-Chave:
+- Apoio ao tema de animais de estimação
+
+---
+
+### <a id="intel-20260927-056"></a>[INTEL-20260927-056] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 22:40
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Andreia`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boa ideia
+```
+
+#### 💡 Pontos-Chave:
+- Validação das regras propostas por Miguel Libânio
+
+---
+
+### <a id="intel-20260927-055"></a>[INTEL-20260927-055] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 22:39
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Denis Cabral`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Me agrada desde que não seja IA.
+```
+
+#### 💡 Pontos-Chave:
+- Critério de exclusão de imagens geradas por IA para garantir originalidade
+
+---
+
+### <a id="intel-20260927-054"></a>[INTEL-20260927-054] — Diretiva
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 22:39
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Miguel Libanio`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+por exemplo cada participante pode tirar uma foto que seja relacionada com a timi,Cada participante poderá enviar 1 fotografia original
+
+Pode ser uma fotografia criativa, divertida, bonita ou diferente. O mais importante é mostrarem a TIMI da vossa própria perspetiva!
+Terão x minutos para participar.
+Apenas 1 fotografia por pessoa.
+No final, serão escolhidas as fotografias vencedoras através de votação.
+```
+
+#### 💡 Pontos-Chave:
+- Proposta de regulamento para o concurso de fotografia interno da TIMI
+- Requisitos: 1 foto original/pessoa ligada à TIMI, tempo limite de submissão e votação final
+
+---
+
+### <a id="intel-20260927-053"></a>[INTEL-20260927-053] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 22:39
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Salomé`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+foto a praticar desporto
+```
+
+#### 💡 Pontos-Chave:
+- Sugestão de fotos de prática desportiva
+
+---
+
+### <a id="intel-20260927-052"></a>[INTEL-20260927-052] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 22:39
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Jo Rodrigues`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+pode ser do melhor nascer ou por do 🌞!
+```
+
+#### 💡 Pontos-Chave:
+- Sugestão de fotos do nascer ou pôr do sol
+
+---
+
+### <a id="intel-20260927-051"></a>[INTEL-20260927-051] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 22:38
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Rafael Lima`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+fotos em macro
+```
+
+#### 💡 Pontos-Chave:
+- Sugestão de fotografia macro para o concurso
+
+---
+
+### <a id="intel-20260927-050"></a>[INTEL-20260927-050] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 22:38
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Marco`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+foto com a melhor sobremesa
+```
+
+#### 💡 Pontos-Chave:
+- Resposta à iniciativa de Theodore propondo foco em sobremesas
+
+---
+
+### <a id="intel-20260927-049"></a>[INTEL-20260927-049] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 22:38
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Salomé`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+também é uma excelente ideia 💡
+```
+
+#### 💡 Pontos-Chave:
+- Apoio à sugestão de fotografias de animais de estimação
+
+---
+
+### <a id="intel-20260927-048"></a>[INTEL-20260927-048] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 22:38
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Rafael Lima`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Ótimo! Bom saber heheh
+```
+
+#### 💡 Pontos-Chave:
+- Interação com Aline referente à rede de membros
+
+---
+
+### <a id="intel-20260927-047"></a>[INTEL-20260927-047] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 22:38
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Salomé`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+sobremesa com melhor aspecto 😋
+```
+
+#### 💡 Pontos-Chave:
+- Sugestão de tema para a competição de fotografia
+
+---
+
+### <a id="intel-20260927-046"></a>[INTEL-20260927-046] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 22:37
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Aline`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A Mimi é minha L1, é uma pessoa muito especial 💚
+```
+
+#### 💡 Pontos-Chave:
+- Identificação de hierarquia e ligação de equipa (Mimi como L1 de Aline)
+
+---
+
+### <a id="intel-20260927-045"></a>[INTEL-20260927-045] — Resposta
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 09:30
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Pro Dos Santos`
+- **🏷️ Categoria:** Resposta
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+De nada
+```
+
+#### 💡 Pontos-Chave:
+- Pro Dos Santos respondeu a um agradecimento.
+
+---
+
+### <a id="intel-20260927-044"></a>[INTEL-20260927-044] — Resposta
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 09:25
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Agracia Costa`
+- **🏷️ Categoria:** Resposta
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Obrigada meu chefe
+```
+
+#### 💡 Pontos-Chave:
+- Agracia Costa agradeceu a uma mensagem/diretiva.
+
+---
+
+### <a id="intel-20260927-043"></a>[INTEL-20260927-043] — Resposta
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 09:20
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Pro Dos Santos`
+- **🏷️ Categoria:** Resposta
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Oby man
+```
+
+#### 💡 Pontos-Chave:
+- Pro Dos Santos respondeu a uma mensagem anterior.
+
+---
+
+### <a id="intel-20260927-042"></a>[INTEL-20260927-042] — Campanha
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 09:15
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `David`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Trazer 3 amigos novos que ainda não aderiram à TPM para complementarem a taxa de condução - receber 50 USDT. Trazer 5 amigos novos que ainda não aderiram à TPM para complementarem a taxa de condução - receber 100 USDT.
+```
+
+#### 💡 Pontos-Chave:
+- Campanha de bónus por referência.
+- 3 novos aderentes TPM = 50 USDT.
+- 5 novos aderentes TPM = 100 USDT.
+- Bónus para complementar taxa de condução.
+
+---
+
+### <a id="intel-20260927-041"></a>[INTEL-20260927-041] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 09:10
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Jeche Sebastiao`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+O estagio de fogo no 30 Domingo
+```
+
+#### 💡 Pontos-Chave:
+- Menção de um 'estágio de fogo' agendado para o dia 30 (Domingo).
+
+---
+
+### <a id="intel-20260927-040"></a>[INTEL-20260927-040] — Campanha
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 09:05
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Nataliina Dos Reis`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Trazer 3 amigos novos que ainda não aderiram à TPM para complementarem a taxa de condução - receber 50 USDT. Trazer 5 amigos novos que ainda não aderiram à TPM para complementarem a taxa de condução - receber 100 USDT.
+```
+
+#### 💡 Pontos-Chave:
+- Campanha de bónus por referência.
+- 3 novos aderentes TPM = 50 USDT.
+- 5 novos aderentes TPM = 100 USDT.
+- Bónus para complementar taxa de condução.
+
+---
+
+### <a id="intel-20260927-039"></a>[INTEL-20260927-039] — Resposta
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 09:00
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Shirley`
+- **🏷️ Categoria:** Resposta
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Já falei
+```
+
+#### 💡 Pontos-Chave:
+- Shirley respondeu a uma questão ou comentário anterior.
+
+---
+
+### <a id="intel-20260927-038"></a>[INTEL-20260927-038] — Geral
+
+- **📅 Data de Publicação:** 2026-09-26
+- **⏰ Hora:** 22:51
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Daisy`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Daisy 09/26 22:51 tomei um print de tela pelo celular
+```
+
+#### 💡 Pontos-Chave:
+- Utilizador tirou um print de tela do celular.
+
+---
+
+### <a id="intel-20260927-037"></a>[INTEL-20260927-037] — Campanha
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 23:00
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Agente de Campo / Membro`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+[Partilha de capturas de ecrã de conversas do WhatsApp com distribuição do cartaz de campanha: 'Trazer 3 amigos novos que ainda não aderiram à TIMI para completarem o teste de condução -> receber 50 USDT / Trazer 5 amigos novos que ainda não aderiram à TIMI para completarem o teste de condução -> receber 100 USDT']
+```
+
+#### 💡 Pontos-Chave:
+- Atividade de recrutamento ativo em curso via WhatsApp
+- Campanha com bónus de 50 USDT por 3 novos membros ou 100 USDT por 5 novos membros que concluam o teste de condução
+
+---
+
+### <a id="intel-20260927-036"></a>[INTEL-20260927-036] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 23:00
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Agente de Campo / Membro`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+[Partilha de captura de ecrã com comprovativo de receita da plataforma TIMI: ID zc2026092622111682276, +5 USDT, Recompensas de formação, Oferta da plataforma]
+```
+
+#### 💡 Pontos-Chave:
+- Evidência de crédito de 5 USDT a título de recompensa de formação na plataforma
+
+---
+
+### <a id="intel-20260927-035"></a>[INTEL-20260927-035] — Diretiva / Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 23:04
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI--NO.08`
+- **🏷️ Categoria:** Diretiva / Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Os Centros de Experiência estão a expandir-se rapidamente e a TIMI está cada vez mais perto de si!
+
+Encontre o Centro de Experiência mais próximo de si e clique no link para consultar ⚡
+
+🔗 https://tinyurl.com/TIMI-Experience-Center
+```
+
+#### 💡 Pontos-Chave:
+- Anúncio da rápida expansão dos Centros de Experiência físicos da TIMI
+- Disponibilização do link direto para consultar a localização das unidades mais próximas
+
+---
+
+### <a id="intel-20260927-034"></a>[INTEL-20260927-034] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** Desconhecido
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Shirley`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Já falei
+```
+
+#### 💡 Pontos-Chave:
+- Shirley indicou que já havia comunicado sobre um tópico
+
+---
+
+### <a id="intel-20260927-033"></a>[INTEL-20260927-033] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 23:22
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Filipa Pires`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Eu sou Filipa Pires (ID 933667967) e hoje pedi ao gestor um desafio de equipa. Acredito que, desde que haja objetivos e ação, é certamente possível concluir. Situação da equipa: Sou Agente nível 1 e a minha equipa é atualmente composta por 1 L1 que já é Agente nível 1 e 4 L1 que...
+```
+
+#### 💡 Pontos-Chave:
+- Filipa Pires (ID 933667967) solicitou um desafio de equipa
+- Acredita na conclusão de desafios com objetivos e ação
+- É Agente nível 1
+- Equipa composta por 1 L1 (Agente nível 1) e 4 L1s adicionais
+
+---
+
+### <a id="intel-20260927-032"></a>[INTEL-20260927-032] — Resposta
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 23:21
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Rafael Lima`
+- **🏷️ Categoria:** Resposta
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Mais uma formação concluída com sucesso!...
+```
+
+#### 💡 Pontos-Chave:
+- Confirmação do sucesso da formação
+
+---
+
+### <a id="intel-20260927-031"></a>[INTEL-20260927-031] — Geral
+
+- **📅 Data de Publicação:** 2026-09-27
+- **⏰ Hora:** 23:20
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Anna Patterson`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Mais uma formação concluída com sucesso! Falamos sobre vários temas da empresa, Partilhamos as oportunidades e as promoções da empresa, e também o crescimento da Timi desde que chegou a Portugal. Também falamos sobre como aproveitar os pontos fortes, aumentar os rendimentos e alcançar posições de liderança. 📈 A formação online criou oportunidades de aprendizagem e quebrou barreiras de distância. Obrigado ao meu líder e a todos os participantes. 🙏🙌🥳
+```
+
+#### 💡 Pontos-Chave:
+- Formação online concluída com sucesso
+- Discussão sobre oportunidades e promoções da empresa
+- Crescimento da TIMI em Portugal
+- Estratégias para aumentar rendimentos e alcançar liderança
+- Formação elogiada por quebrar barreiras de distância
 
 ---
 
