@@ -125,6 +125,15 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
         targets = [t for t in targets if specific_channel.lower() in t.get("canonical_name", "").lower()]
         if not targets:
             targets = [{"canonical_name": specific_channel, "display_name": specific_channel, "search_term": specific_channel}]
+    else:
+        # Autonomous discovery: restrict strictly to channels currently visible/available
+        available_targets, missing_names = reader.filter_available_channels(targets)
+        if available_targets:
+            avail_names = [t.get("canonical_name") for t in available_targets]
+            logger.info(f"🔎 [AUTONOMIA] Canais ativos e presentes no BonChat ({len(available_targets)}/{len(targets)}): {avail_names}")
+            if missing_names:
+                logger.info(f"ℹ️ [FILTRO] {len(missing_names)} canal(is) configurado(s) não presentes nesta conta (ignorados sem erro): {missing_names}")
+            targets = available_targets
 
     logger.info(f"Target channels to scan ({len(targets)} channels)")
 

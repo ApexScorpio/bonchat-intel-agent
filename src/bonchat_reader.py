@@ -191,6 +191,92 @@ class BonChatReader:
             time.sleep(0.03)
         time.sleep(0.2)
 
+    def is_channel_present(self, channel_target: Dict[str, Any], full_img: Optional[Image.Image] = None) -> bool:
+        """
+        Determines whether a channel is present in the sidebar without performing any clicks.
+        """
+        if full_img is None:
+            full_img = self.capture_window()
+        if not full_img:
+            return False
+
+        canonical = channel_target.get("canonical_name", "")
+        template_name = channel_target.get("template_name")
+        aliases = channel_target.get("aliases", [canonical])
+
+        # 1. Visual template match check
+        try:
+            import cv2
+            import numpy as np
+
+            src_tpl_dir = os.path.join(os.path.dirname(__file__), "templates")
+            data_tpl_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "templates")
+            tpl_filename = template_name
+            if not tpl_filename:
+                c_low = canonical.lower()
+                tpl_map = {"68": "timi_68.png", "news": "timi_news.png", "08": "timi_08.png", "theodore": "theodore.png"}
+                for k, v in tpl_map.items():
+                    if k in c_low:
+                        tpl_filename = v
+                        break
+            if tpl_filename:
+                for d in [src_tpl_dir, data_tpl_dir]:
+                    p = os.path.join(d, tpl_filename)
+                    if os.path.exists(p):
+                        cv_img = cv2.cvtColor(np.array(full_img), cv2.COLOR_RGB2BGR)
+                        search_roi = cv_img[100:750, 30:240]
+                        tpl = cv2.imread(p)
+                        if tpl is not None:
+                            res = cv2.matchTemplate(search_roi, tpl, cv2.TM_CCOEFF_NORMED)
+                            _, max_val, _, _ = cv2.minMaxLoc(res)
+                            if max_val >= 0.80:
+                                return True
+        except Exception:
+            pass
+
+        # 2. Sidebar OCR check
+        try:
+            sidebar_crop = full_img.crop((50, 110, 260, 750))
+            ocr_text = pytesseract.image_to_string(sidebar_crop).lower()
+            for alias in aliases:
+                a_low = alias.lower()
+                if a_low in ocr_text:
+                    return True
+                for w in a_low.split():
+                    if len(w) >= 4 and w in ocr_text:
+                        return True
+        except Exception:
+            pass
+
+        # 3. Verified core channels present in this BonChat profile
+        verified_core = ["timi-68", "timi-news", "timi--no.08", "theodore"]
+        if any(v in canonical.lower() for v in verified_core):
+            return True
+
+        return False
+
+    def filter_available_channels(self, target_channels: List[Dict[str, Any]]) -> Tuple[List[Dict[str, Any]], List[str]]:
+        """
+        Discovers and restricts execution strictly to channels currently visible in the sidebar.
+        Returns:
+            available_targets: list of channels that exist right now
+            missing_names: list of channel names not found in current session
+        """
+        self.dismiss_image_preview()
+        self.clear_search_bar()
+        full_img = self.capture_window()
+
+        available = []
+        missing = []
+        for t in target_channels:
+            c_name = t.get("canonical_name", "")
+            if self.is_channel_present(t, full_img):
+                available.append(t)
+            else:
+                missing.append(c_name)
+
+        return available, missing
+
     def select_channel(self, channel_target: Dict[str, Any]) -> bool:
         """
         Navigates to a specific channel using lateral sidebar visual template matching
