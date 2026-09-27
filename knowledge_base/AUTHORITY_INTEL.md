@@ -10,6 +10,14 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20260927-029` | 2026-09-17 01:04 | `Theodore` | Theodore | Diretiva / Onboarding | [Ver Anexo](#intel-20260927-029) |
+| `INTEL-20260927-028` | 2026-09-17 01:00 | `Theodore` | Leonor | Resposta | [Ver Anexo](#intel-20260927-028) |
+| `INTEL-20260927-027` | 2026-09-17 00:57 | `Theodore` | Theodore | Diretiva / Onboarding | [Ver Anexo](#intel-20260927-027) |
+| `INTEL-20260927-026` | 2026-09-17 00:44 | `Theodore` | Leonor | Resposta | [Ver Anexo](#intel-20260927-026) |
+| `INTEL-20260927-025` | 2026-09-17 00:41 | `Theodore` | Theodore | Diretiva / Onboarding | [Ver Anexo](#intel-20260927-025) |
+| `INTEL-20260927-024` | 2026-09-17 00:40 | `Theodore` | Leonor | Geral | [Ver Anexo](#intel-20260927-024) |
+| `INTEL-20260927-023` | 2026-09-17 00:40 | `Theodore` | Leonor | Geral | [Ver Anexo](#intel-20260927-023) |
+| `INTEL-20260927-022` | 2026-09-17 00:39 | `Theodore` | Theodore | Geral | [Ver Anexo](#intel-20260927-022) |
 | `INTEL-20260927-021` | 2026-09-17 15:38 | `Theodore` | TIMI--NO.08 | Diretiva / Aviso | [Ver Anexo](#intel-20260927-021) |
 | `INTEL-20260927-020` | 2026-09-17 14:30 | `TIMI--NO.08` | Márcia | Orientação de Chefia | [Ver Anexo](#intel-20260927-020) |
 | `INTEL-20260927-019` | 2026-09-16 09:05 | `TIMI--NO.08` | TIMI--NO.08 | Campanha / Diretiva Operacional | [Ver Anexo](#intel-20260927-019) |
@@ -35,6 +43,144 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20260927-029"></a>[INTEL-20260927-029] — Diretiva / Onboarding
+
+- **📅 Data de Publicação:** 2026-09-17
+- **⏰ Hora:** 01:04
+- **👥 Grupo / Canal:** `Theodore`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva / Onboarding
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+🎉 Parabéns por te juntares oficialmente à TIMI, tornando-te nosso parceiro! De seguida, vou enviar-vos alguns materiais sobre a TIMI. Os materiais incluem principalmente: Apresentação da empresa TIMI Rumos do desenvolvimento do sector da mobilidade partilhada Planos de expansão do mercado
+```
+
+#### 💡 Pontos-Chave:
+- Boas-vindas oficial à TIMI.
+- Serão enviados materiais sobre a empresa: apresentação, desenvolvimento do setor de mobilidade partilhada, planos de expansão de mercado.
+
+---
+
+### <a id="intel-20260927-028"></a>[INTEL-20260927-028] — Resposta
+
+- **📅 Data de Publicação:** 2026-09-17
+- **⏰ Hora:** 01:00
+- **👥 Grupo / Canal:** `Theodore`
+- **👑 Autoridade / Emissor:** `Leonor`
+- **🏷️ Categoria:** Resposta
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+920597801
+```
+
+#### 💡 Pontos-Chave:
+- Leonor fornece o número de telefone de registo.
+
+---
+
+### <a id="intel-20260927-027"></a>[INTEL-20260927-027] — Diretiva / Onboarding
+
+- **📅 Data de Publicação:** 2026-09-17
+- **⏰ Hora:** 00:57
+- **👥 Grupo / Canal:** `Theodore`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva / Onboarding
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boa noite, Leonor. Muito prazer em conhecer-te. Por favor, diz-me o número de telefone que usaste para registar a conta TIMI.
+```
+
+#### 💡 Pontos-Chave:
+- Theodore solicita o número de telefone usado para registar a conta TIMI.
+
+---
+
+### <a id="intel-20260927-026"></a>[INTEL-20260927-026] — Resposta
+
+- **📅 Data de Publicação:** 2026-09-17
+- **⏰ Hora:** 00:44
+- **👥 Grupo / Canal:** `Theodore`
+- **👑 Autoridade / Emissor:** `Leonor`
+- **🏷️ Categoria:** Resposta
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Leonor Fem 27 Estudante Portimão
+```
+
+#### 💡 Pontos-Chave:
+- Leonor fornece informações pessoais solicitadas.
+
+---
+
+### <a id="intel-20260927-025"></a>[INTEL-20260927-025] — Diretiva / Onboarding
+
+- **📅 Data de Publicação:** 2026-09-17
+- **⏰ Hora:** 00:41
+- **👥 Grupo / Canal:** `Theodore`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva / Onboarding
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Olá, muito prazer em conhecer-te! Sou o Theodore, responsável de mercado da TIMI. A partir de agora, serei o teu contacto principal, ajudando-te a conhecer o conteúdo do projeto da empresa e a forma de colaboração. Espero que mantenhamos uma boa comunicação, aprendamos juntos e cresçamos juntos. Antes de começarmos oficialmente, preenche as seguintes informações básicas para que eu possa conhecer melhor a tua situação e organizar o teu plano de aprendizagem: Número de telemóvel registado na TIMI: Nome: Sexo: Idade: Profissão: Cidade de residência:
+```
+
+#### 💡 Pontos-Chave:
+- Theodore é o responsável de mercado e contacto principal.
+- Solicita informações básicas para plano de aprendizagem: telemóvel registado, nome, sexo, idade, profissão, cidade de residência.
+
+---
+
+### <a id="intel-20260927-024"></a>[INTEL-20260927-024] — Geral
+
+- **📅 Data de Publicação:** 2026-09-17
+- **⏰ Hora:** 00:40
+- **👥 Grupo / Canal:** `Theodore`
+- **👑 Autoridade / Emissor:** `Leonor`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Venho da parte do Miguel
+```
+
+#### 💡 Pontos-Chave:
+- Leonor indica que foi referenciada por Miguel.
+
+---
+
+### <a id="intel-20260927-023"></a>[INTEL-20260927-023] — Geral
+
+- **📅 Data de Publicação:** 2026-09-17
+- **⏰ Hora:** 00:40
+- **👥 Grupo / Canal:** `Theodore`
+- **👑 Autoridade / Emissor:** `Leonor`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Bom dia
+```
+
+#### 💡 Pontos-Chave:
+- Leonor cumprimenta.
+
+---
+
+### <a id="intel-20260927-022"></a>[INTEL-20260927-022] — Geral
+
+- **📅 Data de Publicação:** 2026-09-17
+- **⏰ Hora:** 00:39
+- **👥 Grupo / Canal:** `Theodore`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Olá, seja bem-vindo(a) ao TIMI. O meu nome é Theodore.
+```
+
+#### 💡 Pontos-Chave:
+- Theodore apresenta-se e dá as boas-vindas à TIMI.
 
 ---
 
