@@ -1,5 +1,264 @@
 [
   {
+    "id": "INTEL-20260928-081",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-03",
+    "time_str": "20:22",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Theodore",
+    "content_type": "Aviso / Reunião / Bónus / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Todos se lembrem de avisar uns aos outros para participarem na reunião do grupo de hoje à noite a tempo! Enviarei duas recompensas de sorte. Quem participar na reunião poderá recebê-las atempadamente. Não deixem que a falta de aviso vos faça perder as vossas recompensas. Lembrem também os colegas que ainda não viram esta mensagem!",
+    "key_takeaways": [
+      "Lembrete para avisar sobre reunião noturna",
+      "Duas recompensas de sorte para participantes da reunião",
+      "Alerta para não perder recompensas por falta de aviso",
+      "Instrução para lembrar colegas que não viram a mensagem"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-080",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-03",
+    "time_str": "19:45",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Theodore",
+    "content_type": "Aviso / Reunião / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Todos devem informar os membros da equipa para participarem na reunião de hoje à noite a tempo!",
+    "key_takeaways": [
+      "Diretiva para informar membros sobre reunião noturna",
+      "Ênfase na participação a tempo"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-079",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-03",
+    "time_str": "19:26",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Paulo",
+    "content_type": "Geral / Cumprimento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Boa tarde, Agentes",
+    "key_takeaways": [
+      "Saudação aos agentes"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-078",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-03",
+    "time_str": "15:27",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Pedro Peters",
+    "content_type": "Resposta / Agradecimento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Obrigado 👍",
+    "key_takeaways": [
+      "Agradecimento"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-077",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-03",
+    "time_str": "14:22",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Pedro Peters",
+    "content_type": "Resposta / Agradecimento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Obrigado Theodore!",
+    "key_takeaways": [
+      "Agradecimento a Theodore pela promoção e recompensa"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-076",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-03",
+    "time_str": "14:25",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "RBP",
+    "content_type": "Geral / Congratulação",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Parabéns à nossa excelente parceira Pedro **57754, q... O caminho é sempre a subir 📈",
+    "key_takeaways": [
+      "Congratulação a Pedro **57754 pela promoção"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-075",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-03",
+    "time_str": "14:15",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Theodore",
+    "content_type": "Bónus / Promoção",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Parabéns à nossa excelente parceira Pedro **57754, que com a sua persistência e dedicação conseguiu ser promovida a Agente Júnior! Ganhou 80 USDT de recompensa de promoção, e isto é apenas o começo o objetivo já está a caminho. Continua a avançar com força!",
+    "key_takeaways": [
+      "Promoção de Pedro **57754 a Agente Júnior",
+      "Recompensa de 80 USDT pela promoção",
+      "Incentivo para continuar o trabalho e alcançar novos objetivos"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-074",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-03",
+    "time_str": "13:03",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Santiago",
+    "content_type": "Geral / Informação",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Salário de Agente Nível 1 recebido.",
+    "key_takeaways": [
+      "Confirmação de recebimento de salário de Agente Nível 1"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-073",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-03",
+    "time_str": "14:45",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Theodore",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Depois de adicionar, envia-me o teu nome de utilizador da TIML",
+    "key_takeaways": [
+      "Instrução para enviar o nome de utilizador TIML após adicionar Theodore no Telegram"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-072",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-03",
+    "time_str": "14:44",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Theodore",
+    "content_type": "Diretiva / Ferramenta",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "https://t.me/Theodore0025113",
+    "key_takeaways": [
+      "Link direto para adicionar Theodore no Telegram"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-071",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-03",
+    "time_str": "14:44",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Theodore",
+    "content_type": "Diretiva / Novidade de Funcionamento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Boa tarde a todos! Reparei que muitos parceiros não estão habituados a usar o BonChat. Por isso, podem adicionar-me no Telegram e comunicamos diretamente por lá. Os parceiros que se destacam e são mais ativos na equipa também podem ensinar os novos membros a adicionar-me, para facilitar a comunicação e o contacto futuro.",
+    "key_takeaways": [
+      "Migração da comunicação para o Telegram devido à inexperiência com BonChat",
+      "Parceiros ativos devem ensinar novos membros a adicionar Theodore no Telegram",
+      "Objetivo de facilitar a comunicação e o contacto futuro"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-070",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-06",
+    "time_str": "23:18",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Theodore",
+    "content_type": "Campanha / Bónus / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Os nossos excelentes parceiros estão nas ruas, ao sol e junto aos mercados, a entregar cada folheto com um sorriso e a convidar sinceramente cada pessoa a experimentar. Não ficam à espera das oportunidades – levam-nas diretamente às mãos das pessoas. Um simples folheto pode ser o ponto de partida para uma mudança. Todos os parceiros que participarem na distribuição presencial de folhetos vão receber uma recompensa de 50 dólares! Com ação, levamos a TIMI a mais famílias e tornamos as recompensas acessíveis a todos.",
+    "key_takeaways": [
+      "Agentes estão a distribuir folhetos em campo (ruas e mercados).",
+      "Incentivo à proatividade e contacto direto com potenciais clientes.",
+      "Recompensa de 50 dólares para todos os parceiros que participarem na distribuição presencial de folhetos.",
+      "Objetivo de expandir o alcance da TIMI e tornar as recompensas acessíveis a mais famílias."
+    ]
+  },
+  {
+    "id": "INTEL-20260928-069",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-06",
+    "time_str": "10:52",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Theodore",
+    "content_type": "Aviso / Bónus / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Parabéns à nossa excelente parceira Fábio **98852, que com a sua persistência e dedicação conseguiu ser promovida a agente júnior! Ganhou 80 USDT de recompensa de promoção, e isto é apenas o começo! O próximo objetivo já está a caminho. Continua a avançar com força!",
+    "key_takeaways": [
+      "Promoção de Fábio **98852 a agente júnior.",
+      "Recompensa de 80 USDT pela promoção.",
+      "Incentivo para continuar a alcançar novos objetivos."
+    ]
+  },
+  {
+    "id": "INTEL-20260928-068",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-28",
+    "time_str": "16:53",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Theodore",
+    "content_type": "Diretiva / Formação",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Todos podem ver, este é um vídeo criativo filmado pessoalmente pelo proprietário do centro de formação de Sintra 👏 Tem realmente muita criatividade, é natural e tem o seu próprio estilo, combinando muito bem a TIMI com a atmosfera local. Este tipo de conteúdo não precisa de ser muito complicado; o importante é ter criatividade, capacidade de acção e um bom potencial de partilha. É também uma óptima referência para todos. Quem tiver boas ideias, pode experimentar sem medo — quem sabe, o próximo excelente trabalho poderá ser o teu!",
+    "key_takeaways": [
+      "Exemplo prático partilhado a partir do Centro de Formação de Sintra",
+      "Orientações para criação de conteúdo descomplicado, local e autêntico",
+      "Estímulo à replicação da estratégia por outros agentes"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-067",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-28",
+    "time_str": "11:52",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Theodore",
+    "content_type": "Diretiva / Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "As férias e a época alta das praias estão a terminar. A partir de agora, cada vez mais parceiros vão ter mais tempo livre e poderão dedicar mais atenção à TIMI.\n\nAs experiências presenciais, formações, intercâmbio entre equipas e promoção de mercado estão todas em curso — estas são oportunidades que todos podem aproveitar.\n\nSe quiseres fazer com que os teus rendimentos mensais ultrapassem os 2000 euros, podes contactar-me a qualquer momento. Consoante a tua situação, ensinar-te-ei passo a passo como fazer.",
+    "key_takeaways": [
+      "Fim do período de férias com apelo ao reforço de dedicação à TIMI",
+      "Ações presenciais, formações e promoção de mercado em curso",
+      "Mentoria individual aberta para atingir rendimentos superiores a 2.000€ mensais"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-066",
+    "timestamp_published": "2026-09-28 08:19:11",
+    "date_str": "2026-09-28",
+    "time_str": "00:27",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Theodore",
+    "content_type": "Campanha / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Pega no telemóvel e grava o teu próprio vídeo criativo sobre a TIMI.\n\nPodes fazer em conjunto com as actividades do evento;\npodes cantar;\npodes dançar;\npodes gritar com os teus amigos:\n\"TIMI mobilidade verde!\"\n\nPublica nas plataformas indicadas e adiciona a hashtag #TIMI de acordo com as regras, e terás a oportunidade de participar na avaliação desta actividade de vídeos criativos.\n\n1.º lugar: 300 euros\n2.º lugar: 200 euros\n3.º lugar: 100 euros\n\nPor isso, hoje não vás só para ver.\nParticipa, grava e partilha a TIMI que vês com mais pessoas.",
+    "key_takeaways": [
+      "Concurso de vídeos criativos com premiação de 300€, 200€ e 100€",
+      "Obrigatoriedade da hashtag #TIMI e foco no tema Mobilidade Verde",
+      "Incentivo à produção ativa de conteúdo promocional"
+    ]
+  },
+  {
     "id": "INTEL-20260928-065",
     "timestamp_published": "2026-09-28 08:07:57",
     "date_str": "2026-09-02",

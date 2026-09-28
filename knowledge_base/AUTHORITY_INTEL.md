@@ -10,6 +10,22 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20260928-081` | 2026-09-03 20:22 | `Equipa de Agentes de Elite da TIMI` | Theodore | Aviso / Reunião / Bónus / Diretiva | [Ver Anexo](#intel-20260928-081) |
+| `INTEL-20260928-080` | 2026-09-03 19:45 | `Equipa de Agentes de Elite da TIMI` | Theodore | Aviso / Reunião / Diretiva | [Ver Anexo](#intel-20260928-080) |
+| `INTEL-20260928-079` | 2026-09-03 19:26 | `Equipa de Agentes de Elite da TIMI` | Paulo | Geral / Cumprimento | [Ver Anexo](#intel-20260928-079) |
+| `INTEL-20260928-078` | 2026-09-03 15:27 | `Equipa de Agentes de Elite da TIMI` | Pedro Peters | Resposta / Agradecimento | [Ver Anexo](#intel-20260928-078) |
+| `INTEL-20260928-077` | 2026-09-03 14:22 | `Equipa de Agentes de Elite da TIMI` | Pedro Peters | Resposta / Agradecimento | [Ver Anexo](#intel-20260928-077) |
+| `INTEL-20260928-076` | 2026-09-03 14:25 | `Equipa de Agentes de Elite da TIMI` | RBP | Geral / Congratulação | [Ver Anexo](#intel-20260928-076) |
+| `INTEL-20260928-075` | 2026-09-03 14:15 | `Equipa de Agentes de Elite da TIMI` | Theodore | Bónus / Promoção | [Ver Anexo](#intel-20260928-075) |
+| `INTEL-20260928-074` | 2026-09-03 13:03 | `Equipa de Agentes de Elite da TIMI` | Santiago | Geral / Informação | [Ver Anexo](#intel-20260928-074) |
+| `INTEL-20260928-073` | 2026-09-03 14:45 | `Equipa de Agentes de Elite da TIMI` | Theodore | Diretiva | [Ver Anexo](#intel-20260928-073) |
+| `INTEL-20260928-072` | 2026-09-03 14:44 | `Equipa de Agentes de Elite da TIMI` | Theodore | Diretiva / Ferramenta | [Ver Anexo](#intel-20260928-072) |
+| `INTEL-20260928-071` | 2026-09-03 14:44 | `Equipa de Agentes de Elite da TIMI` | Theodore | Diretiva / Novidade de Funcionamento | [Ver Anexo](#intel-20260928-071) |
+| `INTEL-20260928-070` | 2026-09-06 23:18 | `Equipa de Agentes de Elite da TIMI` | Theodore | Campanha / Bónus / Diretiva | [Ver Anexo](#intel-20260928-070) |
+| `INTEL-20260928-069` | 2026-09-06 10:52 | `Equipa de Agentes de Elite da TIMI` | Theodore | Aviso / Bónus / Diretiva | [Ver Anexo](#intel-20260928-069) |
+| `INTEL-20260928-068` | 2026-09-28 16:53 | `Equipa de Agentes de Elite da TIMI` | Theodore | Diretiva / Formação | [Ver Anexo](#intel-20260928-068) |
+| `INTEL-20260928-067` | 2026-09-28 11:52 | `Equipa de Agentes de Elite da TIMI` | Theodore | Diretiva / Geral | [Ver Anexo](#intel-20260928-067) |
+| `INTEL-20260928-066` | 2026-09-28 00:27 | `Equipa de Agentes de Elite da TIMI` | Theodore | Campanha / Diretiva | [Ver Anexo](#intel-20260928-066) |
 | `INTEL-20260928-065` | 2026-09-02 11:33 | `TIMI--NO.08` | Xinha | Explicação / Campanha | [Ver Anexo](#intel-20260928-065) |
 | `INTEL-20260928-064` | 2026-09-02 11:33 | `TIMI--NO.08` | TIMI PORTUGAL DREAM TEAM | Aviso / Campanha | [Ver Anexo](#intel-20260928-064) |
 | `INTEL-20260928-063` | 2026-09-02 14:15 | `TIMI--NO.08` | Rui Santos | Geral | [Ver Anexo](#intel-20260928-063) |
@@ -79,6 +95,316 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20260928-081"></a>[INTEL-20260928-081] — Aviso / Reunião / Bónus / Diretiva
+
+- **📅 Data de Publicação:** 2026-09-03
+- **⏰ Hora:** 20:22
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Aviso / Reunião / Bónus / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Todos se lembrem de avisar uns aos outros para participarem na reunião do grupo de hoje à noite a tempo! Enviarei duas recompensas de sorte. Quem participar na reunião poderá recebê-las atempadamente. Não deixem que a falta de aviso vos faça perder as vossas recompensas. Lembrem também os colegas que ainda não viram esta mensagem!
+```
+
+#### 💡 Pontos-Chave:
+- Lembrete para avisar sobre reunião noturna
+- Duas recompensas de sorte para participantes da reunião
+- Alerta para não perder recompensas por falta de aviso
+- Instrução para lembrar colegas que não viram a mensagem
+
+---
+
+### <a id="intel-20260928-080"></a>[INTEL-20260928-080] — Aviso / Reunião / Diretiva
+
+- **📅 Data de Publicação:** 2026-09-03
+- **⏰ Hora:** 19:45
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Aviso / Reunião / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Todos devem informar os membros da equipa para participarem na reunião de hoje à noite a tempo!
+```
+
+#### 💡 Pontos-Chave:
+- Diretiva para informar membros sobre reunião noturna
+- Ênfase na participação a tempo
+
+---
+
+### <a id="intel-20260928-079"></a>[INTEL-20260928-079] — Geral / Cumprimento
+
+- **📅 Data de Publicação:** 2026-09-03
+- **⏰ Hora:** 19:26
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Paulo`
+- **🏷️ Categoria:** Geral / Cumprimento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boa tarde, Agentes
+```
+
+#### 💡 Pontos-Chave:
+- Saudação aos agentes
+
+---
+
+### <a id="intel-20260928-078"></a>[INTEL-20260928-078] — Resposta / Agradecimento
+
+- **📅 Data de Publicação:** 2026-09-03
+- **⏰ Hora:** 15:27
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Pedro Peters`
+- **🏷️ Categoria:** Resposta / Agradecimento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Obrigado 👍
+```
+
+#### 💡 Pontos-Chave:
+- Agradecimento
+
+---
+
+### <a id="intel-20260928-077"></a>[INTEL-20260928-077] — Resposta / Agradecimento
+
+- **📅 Data de Publicação:** 2026-09-03
+- **⏰ Hora:** 14:22
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Pedro Peters`
+- **🏷️ Categoria:** Resposta / Agradecimento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Obrigado Theodore!
+```
+
+#### 💡 Pontos-Chave:
+- Agradecimento a Theodore pela promoção e recompensa
+
+---
+
+### <a id="intel-20260928-076"></a>[INTEL-20260928-076] — Geral / Congratulação
+
+- **📅 Data de Publicação:** 2026-09-03
+- **⏰ Hora:** 14:25
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `RBP`
+- **🏷️ Categoria:** Geral / Congratulação
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Parabéns à nossa excelente parceira Pedro **57754, q... O caminho é sempre a subir 📈
+```
+
+#### 💡 Pontos-Chave:
+- Congratulação a Pedro **57754 pela promoção
+
+---
+
+### <a id="intel-20260928-075"></a>[INTEL-20260928-075] — Bónus / Promoção
+
+- **📅 Data de Publicação:** 2026-09-03
+- **⏰ Hora:** 14:15
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Bónus / Promoção
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Parabéns à nossa excelente parceira Pedro **57754, que com a sua persistência e dedicação conseguiu ser promovida a Agente Júnior! Ganhou 80 USDT de recompensa de promoção, e isto é apenas o começo o objetivo já está a caminho. Continua a avançar com força!
+```
+
+#### 💡 Pontos-Chave:
+- Promoção de Pedro **57754 a Agente Júnior
+- Recompensa de 80 USDT pela promoção
+- Incentivo para continuar o trabalho e alcançar novos objetivos
+
+---
+
+### <a id="intel-20260928-074"></a>[INTEL-20260928-074] — Geral / Informação
+
+- **📅 Data de Publicação:** 2026-09-03
+- **⏰ Hora:** 13:03
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Santiago`
+- **🏷️ Categoria:** Geral / Informação
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Salário de Agente Nível 1 recebido.
+```
+
+#### 💡 Pontos-Chave:
+- Confirmação de recebimento de salário de Agente Nível 1
+
+---
+
+### <a id="intel-20260928-073"></a>[INTEL-20260928-073] — Diretiva
+
+- **📅 Data de Publicação:** 2026-09-03
+- **⏰ Hora:** 14:45
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Depois de adicionar, envia-me o teu nome de utilizador da TIML
+```
+
+#### 💡 Pontos-Chave:
+- Instrução para enviar o nome de utilizador TIML após adicionar Theodore no Telegram
+
+---
+
+### <a id="intel-20260928-072"></a>[INTEL-20260928-072] — Diretiva / Ferramenta
+
+- **📅 Data de Publicação:** 2026-09-03
+- **⏰ Hora:** 14:44
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva / Ferramenta
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+https://t.me/Theodore0025113
+```
+
+#### 💡 Pontos-Chave:
+- Link direto para adicionar Theodore no Telegram
+
+---
+
+### <a id="intel-20260928-071"></a>[INTEL-20260928-071] — Diretiva / Novidade de Funcionamento
+
+- **📅 Data de Publicação:** 2026-09-03
+- **⏰ Hora:** 14:44
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva / Novidade de Funcionamento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boa tarde a todos! Reparei que muitos parceiros não estão habituados a usar o BonChat. Por isso, podem adicionar-me no Telegram e comunicamos diretamente por lá. Os parceiros que se destacam e são mais ativos na equipa também podem ensinar os novos membros a adicionar-me, para facilitar a comunicação e o contacto futuro.
+```
+
+#### 💡 Pontos-Chave:
+- Migração da comunicação para o Telegram devido à inexperiência com BonChat
+- Parceiros ativos devem ensinar novos membros a adicionar Theodore no Telegram
+- Objetivo de facilitar a comunicação e o contacto futuro
+
+---
+
+### <a id="intel-20260928-070"></a>[INTEL-20260928-070] — Campanha / Bónus / Diretiva
+
+- **📅 Data de Publicação:** 2026-09-06
+- **⏰ Hora:** 23:18
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Campanha / Bónus / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Os nossos excelentes parceiros estão nas ruas, ao sol e junto aos mercados, a entregar cada folheto com um sorriso e a convidar sinceramente cada pessoa a experimentar. Não ficam à espera das oportunidades – levam-nas diretamente às mãos das pessoas. Um simples folheto pode ser o ponto de partida para uma mudança. Todos os parceiros que participarem na distribuição presencial de folhetos vão receber uma recompensa de 50 dólares! Com ação, levamos a TIMI a mais famílias e tornamos as recompensas acessíveis a todos.
+```
+
+#### 💡 Pontos-Chave:
+- Agentes estão a distribuir folhetos em campo (ruas e mercados).
+- Incentivo à proatividade e contacto direto com potenciais clientes.
+- Recompensa de 50 dólares para todos os parceiros que participarem na distribuição presencial de folhetos.
+- Objetivo de expandir o alcance da TIMI e tornar as recompensas acessíveis a mais famílias.
+
+---
+
+### <a id="intel-20260928-069"></a>[INTEL-20260928-069] — Aviso / Bónus / Diretiva
+
+- **📅 Data de Publicação:** 2026-09-06
+- **⏰ Hora:** 10:52
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Aviso / Bónus / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Parabéns à nossa excelente parceira Fábio **98852, que com a sua persistência e dedicação conseguiu ser promovida a agente júnior! Ganhou 80 USDT de recompensa de promoção, e isto é apenas o começo! O próximo objetivo já está a caminho. Continua a avançar com força!
+```
+
+#### 💡 Pontos-Chave:
+- Promoção de Fábio **98852 a agente júnior.
+- Recompensa de 80 USDT pela promoção.
+- Incentivo para continuar a alcançar novos objetivos.
+
+---
+
+### <a id="intel-20260928-068"></a>[INTEL-20260928-068] — Diretiva / Formação
+
+- **📅 Data de Publicação:** 2026-09-28
+- **⏰ Hora:** 16:53
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva / Formação
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Todos podem ver, este é um vídeo criativo filmado pessoalmente pelo proprietário do centro de formação de Sintra 👏 Tem realmente muita criatividade, é natural e tem o seu próprio estilo, combinando muito bem a TIMI com a atmosfera local. Este tipo de conteúdo não precisa de ser muito complicado; o importante é ter criatividade, capacidade de acção e um bom potencial de partilha. É também uma óptima referência para todos. Quem tiver boas ideias, pode experimentar sem medo — quem sabe, o próximo excelente trabalho poderá ser o teu!
+```
+
+#### 💡 Pontos-Chave:
+- Exemplo prático partilhado a partir do Centro de Formação de Sintra
+- Orientações para criação de conteúdo descomplicado, local e autêntico
+- Estímulo à replicação da estratégia por outros agentes
+
+---
+
+### <a id="intel-20260928-067"></a>[INTEL-20260928-067] — Diretiva / Geral
+
+- **📅 Data de Publicação:** 2026-09-28
+- **⏰ Hora:** 11:52
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva / Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+As férias e a época alta das praias estão a terminar. A partir de agora, cada vez mais parceiros vão ter mais tempo livre e poderão dedicar mais atenção à TIMI.
+
+As experiências presenciais, formações, intercâmbio entre equipas e promoção de mercado estão todas em curso — estas são oportunidades que todos podem aproveitar.
+
+Se quiseres fazer com que os teus rendimentos mensais ultrapassem os 2000 euros, podes contactar-me a qualquer momento. Consoante a tua situação, ensinar-te-ei passo a passo como fazer.
+```
+
+#### 💡 Pontos-Chave:
+- Fim do período de férias com apelo ao reforço de dedicação à TIMI
+- Ações presenciais, formações e promoção de mercado em curso
+- Mentoria individual aberta para atingir rendimentos superiores a 2.000€ mensais
+
+---
+
+### <a id="intel-20260928-066"></a>[INTEL-20260928-066] — Campanha / Diretiva
+
+- **📅 Data de Publicação:** 2026-09-28
+- **⏰ Hora:** 00:27
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Campanha / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Pega no telemóvel e grava o teu próprio vídeo criativo sobre a TIMI.
+
+Podes fazer em conjunto com as actividades do evento;
+podes cantar;
+podes dançar;
+podes gritar com os teus amigos:
+"TIMI mobilidade verde!"
+
+Publica nas plataformas indicadas e adiciona a hashtag #TIMI de acordo com as regras, e terás a oportunidade de participar na avaliação desta actividade de vídeos criativos.
+
+1.º lugar: 300 euros
+2.º lugar: 200 euros
+3.º lugar: 100 euros
+
+Por isso, hoje não vás só para ver.
+Participa, grava e partilha a TIMI que vês com mais pessoas.
+```
+
+#### 💡 Pontos-Chave:
+- Concurso de vídeos criativos com premiação de 300€, 200€ e 100€
+- Obrigatoriedade da hashtag #TIMI e foco no tema Mobilidade Verde
+- Incentivo à produção ativa de conteúdo promocional
 
 ---
 
