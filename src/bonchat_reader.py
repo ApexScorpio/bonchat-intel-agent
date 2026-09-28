@@ -62,6 +62,11 @@ class BonChatReader:
             if "qt5qwindowicon" in c and ("bonchat" in t or w.get("w", 0) > 800):
                 self.hwnd = w["hwnd"]
                 self.is_ghost = True
+                try:
+                    win32gui.ShowWindow(self.hwnd, win32con.SW_RESTORE)
+                    win32gui.ShowWindow(self.hwnd, win32con.SW_SHOW)
+                except Exception:
+                    pass
                 logger.info(f"Found BonChat Main Window on TIMI_GHOST: HWND {self.hwnd} ('{w.get('title')}')")
                 return self.hwnd
 
@@ -72,6 +77,11 @@ class BonChatReader:
             if ("bonchat" in t or "bonchat" in c or "ajuda" in t) and "toolsavebits" not in c:
                 self.hwnd = w["hwnd"]
                 self.is_ghost = True
+                try:
+                    win32gui.ShowWindow(self.hwnd, win32con.SW_RESTORE)
+                    win32gui.ShowWindow(self.hwnd, win32con.SW_SHOW)
+                except Exception:
+                    pass
                 logger.info(f"Found BonChat on TIMI_GHOST: HWND {self.hwnd} ('{w.get('title')}')")
                 return self.hwnd
 
@@ -85,6 +95,11 @@ class BonChatReader:
                     if h and user32.IsWindow(h):
                         self.hwnd = int(h)
                         self.is_ghost = True
+                        try:
+                            win32gui.ShowWindow(self.hwnd, win32con.SW_RESTORE)
+                            win32gui.ShowWindow(self.hwnd, win32con.SW_SHOW)
+                        except Exception:
+                            pass
                         logger.info(f"Adopted BonChat from runtime slot: HWND {self.hwnd}")
                         return self.hwnd
             except Exception as e:
@@ -124,6 +139,14 @@ class BonChatReader:
         # Ensure calling thread is attached to ghost desktop before drawing
         set_thread_to_ghost_desktop()
 
+        if not win32gui.IsWindowVisible(self.hwnd):
+            try:
+                win32gui.ShowWindow(self.hwnd, win32con.SW_RESTORE)
+                win32gui.ShowWindow(self.hwnd, win32con.SW_SHOW)
+                time.sleep(0.3)
+            except Exception as e:
+                logger.debug(f"ShowWindow error: {e}")
+
         try:
             wr = win32gui.GetWindowRect(self.hwnd)
             w, h = wr[2] - wr[0], wr[3] - wr[1]
@@ -153,6 +176,14 @@ class BonChatReader:
             save_dc.DeleteDC()
             mfc_dc.DeleteDC()
             win32gui.ReleaseDC(self.hwnd, hwnd_dc)
+
+            # Check if frame is totally black (stale/unrendered window)
+            extrema = img.getextrema()
+            if extrema == ((0, 0), (0, 0), (0, 0)):
+                logger.warning("Captured frame is completely black. Restoring window and retrying...")
+                win32gui.ShowWindow(self.hwnd, win32con.SW_RESTORE)
+                win32gui.ShowWindow(self.hwnd, win32con.SW_SHOW)
+                time.sleep(0.5)
 
             if img:
                 LiveViewBridge.get_instance().publish_frame(img, self.hwnd)
@@ -441,7 +472,13 @@ class BonChatReader:
             # 1. Check if chat reached top (hash repeating)
             if frame_hash == prev_hash:
                 repeat_hash_count += 1
-                if repeat_hash_count >= 2:
+                if repeat_hash_count < 3:
+                    # Give BonChat extra time to load older history from network
+                    time.sleep(0.6)
+                    self.scroll_chat_up(step=600)
+                    time.sleep(0.4)
+                    continue
+                else:
                     top_msg = f"🛑 [TOPO DA CONVERSA] Canal '{channel_canonical}' atingiu o topo das mensagens no passo {pass_idx}. Parando scroll."
                     logger.info(top_msg)
                     LiveViewBridge.get_instance().emit_event(top_msg)

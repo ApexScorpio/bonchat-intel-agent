@@ -1,5 +1,170 @@
 [
   {
+    "id": "INTEL-20260928-094",
+    "timestamp_published": "2026-09-28 17:24:38",
+    "date_str": "2026-09-28",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "TIMI",
+    "content_type": "Campanha / Bónus",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "SORTEIO DA TIMI\nPara agradecer aos nossos novos e antigos parceiros pelo apoio no desenvolvimento e execução, para ajudar os novos parceiros a conhecer a TIMI, a empresa adicionou especialmente recompensas no sorteio!\nPeríodo do evento: 28 de setembro - 7 de outubro\nCHANCES DE SORTEIO:\nIndique 1 parceiro T5 = 1 chance de sorteio\nIndique 2 parceiros T5 = 3 chances de sorteio\nIndique 3 parceiros T5 = 5 chances de sorteio\n*A cada novo parceiro extraído com sucesso, além da remuneração de indicação habitual.",
+    "key_takeaways": [
+      "Lançamento do 'SORTEIO DA TIMI' para parceiros.",
+      "Período da campanha: 28 de setembro a 7 de outubro.",
+      "Objetivo: Recompensar parceiros existentes e atrair novos.",
+      "Mecânica de participação: Indicação de parceiros T5 concede chances de sorteio (1 parceiro T5 = 1 chance; 2 parceiros T5 = 3 chances; 3 parceiros T5 = 5 chances).",
+      "Recompensas do sorteio são adicionais à remuneração padrão por indicação."
+    ]
+  },
+  {
+    "id": "INTEL-20260928-093",
+    "timestamp_published": "2026-09-28 17:24:38",
+    "date_str": "2026-09-28",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "TIMI",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Mensagem de vídeo 5.2 MB",
+    "key_takeaways": [
+      "Vídeo de 5.2 MB anexado à mensagem fixada ou como parte do anúncio."
+    ]
+  },
+  {
+    "id": "INTEL-20260928-092",
+    "timestamp_published": "2026-09-28 17:24:38",
+    "date_str": "2026-09-28",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "Theodore",
+    "content_type": "Aviso / Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Theodore atualizou a mensagem fixada. Mensagem de vídeo (5.2 MB). Conteúdo da mensagem fixada (banner 'SORTEIO DA TIMI'): Para agradecer aos nossos novos e antigos parceiros pelo apoio no desenvolvimento e execução para ajudar os novos parceiros a conhecer a TIMI, a empresa adicionou especialmente recompensas no sorteio! Período do evento: 28 de setembro - 7 de outubro. CHANCES DE SORTEIO: Indique 1 parceiro T5 -> 1 chance de sorteio; Indique 2 parceiros T5 -> 3 chances de sorteio; Indique 3 parceiros T5 -> 5 chances de sorteio. & cada novo parceiro extraído com sucesso, além da conclusão da indicação habitual.",
+    "key_takeaways": [
+      "Lançamento da campanha 'SORTEIO DA TIMI'.",
+      "Período da campanha: 28 de setembro a 7 de outubro.",
+      "Mecanismo de participação: Indicação de parceiros T5 para ganhar chances de sorteio (1 T5 = 1 chance, 2 T5 = 3 chances, 3 T5 = 5 chances).",
+      "Recompensas adicionais para cada novo parceiro extraído com sucesso, além da indicação habitual."
+    ]
+  },
+  {
+    "id": "INTEL-20260928-091",
+    "timestamp_published": "2026-09-28 17:24:38",
+    "date_str": "2026-09-28",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "TIMI Official",
+    "content_type": "Aviso / Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "SORTEIO DA TIMI\nPara agradecer aos nossos novos e antigos parceiros pelo apoio no desenvolvimento e execução, para ajudar os novos parceiros a conhecer a TIMI, a empresa adicionou especialmente recompensas no sorteio!\nPeríodo do evento: 28 de setembro - 7 de outubro\nCHANCES DE SORTEIO:\nIndique 1 parceiro T5 = 1 chance de sorteio\nIndique 1 parceiro T4 = 3 chances de sorteio\nIndique 1 parceiro T3 = 5 chances de sorteio\nE cada novo parceiro extraído com sucesso, além da remuneração de indicação habitual.",
+    "key_takeaways": [
+      "Lançamento da campanha 'Sorteio da TIMI'",
+      "Período do sorteio: 28 de setembro a 7 de outubro de 2026",
+      "Objetivo: Agradecer parceiros e atrair novos, com recompensas especiais",
+      "Mecânica de participação: Ganhos de chances de sorteio por indicação de parceiros",
+      "1 parceiro T5 = 1 chance de sorteio",
+      "1 parceiro T4 = 3 chances de sorteio",
+      "1 parceiro T3 = 5 chances de sorteio",
+      "A remuneração habitual por indicação é mantida e adicional às chances de sorteio"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-090",
+    "timestamp_published": "2026-09-28 17:24:38",
+    "date_str": "2026-09-28",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "TIMI / Liderança",
+    "content_type": "Campanha / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Mensagem de vídeo\n5.2 MB\nBaixar",
+    "key_takeaways": [
+      "Vídeo explicativo/promocional do sorteio disponível para download (5.2 MB)."
+    ]
+  },
+  {
+    "id": "INTEL-20260928-089",
+    "timestamp_published": "2026-09-28 17:24:38",
+    "date_str": "2026-09-28",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "TIMI / Liderança",
+    "content_type": "Campanha / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "SORTEIO DA TIMI\nPara agradecer aos nossos novos e antigos parceiros pelo apoio no desenvolvimento da TIMI, e para ajudar os novos parceiros a conhecer a TIMI, a empresa adicionou especialmente recompensas no sorteio!\nPeríodo do evento: 28 de setembro - 7 de outubro\nCHANCES DE SORTEIO\nIndique 1 parceiro T5 = 1 chance de sorteio\nIndique 1 parceiro T4 = 3 chances de sorteio\nIndique 1 parceiro T3 = 5 chances de sorteio\nE cada novo parceiro convidado com sucesso, além da conclusão da indicação habitual.",
+    "key_takeaways": [
+      "Lançamento da campanha 'Sorteio da TIMI'.",
+      "Período da campanha: 28 de setembro a 7 de outubro.",
+      "Recompensas especiais para novos e antigos parceiros.",
+      "Chances de sorteio baseadas na indicação de parceiros (T5=1, T4=3, T3=5).",
+      "Novos parceiros convidados com sucesso aumentam as chances."
+    ]
+  },
+  {
+    "id": "INTEL-20260928-088",
+    "timestamp_published": "2026-09-28 17:24:38",
+    "date_str": "2026-09-28",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "TIMI",
+    "content_type": "Campanha / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Mensagem de vídeo (5.2 MB) e cartaz de campanha 'SORTEIO DA TIMI'. Para agradecer aos nossos novos e antigos parceiros pelo apoio no desenvolvimento e crescimento, para ajudar os novos parceiros a conhecer a TIMI, a empresa adicionou especialmente recompensas no sorteio! Período do evento: 28 de setembro - 7 de outubro. CHANCES DE SORTEIO: Indique 1 parceiro T5 = 1 chance de sorteio; Indique 2 parceiros T4 = 3 chances de sorteio; Indique 3 parceiros T3 = 5 chances de sorteio. & Cada novo parceiro extraído com sucesso, além da instrução de indicação habitual.",
+    "key_takeaways": [
+      "Lançamento do 'SORTEIO DA TIMI' como campanha de incentivo.",
+      "Período da campanha: 28 de setembro a 7 de outubro.",
+      "Objetivo: Recompensar parceiros existentes e atrair novos membros para a TIMI.",
+      "Mecanismo de participação: Ganhos de chances de sorteio através da indicação de novos parceiros.",
+      "Escalões de chances por indicação:",
+      "- 1 parceiro T5 = 1 chance.",
+      "- 2 parceiros T4 = 3 chances.",
+      "- 3 parceiros T3 = 5 chances.",
+      "Recompensas adicionais serão concedidas para cada novo parceiro extraído com sucesso, além das instruções de indicação habituais."
+    ]
+  },
+  {
+    "id": "INTEL-20260928-087",
+    "timestamp_published": "2026-09-28 17:24:38",
+    "date_str": "2026-09-28",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "TIMI",
+    "content_type": "Campanha / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "SORTEIO DA TIMI. Para agradecer aos nossos novos e antigos parceiros pelo apoio no desenvolvimento e crescimento, para ajudar os novos parceiros a conhecer a TIMI, a empresa adicionou especialmente recompensas no sorteio! Período do evento: 28 de setembro - 7 de outubro. CHANCES DE SORTEIO: Indique 1 parceiro T5 -> 1 chance de sorteio; Indique 2 parceiros T5 -> 3 chances de sorteio; Indique 3 parceiros T5 -> 5 chances de sorteio. & cada novo parceiro extraído com sucesso, além da conclusão de indicações habituais.",
+    "key_takeaways": [
+      "Lançamento da campanha 'Sorteio da TIMI' para parceiros.",
+      "Período do sorteio: 28 de setembro a 7 de outubro.",
+      "Condições para obter chances de sorteio baseadas na indicação de parceiros T5 (1 parceiro = 1 chance, 2 parceiros = 3 chances, 3 parceiros = 5 chances).",
+      "Recompensas adicionais para cada novo parceiro extraído com sucesso, além das indicações habituais."
+    ]
+  },
+  {
+    "id": "INTEL-20260928-086",
+    "timestamp_published": "2026-09-28 17:24:38",
+    "date_str": "2026-09-28",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "Theodore",
+    "content_type": "Diretiva / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Theodore atualizou a mensagem fixada. Mensagem de vídeo 5.2 MB",
+    "key_takeaways": [
+      "Mensagem fixada do canal TIMI-68 foi atualizada por Theodore.",
+      "A atualização inclui uma mensagem de vídeo de 5.2 MB."
+    ]
+  },
+  {
     "id": "INTEL-20260928-085",
     "timestamp_published": "2026-09-28 08:39:04",
     "date_str": "2026-09-07",
