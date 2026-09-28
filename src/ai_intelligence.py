@@ -147,39 +147,44 @@ class AIIntelligence:
         total_keys = len(self.gemini_keys)
         models_to_try = ["gemini-2.5-flash", "gemini-flash-latest"]
 
-        for attempt in range(total_keys):
-            idx = (self.current_key_idx + attempt) % total_keys
-            api_key = self.gemini_keys[idx]
+        for retry_round in range(4):
+            for attempt in range(total_keys):
+                idx = (self.current_key_idx + attempt) % total_keys
+                api_key = self.gemini_keys[idx]
 
-            for model_name in models_to_try:
-                url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
-                headers = {"Content-Type": "application/json"}
-                payload = {
-                    "contents": [{"role": "user", "parts": parts}],
-                    "generationConfig": {
-                        "temperature": 0.2,
-                        "maxOutputTokens": 4096
+                for model_name in models_to_try:
+                    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={api_key}"
+                    headers = {"Content-Type": "application/json"}
+                    payload = {
+                        "contents": [{"role": "user", "parts": parts}],
+                        "generationConfig": {
+                            "temperature": 0.2,
+                            "maxOutputTokens": 4096
+                        }
                     }
-                }
 
-                try:
-                    resp = requests.post(url, headers=headers, json=payload, timeout=45)
-                    if resp.status_code == 200:
-                        data = resp.json()
-                        candidates = data.get("candidates", [])
-                        if candidates:
-                            resp_parts = candidates[0].get("content", {}).get("parts", [])
-                            if resp_parts:
-                                self.current_key_idx = idx
-                                self._record_gemini_call()
-                                return resp_parts[0].get("text", "").strip()
-                    elif resp.status_code == 429:
-                        logger.warning(f"Gemini key #{idx+1} hit rate limit (429). Rotating key...")
-                        break
-                    else:
-                        logger.warning(f"Gemini error {resp.status_code}: {resp.text[:120]}")
-                except Exception as e:
-                    logger.error(f"Gemini multimodal request exception: {e}")
+                    try:
+                        resp = requests.post(url, headers=headers, json=payload, timeout=45)
+                        if resp.status_code == 200:
+                            data = resp.json()
+                            candidates = data.get("candidates", [])
+                            if candidates:
+                                resp_parts = candidates[0].get("content", {}).get("parts", [])
+                                if resp_parts:
+                                    self.current_key_idx = idx
+                                    self._record_gemini_call()
+                                    return resp_parts[0].get("text", "").strip()
+                        elif resp.status_code == 429:
+                            logger.warning(f"Gemini key #{idx+1} hit rate limit (429). Rotating key...")
+                            break
+                        else:
+                            logger.warning(f"Gemini error {resp.status_code}: {resp.text[:120]}")
+                    except Exception as e:
+                        logger.error(f"Gemini multimodal request exception: {e}")
+
+            if retry_round < 3:
+                logger.info(f"All Gemini keys hit rate limit (round {retry_round+1}/4). Waiting 15s for RPM quota window to reset...")
+                time.sleep(15)
 
         return None
 
@@ -285,6 +290,8 @@ class AIIntelligence:
                 clean_text = re.sub(r'```json\s*\[.*?\]\s*```', '', analysis, flags=re.DOTALL).strip()
                 if clean_text and "sem novidades" not in clean_text.lower():
                     all_summaries.append(clean_text)
+
+            time.sleep(1.5)
 
         combined_summary = "\n\n".join(all_summaries).strip() if all_summaries else "Sem novidades operacionais críticas no turno."
         return combined_summary, all_entries
