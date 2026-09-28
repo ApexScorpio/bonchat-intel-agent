@@ -42,6 +42,18 @@ class BonChatReader:
                 user32.PostMessageW(w["hwnd"], win32con.WM_KEYUP, win32con.VK_ESCAPE, 0)
                 time.sleep(0.08)
 
+    def _ensure_window_layout(self):
+        """Ensures BonChat is restored, visible, and calibrated to standard 1536x900 resolution."""
+        if not self.hwnd:
+            return
+        set_thread_to_ghost_desktop()
+        try:
+            win32gui.ShowWindow(self.hwnd, win32con.SW_RESTORE)
+            win32gui.ShowWindow(self.hwnd, win32con.SW_SHOW)
+            win32gui.SetWindowPos(self.hwnd, 0, 0, 0, 1536, 900, win32con.SWP_SHOWWINDOW)
+        except Exception as e:
+            logger.debug(f"Layout calibration note: {e}")
+
     def find_bonchat_window(self, auto_launch: bool = True) -> Optional[int]:
         """
         Locates the BonChat window reliably on TIMI_GHOST desktop.
@@ -62,12 +74,8 @@ class BonChatReader:
             if "qt5qwindowicon" in c and ("bonchat" in t or w.get("w", 0) > 800):
                 self.hwnd = w["hwnd"]
                 self.is_ghost = True
-                try:
-                    win32gui.ShowWindow(self.hwnd, win32con.SW_RESTORE)
-                    win32gui.ShowWindow(self.hwnd, win32con.SW_SHOW)
-                except Exception:
-                    pass
-                logger.info(f"Found BonChat Main Window on TIMI_GHOST: HWND {self.hwnd} ('{w.get('title')}')")
+                self._ensure_window_layout()
+                logger.info(f"Found BonChat Main Window on TIMI_GHOST: HWND {self.hwnd} ('{w.get('title')}') calibrated (1536x900)")
                 return self.hwnd
 
         # Second pass: any bonchat window that is not a tool save bits window
@@ -77,12 +85,8 @@ class BonChatReader:
             if ("bonchat" in t or "bonchat" in c or "ajuda" in t) and "toolsavebits" not in c:
                 self.hwnd = w["hwnd"]
                 self.is_ghost = True
-                try:
-                    win32gui.ShowWindow(self.hwnd, win32con.SW_RESTORE)
-                    win32gui.ShowWindow(self.hwnd, win32con.SW_SHOW)
-                except Exception:
-                    pass
-                logger.info(f"Found BonChat on TIMI_GHOST: HWND {self.hwnd} ('{w.get('title')}')")
+                self._ensure_window_layout()
+                logger.info(f"Found BonChat on TIMI_GHOST: HWND {self.hwnd} ('{w.get('title')}') calibrated (1536x900)")
                 return self.hwnd
 
         # 2. Check active slot metadata as fallback
@@ -95,12 +99,8 @@ class BonChatReader:
                     if h and user32.IsWindow(h):
                         self.hwnd = int(h)
                         self.is_ghost = True
-                        try:
-                            win32gui.ShowWindow(self.hwnd, win32con.SW_RESTORE)
-                            win32gui.ShowWindow(self.hwnd, win32con.SW_SHOW)
-                        except Exception:
-                            pass
-                        logger.info(f"Adopted BonChat from runtime slot: HWND {self.hwnd}")
+                        self._ensure_window_layout()
+                        logger.info(f"Adopted BonChat from runtime slot: HWND {self.hwnd} calibrated (1536x900)")
                         return self.hwnd
             except Exception as e:
                 logger.debug(f"Slot read check note: {e}")
@@ -414,7 +414,9 @@ class BonChatReader:
 
         try:
             rect = win32gui.GetWindowRect(self.hwnd)
-            lparam_scroll = win32api.MAKELONG(rect[0] + 600, rect[1] + 500)
+            cx = rect[0] + 800
+            cy = rect[1] + 400
+            lparam_scroll = win32api.MAKELONG(cx, cy)
             wparam = win32api.MAKELONG(0, step) # Positive = scroll up
             win32gui.SendMessage(self.hwnd, win32con.WM_MOUSEWHEEL, wparam, lparam_scroll)
         except Exception as e:
@@ -428,7 +430,7 @@ class BonChatReader:
         channel_canonical: str,
         watermark_tracker,
         ignore_watermark: bool = False,
-        circuit_breaker_limit: int = 1000
+        circuit_breaker_limit: int = 120
     ) -> List[Image.Image]:
         """
         Deep scrolls upwards through group messages looking for important announcements.
@@ -448,7 +450,7 @@ class BonChatReader:
 
         from .date_pill_detector import DatePillDetector
         detector = DatePillDetector(tesseract_cmd=pytesseract.pytesseract.tesseract_cmd)
-        prev_hash = None
+        prev_header_hash = None
         repeat_hash_count = 0
         pass_idx = 0
 
@@ -466,26 +468,24 @@ class BonChatReader:
             LiveViewBridge.get_instance().emit_event(f"[{channel_canonical}] Scroll passo {pass_idx} (a verificar topo/data)...")
 
             w, h = full_img.size
-            chat_pane = full_img.crop((300, 45, w - 20, h - 60))
+            chat_pane = full_img.crop((300, 45, w - 20, h - 80))
             frame_hash = watermark_tracker.compute_frame_hash(chat_pane)
 
-            # 1. Check if chat reached top (hash repeating)
-            if frame_hash == prev_hash:
+            # Header region crop (top 200px) is unaffected by animated videos/stickers playing below
+            header_crop = chat_pane.crop((0, 0, chat_pane.width, 200))
+            header_hash = watermark_tracker.compute_frame_hash(header_crop)
+
+            # 1. Check if chat reached top (header not moving)
+            if header_hash == prev_header_hash:
                 repeat_hash_count += 1
-                if repeat_hash_count < 3:
-                    # Give BonChat extra time to load older history from network
-                    time.sleep(0.6)
-                    self.scroll_chat_up(step=600)
-                    time.sleep(0.4)
-                    continue
-                else:
+                if repeat_hash_count >= 3:
                     top_msg = f"🛑 [TOPO DA CONVERSA] Canal '{channel_canonical}' atingiu o topo das mensagens no passo {pass_idx}. Parando scroll."
                     logger.info(top_msg)
                     LiveViewBridge.get_instance().emit_event(top_msg)
                     break
             else:
                 repeat_hash_count = 0
-            prev_hash = frame_hash
+            prev_header_hash = header_hash
 
             # 2. Check if watermark was reached (incremental mode)
             if not ignore_watermark:
