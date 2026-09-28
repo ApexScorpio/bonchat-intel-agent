@@ -10,6 +10,14 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20260928-065` | 2026-09-02 11:33 | `TIMI--NO.08` | Xinha | Explicação / Campanha | [Ver Anexo](#intel-20260928-065) |
+| `INTEL-20260928-064` | 2026-09-02 11:33 | `TIMI--NO.08` | TIMI PORTUGAL DREAM TEAM | Aviso / Campanha | [Ver Anexo](#intel-20260928-064) |
+| `INTEL-20260928-063` | 2026-09-02 14:15 | `TIMI--NO.08` | Rui Santos | Geral | [Ver Anexo](#intel-20260928-063) |
+| `INTEL-20260928-062` | 2026-09-02 12:51 | `TIMI--NO.08` | Equipa TIMI (Cartaz Promocional) | Diretiva | [Ver Anexo](#intel-20260928-062) |
+| `INTEL-20260928-061` | 2026-09-02 12:51 | `TIMI--NO.08` | Sílvia Diogo | Aviso | [Ver Anexo](#intel-20260928-061) |
+| `INTEL-20260928-060` | 2026-09-02 19:36 | `TIMI--NO.08` | Rui Santos | Aviso | [Ver Anexo](#intel-20260928-060) |
+| `INTEL-20260928-059` | 2026-09-02 14:16 | `TIMI--NO.08` | Rui Santos | Diretiva | [Ver Anexo](#intel-20260928-059) |
+| `INTEL-20260928-058` | 2026-09-02 13:39 | `TIMI--NO.08` | Rui Santos | Diretiva / Geral | [Ver Anexo](#intel-20260928-058) |
 | `INTEL-20260927-057` | 2026-09-27 22:40 | `TIMI-68` | Aline | Geral | [Ver Anexo](#intel-20260927-057) |
 | `INTEL-20260927-056` | 2026-09-27 22:40 | `TIMI-68` | Andreia | Geral | [Ver Anexo](#intel-20260927-056) |
 | `INTEL-20260927-055` | 2026-09-27 22:39 | `TIMI-68` | Denis Cabral | Geral | [Ver Anexo](#intel-20260927-055) |
@@ -71,6 +79,178 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20260928-065"></a>[INTEL-20260928-065] — Explicação / Campanha
+
+- **📅 Data de Publicação:** 2026-09-02
+- **⏰ Hora:** 11:33
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Xinha`
+- **🏷️ Categoria:** Explicação / Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A empresa disponibilizou um apoio de empréstimo especial para upgrade de equipamento, destinado a parceiros T2 e T3 que cumpram as condições(T2 -> T4 podes solicitar um empréstimo especial de 100 USDT) T3 -> T4 podes solicitar um empréstimo especial de 50 USDT Ao mesmo tempo, quando fizeres o upgrade do equipamento, também cumprirás as condições da atividade de sorteio e podes receber um número para o sorteio.
+```
+
+#### 💡 Pontos-Chave:
+- Confirmação de apoio de empréstimo para upgrade de equipamento
+- Valores de empréstimo: 100 USDT (T2->T4), 50 USDT (T3->T4)
+- Upgrade de equipamento concede participação em sorteio
+
+---
+
+### <a id="intel-20260928-064"></a>[INTEL-20260928-064] — Aviso / Campanha
+
+- **📅 Data de Publicação:** 2026-09-02
+- **⏰ Hora:** 11:33
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI PORTUGAL DREAM TEAM`
+- **🏷️ Categoria:** Aviso / Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Imagem de cartaz com o título 'Suporte Especial Aprimorado Para O Lançamento Do Produto TIMI'. Detalhes visíveis no cartaz: Data Limite: 1 a 12 de Setembro. Apoio de empréstimo especial para upgrade de equipamento para parceiros T2 e T3. T2 -> T4: empréstimo de 100 USDT. T3 -> T4: empréstimo de 50 USDT. O upgrade de equipamento também cumpre as condições da atividade de sorteio e permite receber um número para o sorteio.
+```
+
+#### 💡 Pontos-Chave:
+- Lançamento de programa de suporte especial para o produto TIMI
+- Válido de 1 a 12 de Setembro
+- Empréstimos para upgrade de equipamento (100 USDT para T2->T4, 50 USDT para T3->T4)
+- Upgrade de equipamento qualifica para sorteio
+
+---
+
+### <a id="intel-20260928-063"></a>[INTEL-20260928-063] — Geral
+
+- **📅 Data de Publicação:** 2026-09-02
+- **⏰ Hora:** 14:15
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Rui Santos`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+INFORMAÇÃO ⚫BRINDES NA LOJA⚫ Caros amigos Na nossa loja 45 na Praia da Rocha comprei varios brindes como forma de ver se aumentamos o fluxo de entradas de novos parceiros e parceiros atuais a conhecerem a loja, experimentarem as bicicletas ou a motinha, e por vezes quando trazem um novo amigo QUE FAÇAM UM NOVO REGISTO NA LOJA, pois a ideia será os novos amigos conhecerem a loja e os produtos da TIMI, NÓS PUDERMOS FAZER UM SORTEIO AO CONVIDADO, E ELE PUDER LEVAR UM MIMINHO/BRINDE/OFERTA, por se ter dirigido a loja, mesmo que nem compre bicicleta, mas conheceu e registou se. Pode não comprar no dia mas um dia mais tarde se juntar a nossa equipa. FAZ SE O SORTEIO NO POTE E O QUE SAIR 👉👉👉 SAIU... Por vezes pode sair uma garrafa de vinho, uns phones de ouvir musica, secador de cabelo, maquina de cafe, uma caixa brinde, ou outro artigo, MAS É UM MIMO PARA QUEM NOS VEIO CONHECER E PARA CRIAR OS LAÇOS PARA TODOS...
+```
+
+#### 💡 Pontos-Chave:
+- Ativação de marketing local na Loja 45 da Praia da Rocha
+- Sorteio de brindes (vinho, auriculares, secadores, máquinas de café) para novos registos em loja
+- Objetivo de prospecção e atração de novos membros para a equipa
+
+---
+
+### <a id="intel-20260928-062"></a>[INTEL-20260928-062] — Diretiva
+
+- **📅 Data de Publicação:** 2026-09-02
+- **⏰ Hora:** 12:51
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Equipa TIMI (Cartaz Promocional)`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Suporte Especial Aprimorado Para O Lançamento Do Produto TIMI. Data Limite: 1 A 12 De Setembro. Aula Magna da Universidade de Lisboa. Para Celebrar A Presença Do Famoso Cantor Português Quim Barreiros No Lançamento Do Produto TIMI, A Empresa Oferece Durante O Evento Um Apoio Especial De Financiamento Para Atualização De Equipamentos Aos Parceiros Elegíveis. - Atualização De T2 Para T4: Pode Solicitar 100 USDT Para Empréstimo De Atualização. - Atualização De T3 Para T4: Pode Solicitar 50 USDT Para Empréstimo De Atualização. Este Empréstimo Destina-Se Exclusivamente À Atualização De Equipamentos. Por Exemplo: A Atualização De T2 Para T4 Originalmente Exigia Um Complemento De 1070 USDT. Durante A Promoção, Ao Solicitar Um Empréstimo De 100 USDT Para A Atualização, Só Precisa De Preparar 970 USDT Para Completar A Atualização. O Objetivo Desta Iniciativa É Aliviar Parte Da Pressão Financeira Imediata Para Os Parceiros Que Realmente Precisam Fazer Uma Atualização Durante A Conferência De Lançamento Do Produto. Não Se Preocupe Com A Pressão Do Reembolso. Quando O Equipamento Atualizado Começar A Gerar Lucro, O Saldo Será Deduzido.
+```
+
+#### 💡 Pontos-Chave:
+- Empréstimo de 100 USDT para upgrades de T2 para T4
+- Empréstimo de 50 USDT para upgrades de T3 para T4
+- Período de vigência: 1 a 12 de setembro de 2026
+- Reembolso automático retido dos lucros operacionais gerados pelo equipamento
+
+---
+
+### <a id="intel-20260928-061"></a>[INTEL-20260928-061] — Aviso
+
+- **📅 Data de Publicação:** 2026-09-02
+- **⏰ Hora:** 12:51
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Sílvia Diogo`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Notícia de grande impacto!!!
+Notícia de grande impacto!!!
+Notícia de grande impacto!!!
+
+https://www.facebook.com/watch/?v=1008454662243470
+O Quim Barreiros já publicou, na sua conta do Facebook, um conteúdo sobre a sua participação no evento de lançamento da TIMI. Todos podem clicar e assistir.
+
+https://www.instagram.com/quim.barreiros/
+Podem clicar no link para ver!
+O Quim Barreiros já publicou, na sua conta do Instagram, um conteúdo sobre a sua participação no evento de lançamento dos produtos TIMI.
+
+Dia 12 de setembro — encontramo-nos lá!
+```
+
+#### 💡 Pontos-Chave:
+- Quim Barreiros promoveu nas suas redes oficiais a presença no evento TIMI
+- Evento agendado para 12 de setembro na Aula Magna da Universidade de Lisboa
+
+---
+
+### <a id="intel-20260928-060"></a>[INTEL-20260928-060] — Aviso
+
+- **📅 Data de Publicação:** 2026-09-02
+- **⏰ Hora:** 19:36
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Rui Santos`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boa noite, sorteio esta noite após a reunião do Jonathan no grupo de agentes, irei fazer um directo e irei sortear 2 prémios, após ordem di Jonathan para avançarmos. Boa sorte aos 67 participantes de hoje. 🍀
+Ja irei colocar aqui o link do do directo
+```
+
+#### 💡 Pontos-Chave:
+- Publicação da lista de 67 participantes aptos para o sorteio diário.
+- Sorteio de 2 prémios em direto condicionado à autorização de Jonathan após a reunião no grupo de agentes.
+
+---
+
+### <a id="intel-20260928-059"></a>[INTEL-20260928-059] — Diretiva
+
+- **📅 Data de Publicação:** 2026-09-02
+- **⏰ Hora:** 14:16
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Rui Santos`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+INFORMAÇÃO
+⚫️BRINDES NA LOJA⚫️
+Caros amigos
+Na nossa loja 45 na Praia da Rocha comprei varios brindes como forma de ver se aumentamos o fluxo de entradas de novos parceiros e parceiros atuais a conhecerem a loja, experimentarem as bicicletas ou a motinha, e por vezes quando trazem um novo amigo QUE FAÇAM UM NOVO REGISTO NA LOJA, pois a ideia será os novos amigos conhecerem a loja e os produtos da TIMI, NÓS PUDERMOS FAZER UM SORTEIO AO CONVIDADO, E ELE PUDER LEVAR UM MIMINHO/BRINDE/OFERTA, por se ter dirigido a loja, mesmo que nem compre bicicleta, mas conheceu e registou se. Pode não comprar no dia mas um dia mais tarde se juntar a nossa equipa.
+FAZ SE O SORTEIO NO POTE E O QUE SAIR 👉👉👉 SAIU...
+Por vezes pode sair uma garrafa de vinho, uns phones de ouvir musica, secador de cabelo, maquina de cafe, uma caixa brinde, ou outro artigo, MAS É UM MIMO PARA QUEM NOS VEIO CONHECER E PARA SERMOS JUSTOS PARA TODOS 👉 o que sair saiu. Os sorteios são assim mesmo, e não andamos a fazer trocas. Pois assim não era preciso sorteio e cada um escolhia o que lhe apetecia, pois temos brindes de diferentes valores.
+Agradeço a vossa compreensão, mas estes brindes são uma forma também de ajudar os parceiros e levarem amigos, dar um mimo e vos ajudar a fazer crescerem as vossas equipas, pois quem ganha as comissões sao vocês que os convidaram e NÃO EU... eu apenas tive a despesa de comprar os brindes e mete los a vossa disposição. Um abraço
+```
+
+#### 💡 Pontos-Chave:
+- Incentivo à atração de novos membros na Loja 45 (Praia da Rocha) através de sorteios na adesão/registo.
+- Regra estrita de proibição de troca de brindes após o sorteio no pote.
+- Custeamento pessoal dos brindes pelo líder para alavancar comissões e crescimento das equipas dos agentes.
+
+---
+
+### <a id="intel-20260928-058"></a>[INTEL-20260928-058] — Diretiva / Geral
+
+- **📅 Data de Publicação:** 2026-09-02
+- **⏰ Hora:** 13:39
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Rui Santos`
+- **🏷️ Categoria:** Diretiva / Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+boa tarde, quem não estiver ainda no grupo do nosso WhatsApp informações importantes seria bom entrarem, deixo aqui o link para entrarem, a nossa Marcia meteu hoje um inquérito para preencherem durante o dia, obrigado
+
+https://chat.whatsapp.com/BPV8bmS5RQX7sqZzjzhAT6?s<cl&p=a&mlu=4
+```
+
+#### 💡 Pontos-Chave:
+- Solicitação para que os membros entrem no grupo de WhatsApp da equipa para acesso a informações importantes.
+- Aviso sobre inquérito lançado por Márcia para preenchimento obrigatório/recomendado durante o dia.
+- Partilha direta de ligação de convite do WhatsApp.
 
 ---
 
