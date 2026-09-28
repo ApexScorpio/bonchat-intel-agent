@@ -5,7 +5,10 @@ config.local.json
 *.env
 
 # Local data and cache
-data/
+data/*
+!data/digests/
+!data/digests/**
+!data/templates/**
 *.log
 *.tmp
 *.png

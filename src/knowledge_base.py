@@ -17,6 +17,33 @@ ASSETS_DIR = KB_DIR / "assets"
 ENTRIES_FILE = KB_DIR / "intel_entries.json"
 MARKDOWN_FILE = KB_DIR / "AUTHORITY_INTEL.md"
 
+def normalize_date_string(date_val: str) -> str:
+    s = str(date_val or "").strip()
+    if re.match(r"^\d{4}-\d{2}-\d{2}$", s):
+        return s
+    m = re.search(r"(\d{1,2})\s+de\s+([a-zA-Zç]+)(?:\s+de\s+(\d{4}))?", s, re.I)
+    if m:
+        day = int(m.group(1))
+        month_name = m.group(2).lower()
+        year = int(m.group(3)) if m.group(3) else 2026
+        months = {
+            "janeiro": 1, "fevereiro": 2, "março": 3, "marco": 3, "abril": 4,
+            "maio": 5, "junho": 6, "julho": 7, "agosto": 8, "setembro": 9,
+            "outubro": 10, "novembro": 11, "dezembro": 12
+        }
+        if month_name in months:
+            return f"{year:04d}-{months[month_name]:02d}-{day:02d}"
+    m2 = re.search(r"(\d{1,2})[\/\-](\d{1,2})(?:[\/\-](\d{4}))?", s)
+    if m2:
+        n1, n2 = int(m2.group(1)), int(m2.group(2))
+        y = int(m2.group(3)) if m2.group(3) else 2026
+        if n1 == 9:
+            return f"{y:04d}-09-{n2:02d}"
+        elif n2 == 9:
+            return f"{y:04d}-09-{n1:02d}"
+        return f"{y:04d}-{n1:02d}-{n2:02d}"
+    return s
+
 class KnowledgeBase:
     def __init__(self):
         KB_DIR.mkdir(parents=True, exist_ok=True)
@@ -27,7 +54,11 @@ class KnowledgeBase:
         if ENTRIES_FILE.exists():
             try:
                 with open(ENTRIES_FILE, "r", encoding="utf-8") as f:
-                    return json.load(f)
+                    data = json.load(f)
+                    for item in data:
+                        if "date_str" in item:
+                            item["date_str"] = normalize_date_string(item["date_str"])
+                    return data
             except Exception as e:
                 logger.error(f"Error loading {ENTRIES_FILE}: {e}")
         return []
@@ -64,6 +95,7 @@ class KnowledgeBase:
         """
         Appends a new official authority communication to the knowledge base without duplicates.
         """
+        date_str = normalize_date_string(date_str)
         img_hash = ""
         saved_rel_path = ""
 
@@ -143,6 +175,12 @@ class KnowledgeBase:
 
     def render_markdown(self):
         """Regenerates AUTHORITY_INTEL.md from structured entries."""
+        sorted_entries = sorted(
+            self.entries,
+            key=lambda x: (str(x.get("date_str", "")), str(x.get("time_str", ""))),
+            reverse=True
+        )
+
         lines = [
             "# 🏛️ Base de Conhecimento Operacional TIMI — Comunicações Oficiais\n",
             "> **Repositório Oficial:** [ApexScorpio/bonchat-intel-agent](https://github.com/ApexScorpio/bonchat-intel-agent)  ",
@@ -154,7 +192,7 @@ class KnowledgeBase:
             "|---|---|---|---|---|:---:|"
         ]
 
-        for e in self.entries:
+        for e in sorted_entries:
             e_id = e.get("id", "N/A")
             dt = f"{e.get('date_str', '')} {e.get('time_str', '')}".strip()
             ch = e.get("channel", "")
@@ -164,7 +202,7 @@ class KnowledgeBase:
 
         lines.append("\n---\n\n## 📌 Registos Integrais (100% Inalterados)\n")
 
-        for e in self.entries:
+        for e in sorted_entries:
             e_id = e.get("id", "N/A")
             lines.append(f"---\n\n### <a id=\"{e_id.lower()}\"></a>[{e_id}] — {e.get('content_type', 'Aviso')}\n")
             lines.append(f"- **📅 Data de Publicação:** {e.get('date_str', 'N/A')}")

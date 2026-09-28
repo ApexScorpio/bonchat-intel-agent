@@ -1188,7 +1188,7 @@
   {
     "id": "INTEL-20260907-002",
     "timestamp_published": "2026-09-07 00:36:00",
-    "date_str": "07 de Setembro de 2026",
+    "date_str": "2026-09-07",
     "time_str": "00:36",
     "channel": "Teodoro.Grupo de Agentes20",
     "authority": "Theodore",
@@ -1205,7 +1205,7 @@
   {
     "id": "INTEL-20260907-001",
     "timestamp_published": "2026-09-07 20:00:00",
-    "date_str": "07 de Setembro de 2026",
+    "date_str": "2026-09-07",
     "time_str": "20:00 (Hora de Portugal)",
     "channel": "TIMI--NO.08",
     "authority": "Jonathan (Gerente Geral da TIMI)",
@@ -1222,7 +1222,7 @@
   {
     "id": "INTEL-20260914-001",
     "timestamp_published": "2026-09-14 14:45:00",
-    "date_str": "14 de Setembro de 2026",
+    "date_str": "2026-09-14",
     "time_str": "14:45",
     "channel": "Grupo de reuniões",
     "authority": "Theodore",
@@ -1240,7 +1240,7 @@
   {
     "id": "INTEL-20260917-001",
     "timestamp_published": "2026-09-17 14:24:00",
-    "date_str": "17 de Setembro de 2026",
+    "date_str": "2026-09-17",
     "time_str": "14:24 (Válido: 11h-13h e 19h-22h)",
     "channel": "TIMI--NO.08",
     "authority": "TIMI Oficial",
@@ -1257,7 +1257,7 @@
   {
     "id": "INTEL-20260925-001",
     "timestamp_published": "2026-09-25 10:00:00",
-    "date_str": "25 de Setembro de 2026",
+    "date_str": "2026-09-25",
     "time_str": "Manhã",
     "channel": "TIMI--NO.08",
     "authority": "TIMI Oficial",
@@ -1273,7 +1273,7 @@
   {
     "id": "INTEL-20260925-002",
     "timestamp_published": "2026-09-25 14:27:00",
-    "date_str": "25 de Setembro de 2026",
+    "date_str": "2026-09-25",
     "time_str": "14:27",
     "channel": "TIMI--NO.08",
     "authority": "TIMI Oficial",
@@ -1290,7 +1290,7 @@
   {
     "id": "INTEL-20260925-003",
     "timestamp_published": "2026-09-25 21:15:00",
-    "date_str": "25 de Setembro de 2026",
+    "date_str": "2026-09-25",
     "time_str": "21:15 / 23:21",
     "channel": "Theodore",
     "authority": "Theodore",
@@ -1308,7 +1308,7 @@
   {
     "id": "INTEL-20260925-004",
     "timestamp_published": "2026-09-25 23:30:00",
-    "date_str": "25 de Setembro de 2026",
+    "date_str": "2026-09-25",
     "time_str": "Noite",
     "channel": "Theodore",
     "authority": "Theodore",
@@ -1325,7 +1325,7 @@
   {
     "id": "INTEL-20260925-005",
     "timestamp_published": "2026-09-25 23:37:00",
-    "date_str": "25 de Setembro de 2026",
+    "date_str": "2026-09-25",
     "time_str": "23:37",
     "channel": "Theodore",
     "authority": "Theodore",
@@ -1342,7 +1342,7 @@
   {
     "id": "INTEL-20260926-001",
     "timestamp_published": "2026-09-26 15:38:00",
-    "date_str": "26 de Setembro de 2026",
+    "date_str": "2026-09-26",
     "time_str": "15:38",
     "channel": "TIMI-NeWs",
     "authority": "TIMI--NO.08",
@@ -1359,7 +1359,7 @@
   {
     "id": "INTEL-20260926-002",
     "timestamp_published": "2026-09-26 23:34:00",
-    "date_str": "26 de Setembro de 2026",
+    "date_str": "2026-09-26",
     "time_str": "23:34",
     "channel": "TIMI--NO.08",
     "authority": "TIMI Oficial",

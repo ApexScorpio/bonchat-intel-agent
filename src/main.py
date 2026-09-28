@@ -81,7 +81,7 @@ def sync_to_github(commit_msg: str = "chore(intel): auto-sync intelligence and d
         import subprocess
         logger = logging.getLogger("GitSync")
         logger.info("Sincronizando base de dados de inteligência diretamente para o GitHub...")
-        subprocess.run(["git", "add", "data/digests", "knowledge_base"], cwd=str(BASE_DIR), capture_output=True, check=False)
+        subprocess.run(["git", "add", ".gitignore", "src", "data/digests", "knowledge_base"], cwd=str(BASE_DIR), capture_output=True, check=False)
         diff_check = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=str(BASE_DIR))
         if diff_check.returncode != 0:
             subprocess.run(["git", "commit", "-m", commit_msg], cwd=str(BASE_DIR), capture_output=True, check=False)
