@@ -1,5 +1,74 @@
 [
   {
+    "id": "INTEL-20260928-085",
+    "timestamp_published": "2026-09-28 08:39:04",
+    "date_str": "2026-09-07",
+    "time_str": "23:12",
+    "channel": "TIMI PORTUGAL DREAM TEAM",
+    "authority": "TIMI--NO.08",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A TIMI promove uma visão de mobilidade verde, partilhada, prática e económica. Com soluções de transporte mais flexíveis, ajudamos a reduzir custos e desperdícios, tornando a mobilidade urbana mais leve, eficiente e sustentável.\n\nComo uma das patrocinadoras do evento, a TIMI levou as suas bicicletas partilhadas e elétricas a Pinhal Novo, onde também deu uma entrevista à comunicação social presente.\n\nAcreditamos que a mobilidade partilhada não é só um meio de transporte, mas também uma forma de vida mais inteligente e sustentável.\n\nA TIMI continua a expandir-se no mercado local, integrando a mobilidade verde em mais comunidades e no dia a dia das pessoas. Esperamos contar com mais parceiros para explorar juntos as novas possibilidades da mobilidade urbana.\n\nConvidamos todos os parceiros a partilhar nas vossas redes sociais (Facebook, Instagram, YouTube, TikTok) o nosso stand e a experiência com os produtos, para que mais pessoas possam ver a TIMI!\n\nFesta das Vindimas de Palmela | Stand TIMI perto do palco principal\n#EntrevistaMedia #ExperiênciaProduto #MobilidadeVerde #FuturoPartilhado",
+    "key_takeaways": [
+      "TIMI promove mobilidade verde, partilhada, prática e económica.",
+      "TIMI é patrocinadora e esteve presente na Festa das Vindimas de Palmela (Pinhal Novo).",
+      "Apresentou bicicletas partilhadas e elétricas e deu entrevista à comunicação social.",
+      "Expansão no mercado local e procura por novos parceiros.",
+      "Apelo a parceiros para partilharem o stand e produtos TIMI nas redes sociais."
+    ]
+  },
+  {
+    "id": "INTEL-20260928-084",
+    "timestamp_published": "2026-09-28 08:39:04",
+    "date_str": "2026-09-28",
+    "time_str": "10:19",
+    "channel": "TIMI PORTUGAL DREAM TEAM",
+    "authority": "Silvestre Bettencourt Huerta",
+    "content_type": "Resposta / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Joana Bom dia queria perguntar porque ainda não recebi o pagame... Não se preocupe o pagamento de quinta-feira vai cair amanhã depois das 22h porque cada transferência demora mais de 72 horas",
+    "key_takeaways": [
+      "Pagamento de quinta-feira será processado amanhã (após 22h)",
+      "Transferências podem demorar mais de 72 horas"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-083",
+    "timestamp_published": "2026-09-28 08:39:04",
+    "date_str": "2026-09-28",
+    "time_str": "10:18",
+    "channel": "TIMI PORTUGAL DREAM TEAM",
+    "authority": "Joana",
+    "content_type": "Dúvida",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Bom dia queria perguntar porque ainda não recebi o pagamento de quinta-feira",
+    "key_takeaways": [
+      "Questão sobre pagamento de quinta-feira não recebido"
+    ]
+  },
+  {
+    "id": "INTEL-20260928-082",
+    "timestamp_published": "2026-09-28 08:39:04",
+    "date_str": "2026-09-28",
+    "time_str": "10:17",
+    "channel": "TIMI PORTUGAL DREAM TEAM",
+    "authority": "TIMI--NO.08",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "TIMI--NO.08 atualizou a mensagem fixada. Regras de Ganhos e Levantamento para Parceiros TIMI: 1. O tempo normal de análise de pedidos de levantamento é de 24 horas. 2. O tempo máximo de análise de pedidos de levantamento é de 72 horas. 3. Não é permitido o levantamento de bónus de convite. 4. O levantamento mínimo é de 10 USDT.",
+    "key_takeaways": [
+      "Regras de levantamento atualizadas",
+      "Prazo normal de análise: 24 horas",
+      "Prazo máximo de análise: 72 horas",
+      "Bónus de convite não são levantáveis",
+      "Levantamento mínimo: 10 USDT"
+    ]
+  },
+  {
     "id": "INTEL-20260928-081",
     "timestamp_published": "2026-09-28 08:19:11",
     "date_str": "2026-09-03",

@@ -10,6 +10,10 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20260928-085` | 2026-09-07 23:12 | `TIMI PORTUGAL DREAM TEAM` | TIMI--NO.08 | Aviso / Diretiva | [Ver Anexo](#intel-20260928-085) |
+| `INTEL-20260928-084` | 2026-09-28 10:19 | `TIMI PORTUGAL DREAM TEAM` | Silvestre Bettencourt Huerta | Resposta / Diretiva | [Ver Anexo](#intel-20260928-084) |
+| `INTEL-20260928-083` | 2026-09-28 10:18 | `TIMI PORTUGAL DREAM TEAM` | Joana | Dúvida | [Ver Anexo](#intel-20260928-083) |
+| `INTEL-20260928-082` | 2026-09-28 10:17 | `TIMI PORTUGAL DREAM TEAM` | TIMI--NO.08 | Aviso / Diretiva | [Ver Anexo](#intel-20260928-082) |
 | `INTEL-20260928-081` | 2026-09-03 20:22 | `Equipa de Agentes de Elite da TIMI` | Theodore | Aviso / Reunião / Bónus / Diretiva | [Ver Anexo](#intel-20260928-081) |
 | `INTEL-20260928-080` | 2026-09-03 19:45 | `Equipa de Agentes de Elite da TIMI` | Theodore | Aviso / Reunião / Diretiva | [Ver Anexo](#intel-20260928-080) |
 | `INTEL-20260928-079` | 2026-09-03 19:26 | `Equipa de Agentes de Elite da TIMI` | Paulo | Geral / Cumprimento | [Ver Anexo](#intel-20260928-079) |
@@ -95,6 +99,94 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20260928-085"></a>[INTEL-20260928-085] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-09-07
+- **⏰ Hora:** 23:12
+- **👥 Grupo / Canal:** `TIMI PORTUGAL DREAM TEAM`
+- **👑 Autoridade / Emissor:** `TIMI--NO.08`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A TIMI promove uma visão de mobilidade verde, partilhada, prática e económica. Com soluções de transporte mais flexíveis, ajudamos a reduzir custos e desperdícios, tornando a mobilidade urbana mais leve, eficiente e sustentável.
+
+Como uma das patrocinadoras do evento, a TIMI levou as suas bicicletas partilhadas e elétricas a Pinhal Novo, onde também deu uma entrevista à comunicação social presente.
+
+Acreditamos que a mobilidade partilhada não é só um meio de transporte, mas também uma forma de vida mais inteligente e sustentável.
+
+A TIMI continua a expandir-se no mercado local, integrando a mobilidade verde em mais comunidades e no dia a dia das pessoas. Esperamos contar com mais parceiros para explorar juntos as novas possibilidades da mobilidade urbana.
+
+Convidamos todos os parceiros a partilhar nas vossas redes sociais (Facebook, Instagram, YouTube, TikTok) o nosso stand e a experiência com os produtos, para que mais pessoas possam ver a TIMI!
+
+Festa das Vindimas de Palmela | Stand TIMI perto do palco principal
+#EntrevistaMedia #ExperiênciaProduto #MobilidadeVerde #FuturoPartilhado
+```
+
+#### 💡 Pontos-Chave:
+- TIMI promove mobilidade verde, partilhada, prática e económica.
+- TIMI é patrocinadora e esteve presente na Festa das Vindimas de Palmela (Pinhal Novo).
+- Apresentou bicicletas partilhadas e elétricas e deu entrevista à comunicação social.
+- Expansão no mercado local e procura por novos parceiros.
+- Apelo a parceiros para partilharem o stand e produtos TIMI nas redes sociais.
+
+---
+
+### <a id="intel-20260928-084"></a>[INTEL-20260928-084] — Resposta / Diretiva
+
+- **📅 Data de Publicação:** 2026-09-28
+- **⏰ Hora:** 10:19
+- **👥 Grupo / Canal:** `TIMI PORTUGAL DREAM TEAM`
+- **👑 Autoridade / Emissor:** `Silvestre Bettencourt Huerta`
+- **🏷️ Categoria:** Resposta / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Joana Bom dia queria perguntar porque ainda não recebi o pagame... Não se preocupe o pagamento de quinta-feira vai cair amanhã depois das 22h porque cada transferência demora mais de 72 horas
+```
+
+#### 💡 Pontos-Chave:
+- Pagamento de quinta-feira será processado amanhã (após 22h)
+- Transferências podem demorar mais de 72 horas
+
+---
+
+### <a id="intel-20260928-083"></a>[INTEL-20260928-083] — Dúvida
+
+- **📅 Data de Publicação:** 2026-09-28
+- **⏰ Hora:** 10:18
+- **👥 Grupo / Canal:** `TIMI PORTUGAL DREAM TEAM`
+- **👑 Autoridade / Emissor:** `Joana`
+- **🏷️ Categoria:** Dúvida
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Bom dia queria perguntar porque ainda não recebi o pagamento de quinta-feira
+```
+
+#### 💡 Pontos-Chave:
+- Questão sobre pagamento de quinta-feira não recebido
+
+---
+
+### <a id="intel-20260928-082"></a>[INTEL-20260928-082] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-09-28
+- **⏰ Hora:** 10:17
+- **👥 Grupo / Canal:** `TIMI PORTUGAL DREAM TEAM`
+- **👑 Autoridade / Emissor:** `TIMI--NO.08`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+TIMI--NO.08 atualizou a mensagem fixada. Regras de Ganhos e Levantamento para Parceiros TIMI: 1. O tempo normal de análise de pedidos de levantamento é de 24 horas. 2. O tempo máximo de análise de pedidos de levantamento é de 72 horas. 3. Não é permitido o levantamento de bónus de convite. 4. O levantamento mínimo é de 10 USDT.
+```
+
+#### 💡 Pontos-Chave:
+- Regras de levantamento atualizadas
+- Prazo normal de análise: 24 horas
+- Prazo máximo de análise: 72 horas
+- Bónus de convite não são levantáveis
+- Levantamento mínimo: 10 USDT
 
 ---
 
