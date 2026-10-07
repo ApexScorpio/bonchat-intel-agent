@@ -1,5 +1,592 @@
 [
   {
+    "id": "INTEL-20261007-132",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "16:32",
+    "channel": "TIMI-68",
+    "authority": "Miguel",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Boa tarde",
+    "key_takeaways": [
+      "Miguel envia cumprimento de 'Boa tarde'"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-131",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "16:39",
+    "channel": "TIMI-68",
+    "authority": "Andrea Bispo",
+    "content_type": "Geral / Feedback",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Theodore Enviou um vídeo Boa tarde TIMI. 🙏🔥 Top.",
+    "key_takeaways": [
+      "Andrea Bispo cumprimenta a equipa e elogia vídeo enviado por Theodore"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-130",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "16:40",
+    "channel": "TIMI-68",
+    "authority": "Andrea Bispo",
+    "content_type": "Geral / Feedback",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Theodore Enviou um vídeo Top.",
+    "key_takeaways": [
+      "Andrea Bispo elogia vídeo enviado por Theodore"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-129",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "16:41",
+    "channel": "TIMI-68",
+    "authority": "Andrea Bispo",
+    "content_type": "Geral / Pedido",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Eu sou a Neuza Mendes e hoje pedi ao gestor um desafio de ... 💪💰🚀🔥",
+    "key_takeaways": [
+      "Andrea Bispo (identificando-se como Neuza Mendes) pediu um desafio ao gestor"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-128",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "16:08",
+    "channel": "TIMI-68",
+    "authority": "Filomena",
+    "content_type": "Campanha / Bónus / Relatório de Atividade",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Hoje recrutei com sucesso um novo membro para a TIMI. Atualmente, a minha equipa tem 4 membros. Nível de adesão do novo membro: 560 USDT (T3) Ganho desta vez: 56 USDT de comissão de recrutamento Oportunidades de sorteio obtidas: 1 Recompensa: 200 USDT Rendimento de hoje até agora: 258 USDT Agradeço à minha convidante Isabel, ao meu gerente Theodore e à empresa TIMI. [Imagem: Detalhes da receita, tdvip2026100616535748757 +56 USDT 06-10-2026 16:53:57 L1 Recrutamento Comissão]",
+    "key_takeaways": [
+      "Filomena recrutou um novo membro para a TIMI",
+      "O novo membro aderiu com 560 USDT (T3)",
+      "Filomena ganhou 56 USDT de comissão de recrutamento",
+      "Obteve 1 oportunidade de sorteio e 200 USDT de recompensa",
+      "Rendimento total do dia de Filomena: 258 USDT",
+      "Agradece a Isabel (convidante) e Theodore (gerente)"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-127",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "18:15",
+    "channel": "TIMI-68",
+    "authority": "Nuno Ferreira TIMI",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Hoje entrei para a equipa do Nuno Ferreira e da Aline. Graças a deus que ontem fui ao centro de formação e conheci esta pessoa ❤️🙏",
+    "key_takeaways": [
+      "Anúncio de entrada na equipa do Nuno Ferreira e Aline",
+      "Experiência positiva no centro de formação"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-126",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "18:15",
+    "channel": "TIMI-68",
+    "authority": "Paula Ferreira",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Hoje entrei para a equipa do Nuno Ferreira e da Aline. Graças a deus que ontem fui ao centro de formação e conheci esta pessoa Fabulosa. Obrigado aos dois e ao Theodore que tanto me acarinharam",
+    "key_takeaways": [
+      "Anúncio de entrada na equipa do Nuno Ferreira e Aline",
+      "Experiência positiva no centro de formação",
+      "Agradecimento a Nuno, Aline e Theodore"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-125",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "18:14",
+    "channel": "TIMI-68",
+    "authority": "Nuno Ferreira TIMI",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Theodore Todos podem gravar um vídeo sempre que participarem no s... 🙏🙏",
+    "key_takeaways": [
+      "Confirmação ou reiteração da diretiva de Theodore sobre vídeos"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-124",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "18:13",
+    "channel": "TIMI-68",
+    "authority": "Theodore",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Todos podem gravar um vídeo sempre que participarem no sorteio e enviá-lo para o grupo.",
+    "key_takeaways": [
+      "Instrução para gravação de vídeos para sorteios",
+      "Obrigação de enviar vídeos para o grupo"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-123",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "18:12",
+    "channel": "TIMI-68",
+    "authority": "Eduardo Simões",
+    "content_type": "Resposta",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Falta uma hora.",
+    "key_takeaways": [
+      "Confirmação do tempo restante para o código GO"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-122",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "18:10",
+    "channel": "TIMI-68",
+    "authority": "Júlia",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Obrigada Julia",
+    "key_takeaways": [
+      "Agradecimento pela resposta"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-121",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "18:10",
+    "channel": "TIMI-68",
+    "authority": "Nuno Rebelo",
+    "content_type": "Resposta",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Falta uma hora.",
+    "key_takeaways": [
+      "Informação sobre o tempo restante para o código GO"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-120",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "18:09",
+    "channel": "TIMI-68",
+    "authority": "Nuno Rebelo",
+    "content_type": "Dúvida",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Júlia alguém sabe o código GO da tarde ou a que horas sai o código?",
+    "key_takeaways": [
+      "Reiteração da questão sobre o código GO da tarde"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-119",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "18:09",
+    "channel": "TIMI-68",
+    "authority": "Júlia",
+    "content_type": "Dúvida",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "alguém sabe o código GO da tarde ou a que horas sai o código?",
+    "key_takeaways": [
+      "Questão sobre o código GO da tarde",
+      "Pedido de informação sobre o horário de disponibilização do código"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-118",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "18:08",
+    "channel": "TIMI-68",
+    "authority": "Nuno Ferreira TIMI",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Aline É isso! juntos somos mais fort... ❤️❤️❤️",
+    "key_takeaways": [
+      "Apoio e reconhecimento à Aline pelo bónus"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-117",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "18:08",
+    "channel": "TIMI-68",
+    "authority": "Aline",
+    "content_type": "Aviso / Bónus",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Ganhou 200 euros em dinheiro no mural dos envelopes. Que... Muito merecedora! Trabalha dia e noite, e merece muito!",
+    "key_takeaways": [
+      "Anúncio de bónus de 200 euros",
+      "Reconhecimento de mérito e trabalho"
+    ]
+  },
+  {
+    "id": "INTEL-20261007-116",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "18:30",
+    "channel": "TIMI-68",
+    "authority": "João Silva",
+    "content_type": "Campanha / Anúncio",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "[Imagem: Anúncio promocional TIMI: 'O combo de benefícios do TIMI está a crescer com grande entusiasmo. Participa ativamente e a próxima surpresa será tua.']",
+    "key_takeaways": [
+      "Promoção dos benefícios da TIMI.",
+      "Incentivo à participação ativa para aceder a futuras surpresas/bónus."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-115",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "18:22",
+    "channel": "TIMI-68",
+    "authority": "Fénix Lótus",
+    "content_type": "Bónus / Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Recebi a recompensa de 39 USDT, obrigado TIML. Receber recompensas é sempre tão bom.",
+    "key_takeaways": [
+      "Confirmação de recebimento de recompensa de 39 USDT.",
+      "Agradecimento à TIML pela recompensa."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-114",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "18:15",
+    "channel": "TIMI-68",
+    "authority": "Paula Ferreira",
+    "content_type": "Anúncio / Bónus / Recrutamento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Hoje entre para a equipa do Nuno Ferreira e da Aline. Graças... ❤️💚 [Imagem: Detalhes da receita: tdvip202610061812588247S, +39 USDT, 06-10-2026 18:12:59, L2 Recrutamento Comissão]",
+    "key_takeaways": [
+      "Paula Ferreira juntou-se à equipa de Nuno Ferreira e Aline.",
+      "Recebida comissão de recrutamento L2 de 39 USDT (transação registada em 06-10-2026)."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-113",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "Denis Cabral",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "1. Café 3-5 pessoas\n2. Restaurante Com 10 pessoas, já precisas coordenar",
+    "key_takeaways": [
+      "Ilustração visual da analogia de crescimento: Café (3-5 pessoas) vs. Restaurante (10 pessoas, exige coordenação)."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-112",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:04",
+    "channel": "TIMI-68",
+    "authority": "Denis Cabral",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Se no futuro se transformar num hotel, com 50 ou até 100 pessoas, e se todas as coisas forem tratadas apenas por ti, a gestão certamente não conseguirá acompanhar.",
+    "key_takeaways": [
+      "A gestão individual torna-se insustentável com o crescimento para um hotel (50-100 pessoas)."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-111",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:04",
+    "channel": "TIMI-68",
+    "authority": "Matías",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "verdade",
+    "key_takeaways": [
+      "Concordância com a afirmação."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-110",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:03",
+    "channel": "TIMI-68",
+    "authority": "Denis Cabral",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Mas quando o restaurante cresce para 10 pessoas, já tens de começar a organizar diferentes funções, como a cozinha, a sala e a caixa.",
+    "key_takeaways": [
+      "Com o crescimento do restaurante para 10 pessoas, é necessária a organização de diferentes funções (cozinha, sala, caixa)."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-109",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:03",
+    "channel": "TIMI-68",
+    "authority": "Albertino Costa",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Muitas vezes, a diferença não está no momento em que se en... Sim, concordo plenamente contigo irmão",
+    "key_takeaways": [
+      "Concordância com a explicação de Denis Cabral sobre a diferença de performance."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-108",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:02",
+    "channel": "TIMI-68",
+    "authority": "Denis Cabral",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Se houver um pequeno restaurante em Portugal, com apenas 3 a 5 pessoas, basicamente consegues geri-lo sozinho.",
+    "key_takeaways": [
+      "Exemplo de gestão de um pequeno restaurante (3-5 pessoas) por uma única pessoa."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-107",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:02",
+    "channel": "TIMI-68",
+    "authority": "Denis Cabral",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Vou dar um exemplo muito simples.",
+    "key_takeaways": [
+      "Introdução de um exemplo para ilustrar o ponto."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-106",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:02",
+    "channel": "TIMI-68",
+    "authority": "Denis Cabral",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Muitas vezes, a diferença não está no momento em que se entra, mas sim em saber ou não gerir e desenvolver verdadeiramente a sua própria equipa.",
+    "key_takeaways": [
+      "A diferença de performance reside na capacidade de gerir e desenvolver a equipa, não no tempo de entrada."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-105",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:01",
+    "channel": "TIMI-68",
+    "authority": "Denis Cabral",
+    "content_type": "Dúvida",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Porquê?",
+    "key_takeaways": [
+      "Questionamento sobre a razão da diferença de performance."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-104",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:01",
+    "channel": "TIMI-68",
+    "authority": "Albertino Costa",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Boa tarde família TIMI",
+    "key_takeaways": [
+      "Saudação à família TIMI."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-103",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:01",
+    "channel": "TIMI-68",
+    "authority": "Matías",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Boa tarde",
+    "key_takeaways": [
+      "Saudação."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-102",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:00",
+    "channel": "TIMI-68",
+    "authority": "Denis Cabral",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Já repararam que alguns parceiros, apesar de se terem juntado à TIMI mais tarde do que vocês, agora já vos ultrapassaram aos poucos, tanto no nível de agente e no nível de equipamento como nos rendimentos?",
+    "key_takeaways": [
+      "Questionamento sobre a performance de parceiros que entraram mais tarde mas já superaram outros em nível de agente, equipamento e rendimentos."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-101",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:00",
+    "channel": "TIMI-68",
+    "authority": "Denis Cabral",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Esta tarde gostaria de falar convosco sobre um tema muito importante: a gestão e o desenvolvimento de equipas.",
+    "key_takeaways": [
+      "Introdução ao tema de gestão e desenvolvimento de equipas."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-100",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:00",
+    "channel": "TIMI-68",
+    "authority": "Denis Cabral",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Boa tarde, caros membros da TIMI.",
+    "key_takeaways": [
+      "Saudação aos membros da TIMI."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-099",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:00",
+    "channel": "TIMI-68",
+    "authority": "FabioPires",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Boa Tarde",
+    "key_takeaways": [
+      "Saudação inicial."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-098",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "Theodore",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Theodoratualizou a mensagem fixada. Mensagem de vídeo 5.2 MB Baixar",
+    "key_takeaways": [
+      "Vídeo de 5.2 MB fixado no canal."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-097",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:28",
+    "channel": "TIMI-68",
+    "authority": "Anna Patterson",
+    "content_type": "Resposta / Geral / Campanha / Bónus",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Carlos Brandillo Fiz a troca dos meus 200 pontos por artigos essenciais para a ... 🙏🙏",
+    "key_takeaways": [
+      "Anna Patterson reconheceu e aprovou a troca de pontos de Carlos Brandillo.",
+      "A mensagem sugere concordância ou participação no programa de troca de pontos."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-096",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:21",
+    "channel": "TIMI-68",
+    "authority": "Salome",
+    "content_type": "Resposta / Geral / Campanha / Bónus",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Carlos Brandillo Fiz a troca dos meus 200 pontos por artigos essenciais para a ... muito bom, em coisas úteis. Eu vou fazer o mesmo com os meus 150. 🙏",
+    "key_takeaways": [
+      "Salome elogiou a troca de pontos por artigos essenciais, considerando-os úteis.",
+      "Salome planeia trocar os seus 150 pontos pelo mesmo tipo de artigos."
+    ]
+  },
+  {
+    "id": "INTEL-20261007-095",
+    "timestamp_published": "2026-10-07 09:38:37",
+    "date_str": "2026-10-07",
+    "time_str": "19:20",
+    "channel": "TIMI-68",
+    "authority": "Carlos Brandillo",
+    "content_type": "Geral / Campanha / Bónus",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Fiz a troca dos meus 200 pontos por artigos essenciais para a minha família! Os meus agradecimentos ao nosso gestor Theodore",
+    "key_takeaways": [
+      "Carlos Brandillo trocou 200 pontos por artigos essenciais para a família.",
+      "Agradeceu ao gestor Theodore pela iniciativa/programa."
+    ]
+  },
+  {
     "id": "INTEL-20260928-094",
     "timestamp_published": "2026-09-28 17:24:38",
     "date_str": "2026-09-28",

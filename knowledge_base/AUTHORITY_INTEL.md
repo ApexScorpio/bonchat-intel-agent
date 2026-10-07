@@ -10,6 +10,44 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261007-113` | 2026-10-07 N/A | `TIMI-68` | Denis Cabral | Diretiva | [Ver Anexo](#intel-20261007-113) |
+| `INTEL-20261007-098` | 2026-10-07 N/A | `TIMI-68` | Theodore | Aviso | [Ver Anexo](#intel-20261007-098) |
+| `INTEL-20261007-097` | 2026-10-07 19:28 | `TIMI-68` | Anna Patterson | Resposta / Geral / Campanha / Bónus | [Ver Anexo](#intel-20261007-097) |
+| `INTEL-20261007-096` | 2026-10-07 19:21 | `TIMI-68` | Salome | Resposta / Geral / Campanha / Bónus | [Ver Anexo](#intel-20261007-096) |
+| `INTEL-20261007-095` | 2026-10-07 19:20 | `TIMI-68` | Carlos Brandillo | Geral / Campanha / Bónus | [Ver Anexo](#intel-20261007-095) |
+| `INTEL-20261007-112` | 2026-10-07 19:04 | `TIMI-68` | Denis Cabral | Diretiva | [Ver Anexo](#intel-20261007-112) |
+| `INTEL-20261007-111` | 2026-10-07 19:04 | `TIMI-68` | Matías | Geral | [Ver Anexo](#intel-20261007-111) |
+| `INTEL-20261007-110` | 2026-10-07 19:03 | `TIMI-68` | Denis Cabral | Diretiva | [Ver Anexo](#intel-20261007-110) |
+| `INTEL-20261007-109` | 2026-10-07 19:03 | `TIMI-68` | Albertino Costa | Geral | [Ver Anexo](#intel-20261007-109) |
+| `INTEL-20261007-108` | 2026-10-07 19:02 | `TIMI-68` | Denis Cabral | Diretiva | [Ver Anexo](#intel-20261007-108) |
+| `INTEL-20261007-107` | 2026-10-07 19:02 | `TIMI-68` | Denis Cabral | Diretiva | [Ver Anexo](#intel-20261007-107) |
+| `INTEL-20261007-106` | 2026-10-07 19:02 | `TIMI-68` | Denis Cabral | Diretiva | [Ver Anexo](#intel-20261007-106) |
+| `INTEL-20261007-105` | 2026-10-07 19:01 | `TIMI-68` | Denis Cabral | Dúvida | [Ver Anexo](#intel-20261007-105) |
+| `INTEL-20261007-104` | 2026-10-07 19:01 | `TIMI-68` | Albertino Costa | Geral | [Ver Anexo](#intel-20261007-104) |
+| `INTEL-20261007-103` | 2026-10-07 19:01 | `TIMI-68` | Matías | Geral | [Ver Anexo](#intel-20261007-103) |
+| `INTEL-20261007-102` | 2026-10-07 19:00 | `TIMI-68` | Denis Cabral | Diretiva | [Ver Anexo](#intel-20261007-102) |
+| `INTEL-20261007-101` | 2026-10-07 19:00 | `TIMI-68` | Denis Cabral | Diretiva | [Ver Anexo](#intel-20261007-101) |
+| `INTEL-20261007-100` | 2026-10-07 19:00 | `TIMI-68` | Denis Cabral | Geral | [Ver Anexo](#intel-20261007-100) |
+| `INTEL-20261007-099` | 2026-10-07 19:00 | `TIMI-68` | FabioPires | Geral | [Ver Anexo](#intel-20261007-099) |
+| `INTEL-20261007-116` | 2026-10-07 18:30 | `TIMI-68` | João Silva | Campanha / Anúncio | [Ver Anexo](#intel-20261007-116) |
+| `INTEL-20261007-115` | 2026-10-07 18:22 | `TIMI-68` | Fénix Lótus | Bónus / Geral | [Ver Anexo](#intel-20261007-115) |
+| `INTEL-20261007-127` | 2026-10-07 18:15 | `TIMI-68` | Nuno Ferreira TIMI | Geral | [Ver Anexo](#intel-20261007-127) |
+| `INTEL-20261007-126` | 2026-10-07 18:15 | `TIMI-68` | Paula Ferreira | Geral | [Ver Anexo](#intel-20261007-126) |
+| `INTEL-20261007-114` | 2026-10-07 18:15 | `TIMI-68` | Paula Ferreira | Anúncio / Bónus / Recrutamento | [Ver Anexo](#intel-20261007-114) |
+| `INTEL-20261007-125` | 2026-10-07 18:14 | `TIMI-68` | Nuno Ferreira TIMI | Geral | [Ver Anexo](#intel-20261007-125) |
+| `INTEL-20261007-124` | 2026-10-07 18:13 | `TIMI-68` | Theodore | Diretiva | [Ver Anexo](#intel-20261007-124) |
+| `INTEL-20261007-123` | 2026-10-07 18:12 | `TIMI-68` | Eduardo Simões | Resposta | [Ver Anexo](#intel-20261007-123) |
+| `INTEL-20261007-122` | 2026-10-07 18:10 | `TIMI-68` | Júlia | Geral | [Ver Anexo](#intel-20261007-122) |
+| `INTEL-20261007-121` | 2026-10-07 18:10 | `TIMI-68` | Nuno Rebelo | Resposta | [Ver Anexo](#intel-20261007-121) |
+| `INTEL-20261007-120` | 2026-10-07 18:09 | `TIMI-68` | Nuno Rebelo | Dúvida | [Ver Anexo](#intel-20261007-120) |
+| `INTEL-20261007-119` | 2026-10-07 18:09 | `TIMI-68` | Júlia | Dúvida | [Ver Anexo](#intel-20261007-119) |
+| `INTEL-20261007-118` | 2026-10-07 18:08 | `TIMI-68` | Nuno Ferreira TIMI | Geral | [Ver Anexo](#intel-20261007-118) |
+| `INTEL-20261007-117` | 2026-10-07 18:08 | `TIMI-68` | Aline | Aviso / Bónus | [Ver Anexo](#intel-20261007-117) |
+| `INTEL-20261007-129` | 2026-10-07 16:41 | `TIMI-68` | Andrea Bispo | Geral / Pedido | [Ver Anexo](#intel-20261007-129) |
+| `INTEL-20261007-130` | 2026-10-07 16:40 | `TIMI-68` | Andrea Bispo | Geral / Feedback | [Ver Anexo](#intel-20261007-130) |
+| `INTEL-20261007-131` | 2026-10-07 16:39 | `TIMI-68` | Andrea Bispo | Geral / Feedback | [Ver Anexo](#intel-20261007-131) |
+| `INTEL-20261007-132` | 2026-10-07 16:32 | `TIMI-68` | Miguel | Geral | [Ver Anexo](#intel-20261007-132) |
+| `INTEL-20261007-128` | 2026-10-07 16:08 | `TIMI-68` | Filomena | Campanha / Bónus / Relatório de Atividade | [Ver Anexo](#intel-20261007-128) |
 | `INTEL-20260928-094` | 2026-09-28 N/A | `TIMI-68` | TIMI | Campanha / Bónus | [Ver Anexo](#intel-20260928-094) |
 | `INTEL-20260928-093` | 2026-09-28 N/A | `TIMI-68` | TIMI | Geral | [Ver Anexo](#intel-20260928-093) |
 | `INTEL-20260928-092` | 2026-09-28 N/A | `TIMI-68` | Theodore | Aviso / Campanha | [Ver Anexo](#intel-20260928-092) |
@@ -108,6 +146,670 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20261007-113"></a>[INTEL-20261007-113] — Diretiva
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Denis Cabral`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+1. Café 3-5 pessoas
+2. Restaurante Com 10 pessoas, já precisas coordenar
+```
+
+#### 💡 Pontos-Chave:
+- Ilustração visual da analogia de crescimento: Café (3-5 pessoas) vs. Restaurante (10 pessoas, exige coordenação).
+
+---
+
+### <a id="intel-20261007-098"></a>[INTEL-20261007-098] — Aviso
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Theodoratualizou a mensagem fixada. Mensagem de vídeo 5.2 MB Baixar
+```
+
+#### 💡 Pontos-Chave:
+- Vídeo de 5.2 MB fixado no canal.
+
+---
+
+### <a id="intel-20261007-097"></a>[INTEL-20261007-097] — Resposta / Geral / Campanha / Bónus
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:28
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Anna Patterson`
+- **🏷️ Categoria:** Resposta / Geral / Campanha / Bónus
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Carlos Brandillo Fiz a troca dos meus 200 pontos por artigos essenciais para a ... 🙏🙏
+```
+
+#### 💡 Pontos-Chave:
+- Anna Patterson reconheceu e aprovou a troca de pontos de Carlos Brandillo.
+- A mensagem sugere concordância ou participação no programa de troca de pontos.
+
+---
+
+### <a id="intel-20261007-096"></a>[INTEL-20261007-096] — Resposta / Geral / Campanha / Bónus
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:21
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Salome`
+- **🏷️ Categoria:** Resposta / Geral / Campanha / Bónus
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Carlos Brandillo Fiz a troca dos meus 200 pontos por artigos essenciais para a ... muito bom, em coisas úteis. Eu vou fazer o mesmo com os meus 150. 🙏
+```
+
+#### 💡 Pontos-Chave:
+- Salome elogiou a troca de pontos por artigos essenciais, considerando-os úteis.
+- Salome planeia trocar os seus 150 pontos pelo mesmo tipo de artigos.
+
+---
+
+### <a id="intel-20261007-095"></a>[INTEL-20261007-095] — Geral / Campanha / Bónus
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:20
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Carlos Brandillo`
+- **🏷️ Categoria:** Geral / Campanha / Bónus
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Fiz a troca dos meus 200 pontos por artigos essenciais para a minha família! Os meus agradecimentos ao nosso gestor Theodore
+```
+
+#### 💡 Pontos-Chave:
+- Carlos Brandillo trocou 200 pontos por artigos essenciais para a família.
+- Agradeceu ao gestor Theodore pela iniciativa/programa.
+
+---
+
+### <a id="intel-20261007-112"></a>[INTEL-20261007-112] — Diretiva
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:04
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Denis Cabral`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Se no futuro se transformar num hotel, com 50 ou até 100 pessoas, e se todas as coisas forem tratadas apenas por ti, a gestão certamente não conseguirá acompanhar.
+```
+
+#### 💡 Pontos-Chave:
+- A gestão individual torna-se insustentável com o crescimento para um hotel (50-100 pessoas).
+
+---
+
+### <a id="intel-20261007-111"></a>[INTEL-20261007-111] — Geral
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:04
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Matías`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+verdade
+```
+
+#### 💡 Pontos-Chave:
+- Concordância com a afirmação.
+
+---
+
+### <a id="intel-20261007-110"></a>[INTEL-20261007-110] — Diretiva
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:03
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Denis Cabral`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Mas quando o restaurante cresce para 10 pessoas, já tens de começar a organizar diferentes funções, como a cozinha, a sala e a caixa.
+```
+
+#### 💡 Pontos-Chave:
+- Com o crescimento do restaurante para 10 pessoas, é necessária a organização de diferentes funções (cozinha, sala, caixa).
+
+---
+
+### <a id="intel-20261007-109"></a>[INTEL-20261007-109] — Geral
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:03
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Albertino Costa`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Muitas vezes, a diferença não está no momento em que se en... Sim, concordo plenamente contigo irmão
+```
+
+#### 💡 Pontos-Chave:
+- Concordância com a explicação de Denis Cabral sobre a diferença de performance.
+
+---
+
+### <a id="intel-20261007-108"></a>[INTEL-20261007-108] — Diretiva
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:02
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Denis Cabral`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Se houver um pequeno restaurante em Portugal, com apenas 3 a 5 pessoas, basicamente consegues geri-lo sozinho.
+```
+
+#### 💡 Pontos-Chave:
+- Exemplo de gestão de um pequeno restaurante (3-5 pessoas) por uma única pessoa.
+
+---
+
+### <a id="intel-20261007-107"></a>[INTEL-20261007-107] — Diretiva
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:02
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Denis Cabral`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Vou dar um exemplo muito simples.
+```
+
+#### 💡 Pontos-Chave:
+- Introdução de um exemplo para ilustrar o ponto.
+
+---
+
+### <a id="intel-20261007-106"></a>[INTEL-20261007-106] — Diretiva
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:02
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Denis Cabral`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Muitas vezes, a diferença não está no momento em que se entra, mas sim em saber ou não gerir e desenvolver verdadeiramente a sua própria equipa.
+```
+
+#### 💡 Pontos-Chave:
+- A diferença de performance reside na capacidade de gerir e desenvolver a equipa, não no tempo de entrada.
+
+---
+
+### <a id="intel-20261007-105"></a>[INTEL-20261007-105] — Dúvida
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:01
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Denis Cabral`
+- **🏷️ Categoria:** Dúvida
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Porquê?
+```
+
+#### 💡 Pontos-Chave:
+- Questionamento sobre a razão da diferença de performance.
+
+---
+
+### <a id="intel-20261007-104"></a>[INTEL-20261007-104] — Geral
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:01
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Albertino Costa`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boa tarde família TIMI
+```
+
+#### 💡 Pontos-Chave:
+- Saudação à família TIMI.
+
+---
+
+### <a id="intel-20261007-103"></a>[INTEL-20261007-103] — Geral
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:01
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Matías`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boa tarde
+```
+
+#### 💡 Pontos-Chave:
+- Saudação.
+
+---
+
+### <a id="intel-20261007-102"></a>[INTEL-20261007-102] — Diretiva
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:00
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Denis Cabral`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Já repararam que alguns parceiros, apesar de se terem juntado à TIMI mais tarde do que vocês, agora já vos ultrapassaram aos poucos, tanto no nível de agente e no nível de equipamento como nos rendimentos?
+```
+
+#### 💡 Pontos-Chave:
+- Questionamento sobre a performance de parceiros que entraram mais tarde mas já superaram outros em nível de agente, equipamento e rendimentos.
+
+---
+
+### <a id="intel-20261007-101"></a>[INTEL-20261007-101] — Diretiva
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:00
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Denis Cabral`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Esta tarde gostaria de falar convosco sobre um tema muito importante: a gestão e o desenvolvimento de equipas.
+```
+
+#### 💡 Pontos-Chave:
+- Introdução ao tema de gestão e desenvolvimento de equipas.
+
+---
+
+### <a id="intel-20261007-100"></a>[INTEL-20261007-100] — Geral
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:00
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Denis Cabral`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boa tarde, caros membros da TIMI.
+```
+
+#### 💡 Pontos-Chave:
+- Saudação aos membros da TIMI.
+
+---
+
+### <a id="intel-20261007-099"></a>[INTEL-20261007-099] — Geral
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 19:00
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `FabioPires`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boa Tarde
+```
+
+#### 💡 Pontos-Chave:
+- Saudação inicial.
+
+---
+
+### <a id="intel-20261007-116"></a>[INTEL-20261007-116] — Campanha / Anúncio
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 18:30
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `João Silva`
+- **🏷️ Categoria:** Campanha / Anúncio
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+[Imagem: Anúncio promocional TIMI: 'O combo de benefícios do TIMI está a crescer com grande entusiasmo. Participa ativamente e a próxima surpresa será tua.']
+```
+
+#### 💡 Pontos-Chave:
+- Promoção dos benefícios da TIMI.
+- Incentivo à participação ativa para aceder a futuras surpresas/bónus.
+
+---
+
+### <a id="intel-20261007-115"></a>[INTEL-20261007-115] — Bónus / Geral
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 18:22
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Fénix Lótus`
+- **🏷️ Categoria:** Bónus / Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Recebi a recompensa de 39 USDT, obrigado TIML. Receber recompensas é sempre tão bom.
+```
+
+#### 💡 Pontos-Chave:
+- Confirmação de recebimento de recompensa de 39 USDT.
+- Agradecimento à TIML pela recompensa.
+
+---
+
+### <a id="intel-20261007-127"></a>[INTEL-20261007-127] — Geral
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 18:15
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Nuno Ferreira TIMI`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Hoje entrei para a equipa do Nuno Ferreira e da Aline. Graças a deus que ontem fui ao centro de formação e conheci esta pessoa ❤️🙏
+```
+
+#### 💡 Pontos-Chave:
+- Anúncio de entrada na equipa do Nuno Ferreira e Aline
+- Experiência positiva no centro de formação
+
+---
+
+### <a id="intel-20261007-126"></a>[INTEL-20261007-126] — Geral
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 18:15
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Paula Ferreira`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Hoje entrei para a equipa do Nuno Ferreira e da Aline. Graças a deus que ontem fui ao centro de formação e conheci esta pessoa Fabulosa. Obrigado aos dois e ao Theodore que tanto me acarinharam
+```
+
+#### 💡 Pontos-Chave:
+- Anúncio de entrada na equipa do Nuno Ferreira e Aline
+- Experiência positiva no centro de formação
+- Agradecimento a Nuno, Aline e Theodore
+
+---
+
+### <a id="intel-20261007-114"></a>[INTEL-20261007-114] — Anúncio / Bónus / Recrutamento
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 18:15
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Paula Ferreira`
+- **🏷️ Categoria:** Anúncio / Bónus / Recrutamento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Hoje entre para a equipa do Nuno Ferreira e da Aline. Graças... ❤️💚 [Imagem: Detalhes da receita: tdvip202610061812588247S, +39 USDT, 06-10-2026 18:12:59, L2 Recrutamento Comissão]
+```
+
+#### 💡 Pontos-Chave:
+- Paula Ferreira juntou-se à equipa de Nuno Ferreira e Aline.
+- Recebida comissão de recrutamento L2 de 39 USDT (transação registada em 06-10-2026).
+
+---
+
+### <a id="intel-20261007-125"></a>[INTEL-20261007-125] — Geral
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 18:14
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Nuno Ferreira TIMI`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Theodore Todos podem gravar um vídeo sempre que participarem no s... 🙏🙏
+```
+
+#### 💡 Pontos-Chave:
+- Confirmação ou reiteração da diretiva de Theodore sobre vídeos
+
+---
+
+### <a id="intel-20261007-124"></a>[INTEL-20261007-124] — Diretiva
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 18:13
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Todos podem gravar um vídeo sempre que participarem no sorteio e enviá-lo para o grupo.
+```
+
+#### 💡 Pontos-Chave:
+- Instrução para gravação de vídeos para sorteios
+- Obrigação de enviar vídeos para o grupo
+
+---
+
+### <a id="intel-20261007-123"></a>[INTEL-20261007-123] — Resposta
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 18:12
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Eduardo Simões`
+- **🏷️ Categoria:** Resposta
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Falta uma hora.
+```
+
+#### 💡 Pontos-Chave:
+- Confirmação do tempo restante para o código GO
+
+---
+
+### <a id="intel-20261007-122"></a>[INTEL-20261007-122] — Geral
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 18:10
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Júlia`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Obrigada Julia
+```
+
+#### 💡 Pontos-Chave:
+- Agradecimento pela resposta
+
+---
+
+### <a id="intel-20261007-121"></a>[INTEL-20261007-121] — Resposta
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 18:10
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Nuno Rebelo`
+- **🏷️ Categoria:** Resposta
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Falta uma hora.
+```
+
+#### 💡 Pontos-Chave:
+- Informação sobre o tempo restante para o código GO
+
+---
+
+### <a id="intel-20261007-120"></a>[INTEL-20261007-120] — Dúvida
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 18:09
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Nuno Rebelo`
+- **🏷️ Categoria:** Dúvida
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Júlia alguém sabe o código GO da tarde ou a que horas sai o código?
+```
+
+#### 💡 Pontos-Chave:
+- Reiteração da questão sobre o código GO da tarde
+
+---
+
+### <a id="intel-20261007-119"></a>[INTEL-20261007-119] — Dúvida
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 18:09
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Júlia`
+- **🏷️ Categoria:** Dúvida
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+alguém sabe o código GO da tarde ou a que horas sai o código?
+```
+
+#### 💡 Pontos-Chave:
+- Questão sobre o código GO da tarde
+- Pedido de informação sobre o horário de disponibilização do código
+
+---
+
+### <a id="intel-20261007-118"></a>[INTEL-20261007-118] — Geral
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 18:08
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Nuno Ferreira TIMI`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Aline É isso! juntos somos mais fort... ❤️❤️❤️
+```
+
+#### 💡 Pontos-Chave:
+- Apoio e reconhecimento à Aline pelo bónus
+
+---
+
+### <a id="intel-20261007-117"></a>[INTEL-20261007-117] — Aviso / Bónus
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 18:08
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Aline`
+- **🏷️ Categoria:** Aviso / Bónus
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Ganhou 200 euros em dinheiro no mural dos envelopes. Que... Muito merecedora! Trabalha dia e noite, e merece muito!
+```
+
+#### 💡 Pontos-Chave:
+- Anúncio de bónus de 200 euros
+- Reconhecimento de mérito e trabalho
+
+---
+
+### <a id="intel-20261007-129"></a>[INTEL-20261007-129] — Geral / Pedido
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 16:41
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Andrea Bispo`
+- **🏷️ Categoria:** Geral / Pedido
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Eu sou a Neuza Mendes e hoje pedi ao gestor um desafio de ... 💪💰🚀🔥
+```
+
+#### 💡 Pontos-Chave:
+- Andrea Bispo (identificando-se como Neuza Mendes) pediu um desafio ao gestor
+
+---
+
+### <a id="intel-20261007-130"></a>[INTEL-20261007-130] — Geral / Feedback
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 16:40
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Andrea Bispo`
+- **🏷️ Categoria:** Geral / Feedback
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Theodore Enviou um vídeo Top.
+```
+
+#### 💡 Pontos-Chave:
+- Andrea Bispo elogia vídeo enviado por Theodore
+
+---
+
+### <a id="intel-20261007-131"></a>[INTEL-20261007-131] — Geral / Feedback
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 16:39
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Andrea Bispo`
+- **🏷️ Categoria:** Geral / Feedback
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Theodore Enviou um vídeo Boa tarde TIMI. 🙏🔥 Top.
+```
+
+#### 💡 Pontos-Chave:
+- Andrea Bispo cumprimenta a equipa e elogia vídeo enviado por Theodore
+
+---
+
+### <a id="intel-20261007-132"></a>[INTEL-20261007-132] — Geral
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 16:32
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Miguel`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boa tarde
+```
+
+#### 💡 Pontos-Chave:
+- Miguel envia cumprimento de 'Boa tarde'
+
+---
+
+### <a id="intel-20261007-128"></a>[INTEL-20261007-128] — Campanha / Bónus / Relatório de Atividade
+
+- **📅 Data de Publicação:** 2026-10-07
+- **⏰ Hora:** 16:08
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Filomena`
+- **🏷️ Categoria:** Campanha / Bónus / Relatório de Atividade
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Hoje recrutei com sucesso um novo membro para a TIMI. Atualmente, a minha equipa tem 4 membros. Nível de adesão do novo membro: 560 USDT (T3) Ganho desta vez: 56 USDT de comissão de recrutamento Oportunidades de sorteio obtidas: 1 Recompensa: 200 USDT Rendimento de hoje até agora: 258 USDT Agradeço à minha convidante Isabel, ao meu gerente Theodore e à empresa TIMI. [Imagem: Detalhes da receita, tdvip2026100616535748757 +56 USDT 06-10-2026 16:53:57 L1 Recrutamento Comissão]
+```
+
+#### 💡 Pontos-Chave:
+- Filomena recrutou um novo membro para a TIMI
+- O novo membro aderiu com 560 USDT (T3)
+- Filomena ganhou 56 USDT de comissão de recrutamento
+- Obteve 1 oportunidade de sorteio e 200 USDT de recompensa
+- Rendimento total do dia de Filomena: 258 USDT
+- Agradece a Isabel (convidante) e Theodore (gerente)
 
 ---
 

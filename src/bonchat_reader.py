@@ -326,7 +326,8 @@ class BonChatReader:
         if default_y:
             logger.info(f"Selecting channel '{canonical}' at calibrated sidebar Y={default_y}")
             self.click_window(150, default_y)
-            time.sleep(0.8)
+            time.sleep(0.5)
+            self.go_to_latest_messages()
             return True
 
         # 2. Visual template matching on sidebar ROI
@@ -374,7 +375,8 @@ class BonChatReader:
                             target_y = 100 + max_loc[1] + tpl.shape[0] // 2
                             logger.info(f"Visual match for '{canonical}' ({os.path.basename(tpl_file)}) at (X={target_x}, Y={target_y}) conf={max_val:.2f}")
                             self.click_window(target_x, target_y)
-                            time.sleep(0.8)
+                            time.sleep(0.5)
+                            self.go_to_latest_messages()
                             return True
             except Exception as e:
                 logger.debug(f"Visual matching note: {e}")
@@ -394,13 +396,87 @@ class BonChatReader:
                                 item_y = 110 + ocr_data['top'][i] + ocr_data['height'][i] // 2
                                 logger.info(f"Sidebar OCR matched '{canonical}' (word '{word}') at Y={item_y}")
                                 self.click_window(150, item_y)
-                                time.sleep(0.8)
+                                time.sleep(0.5)
+                                self.go_to_latest_messages()
                                 return True
             except Exception as e:
                 logger.debug(f"Sidebar OCR match error: {e}")
 
         logger.info(f"Canal '{canonical}' não encontrado na barra lateral (não disponível nesta conta BonChat). A avançar...")
         return False
+
+    def find_reset_button(self, img: Image.Image) -> Optional[Tuple[int, int]]:
+        """Detects the circular down-arrow jump-to-bottom button if visible."""
+        try:
+            import cv2
+            import numpy as np
+            rgb = np.array(img.convert("RGB"))
+            h, w = rgb.shape[:2]
+            roi_y0, roi_y1 = int(h * 0.65), int(h * 0.90)
+            roi_x0, roi_x1 = int(w * 0.88), w
+            roi = rgb[roi_y0:roi_y1, roi_x0:roi_x1]
+            gray = cv2.cvtColor(roi, cv2.COLOR_RGB2GRAY)
+            circles = cv2.HoughCircles(
+                gray, cv2.HOUGH_GRADIENT, dp=1, minDist=20,
+                param1=50, param2=25, minRadius=12, maxRadius=32
+            )
+            if circles is not None:
+                c = circles[0][0]
+                bx = roi_x0 + int(c[0])
+                by = roi_y0 + int(c[1])
+                return (bx, by)
+        except Exception:
+            pass
+        return None
+
+    def go_to_latest_messages(self):
+        """
+        Forces chat view to jump to the very bottom (most recent messages)
+        before beginning upwards history scanning.
+        """
+        if not self.hwnd:
+            return
+        set_thread_to_ghost_desktop()
+        logger.info("Jumping to latest messages at bottom of conversation...")
+        LiveViewBridge.get_instance().register_action("GO_LATEST", "Jump to latest messages", (800, 400))
+
+        # 1. Click chat body to focus message list
+        self.click_window(800, 400)
+        time.sleep(0.15)
+
+        # 2. Check if floating jump-to-bottom button is visible via circle detector or fixed coords (1495, 714)
+        full_img = self.capture_window()
+        btn = self.find_reset_button(full_img) if full_img else None
+        if btn:
+            logger.info(f"Detected jump-to-bottom button at {btn}. Clicking...")
+            self.click_window(btn[0], btn[1])
+            time.sleep(0.4)
+        else:
+            self.click_window(1495, 714)
+            time.sleep(0.2)
+
+        # 3. Send VK_END keystroke sequence
+        for _ in range(8):
+            user32.PostMessageW(self.hwnd, win32con.WM_KEYDOWN, win32con.VK_END, 0)
+            user32.PostMessageW(self.hwnd, win32con.WM_KEYUP, win32con.VK_END, 0)
+            time.sleep(0.04)
+
+        # 4. Scroll down aggressively with negative delta
+        try:
+            rect = win32gui.GetWindowRect(self.hwnd)
+            cx = rect[0] + 800
+            cy = rect[1] + 400
+            lparam_scroll = win32api.MAKELONG(cx, cy)
+            wparam_down = win32api.MAKELONG(0, -1200) # Negative = scroll down
+            for _ in range(12):
+                win32gui.SendMessage(self.hwnd, win32con.WM_MOUSEWHEEL, wparam_down, lparam_scroll)
+                time.sleep(0.03)
+        except Exception:
+            pass
+
+        # 5. One more click at bottom right button if still showing
+        self.click_window(1495, 714)
+        time.sleep(0.6)
 
     def scroll_chat_up(self, step: int = 500):
         """
