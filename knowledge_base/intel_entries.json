@@ -1,5 +1,203 @@
 [
   {
+    "id": "INTEL-20261020-145",
+    "timestamp_published": "2026-10-20 13:12:38",
+    "date_str": "2026-10-20",
+    "time_str": "10:46",
+    "channel": "TIMI-68",
+    "authority": "Sandra",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Bom dia a todos! Ontem conclui o período de experiência e, com a ajuda do meu gerente, acabei de comprar a bicicleta T3. Aqui, agradeço novamente ao meu gerente por me ter programado um depósito de 200 USDT. Estou muito satisfeito com a empresa TIMI e espero, no futuro, poder ganhar mais rendimento.",
+    "key_takeaways": [
+      "Membro Sandra concluiu o período de experiência com sucesso.",
+      "Sandra adquiriu uma 'bicicleta T3'.",
+      "Sandra recebeu um depósito de 200 USDT, programado com o apoio do seu gerente.",
+      "Sandra expressa satisfação com a empresa TIMI e expectativas de maiores rendimentos futuros."
+    ]
+  },
+  {
+    "id": "INTEL-20261020-144",
+    "timestamp_published": "2026-10-20 13:12:38",
+    "date_str": "2026-10-20",
+    "time_str": "11:14",
+    "channel": "TIMI-68",
+    "authority": "Gameiro",
+    "content_type": "Reunião",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Tornar-se parceiro da TIMI não é apenas uma colaboração, mas sim uma oportunidade de participar no desenvolvimento do negócio.",
+    "key_takeaways": [
+      "Enquadramento da parceria como oportunidade de negócio participativo."
+    ]
+  },
+  {
+    "id": "INTEL-20261020-143",
+    "timestamp_published": "2026-10-20 13:12:38",
+    "date_str": "2026-10-20",
+    "time_str": "11:14",
+    "channel": "TIMI-68",
+    "authority": "Gameiro",
+    "content_type": "Reunião",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Isto significa que não só podes usar o equipamento, como também podes participar na promoção de mercado e na expansão do negócio de acordo com a tua própria situação, recebendo a remuneração correspondente conforme o acordo específico de parceria.",
+    "key_takeaways": [
+      "Remuneração associada às atividades de promoção e expansão de mercado do parceiro."
+    ]
+  },
+  {
+    "id": "INTEL-20261020-142",
+    "timestamp_published": "2026-10-20 13:12:38",
+    "date_str": "2026-10-20",
+    "time_str": "11:14",
+    "channel": "TIMI-68",
+    "authority": "Gameiro",
+    "content_type": "Reunião",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A TIMI espera, de mãos dadas com os parceiros, expandir o mercado, promover a marca e impulsionar o desenvolvimento do negócio.",
+    "key_takeaways": [
+      "Objetivo conjunto de expansão e visibilidade de marca."
+    ]
+  },
+  {
+    "id": "INTEL-20261020-141",
+    "timestamp_published": "2026-10-20 13:12:38",
+    "date_str": "2026-10-20",
+    "time_str": "11:14",
+    "channel": "TIMI-68",
+    "authority": "Gameiro",
+    "content_type": "Reunião",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Através da comparação, podemos ver que o modelo tradicional depende mais do investimento e da operação da própria empresa, enquanto o modelo de economia partilhada dá mais ênfase à ligação de recursos e à participação conjunta. A TIMI pretende exatamente, através da força dos parceiros, impulsionar em conjunto o desenvolvimento do mercado.",
+    "key_takeaways": [
+      "Destaque para o modelo de economia partilhada e alavancagem com base nos membros."
+    ]
+  },
+  {
+    "id": "INTEL-20261020-140",
+    "timestamp_published": "2026-10-20 13:12:38",
+    "date_str": "2026-10-20",
+    "time_str": "11:14",
+    "channel": "TIMI-68",
+    "authority": "Gameiro",
+    "content_type": "Reunião",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "[Infográfico: MODELO TRADICIONAL VS TIMI - Comparativo de estrutura de capital, operação e distribuição de lucros]",
+    "key_takeaways": [
+      "Infográfico demonstrando que a TIMI partilha lucros e promoção com a rede de utilizadores."
+    ]
+  },
+  {
+    "id": "INTEL-20261020-139",
+    "timestamp_published": "2026-10-20 13:12:38",
+    "date_str": "2026-10-20",
+    "time_str": "11:14",
+    "channel": "TIMI-68",
+    "authority": "Gameiro",
+    "content_type": "Reunião",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "No setor tradicional de bicicletas partilhadas, a empresa normalmente encarrega-se da aquisição de equipamentos, colocação de publicidade, recrutamento de pessoal e operação diária, enquanto o utilizador limita-se a usar a bicicleta e a pagar a taxa.",
+    "key_takeaways": [
+      "Explicação da estrutura fechada do modelo de negócio tradicional."
+    ]
+  },
+  {
+    "id": "INTEL-20261020-138",
+    "timestamp_published": "2026-10-20 13:12:38",
+    "date_str": "2026-10-20",
+    "time_str": "11:14",
+    "channel": "TIMI-68",
+    "authority": "Gameiro",
+    "content_type": "Reunião",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Hoje, vamos primeiro compreender: qual é o verdadeiro significado de ser parceiro da TIMI?",
+    "key_takeaways": [
+      "Abertura do tema da reunião sobre o papel do parceiro na TIMI."
+    ]
+  },
+  {
+    "id": "INTEL-20261020-137",
+    "timestamp_published": "2026-10-20 13:12:38",
+    "date_str": "2026-10-20",
+    "time_str": "11:14",
+    "channel": "TIMI-68",
+    "authority": "Gameiro",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Para garantir a eficiência da reunião, vou fechar temporariamente a janela de chat.",
+    "key_takeaways": [
+      "Bloqueio do chat do grupo para realização da reunião."
+    ]
+  },
+  {
+    "id": "INTEL-20261020-136",
+    "timestamp_published": "2026-10-20 13:12:38",
+    "date_str": "2026-10-20",
+    "time_str": "11:13",
+    "channel": "TIMI-68",
+    "authority": "Patricia",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Todos podem calcular quanto fica a vossa recompensa de convite original depois de aumentar 50%, e só depois de perceberem bem é que devem fazer o vosso plano de convites!",
+    "key_takeaways": [
+      "Alerta para o aumento de 50% nas recompensas de convite e planeamento de metas."
+    ]
+  },
+  {
+    "id": "INTEL-20261020-135",
+    "timestamp_published": "2026-10-20 13:12:38",
+    "date_str": "2026-10-20",
+    "time_str": "11:12",
+    "channel": "TIMI-68",
+    "authority": "Martim",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Convidando um novo parceiro, agora podes receber mais recompensas, vou aproveitar bem esta oportunidade.",
+    "key_takeaways": [
+      "Incentivo à adesão à campanha de recompensas por convite."
+    ]
+  },
+  {
+    "id": "INTEL-20261020-134",
+    "timestamp_published": "2026-10-20 13:12:38",
+    "date_str": "2026-10-20",
+    "time_str": "11:12",
+    "channel": "TIMI-68",
+    "authority": "Gameiro",
+    "content_type": "Resposta",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "ainda não. Primeiro vem a nossa reunião",
+    "key_takeaways": [
+      "Confirmação de que o código só é divulgado após a reunião."
+    ]
+  },
+  {
+    "id": "INTEL-20261020-133",
+    "timestamp_published": "2026-10-20 13:12:38",
+    "date_str": "2026-10-20",
+    "time_str": "11:11",
+    "channel": "TIMI-68",
+    "authority": "Anaisa Clementina",
+    "content_type": "Dúvida",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Bom dia , o código já saiu",
+    "key_takeaways": [
+      "Pergunta sobre a disponibilização do código diário."
+    ]
+  },
+  {
     "id": "INTEL-20261007-132",
     "timestamp_published": "2026-10-07 09:38:37",
     "date_str": "2026-10-07",

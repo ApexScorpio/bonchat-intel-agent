@@ -10,6 +10,19 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261020-144` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-144) |
+| `INTEL-20261020-143` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-143) |
+| `INTEL-20261020-142` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-142) |
+| `INTEL-20261020-141` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-141) |
+| `INTEL-20261020-140` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-140) |
+| `INTEL-20261020-139` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-139) |
+| `INTEL-20261020-138` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-138) |
+| `INTEL-20261020-137` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Diretiva | [Ver Anexo](#intel-20261020-137) |
+| `INTEL-20261020-136` | 2026-10-20 11:13 | `TIMI-68` | Patricia | Diretiva | [Ver Anexo](#intel-20261020-136) |
+| `INTEL-20261020-135` | 2026-10-20 11:12 | `TIMI-68` | Martim | Geral | [Ver Anexo](#intel-20261020-135) |
+| `INTEL-20261020-134` | 2026-10-20 11:12 | `TIMI-68` | Gameiro | Resposta | [Ver Anexo](#intel-20261020-134) |
+| `INTEL-20261020-133` | 2026-10-20 11:11 | `TIMI-68` | Anaisa Clementina | Dúvida | [Ver Anexo](#intel-20261020-133) |
+| `INTEL-20261020-145` | 2026-10-20 10:46 | `TIMI-68` | Sandra | Geral | [Ver Anexo](#intel-20261020-145) |
 | `INTEL-20261007-113` | 2026-10-07 N/A | `TIMI-68` | Denis Cabral | Diretiva | [Ver Anexo](#intel-20261007-113) |
 | `INTEL-20261007-098` | 2026-10-07 N/A | `TIMI-68` | Theodore | Aviso | [Ver Anexo](#intel-20261007-098) |
 | `INTEL-20261007-097` | 2026-10-07 19:28 | `TIMI-68` | Anna Patterson | Resposta / Geral / Campanha / Bónus | [Ver Anexo](#intel-20261007-097) |
@@ -146,6 +159,230 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20261020-144"></a>[INTEL-20261020-144] — Reunião
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 11:14
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Gameiro`
+- **🏷️ Categoria:** Reunião
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Tornar-se parceiro da TIMI não é apenas uma colaboração, mas sim uma oportunidade de participar no desenvolvimento do negócio.
+```
+
+#### 💡 Pontos-Chave:
+- Enquadramento da parceria como oportunidade de negócio participativo.
+
+---
+
+### <a id="intel-20261020-143"></a>[INTEL-20261020-143] — Reunião
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 11:14
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Gameiro`
+- **🏷️ Categoria:** Reunião
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Isto significa que não só podes usar o equipamento, como também podes participar na promoção de mercado e na expansão do negócio de acordo com a tua própria situação, recebendo a remuneração correspondente conforme o acordo específico de parceria.
+```
+
+#### 💡 Pontos-Chave:
+- Remuneração associada às atividades de promoção e expansão de mercado do parceiro.
+
+---
+
+### <a id="intel-20261020-142"></a>[INTEL-20261020-142] — Reunião
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 11:14
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Gameiro`
+- **🏷️ Categoria:** Reunião
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A TIMI espera, de mãos dadas com os parceiros, expandir o mercado, promover a marca e impulsionar o desenvolvimento do negócio.
+```
+
+#### 💡 Pontos-Chave:
+- Objetivo conjunto de expansão e visibilidade de marca.
+
+---
+
+### <a id="intel-20261020-141"></a>[INTEL-20261020-141] — Reunião
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 11:14
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Gameiro`
+- **🏷️ Categoria:** Reunião
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Através da comparação, podemos ver que o modelo tradicional depende mais do investimento e da operação da própria empresa, enquanto o modelo de economia partilhada dá mais ênfase à ligação de recursos e à participação conjunta. A TIMI pretende exatamente, através da força dos parceiros, impulsionar em conjunto o desenvolvimento do mercado.
+```
+
+#### 💡 Pontos-Chave:
+- Destaque para o modelo de economia partilhada e alavancagem com base nos membros.
+
+---
+
+### <a id="intel-20261020-140"></a>[INTEL-20261020-140] — Reunião
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 11:14
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Gameiro`
+- **🏷️ Categoria:** Reunião
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+[Infográfico: MODELO TRADICIONAL VS TIMI - Comparativo de estrutura de capital, operação e distribuição de lucros]
+```
+
+#### 💡 Pontos-Chave:
+- Infográfico demonstrando que a TIMI partilha lucros e promoção com a rede de utilizadores.
+
+---
+
+### <a id="intel-20261020-139"></a>[INTEL-20261020-139] — Reunião
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 11:14
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Gameiro`
+- **🏷️ Categoria:** Reunião
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+No setor tradicional de bicicletas partilhadas, a empresa normalmente encarrega-se da aquisição de equipamentos, colocação de publicidade, recrutamento de pessoal e operação diária, enquanto o utilizador limita-se a usar a bicicleta e a pagar a taxa.
+```
+
+#### 💡 Pontos-Chave:
+- Explicação da estrutura fechada do modelo de negócio tradicional.
+
+---
+
+### <a id="intel-20261020-138"></a>[INTEL-20261020-138] — Reunião
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 11:14
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Gameiro`
+- **🏷️ Categoria:** Reunião
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Hoje, vamos primeiro compreender: qual é o verdadeiro significado de ser parceiro da TIMI?
+```
+
+#### 💡 Pontos-Chave:
+- Abertura do tema da reunião sobre o papel do parceiro na TIMI.
+
+---
+
+### <a id="intel-20261020-137"></a>[INTEL-20261020-137] — Diretiva
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 11:14
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Gameiro`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Para garantir a eficiência da reunião, vou fechar temporariamente a janela de chat.
+```
+
+#### 💡 Pontos-Chave:
+- Bloqueio do chat do grupo para realização da reunião.
+
+---
+
+### <a id="intel-20261020-136"></a>[INTEL-20261020-136] — Diretiva
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 11:13
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Patricia`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Todos podem calcular quanto fica a vossa recompensa de convite original depois de aumentar 50%, e só depois de perceberem bem é que devem fazer o vosso plano de convites!
+```
+
+#### 💡 Pontos-Chave:
+- Alerta para o aumento de 50% nas recompensas de convite e planeamento de metas.
+
+---
+
+### <a id="intel-20261020-135"></a>[INTEL-20261020-135] — Geral
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 11:12
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Martim`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Convidando um novo parceiro, agora podes receber mais recompensas, vou aproveitar bem esta oportunidade.
+```
+
+#### 💡 Pontos-Chave:
+- Incentivo à adesão à campanha de recompensas por convite.
+
+---
+
+### <a id="intel-20261020-134"></a>[INTEL-20261020-134] — Resposta
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 11:12
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Gameiro`
+- **🏷️ Categoria:** Resposta
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+ainda não. Primeiro vem a nossa reunião
+```
+
+#### 💡 Pontos-Chave:
+- Confirmação de que o código só é divulgado após a reunião.
+
+---
+
+### <a id="intel-20261020-133"></a>[INTEL-20261020-133] — Dúvida
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 11:11
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Anaisa Clementina`
+- **🏷️ Categoria:** Dúvida
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Bom dia , o código já saiu
+```
+
+#### 💡 Pontos-Chave:
+- Pergunta sobre a disponibilização do código diário.
+
+---
+
+### <a id="intel-20261020-145"></a>[INTEL-20261020-145] — Geral
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 10:46
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Sandra`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Bom dia a todos! Ontem conclui o período de experiência e, com a ajuda do meu gerente, acabei de comprar a bicicleta T3. Aqui, agradeço novamente ao meu gerente por me ter programado um depósito de 200 USDT. Estou muito satisfeito com a empresa TIMI e espero, no futuro, poder ganhar mais rendimento.
+```
+
+#### 💡 Pontos-Chave:
+- Membro Sandra concluiu o período de experiência com sucesso.
+- Sandra adquiriu uma 'bicicleta T3'.
+- Sandra recebeu um depósito de 200 USDT, programado com o apoio do seu gerente.
+- Sandra expressa satisfação com a empresa TIMI e expectativas de maiores rendimentos futuros.
 
 ---
 
