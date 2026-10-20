@@ -1,11 +1,13 @@
 import time
 import datetime
 import logging
+from .config import load_config
 from .process_guard import is_maestro_running
 
 logger = logging.getLogger("Scheduler")
 
-SCHEDULE_TIMES = ["13:30", "21:30"]
+cfg = load_config()
+SCHEDULE_TIMES = cfg.get("schedule_times", ["00:00", "13:30", "21:30"])
 
 def start_scheduler():
     from .main import run_agent
@@ -24,7 +26,12 @@ def start_scheduler():
         for sched in SCHEDULE_TIMES:
             key = f"{current_date_str}_{sched}"
             if current_time_str == sched and key not in last_run_date:
-                shift_name = "TURNO MANHÃ (13:30)" if "13" in sched else "TURNO NOITE / FIM DO DIA (21:30)"
+                if "00" in sched or "24" in sched:
+                    shift_name = "FECHO DIÁRIO / MEIA-NOITE (00:00)"
+                elif "13" in sched:
+                    shift_name = "TURNO MANHÃ (13:30)"
+                else:
+                    shift_name = "TURNO NOITE / FIM DO DIA (21:30)"
                 pending_shift = (key, shift_name)
                 break
 

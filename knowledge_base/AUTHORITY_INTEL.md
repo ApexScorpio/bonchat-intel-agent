@@ -10,6 +10,16 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261021-160` | 2026-10-21 23:23 | `TIMI-68` | Jacyra Sebastião | Geral | [Ver Anexo](#intel-20261021-160) |
+| `INTEL-20261021-159` | 2026-10-21 22:36 | `TIMI-68` | TIMI Departamento Administrativo | Diretiva | [Ver Anexo](#intel-20261021-159) |
+| `INTEL-20261021-158` | 2026-10-21 22:30 | `TIMI-68` | Tasiano | Geral | [Ver Anexo](#intel-20261021-158) |
+| `INTEL-20261021-157` | 2026-10-21 22:27 | `TIMI-68` | rodrigo nascimento | Geral | [Ver Anexo](#intel-20261021-157) |
+| `INTEL-20261021-156` | 2026-10-21 22:27 | `TIMI-68` | Daniel | Geral | [Ver Anexo](#intel-20261021-156) |
+| `INTEL-20261021-155` | 2026-10-21 22:24 | `TIMI-68` | Membro não identificado | Geral | [Ver Anexo](#intel-20261021-155) |
+| `INTEL-20261021-164` | 2026-10-21 21:37 | `TIMI-68` | rodrigo nascimento | Geral / Feedback | [Ver Anexo](#intel-20261021-164) |
+| `INTEL-20261021-163` | 2026-10-21 21:36 | `TIMI-68` | cristiana mochila | Geral / Feedback | [Ver Anexo](#intel-20261021-163) |
+| `INTEL-20261021-162` | 2026-10-21 21:35 | `TIMI-68` | knabben | Geral / Feedback | [Ver Anexo](#intel-20261021-162) |
+| `INTEL-20261021-161` | 2026-10-21 21:34 | `TIMI-68` | Autor Não Identificado (Resumo de Reunião) | Reunião / Diretiva | [Ver Anexo](#intel-20261021-161) |
 | `INTEL-20261020-144` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-144) |
 | `INTEL-20261020-143` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-143) |
 | `INTEL-20261020-142` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-142) |
@@ -168,6 +178,215 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20261021-160"></a>[INTEL-20261021-160] — Geral
+
+- **📅 Data de Publicação:** 2026-10-21
+- **⏰ Hora:** 23:23
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Jacyra Sebastião`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boa noite , a reunião de hoje foi bastante precisa, têm toda a razão de nos dizer para levar a timi a sério
+Sei que tem muitos parceiros que não levam, também sei que temos medo de ser enganados
+Mas, é como o gestor disse, os empresários de grandes sucesso será que nunca foram enganados !
+Gostei muito da reunião , passou corretivo, incentivo, determinação, e coragem .
+Por tanto não tenho nenhuma dúvida
+Obrigada
+```
+
+#### 💡 Pontos-Chave:
+- Reforço da postura de seriedade exigida aos parceiros da TIMI
+- Feedback positivo à liderança e abordagem de incentivo/correção de Jonathan
+
+---
+
+### <a id="intel-20261021-159"></a>[INTEL-20261021-159] — Diretiva
+
+- **📅 Data de Publicação:** 2026-10-21
+- **⏰ Hora:** 22:36
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI Departamento Administrativo`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Devido ao facto de a conta acima mencionada não ter participado na importante reunião do diretor-geral Jonathan, de acordo com o sistema de gestão de pontos da TIMI, será agora efetuado o desconto correspondente de pontos nessa conta. Em casos graves, a permissão de utilização dos equipamentos será suspensa.
+
+Solução: Inicie sessão no BonChat atempadamente e contacte o administrador para explicar o motivo. Após verificação, a permissão de utilização dos equipamentos será restabelecida aos que cumpram as condições. Caso volte a ocorrer uma situação semelhante, a TIMI procederá ao reembolso e à cessação da colaboração conforme as normas.
+```
+
+#### 💡 Pontos-Chave:
+- Dedução formal de pontos para ausentes da reunião de Jonathan
+- Risco de suspensão da permissão de equipamentos
+- Necessidade de contactar a administração no BonChat para repor direitos
+- Ameaça de cancelamento de parceria e reembolso em caso de reincidência
+
+---
+
+### <a id="intel-20261021-158"></a>[INTEL-20261021-158] — Geral
+
+- **📅 Data de Publicação:** 2026-10-21
+- **⏰ Hora:** 22:30
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Tasiano`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Resumo da reunião: sinceramente, depois de ouvir relatos de pessoas que foram enganadas, tornei-me mais cauteloso em relação a projetos semelhantes. A reunião desta noite fez-me ter uma nova perspetiva: não posso, só porque outras plataformas tiveram problemas, concluir imediatamente que todos os projetos são iguais; mas também não posso, só porque assisti a uma reunião, concluir que não há qualquer risco. Vou continuar a procurar conhecer a situação real de operação da TIMI, ler com atenção o contrato e as cláusulas de reembolso e, depois de confirmar as informações e avaliar os riscos, decidir se continuo a participar.
+```
+
+#### 💡 Pontos-Chave:
+- Análise de risco pessoal antes de decidir continuar na TIMI
+- Exame minucioso de contratos e regras de reembolso
+
+---
+
+### <a id="intel-20261021-157"></a>[INTEL-20261021-157] — Geral
+
+- **📅 Data de Publicação:** 2026-10-21
+- **⏰ Hora:** 22:27
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `rodrigo nascimento`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Resumo da reunião do Jonathan
+
+Na reunião, Jonathan reforçou a necessidade de estar presente nos encontros, manter a conta em funcionamento e ter atenção aos pontos acumulados, pois a sua perda poderá ter consequências nos ganhos e na relação de parceria.
+
+Segundo a sua explicação, a TIMI permite obter rendimentos com cerca de 1 a 2 horas de dedicação diária, utilizando o equipamento T6 e trabalhando no crescimento de uma equipa.
+
+Jonathan abordou ainda a questão da confiança na empresa, referindo o sistema de bicicletas partilhadas e a opção de reembolso para quem apresentar dúvidas. Mencionou também vantagens disponibilizadas todos os meses, incluindo incentivos por trazer novos parceiros e descontos na compra de equipamentos.
+
+Mensagem principal: investir na aprendizagem contínua, aplicar o que se aprende, atrair novos participantes, apoiar os membros da equipa e desenvolver um grupo unido, com base na confiança, na entreajuda e na cooperação.
+```
+
+#### 💡 Pontos-Chave:
+- Operação com equipamento T6 exige 1 a 2 horas diárias
+- Perda de pontos afeta diretamente os rendimentos
+- Incentivos por recrutamento e descontos em equipamentos
+- Garantia de opção de reembolso para membros hesitantes
+
+---
+
+### <a id="intel-20261021-156"></a>[INTEL-20261021-156] — Geral
+
+- **📅 Data de Publicação:** 2026-10-21
+- **⏰ Hora:** 22:27
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Daniel`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Resumo da reunião desta noite:
+Quando comecei a contactar com a TIMI, tinha realmente bastantes dúvidas, especialmente depois de ouvir falar de casos de burla noutras plataformas, e ainda menos me atrevia a acreditar facilmente. A reunião desta noite fez-me perceber que ter dúvidas não é assustador; o importante é procurar ativamente informações fiáveis. Estou a pensar pedir ao meu gerente para me explicar melhor o modelo de negócio da empresa, as regras financeiras e as condições de reembolso, ao mesmo tempo que verifico as informações relevantes. Só esclarecendo bem as coisas é que podemos evitar tomar decisões impulsivas por falta de conhecimento.
+```
+
+#### 💡 Pontos-Chave:
+- Necessidade de validar regras financeiras e cláusulas de reembolso com o gerente
+- Preocupação de membros com o risco de burlas financeiras
+
+---
+
+### <a id="intel-20261021-155"></a>[INTEL-20261021-155] — Geral
+
+- **📅 Data de Publicação:** 2026-10-21
+- **⏰ Hora:** 22:24
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Membro não identificado`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+...retirada dos pontos, os rendimentos diminuem
+3 Explicou que atitudes podem melhor o desempenho de cada membro grupo.
+Por último nos conduziu a uma reflexão sobre mudança de mentalidade.
+```
+
+#### 💡 Pontos-Chave:
+- Impacto da perda de pontos na redução de rendimentos
+- Orientações de melhoria de desempenho individual no grupo
+
+---
+
+### <a id="intel-20261021-164"></a>[INTEL-20261021-164] — Geral / Feedback
+
+- **📅 Data de Publicação:** 2026-10-21
+- **⏰ Hora:** 21:37
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `rodrigo nascimento`
+- **🏷️ Categoria:** Geral / Feedback
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+a reuniao foi muito proveitosa, abordou temas importantes.
+```
+
+#### 💡 Pontos-Chave:
+- Validação positiva dos tópicos abordados na conferência
+
+---
+
+### <a id="intel-20261021-163"></a>[INTEL-20261021-163] — Geral / Feedback
+
+- **📅 Data de Publicação:** 2026-10-21
+- **⏰ Hora:** 21:36
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `cristiana mochila`
+- **🏷️ Categoria:** Geral / Feedback
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boa reunião a do Jonathan , muito esclarecedora 💕✨
+```
+
+#### 💡 Pontos-Chave:
+- Aprovação do teor da reunião conduzida por Jonathan
+
+---
+
+### <a id="intel-20261021-162"></a>[INTEL-20261021-162] — Geral / Feedback
+
+- **📅 Data de Publicação:** 2026-10-21
+- **⏰ Hora:** 21:35
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `knabben`
+- **🏷️ Categoria:** Geral / Feedback
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Gostei bastante desta partilha, porque me fez refletir sobre a importância de aproveitar melhor o nosso tempo, continuar a aprender e procurar compreender cada vez melhor as coisas em que nos envolvemos. Acho também que a confiança é muito importante e deve ser construída com transparência, informação clara e provas concretas. Há sempre coisas que podemos melhorar e aprender, e acredito que devemos manter a mente aberta, esclarecer as nossas dúvidas e tomar decisões de forma consciente. Obrigado pela partilha!
+```
+
+#### 💡 Pontos-Chave:
+- Reflexão sobre gestão de tempo, transparência operacional e necessidade de informação fundamentada
+
+---
+
+### <a id="intel-20261021-161"></a>[INTEL-20261021-161] — Reunião / Diretiva
+
+- **📅 Data de Publicação:** 2026-10-21
+- **⏰ Hora:** 21:34
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Autor Não Identificado (Resumo de Reunião)`
+- **🏷️ Categoria:** Reunião / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+...rendimentos diminuem e a parceria pode terminar. As faltas justificadas devem ser avaliadas pelos gestores.
+2. Tempo e rendimentos
+O Jonathan comparou um trabalho tradicional de 8 horas por dia com a TIMI, dizendo que é possível ganhar mais com o equipamento T6 e dedicando apenas 1 a 2 horas por dia. Defendeu também que aprender, convidar pessoas e construir uma equipa pode aumentar os ganhos.
+3. Confiança na TIMI
+Reconheceu que algumas pessoas têm receio devido a burlas anteriores. Apresentou a TIMI como um negócio de bicicletas partilhadas e falou das suas lojas e objetivos de crescimento. Garantiu que quem tiver dúvidas pode pedir o reembolso, que, segundo ele, será feito em 10 minutos.
+4. Benefícios do mês
+Anunciou recompensas extra por trazer novos parceiros e descontos na compra de equipamentos.
+5. Mensagem final
+O Jonathan incentivou todos a passar das palavras à ação, aprender, ajudar os outros e construir equipas com base na confiança e nos resultados.
+Nota: Os valores de rendimentos e as garantias de reembolso foram afirmações feitas durante a reunião, não resultados comprovados. Antes de investir, é importante confirmar as condições e os riscos.
+```
+
+#### 💡 Pontos-Chave:
+- Comparação do trabalho tradicional com modelo TIMI usando equipamento T6 (1 a 2 horas/dia)
+- Promessa de garantia de reembolso em 10 minutos para dissipar receios de burlas
+- Anúncio de bónus por novos parceiros e descontos na compra de novos equipamentos
 
 ---
 

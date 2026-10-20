@@ -70,6 +70,13 @@ def purge_transient_data(max_digest_days: int = 3):
                         f.unlink()
                     except Exception: pass
 
+        # 4. Any root debug captures or screenshots
+        for p in BASE_DIR.glob("*.png"):
+            try:
+                freed += p.stat().st_size
+                p.unlink()
+            except Exception: pass
+
         if freed > 0:
             purge_logger.info(f"🧹 [PURGE] Libertados {freed / (1024**2):.1f} MB de ficheiros temporários do PC.")
     except Exception as e:
