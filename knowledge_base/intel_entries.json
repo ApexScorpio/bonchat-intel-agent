@@ -1,5 +1,35 @@
 [
   {
+    "id": "INTEL-20261020-147",
+    "timestamp_published": "2026-10-20 13:21:51",
+    "date_str": "2026-10-03",
+    "time_str": "19:05",
+    "channel": "TIMI--NO.08",
+    "authority": "Participante Desconhecido",
+    "content_type": "Resposta",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Está bem, patrão",
+    "key_takeaways": [
+      "Confirmação de entendimento/aceitação de diretiva/informação"
+    ]
+  },
+  {
+    "id": "INTEL-20261020-146",
+    "timestamp_published": "2026-10-20 13:21:51",
+    "date_str": "2026-10-03",
+    "time_str": "19:02",
+    "channel": "TIMI--NO.08",
+    "authority": "Participante Desconhecido",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "estou a enviar aos ooutros, um minuto",
+    "key_takeaways": [
+      "Informação a ser partilhada com outros membros"
+    ]
+  },
+  {
     "id": "INTEL-20261020-145",
     "timestamp_published": "2026-10-20 13:12:38",
     "date_str": "2026-10-20",

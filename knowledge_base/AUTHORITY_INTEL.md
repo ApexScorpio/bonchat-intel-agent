@@ -61,6 +61,8 @@
 | `INTEL-20261007-131` | 2026-10-07 16:39 | `TIMI-68` | Andrea Bispo | Geral / Feedback | [Ver Anexo](#intel-20261007-131) |
 | `INTEL-20261007-132` | 2026-10-07 16:32 | `TIMI-68` | Miguel | Geral | [Ver Anexo](#intel-20261007-132) |
 | `INTEL-20261007-128` | 2026-10-07 16:08 | `TIMI-68` | Filomena | Campanha / Bónus / Relatório de Atividade | [Ver Anexo](#intel-20261007-128) |
+| `INTEL-20261020-147` | 2026-10-03 19:05 | `TIMI--NO.08` | Participante Desconhecido | Resposta | [Ver Anexo](#intel-20261020-147) |
+| `INTEL-20261020-146` | 2026-10-03 19:02 | `TIMI--NO.08` | Participante Desconhecido | Geral | [Ver Anexo](#intel-20261020-146) |
 | `INTEL-20260928-094` | 2026-09-28 N/A | `TIMI-68` | TIMI | Campanha / Bónus | [Ver Anexo](#intel-20260928-094) |
 | `INTEL-20260928-093` | 2026-09-28 N/A | `TIMI-68` | TIMI | Geral | [Ver Anexo](#intel-20260928-093) |
 | `INTEL-20260928-092` | 2026-09-28 N/A | `TIMI-68` | Theodore | Aviso / Campanha | [Ver Anexo](#intel-20260928-092) |
@@ -1047,6 +1049,40 @@ Hoje recrutei com sucesso um novo membro para a TIMI. Atualmente, a minha equipa
 - Obteve 1 oportunidade de sorteio e 200 USDT de recompensa
 - Rendimento total do dia de Filomena: 258 USDT
 - Agradece a Isabel (convidante) e Theodore (gerente)
+
+---
+
+### <a id="intel-20261020-147"></a>[INTEL-20261020-147] — Resposta
+
+- **📅 Data de Publicação:** 2026-10-03
+- **⏰ Hora:** 19:05
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Participante Desconhecido`
+- **🏷️ Categoria:** Resposta
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Está bem, patrão
+```
+
+#### 💡 Pontos-Chave:
+- Confirmação de entendimento/aceitação de diretiva/informação
+
+---
+
+### <a id="intel-20261020-146"></a>[INTEL-20261020-146] — Geral
+
+- **📅 Data de Publicação:** 2026-10-03
+- **⏰ Hora:** 19:02
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Participante Desconhecido`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+estou a enviar aos ooutros, um minuto
+```
+
+#### 💡 Pontos-Chave:
+- Informação a ser partilhada com outros membros
 
 ---
 
