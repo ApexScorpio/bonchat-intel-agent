@@ -1,5 +1,114 @@
 [
   {
+    "id": "INTEL-20261020-154",
+    "timestamp_published": "2026-10-20 13:38:49",
+    "date_str": "2026-10-19",
+    "time_str": "21:22",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Bruno",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "ajudava pessoas novas a entrar, um evento grande aqui em portimão",
+    "key_takeaways": [
+      "Sugestão de realização de um grande evento presencial de captação em Portimão"
+    ]
+  },
+  {
+    "id": "INTEL-20261020-153",
+    "timestamp_published": "2026-10-20 13:38:49",
+    "date_str": "2026-10-19",
+    "time_str": "21:21",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Jhonatan",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "era uma forma de motivar mais a equipa lançando desafios com recompensas promover eventos com convidados",
+    "key_takeaways": [
+      "Proposta de uso do orçamento em desafios com recompensas e eventos com convidados"
+    ]
+  },
+  {
+    "id": "INTEL-20261020-152",
+    "timestamp_published": "2026-10-20 13:38:49",
+    "date_str": "2026-10-19",
+    "time_str": "21:21",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Theodore",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Na interação desta noite, espero que todos consigam fazer um bom planeamento a seguir: como dar o próximo passo, o que fazer. Podem seguir o mapa mental para observar a situação do desenvolvimento da equipa. Se quiserem realizar qualquer atividade, venham pedir-me autorização. Vou apoiar-vos totalmente. A cada pessoa que participar na reunião desta noite, vou recompensar com 5 pontos.",
+    "key_takeaways": [
+      "Exigência de planeamento e uso de mapa mental para acompanhar desenvolvimento da equipa",
+      "Apoio total da chefia a novas iniciativas mediante autorização prévia",
+      "Atribuição de bónus de 5 pontos aos participantes da reunião"
+    ]
+  },
+  {
+    "id": "INTEL-20261020-151",
+    "timestamp_published": "2026-10-20 13:38:49",
+    "date_str": "2026-10-19",
+    "time_str": "21:21",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Tania Martins",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "também é importante! as vezes facilitava",
+    "key_takeaways": [
+      "Apoio à necessidade de facilitar os meios de pagamento/depósito bancário"
+    ]
+  },
+  {
+    "id": "INTEL-20261020-150",
+    "timestamp_published": "2026-10-20 13:38:49",
+    "date_str": "2026-10-19",
+    "time_str": "21:21",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Aline",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Um concerto com um famoso, com brindes da TIMI e muita alegria.",
+    "key_takeaways": [
+      "Sugestão de evento festivo com figura pública e distribuição de merchandising TIMI"
+    ]
+  },
+  {
+    "id": "INTEL-20261020-149",
+    "timestamp_published": "2026-10-20 13:38:48",
+    "date_str": "2026-10-19",
+    "time_str": "21:20",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Aline",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Atividades com prémios, com jogos, um evento grande, onde cada pessoa tinha que levar uma pessoa não parceira, e a mesma tinha que registar",
+    "key_takeaways": [
+      "Ideia de evento com prémios e jogos",
+      "Mecânica de levar novos convidados que obrigatoriamente se registem"
+    ]
+  },
+  {
+    "id": "INTEL-20261020-148",
+    "timestamp_published": "2026-10-20 13:38:48",
+    "date_str": "2026-10-19",
+    "time_str": "21:20",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Jhonatan",
+    "content_type": "Dúvida / Resposta",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "já perdi alguns cadastros pelo facto da pessoa não ter carteira digital , e nem sequer saber mexer .. seria mais fácil ter uma maneira de depositar por meios bancários",
+    "key_takeaways": [
+      "Perda de novos registos por falta de carteira digital e iliteracia tecnológica",
+      "Sugestão de introdução de métodos de depósito bancário tradicional"
+    ]
+  },
+  {
     "id": "INTEL-20261020-147",
     "timestamp_published": "2026-10-20 13:21:51",
     "date_str": "2026-10-03",

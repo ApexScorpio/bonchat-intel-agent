@@ -23,6 +23,13 @@
 | `INTEL-20261020-134` | 2026-10-20 11:12 | `TIMI-68` | Gameiro | Resposta | [Ver Anexo](#intel-20261020-134) |
 | `INTEL-20261020-133` | 2026-10-20 11:11 | `TIMI-68` | Anaisa Clementina | Dúvida | [Ver Anexo](#intel-20261020-133) |
 | `INTEL-20261020-145` | 2026-10-20 10:46 | `TIMI-68` | Sandra | Geral | [Ver Anexo](#intel-20261020-145) |
+| `INTEL-20261020-154` | 2026-10-19 21:22 | `Equipa de Agentes de Elite da TIMI` | Bruno | Geral | [Ver Anexo](#intel-20261020-154) |
+| `INTEL-20261020-153` | 2026-10-19 21:21 | `Equipa de Agentes de Elite da TIMI` | Jhonatan | Geral | [Ver Anexo](#intel-20261020-153) |
+| `INTEL-20261020-152` | 2026-10-19 21:21 | `Equipa de Agentes de Elite da TIMI` | Theodore | Diretiva | [Ver Anexo](#intel-20261020-152) |
+| `INTEL-20261020-151` | 2026-10-19 21:21 | `Equipa de Agentes de Elite da TIMI` | Tania Martins | Geral | [Ver Anexo](#intel-20261020-151) |
+| `INTEL-20261020-150` | 2026-10-19 21:21 | `Equipa de Agentes de Elite da TIMI` | Aline | Geral | [Ver Anexo](#intel-20261020-150) |
+| `INTEL-20261020-149` | 2026-10-19 21:20 | `Equipa de Agentes de Elite da TIMI` | Aline | Geral | [Ver Anexo](#intel-20261020-149) |
+| `INTEL-20261020-148` | 2026-10-19 21:20 | `Equipa de Agentes de Elite da TIMI` | Jhonatan | Dúvida / Resposta | [Ver Anexo](#intel-20261020-148) |
 | `INTEL-20261007-113` | 2026-10-07 N/A | `TIMI-68` | Denis Cabral | Diretiva | [Ver Anexo](#intel-20261007-113) |
 | `INTEL-20261007-098` | 2026-10-07 N/A | `TIMI-68` | Theodore | Aviso | [Ver Anexo](#intel-20261007-098) |
 | `INTEL-20261007-097` | 2026-10-07 19:28 | `TIMI-68` | Anna Patterson | Resposta / Geral / Campanha / Bónus | [Ver Anexo](#intel-20261007-097) |
@@ -385,6 +392,129 @@ Bom dia a todos! Ontem conclui o período de experiência e, com a ajuda do meu 
 - Sandra adquiriu uma 'bicicleta T3'.
 - Sandra recebeu um depósito de 200 USDT, programado com o apoio do seu gerente.
 - Sandra expressa satisfação com a empresa TIMI e expectativas de maiores rendimentos futuros.
+
+---
+
+### <a id="intel-20261020-154"></a>[INTEL-20261020-154] — Geral
+
+- **📅 Data de Publicação:** 2026-10-19
+- **⏰ Hora:** 21:22
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Bruno`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+ajudava pessoas novas a entrar, um evento grande aqui em portimão
+```
+
+#### 💡 Pontos-Chave:
+- Sugestão de realização de um grande evento presencial de captação em Portimão
+
+---
+
+### <a id="intel-20261020-153"></a>[INTEL-20261020-153] — Geral
+
+- **📅 Data de Publicação:** 2026-10-19
+- **⏰ Hora:** 21:21
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Jhonatan`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+era uma forma de motivar mais a equipa lançando desafios com recompensas promover eventos com convidados
+```
+
+#### 💡 Pontos-Chave:
+- Proposta de uso do orçamento em desafios com recompensas e eventos com convidados
+
+---
+
+### <a id="intel-20261020-152"></a>[INTEL-20261020-152] — Diretiva
+
+- **📅 Data de Publicação:** 2026-10-19
+- **⏰ Hora:** 21:21
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Na interação desta noite, espero que todos consigam fazer um bom planeamento a seguir: como dar o próximo passo, o que fazer. Podem seguir o mapa mental para observar a situação do desenvolvimento da equipa. Se quiserem realizar qualquer atividade, venham pedir-me autorização. Vou apoiar-vos totalmente. A cada pessoa que participar na reunião desta noite, vou recompensar com 5 pontos.
+```
+
+#### 💡 Pontos-Chave:
+- Exigência de planeamento e uso de mapa mental para acompanhar desenvolvimento da equipa
+- Apoio total da chefia a novas iniciativas mediante autorização prévia
+- Atribuição de bónus de 5 pontos aos participantes da reunião
+
+---
+
+### <a id="intel-20261020-151"></a>[INTEL-20261020-151] — Geral
+
+- **📅 Data de Publicação:** 2026-10-19
+- **⏰ Hora:** 21:21
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Tania Martins`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+também é importante! as vezes facilitava
+```
+
+#### 💡 Pontos-Chave:
+- Apoio à necessidade de facilitar os meios de pagamento/depósito bancário
+
+---
+
+### <a id="intel-20261020-150"></a>[INTEL-20261020-150] — Geral
+
+- **📅 Data de Publicação:** 2026-10-19
+- **⏰ Hora:** 21:21
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Aline`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Um concerto com um famoso, com brindes da TIMI e muita alegria.
+```
+
+#### 💡 Pontos-Chave:
+- Sugestão de evento festivo com figura pública e distribuição de merchandising TIMI
+
+---
+
+### <a id="intel-20261020-149"></a>[INTEL-20261020-149] — Geral
+
+- **📅 Data de Publicação:** 2026-10-19
+- **⏰ Hora:** 21:20
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Aline`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Atividades com prémios, com jogos, um evento grande, onde cada pessoa tinha que levar uma pessoa não parceira, e a mesma tinha que registar
+```
+
+#### 💡 Pontos-Chave:
+- Ideia de evento com prémios e jogos
+- Mecânica de levar novos convidados que obrigatoriamente se registem
+
+---
+
+### <a id="intel-20261020-148"></a>[INTEL-20261020-148] — Dúvida / Resposta
+
+- **📅 Data de Publicação:** 2026-10-19
+- **⏰ Hora:** 21:20
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Jhonatan`
+- **🏷️ Categoria:** Dúvida / Resposta
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+já perdi alguns cadastros pelo facto da pessoa não ter carteira digital , e nem sequer saber mexer .. seria mais fácil ter uma maneira de depositar por meios bancários
+```
+
+#### 💡 Pontos-Chave:
+- Perda de novos registos por falta de carteira digital e iliteracia tecnológica
+- Sugestão de introdução de métodos de depósito bancário tradicional
 
 ---
 
