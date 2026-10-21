@@ -26,6 +26,9 @@
 | `INTEL-20261021-163` | 2026-10-21 21:36 | `TIMI-68` | cristiana mochila | Geral / Feedback | [Ver Anexo](#intel-20261021-163) |
 | `INTEL-20261021-162` | 2026-10-21 21:35 | `TIMI-68` | knabben | Geral / Feedback | [Ver Anexo](#intel-20261021-162) |
 | `INTEL-20261021-161` | 2026-10-21 21:34 | `TIMI-68` | Autor Não Identificado (Resumo de Reunião) | Reunião / Diretiva | [Ver Anexo](#intel-20261021-161) |
+| `INTEL-20261022-173` | 2026-10-20 17:52 | `TIMI-NeWs` | TIMI--NO.08 | Diretiva | [Ver Anexo](#intel-20261022-173) |
+| `INTEL-20261022-172` | 2026-10-20 17:51 | `TIMI-NeWs` | TIMI--NO.08 | Diretiva | [Ver Anexo](#intel-20261022-172) |
+| `INTEL-20261022-171` | 2026-10-20 13:35 | `TIMI-NeWs` | N/A | Aviso | [Ver Anexo](#intel-20261022-171) |
 | `INTEL-20261020-144` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-144) |
 | `INTEL-20261020-143` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-143) |
 | `INTEL-20261020-142` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-142) |
@@ -507,6 +510,69 @@ Nota: Os valores de rendimentos e as garantias de reembolso foram afirmações f
 - Comparação do trabalho tradicional com modelo TIMI usando equipamento T6 (1 a 2 horas/dia)
 - Promessa de garantia de reembolso em 10 minutos para dissipar receios de burlas
 - Anúncio de bónus por novos parceiros e descontos na compra de novos equipamentos
+
+---
+
+### <a id="intel-20261022-173"></a>[INTEL-20261022-173] — Diretiva
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 17:52
+- **👥 Grupo / Canal:** `TIMI-NeWs`
+- **👑 Autoridade / Emissor:** `TIMI--NO.08`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Nota breve: Porque é que muitas equipas deixam de crescer a partir de determinada fase? É muito comum arrancarem depressa e, mais tarde, ficarem subitamente bloqueadas. Não é por as condições do mercado serem desfavoráveis, mas porque a estrutura interna não acompanhou o ritmo. Quando a equipa cresce, mas a gestão continua a seguir os mesmos métodos antigos e depende de uma ou duas pessoas para a impulsionar, é inevitável que não resista. Sem processos-padrão, sem capacidade de replicação, sem quem forme os novos membros, e com os membros mais antigos a relaxarem progressivamente, o conjunto perde motivação. A passagem da fase de crescimento para a fase de estagnação acontece assim, de forma simples. Como resolver? As equipas que conseguem continuar a crescer fazem três coisas: Primeiro, transformam a experiência em padrões. Não se trata de depender de quem sabe fazer, mas de garantir que qualquer pessoa, com base no processo, consiga executar. Segundo, gerem mecanismos, não apenas pessoas. Ritmo fixo e verificações fixas, para que a equipa funcione autonomamente, sem necessidade de controlo e pressão constantes. Terceiro, decompõem métodos e replicam em escala. Não basta ter uma pessoa excelente, é preciso decompor o seu método, para que mais pessoas o possam seguir e também alcançar resultados. Em suma: Para que uma equipa continue a crescer, não depende do esforço extremo do gestor mas sim de padrões replicáveis, mecanismos funcionais e da capacidade de replicar continuamente pessoas.
+```
+
+#### 💡 Pontos-Chave:
+- Análise das causas da estagnação de equipas (bloqueios, estrutura interna inadequada, métodos antigos, dependência de indivíduos)
+- Identificação de problemas: falta de processos-padrão, incapacidade de replicação, falha na formação de novos membros, perda de motivação dos membros antigos
+- Solução 1: Transformar experiência em padrões para garantir execução por qualquer pessoa
+- Solução 2: Gerir mecanismos (ritmo fixo, verificações fixas) para autonomia da equipa
+- Solução 3: Decompor e replicar métodos em escala para que mais pessoas atinjam resultados
+- Ênfase na importância de padrões replicáveis, mecanismos funcionais e capacidade de replicar pessoas para o crescimento contínuo da equipa
+
+---
+
+### <a id="intel-20261022-172"></a>[INTEL-20261022-172] — Diretiva
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 17:51
+- **👥 Grupo / Canal:** `TIMI-NeWs`
+- **👑 Autoridade / Emissor:** `TIMI--NO.08`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Minúscula TIMI Porque é que, após ingressar na empresa, é necessário ajudar a empresa a promover o mercado e a divulgação. O objetivo da TIMI é entrar rapidamente no mercado europeu e estabelecer uma rede consolidada de parceiros. Através do modelo de parceria local + partilha de receitas, a TIMI consegue promover rapidamente a marca e os produtos. Conhecimento profundo do mercado português e dos parceiros locais, quando os colaboradores da empresa obtêm rendimentos através da empresa, ao necessitarem de utilizar bicicletas partilhadas, recomendado a marca TIMI. O efeito daí resultante será mais direto do que o da publicidade.
+```
+
+#### 💡 Pontos-Chave:
+- Importância de promover a TIMI e a sua divulgação
+- Objetivo de expansão rápida no mercado europeu
+- Estabelecimento de rede de parceiros consolidada
+- Modelo de parceria local com partilha de receitas para promoção da marca e produtos
+- Necessidade de conhecimento profundo do mercado português e parceiros locais
+- Colaboradores obtêm rendimentos ao recomendar bicicletas partilhadas TIMI
+- Efeito direto da recomendação superior à publicidade tradicional
+
+---
+
+### <a id="intel-20261022-171"></a>[INTEL-20261022-171] — Aviso
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 13:35
+- **👥 Grupo / Canal:** `TIMI-NeWs`
+- **👑 Autoridade / Emissor:** `N/A`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Link da transmissão ao vivo: https://youtube.com/@timiezmov/
+```
+
+#### 💡 Pontos-Chave:
+- Link para transmissão ao vivo
+- Evento ou sessão informativa
 
 ---
 

@@ -1,5 +1,62 @@
 [
   {
+    "id": "INTEL-20261022-173",
+    "timestamp_published": "2026-10-22 00:47:35",
+    "date_str": "2026-10-20",
+    "time_str": "17:52",
+    "channel": "TIMI-NeWs",
+    "authority": "TIMI--NO.08",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Nota breve: Porque é que muitas equipas deixam de crescer a partir de determinada fase? É muito comum arrancarem depressa e, mais tarde, ficarem subitamente bloqueadas. Não é por as condições do mercado serem desfavoráveis, mas porque a estrutura interna não acompanhou o ritmo. Quando a equipa cresce, mas a gestão continua a seguir os mesmos métodos antigos e depende de uma ou duas pessoas para a impulsionar, é inevitável que não resista. Sem processos-padrão, sem capacidade de replicação, sem quem forme os novos membros, e com os membros mais antigos a relaxarem progressivamente, o conjunto perde motivação. A passagem da fase de crescimento para a fase de estagnação acontece assim, de forma simples. Como resolver? As equipas que conseguem continuar a crescer fazem três coisas: Primeiro, transformam a experiência em padrões. Não se trata de depender de quem sabe fazer, mas de garantir que qualquer pessoa, com base no processo, consiga executar. Segundo, gerem mecanismos, não apenas pessoas. Ritmo fixo e verificações fixas, para que a equipa funcione autonomamente, sem necessidade de controlo e pressão constantes. Terceiro, decompõem métodos e replicam em escala. Não basta ter uma pessoa excelente, é preciso decompor o seu método, para que mais pessoas o possam seguir e também alcançar resultados. Em suma: Para que uma equipa continue a crescer, não depende do esforço extremo do gestor mas sim de padrões replicáveis, mecanismos funcionais e da capacidade de replicar continuamente pessoas.",
+    "key_takeaways": [
+      "Análise das causas da estagnação de equipas (bloqueios, estrutura interna inadequada, métodos antigos, dependência de indivíduos)",
+      "Identificação de problemas: falta de processos-padrão, incapacidade de replicação, falha na formação de novos membros, perda de motivação dos membros antigos",
+      "Solução 1: Transformar experiência em padrões para garantir execução por qualquer pessoa",
+      "Solução 2: Gerir mecanismos (ritmo fixo, verificações fixas) para autonomia da equipa",
+      "Solução 3: Decompor e replicar métodos em escala para que mais pessoas atinjam resultados",
+      "Ênfase na importância de padrões replicáveis, mecanismos funcionais e capacidade de replicar pessoas para o crescimento contínuo da equipa"
+    ]
+  },
+  {
+    "id": "INTEL-20261022-172",
+    "timestamp_published": "2026-10-22 00:47:35",
+    "date_str": "2026-10-20",
+    "time_str": "17:51",
+    "channel": "TIMI-NeWs",
+    "authority": "TIMI--NO.08",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Minúscula TIMI Porque é que, após ingressar na empresa, é necessário ajudar a empresa a promover o mercado e a divulgação. O objetivo da TIMI é entrar rapidamente no mercado europeu e estabelecer uma rede consolidada de parceiros. Através do modelo de parceria local + partilha de receitas, a TIMI consegue promover rapidamente a marca e os produtos. Conhecimento profundo do mercado português e dos parceiros locais, quando os colaboradores da empresa obtêm rendimentos através da empresa, ao necessitarem de utilizar bicicletas partilhadas, recomendado a marca TIMI. O efeito daí resultante será mais direto do que o da publicidade.",
+    "key_takeaways": [
+      "Importância de promover a TIMI e a sua divulgação",
+      "Objetivo de expansão rápida no mercado europeu",
+      "Estabelecimento de rede de parceiros consolidada",
+      "Modelo de parceria local com partilha de receitas para promoção da marca e produtos",
+      "Necessidade de conhecimento profundo do mercado português e parceiros locais",
+      "Colaboradores obtêm rendimentos ao recomendar bicicletas partilhadas TIMI",
+      "Efeito direto da recomendação superior à publicidade tradicional"
+    ]
+  },
+  {
+    "id": "INTEL-20261022-171",
+    "timestamp_published": "2026-10-22 00:47:35",
+    "date_str": "2026-10-20",
+    "time_str": "13:35",
+    "channel": "TIMI-NeWs",
+    "authority": "N/A",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Link da transmissão ao vivo: https://youtube.com/@timiezmov/",
+    "key_takeaways": [
+      "Link para transmissão ao vivo",
+      "Evento ou sessão informativa"
+    ]
+  },
+  {
     "id": "INTEL-20261022-170",
     "timestamp_published": "2026-10-22 00:34:54",
     "date_str": "2026-10-22",
