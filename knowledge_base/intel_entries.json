@@ -1,5 +1,98 @@
 [
   {
+    "id": "INTEL-20261022-170",
+    "timestamp_published": "2026-10-22 00:34:54",
+    "date_str": "2026-10-22",
+    "time_str": "21:16",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Vasco",
+    "content_type": "Dúvida / Feedback Operacional",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "salário a 1500 quem é que aguenta?",
+    "key_takeaways": [
+      "Questão/reclamação sobre a insuficiência de um salário de 1500 (implica valor em moeda local, ex: euros)."
+    ]
+  },
+  {
+    "id": "INTEL-20261022-169",
+    "timestamp_published": "2026-10-22 00:34:54",
+    "date_str": "2026-10-22",
+    "time_str": "21:18",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Hugo Valério",
+    "content_type": "Geral / Feedback Operacional",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "É a realidade do nosso país com ordenados baixos e custos m... Pois é mas infelizmente os gestores pensam que é devido nao trabalhamos bem",
+    "key_takeaways": [
+      "Discussão sobre a realidade económica do país (baixos salários, altos custos).",
+      "Crítica à percepção da gestão sobre o desempenho dos agentes, sugerindo que a gestão atribui problemas à falta de trabalho em vez de condições salariais."
+    ]
+  },
+  {
+    "id": "INTEL-20261022-168",
+    "timestamp_published": "2026-10-22 00:34:54",
+    "date_str": "2026-10-22",
+    "time_str": "N/A",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Agnalda",
+    "content_type": "Dúvida",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "raylla como faz pra saber o numero",
+    "key_takeaways": [
+      "Questão sobre como os participantes podem descobrir o seu número de sorteio."
+    ]
+  },
+  {
+    "id": "INTEL-20261022-167",
+    "timestamp_published": "2026-10-22 00:34:54",
+    "date_str": "2026-10-22",
+    "time_str": "21:17",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Hugo Valério",
+    "content_type": "Geral / Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "TIMI jonathan Primeiro prémio: Telemóvel iPhone 18 + 2 unidades... Parabéns aos vencedores",
+    "key_takeaways": [
+      "Reiteração do primeiro prémio do sorteio.",
+      "Felicitações aos vencedores."
+    ]
+  },
+  {
+    "id": "INTEL-20261022-166",
+    "timestamp_published": "2026-10-22 00:34:54",
+    "date_str": "2026-10-22",
+    "time_str": "21:17",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "TIMI-Jonathan",
+    "content_type": "Aviso / Campanha / Bónus",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Primeiro prémio: Telemóvel iPhone 18 + 2 unidades\nNúmeros premiados: 107, 108\nSegundo prémio: Televisão de 64 polegadas + 1 unidade\nNúmero premiado: 36\nTerceiro prémio: Vouchers de 200 euros em dinheiro + 10 unidades\nNúmeros premiados: 88, 125, 252, 288, 318, 35, 306, 117, 267, 203\nQuarto prémio: Vouchers de 100 euros em dinheiro + 20 unidades\nNúmeros premiados: 40, 77, 143, 193, 83, 237, 344, 201, 167, 346, 31, 276, 114, 246, 345, 181, 152, 10, 58, 343\nQuinto prémio: Vouchers de 50 euros em dinheiro + 30 unidades\nNúmeros premiados: 34, 55, 348, 115, 131, 150, 187, 211, 236, 251, 202, 296, 308, 345, 225, 156, 148, 56, 173, 83, 14, 312, 208, 176, 175, 70, 106, 220, 203, 221",
+    "key_takeaways": [
+      "Anúncio detalhado dos prémios e números vencedores da 'Sorte da TIMI'.",
+      "Prémios incluem iPhone 18, TV de 64 polegadas e vouchers em dinheiro (50€, 100€, 200€)."
+    ]
+  },
+  {
+    "id": "INTEL-20261022-165",
+    "timestamp_published": "2026-10-22 00:34:54",
+    "date_str": "2026-10-22",
+    "time_str": "N/A",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "TIMI-Jonathan",
+    "content_type": "Dúvida / Mensagem Fixada",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "TIMI jonathanalizou a mensagem fixada Como obter números de sorteio?",
+    "key_takeaways": [
+      "Questão sobre o processo de obtenção de números para o sorteio TIMI."
+    ]
+  },
+  {
     "id": "INTEL-20261021-164",
     "timestamp_published": "2026-10-21 00:16:45",
     "date_str": "2026-10-21",

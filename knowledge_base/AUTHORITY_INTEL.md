@@ -10,6 +10,12 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261022-168` | 2026-10-22 N/A | `Equipa de Agentes de Elite da TIMI` | Agnalda | Dúvida | [Ver Anexo](#intel-20261022-168) |
+| `INTEL-20261022-165` | 2026-10-22 N/A | `Equipa de Agentes de Elite da TIMI` | TIMI-Jonathan | Dúvida / Mensagem Fixada | [Ver Anexo](#intel-20261022-165) |
+| `INTEL-20261022-169` | 2026-10-22 21:18 | `Equipa de Agentes de Elite da TIMI` | Hugo Valério | Geral / Feedback Operacional | [Ver Anexo](#intel-20261022-169) |
+| `INTEL-20261022-167` | 2026-10-22 21:17 | `Equipa de Agentes de Elite da TIMI` | Hugo Valério | Geral / Campanha | [Ver Anexo](#intel-20261022-167) |
+| `INTEL-20261022-166` | 2026-10-22 21:17 | `Equipa de Agentes de Elite da TIMI` | TIMI-Jonathan | Aviso / Campanha / Bónus | [Ver Anexo](#intel-20261022-166) |
+| `INTEL-20261022-170` | 2026-10-22 21:16 | `Equipa de Agentes de Elite da TIMI` | Vasco | Dúvida / Feedback Operacional | [Ver Anexo](#intel-20261022-170) |
 | `INTEL-20261021-160` | 2026-10-21 23:23 | `TIMI-68` | Jacyra Sebastião | Geral | [Ver Anexo](#intel-20261021-160) |
 | `INTEL-20261021-159` | 2026-10-21 22:36 | `TIMI-68` | TIMI Departamento Administrativo | Diretiva | [Ver Anexo](#intel-20261021-159) |
 | `INTEL-20261021-158` | 2026-10-21 22:30 | `TIMI-68` | Tasiano | Geral | [Ver Anexo](#intel-20261021-158) |
@@ -178,6 +184,120 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20261022-168"></a>[INTEL-20261022-168] — Dúvida
+
+- **📅 Data de Publicação:** 2026-10-22
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Agnalda`
+- **🏷️ Categoria:** Dúvida
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+raylla como faz pra saber o numero
+```
+
+#### 💡 Pontos-Chave:
+- Questão sobre como os participantes podem descobrir o seu número de sorteio.
+
+---
+
+### <a id="intel-20261022-165"></a>[INTEL-20261022-165] — Dúvida / Mensagem Fixada
+
+- **📅 Data de Publicação:** 2026-10-22
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `TIMI-Jonathan`
+- **🏷️ Categoria:** Dúvida / Mensagem Fixada
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+TIMI jonathanalizou a mensagem fixada Como obter números de sorteio?
+```
+
+#### 💡 Pontos-Chave:
+- Questão sobre o processo de obtenção de números para o sorteio TIMI.
+
+---
+
+### <a id="intel-20261022-169"></a>[INTEL-20261022-169] — Geral / Feedback Operacional
+
+- **📅 Data de Publicação:** 2026-10-22
+- **⏰ Hora:** 21:18
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Hugo Valério`
+- **🏷️ Categoria:** Geral / Feedback Operacional
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+É a realidade do nosso país com ordenados baixos e custos m... Pois é mas infelizmente os gestores pensam que é devido nao trabalhamos bem
+```
+
+#### 💡 Pontos-Chave:
+- Discussão sobre a realidade económica do país (baixos salários, altos custos).
+- Crítica à percepção da gestão sobre o desempenho dos agentes, sugerindo que a gestão atribui problemas à falta de trabalho em vez de condições salariais.
+
+---
+
+### <a id="intel-20261022-167"></a>[INTEL-20261022-167] — Geral / Campanha
+
+- **📅 Data de Publicação:** 2026-10-22
+- **⏰ Hora:** 21:17
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Hugo Valério`
+- **🏷️ Categoria:** Geral / Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+TIMI jonathan Primeiro prémio: Telemóvel iPhone 18 + 2 unidades... Parabéns aos vencedores
+```
+
+#### 💡 Pontos-Chave:
+- Reiteração do primeiro prémio do sorteio.
+- Felicitações aos vencedores.
+
+---
+
+### <a id="intel-20261022-166"></a>[INTEL-20261022-166] — Aviso / Campanha / Bónus
+
+- **📅 Data de Publicação:** 2026-10-22
+- **⏰ Hora:** 21:17
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `TIMI-Jonathan`
+- **🏷️ Categoria:** Aviso / Campanha / Bónus
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Primeiro prémio: Telemóvel iPhone 18 + 2 unidades
+Números premiados: 107, 108
+Segundo prémio: Televisão de 64 polegadas + 1 unidade
+Número premiado: 36
+Terceiro prémio: Vouchers de 200 euros em dinheiro + 10 unidades
+Números premiados: 88, 125, 252, 288, 318, 35, 306, 117, 267, 203
+Quarto prémio: Vouchers de 100 euros em dinheiro + 20 unidades
+Números premiados: 40, 77, 143, 193, 83, 237, 344, 201, 167, 346, 31, 276, 114, 246, 345, 181, 152, 10, 58, 343
+Quinto prémio: Vouchers de 50 euros em dinheiro + 30 unidades
+Números premiados: 34, 55, 348, 115, 131, 150, 187, 211, 236, 251, 202, 296, 308, 345, 225, 156, 148, 56, 173, 83, 14, 312, 208, 176, 175, 70, 106, 220, 203, 221
+```
+
+#### 💡 Pontos-Chave:
+- Anúncio detalhado dos prémios e números vencedores da 'Sorte da TIMI'.
+- Prémios incluem iPhone 18, TV de 64 polegadas e vouchers em dinheiro (50€, 100€, 200€).
+
+---
+
+### <a id="intel-20261022-170"></a>[INTEL-20261022-170] — Dúvida / Feedback Operacional
+
+- **📅 Data de Publicação:** 2026-10-22
+- **⏰ Hora:** 21:16
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Vasco`
+- **🏷️ Categoria:** Dúvida / Feedback Operacional
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+salário a 1500 quem é que aguenta?
+```
+
+#### 💡 Pontos-Chave:
+- Questão/reclamação sobre a insuficiência de um salário de 1500 (implica valor em moeda local, ex: euros).
 
 ---
 
