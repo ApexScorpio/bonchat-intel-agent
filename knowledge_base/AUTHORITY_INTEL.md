@@ -10,6 +10,9 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261029-174` | 2026-10-29 N/A | `TIMI-68` | Denis Cabral | Geral | [Ver Anexo](#intel-20261029-174) |
+| `INTEL-20261029-175` | 2026-10-29 21:58 | `TIMI-68` | jvictor | Geral | [Ver Anexo](#intel-20261029-175) |
+| `INTEL-20261029-176` | 2026-10-29 21:56 | `TIMI-68` | Nuno Rebelo | Geral | [Ver Anexo](#intel-20261029-176) |
 | `INTEL-20261022-168` | 2026-10-22 N/A | `Equipa de Agentes de Elite da TIMI` | Agnalda | Dúvida | [Ver Anexo](#intel-20261022-168) |
 | `INTEL-20261022-165` | 2026-10-22 N/A | `Equipa de Agentes de Elite da TIMI` | TIMI-Jonathan | Dúvida / Mensagem Fixada | [Ver Anexo](#intel-20261022-165) |
 | `INTEL-20261022-169` | 2026-10-22 21:18 | `Equipa de Agentes de Elite da TIMI` | Hugo Valério | Geral / Feedback Operacional | [Ver Anexo](#intel-20261022-169) |
@@ -187,6 +190,67 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20261029-174"></a>[INTEL-20261029-174] — Geral
+
+- **📅 Data de Publicação:** 2026-10-29
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Denis Cabral`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Vc não está sozinho(a)...
+
+[Conteúdo da imagem: A TIMI em Portugal possui um a TIMI Sharing Technology Co., Ltd., uma empresa que se apresenta como um modelo de negócio que promove parcerias para expandir a sua atividade no mercado português. O que faz a TIMI? Mobilidade sustentável: promove a utilização de bicicletas como alternativas ao automóvel. Tecnologia de mobilidade e sua apresentação comercial: oferece ferramentas e equipamentos para a gestão de frotas e a apresentação comercial. Rede de parceiros: procura desenvolver uma rede de parceiros que apoiem o desenvolvimento da marca em Portugal. Modelos de arrendamento: materiais de apresentação comercial e condições para parceiros. Podes consultar o site p: timi-portugal.pt]
+
+[Conteúdo da imagem: Principais Empresas e Operadoras. Líderes: Uma das marcas mais fortes a nível global em Portugal, que disponibiliza frotas de bicicletas e scooters elétricas. Bolt: Operadora com forte presença em 1.000+ cidades, incluindo Portugal, disponibiliza bicicletas elétricas partilhadas e scooters. TIMI: Uma empresa em forte expansão no mercado português focada em modelos de mobilidade urbana/partilha de bicicletas e modelos de aluguer/campanhas ativas. ver + info]
+
+[Conteúdo da imagem: O termo TIMI ou TIMG pode referir-se a várias entidades ou conceitos dependendo do contexto. TIMI Studio Group: Um importante estúdio de desenvolvimento de videojogos e subsidiária da Tencent Games, criador de títulos como Honor of Kings, Arena of Valor, Call of Duty Mobile e Pokémon Unite. TIMI (Plataforma de Data Analytics): Uma plataforma europeia de análise de dados de alto desempenho e inteligência artificial que opera ativamente desde 2007 (disponível em 1.000+ APIs). TIMI / Mobilidade & Partilha: Uma rede de mobilidade urbana/partilha de bicicletas e modelos de aluguer/campanhas ativas em Portugal e com forte presença em 1.000+ cidades. Pergunte o que quis...]
+```
+
+#### 💡 Pontos-Chave:
+- Partilha de informações detalhadas sobre a operação da TIMI em Portugal.
+- Foco em mobilidade sustentável, tecnologia de gestão de frotas, rede de parceiros e modelos de arrendamento.
+- Clarificação dos diferentes significados do acrónimo TIMI (Studio Group, Data Analytics, Mobilidade & Partilha).
+- Contexto de mercado com menção a outras empresas como Líderes e Bolt.
+
+---
+
+### <a id="intel-20261029-175"></a>[INTEL-20261029-175] — Geral
+
+- **📅 Data de Publicação:** 2026-10-29
+- **⏰ Hora:** 21:58
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `jvictor`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+obrigado Theodore pela reunião
+```
+
+#### 💡 Pontos-Chave:
+- Confirmação de uma reunião recente com Theodore.
+- Indica interação e coordenação com a liderança.
+
+---
+
+### <a id="intel-20261029-176"></a>[INTEL-20261029-176] — Geral
+
+- **📅 Data de Publicação:** 2026-10-29
+- **⏰ Hora:** 21:56
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Nuno Rebelo`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+1°- lugar 30
+```
+
+#### 💡 Pontos-Chave:
+- Partilha de um resultado ou pontuação para o 1º lugar.
 
 ---
 

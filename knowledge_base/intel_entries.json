@@ -1,5 +1,54 @@
 [
   {
+    "id": "INTEL-20261029-176",
+    "timestamp_published": "2026-10-29 23:09:40",
+    "date_str": "2026-10-29",
+    "time_str": "21:56",
+    "channel": "TIMI-68",
+    "authority": "Nuno Rebelo",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "1°- lugar 30",
+    "key_takeaways": [
+      "Partilha de um resultado ou pontuação para o 1º lugar."
+    ]
+  },
+  {
+    "id": "INTEL-20261029-175",
+    "timestamp_published": "2026-10-29 23:09:40",
+    "date_str": "2026-10-29",
+    "time_str": "21:58",
+    "channel": "TIMI-68",
+    "authority": "jvictor",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "obrigado Theodore pela reunião",
+    "key_takeaways": [
+      "Confirmação de uma reunião recente com Theodore.",
+      "Indica interação e coordenação com a liderança."
+    ]
+  },
+  {
+    "id": "INTEL-20261029-174",
+    "timestamp_published": "2026-10-29 23:09:40",
+    "date_str": "2026-10-29",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "Denis Cabral",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Vc não está sozinho(a)...\n\n[Conteúdo da imagem: A TIMI em Portugal possui um a TIMI Sharing Technology Co., Ltd., uma empresa que se apresenta como um modelo de negócio que promove parcerias para expandir a sua atividade no mercado português. O que faz a TIMI? Mobilidade sustentável: promove a utilização de bicicletas como alternativas ao automóvel. Tecnologia de mobilidade e sua apresentação comercial: oferece ferramentas e equipamentos para a gestão de frotas e a apresentação comercial. Rede de parceiros: procura desenvolver uma rede de parceiros que apoiem o desenvolvimento da marca em Portugal. Modelos de arrendamento: materiais de apresentação comercial e condições para parceiros. Podes consultar o site p: timi-portugal.pt]\n\n[Conteúdo da imagem: Principais Empresas e Operadoras. Líderes: Uma das marcas mais fortes a nível global em Portugal, que disponibiliza frotas de bicicletas e scooters elétricas. Bolt: Operadora com forte presença em 1.000+ cidades, incluindo Portugal, disponibiliza bicicletas elétricas partilhadas e scooters. TIMI: Uma empresa em forte expansão no mercado português focada em modelos de mobilidade urbana/partilha de bicicletas e modelos de aluguer/campanhas ativas. ver + info]\n\n[Conteúdo da imagem: O termo TIMI ou TIMG pode referir-se a várias entidades ou conceitos dependendo do contexto. TIMI Studio Group: Um importante estúdio de desenvolvimento de videojogos e subsidiária da Tencent Games, criador de títulos como Honor of Kings, Arena of Valor, Call of Duty Mobile e Pokémon Unite. TIMI (Plataforma de Data Analytics): Uma plataforma europeia de análise de dados de alto desempenho e inteligência artificial que opera ativamente desde 2007 (disponível em 1.000+ APIs). TIMI / Mobilidade & Partilha: Uma rede de mobilidade urbana/partilha de bicicletas e modelos de aluguer/campanhas ativas em Portugal e com forte presença em 1.000+ cidades. Pergunte o que quis...]",
+    "key_takeaways": [
+      "Partilha de informações detalhadas sobre a operação da TIMI em Portugal.",
+      "Foco em mobilidade sustentável, tecnologia de gestão de frotas, rede de parceiros e modelos de arrendamento.",
+      "Clarificação dos diferentes significados do acrónimo TIMI (Studio Group, Data Analytics, Mobilidade & Partilha).",
+      "Contexto de mercado com menção a outras empresas como Líderes e Bolt."
+    ]
+  },
+  {
     "id": "INTEL-20261022-173",
     "timestamp_published": "2026-10-22 00:47:35",
     "date_str": "2026-10-20",
