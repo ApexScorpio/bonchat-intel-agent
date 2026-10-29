@@ -167,6 +167,7 @@
 | `INTEL-20260907-002` | 2026-09-07 00:36 | `Teodoro.Grupo de Agentes20` | Theodore | Vídeo e Campanha Promocional Fixada | [Ver Anexo](#intel-20260907-002) |
 | `INTEL-20260928-070` | 2026-09-06 23:18 | `Equipa de Agentes de Elite da TIMI` | Theodore | Campanha / Bónus / Diretiva | [Ver Anexo](#intel-20260928-070) |
 | `INTEL-20260928-069` | 2026-09-06 10:52 | `Equipa de Agentes de Elite da TIMI` | Theodore | Aviso / Bónus / Diretiva | [Ver Anexo](#intel-20260928-069) |
+| `INTEL-20261029-177` | 2026-09-05 12:08 | `TIMI PORTUGAL DREAM TEAM` | Jonathan / O Diretor-Geral da TIMI | Aviso / Reunião / Diretiva | [Ver Anexo](#intel-20261029-177) |
 | `INTEL-20260928-081` | 2026-09-03 20:22 | `Equipa de Agentes de Elite da TIMI` | Theodore | Aviso / Reunião / Bónus / Diretiva | [Ver Anexo](#intel-20260928-081) |
 | `INTEL-20260928-080` | 2026-09-03 19:45 | `Equipa de Agentes de Elite da TIMI` | Theodore | Aviso / Reunião / Diretiva | [Ver Anexo](#intel-20260928-080) |
 | `INTEL-20260928-079` | 2026-09-03 19:26 | `Equipa de Agentes de Elite da TIMI` | Paulo | Geral / Cumprimento | [Ver Anexo](#intel-20260928-079) |
@@ -3252,6 +3253,43 @@ Parabéns à nossa excelente parceira Fábio **98852, que com a sua persistênci
 - Promoção de Fábio **98852 a agente júnior.
 - Recompensa de 80 USDT pela promoção.
 - Incentivo para continuar a alcançar novos objetivos.
+
+---
+
+### <a id="intel-20261029-177"></a>[INTEL-20261029-177] — Aviso / Reunião / Diretiva
+
+- **📅 Data de Publicação:** 2026-09-05
+- **⏰ Hora:** 12:08
+- **👥 Grupo / Canal:** `TIMI PORTUGAL DREAM TEAM`
+- **👑 Autoridade / Emissor:** `Jonathan / O Diretor-Geral da TIMI`
+- **🏷️ Categoria:** Aviso / Reunião / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+📢 AVISO IMPORTANTE DA TIMI | PARTICIPAÇÃO OBRIGATÓRIA
+🗓️ O Diretor-Geral da TIMI, Jonathan, realizará uma reunião online importante no dia 31 de agosto, às 20:00 (hora de Portugal), no grupo TIMI-NO.08.
+
+Nesta reunião serão apresentados conteúdos muito importantes, incluindo:
+✨ As últimas novidades e os próximos desenvolvimentos da TIMI
+📦 Apresentação da nova linha de produtos
+💰 Sorteio de USDT com prémios especiais
+
+Esta reunião está relacionada com importantes planos e desenvolvimentos futuros da TIMI. Por isso, todos os responsáveis de equipa devem informar atempadamente todos os membros da equipa e parceiros, garantindo que todos reservam este horário e participam pontualmente.
+
+⚠️ Atenção: a participação nesta reunião é obrigatória.
+Os membros que não participarem na reunião sem justificação estarão sujeitos a uma dedução de pontos de reputação, de acordo com as regras de gestão da equipa.
+
+Data e hora: 31 de agosto, às 20:00 (hora de Portugal)
+Local: Grupo TIMI-NO.08
+
+Pedimos a todos que se avisem mutuamente e se preparem com antecedência. Não percam esta importante reunião nem a oportunidade de participar no sorteio de USDT! 🚀
+```
+
+#### 💡 Pontos-Chave:
+- Aviso de reunião online obrigatória no dia 31 de agosto, às 20:00 (Portugal) no grupo TIMI-NO.08.
+- Agenda da reunião inclui novidades TIMI, desenvolvimentos futuros, nova linha de produtos e sorteio de USDT.
+- Participação obrigatória para todos os membros; responsáveis de equipa devem informar parceiros.
+- Não participação sem justificação resultará em dedução de pontos de reputação.
+- Incentivo à preparação e participação para não perder o sorteio de USDT.
 
 ---
 
