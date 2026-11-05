@@ -12,7 +12,12 @@
 |---|---|---|---|---|:---:|
 | `INTEL-20261105-180` | 2026-11-05 N/A | `TIMI-68` | TIMI | Diretiva / Geral | [Ver Anexo](#intel-20261105-180) |
 | `INTEL-20261105-178` | 2026-11-05 N/A | `TIMI-68` | TIMI | Aviso | [Ver Anexo](#intel-20261105-178) |
+| `INTEL-20261105-188` | 2026-11-05 23:16 | `Equipa de Agentes de Elite da TIMI` | TIMI | Bónus/Recompensa | [Ver Anexo](#intel-20261105-188) |
+| `INTEL-20261105-187` | 2026-11-05 23:15 | `Equipa de Agentes de Elite da TIMI` | TIMI | Bónus/Recompensa | [Ver Anexo](#intel-20261105-187) |
 | `INTEL-20261105-179` | 2026-11-05 21:45 | `TIMI-68` | Theodore | Diretiva | [Ver Anexo](#intel-20261105-179) |
+| `INTEL-20261105-186` | 2026-11-05 21:18 | `Equipa de Agentes de Elite da TIMI` | TIMI | Promoção/Geral | [Ver Anexo](#intel-20261105-186) |
+| `INTEL-20261105-185` | 2026-11-05 20:28 | `Equipa de Agentes de Elite da TIMI` | TIMI | Testemunho/Geral | [Ver Anexo](#intel-20261105-185) |
+| `INTEL-20261105-184` | 2026-11-05 20:00 | `Equipa de Agentes de Elite da TIMI` | TIMI | Novidade de Funcionamento | [Ver Anexo](#intel-20261105-184) |
 | `INTEL-20261029-174` | 2026-10-29 N/A | `TIMI-68` | Denis Cabral | Geral | [Ver Anexo](#intel-20261029-174) |
 | `INTEL-20261029-175` | 2026-10-29 21:58 | `TIMI-68` | jvictor | Geral | [Ver Anexo](#intel-20261029-175) |
 | `INTEL-20261029-176` | 2026-10-29 21:56 | `TIMI-68` | Nuno Rebelo | Geral | [Ver Anexo](#intel-20261029-176) |
@@ -241,6 +246,42 @@ TIMI atualizou a mensagem fixada. ⚠️ Aviso importante da TIMI ⚠️
 
 ---
 
+### <a id="intel-20261105-188"></a>[INTEL-20261105-188] — Bónus/Recompensa
+
+- **📅 Data de Publicação:** 2026-11-05
+- **⏰ Hora:** 23:16
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Bónus/Recompensa
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Parabéns à Liliana por ter ajudado o seu subordinado Carlos a ser promovido a Elite SS! 🥳 Recompensa de equipa de elite de 500 USDT recebida com sucesso! 💰
+```
+
+#### 💡 Pontos-Chave:
+- Liliana recebeu 500 USDT de recompensa.
+- Recompensa por ajudar Carlos a ser promovido a Elite SS.
+
+---
+
+### <a id="intel-20261105-187"></a>[INTEL-20261105-187] — Bónus/Recompensa
+
+- **📅 Data de Publicação:** 2026-11-05
+- **⏰ Hora:** 23:15
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Bónus/Recompensa
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Parabéns ao Pedro por ter ajudado a sua subordinada Isabel a ser promovida a Elite S! 🥳 Recompensa de equipa de elite de 200 USDT recebida com sucesso! 💰
+```
+
+#### 💡 Pontos-Chave:
+- Pedro recebeu 200 USDT de recompensa.
+- Recompensa por ajudar Isabel a ser promovida a Elite S.
+
+---
+
 ### <a id="intel-20261105-179"></a>[INTEL-20261105-179] — Diretiva
 
 - **📅 Data de Publicação:** 2026-11-05
@@ -256,6 +297,64 @@ A interação de hoje termina aqui. Após o fim da reunião, podem discutir entr
 #### 💡 Pontos-Chave:
 - Fim da interação/reunião do dia
 - Instruções para dúvidas pós-reunião: discutir entre colegas, contactar Theodore ou contactar o superior
+
+---
+
+### <a id="intel-20261105-186"></a>[INTEL-20261105-186] — Promoção/Geral
+
+- **📅 Data de Publicação:** 2026-11-05
+- **⏰ Hora:** 21:18
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Promoção/Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boas notícias dos excelentes agentes TIMI! Parabéns à Odete Fugareu pela promoção com sucesso a agente de nível 3! 🥳 A parceira Odete Fugareu, da Ilha da Madeira, com o seu próprio esforço e persistência, conseguiu ser promovida a agente de nível 3 da TIMI e recebeu um presente especial de promoção - um tablet! 🎁 Vamos todos dar os parabéns à Odete! E esperamos também que mais parceiros possam aprender ativamente, melhorar as suas capacidades e avançar rumo ao seu próximo objetivo! 💪
+```
+
+#### 💡 Pontos-Chave:
+- Promoção de Odete Fugareu (Ilha da Madeira) a Agente de Nível 3.
+- Recebeu um tablet como presente de promoção.
+- Incentivo para outros parceiros aprenderem e melhorarem.
+
+---
+
+### <a id="intel-20261105-185"></a>[INTEL-20261105-185] — Testemunho/Geral
+
+- **📅 Data de Publicação:** 2026-11-05
+- **⏰ Hora:** 20:28
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Testemunho/Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+De uma vida em dificuldades a recuperar a esperança! A TIMI trouxe uma nova reviravolta à vida de uma mãe forte! 👩‍👧‍👦 Do T3 ao T4, através do seu próprio esforço e persistência, ela foi melhorando gradualmente a situação económica da família e voltou a acender a esperança num futuro melhor! Por favor, vejam com atenção esta partilha de uma experiência real tão comovente e ouçam como a TIMI se tornou um ponto de viragem importante na vida dela! 💖
+```
+
+#### 💡 Pontos-Chave:
+- Partilha de testemunho de sucesso de uma mãe.
+- TIMI ajudou a melhorar a situação económica e a recuperar a esperança.
+- Incentivo para ver e ouvir a experiência real.
+
+---
+
+### <a id="intel-20261105-184"></a>[INTEL-20261105-184] — Novidade de Funcionamento
+
+- **📅 Data de Publicação:** 2026-11-05
+- **⏰ Hora:** 20:00
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Novidade de Funcionamento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+📢 O Centro de Experiência TIMI em Braga está a ser preparado! 🚀 Será um novo ponto de partida para os parceiros se reunirem, convidarem amigos e promoverem em conjunto a mobilidade verde! ♻️ Esperamos que o novo Centro de Experiência possa concluir a sua preparação e abrir oficialmente o mais breve possível, para que mais cidadãos possam entrar pessoalmente na TIMI e sentir o charme das bicicletas partilhadas! 🚲 Endereço: Braga, Portugal, Rua Cónego Luciano Afonso dos Santos, n.º 338. Link do Google Maps: https://maps.app.goo.gl/xPEHBDu1HD2Q7bN7G_stk
+```
+
+#### 💡 Pontos-Chave:
+- Anúncio de novo Centro de Experiência TIMI em Braga, Portugal.
+- Endereço: Rua Cónego Luciano Afonso dos Santos, n.º 338.
+- Propósito: Reuniões de parceiros, convite a amigos, promoção da mobilidade verde.
+- Expectativa de abertura breve.
 
 ---
 

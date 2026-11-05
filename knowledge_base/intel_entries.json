@@ -1,5 +1,89 @@
 [
   {
+    "id": "INTEL-20261105-188",
+    "timestamp_published": "2026-11-05 23:49:51",
+    "date_str": "2026-11-05",
+    "time_str": "23:16",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "TIMI",
+    "content_type": "Bónus/Recompensa",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Parabéns à Liliana por ter ajudado o seu subordinado Carlos a ser promovido a Elite SS! 🥳 Recompensa de equipa de elite de 500 USDT recebida com sucesso! 💰",
+    "key_takeaways": [
+      "Liliana recebeu 500 USDT de recompensa.",
+      "Recompensa por ajudar Carlos a ser promovido a Elite SS."
+    ]
+  },
+  {
+    "id": "INTEL-20261105-187",
+    "timestamp_published": "2026-11-05 23:49:51",
+    "date_str": "2026-11-05",
+    "time_str": "23:15",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "TIMI",
+    "content_type": "Bónus/Recompensa",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Parabéns ao Pedro por ter ajudado a sua subordinada Isabel a ser promovida a Elite S! 🥳 Recompensa de equipa de elite de 200 USDT recebida com sucesso! 💰",
+    "key_takeaways": [
+      "Pedro recebeu 200 USDT de recompensa.",
+      "Recompensa por ajudar Isabel a ser promovida a Elite S."
+    ]
+  },
+  {
+    "id": "INTEL-20261105-186",
+    "timestamp_published": "2026-11-05 23:49:51",
+    "date_str": "2026-11-05",
+    "time_str": "21:18",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "TIMI",
+    "content_type": "Promoção/Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Boas notícias dos excelentes agentes TIMI! Parabéns à Odete Fugareu pela promoção com sucesso a agente de nível 3! 🥳 A parceira Odete Fugareu, da Ilha da Madeira, com o seu próprio esforço e persistência, conseguiu ser promovida a agente de nível 3 da TIMI e recebeu um presente especial de promoção - um tablet! 🎁 Vamos todos dar os parabéns à Odete! E esperamos também que mais parceiros possam aprender ativamente, melhorar as suas capacidades e avançar rumo ao seu próximo objetivo! 💪",
+    "key_takeaways": [
+      "Promoção de Odete Fugareu (Ilha da Madeira) a Agente de Nível 3.",
+      "Recebeu um tablet como presente de promoção.",
+      "Incentivo para outros parceiros aprenderem e melhorarem."
+    ]
+  },
+  {
+    "id": "INTEL-20261105-185",
+    "timestamp_published": "2026-11-05 23:49:51",
+    "date_str": "2026-11-05",
+    "time_str": "20:28",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "TIMI",
+    "content_type": "Testemunho/Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "De uma vida em dificuldades a recuperar a esperança! A TIMI trouxe uma nova reviravolta à vida de uma mãe forte! 👩‍👧‍👦 Do T3 ao T4, através do seu próprio esforço e persistência, ela foi melhorando gradualmente a situação económica da família e voltou a acender a esperança num futuro melhor! Por favor, vejam com atenção esta partilha de uma experiência real tão comovente e ouçam como a TIMI se tornou um ponto de viragem importante na vida dela! 💖",
+    "key_takeaways": [
+      "Partilha de testemunho de sucesso de uma mãe.",
+      "TIMI ajudou a melhorar a situação económica e a recuperar a esperança.",
+      "Incentivo para ver e ouvir a experiência real."
+    ]
+  },
+  {
+    "id": "INTEL-20261105-184",
+    "timestamp_published": "2026-11-05 23:49:51",
+    "date_str": "2026-11-05",
+    "time_str": "20:00",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "TIMI",
+    "content_type": "Novidade de Funcionamento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "📢 O Centro de Experiência TIMI em Braga está a ser preparado! 🚀 Será um novo ponto de partida para os parceiros se reunirem, convidarem amigos e promoverem em conjunto a mobilidade verde! ♻️ Esperamos que o novo Centro de Experiência possa concluir a sua preparação e abrir oficialmente o mais breve possível, para que mais cidadãos possam entrar pessoalmente na TIMI e sentir o charme das bicicletas partilhadas! 🚲 Endereço: Braga, Portugal, Rua Cónego Luciano Afonso dos Santos, n.º 338. Link do Google Maps: https://maps.app.goo.gl/xPEHBDu1HD2Q7bN7G_stk",
+    "key_takeaways": [
+      "Anúncio de novo Centro de Experiência TIMI em Braga, Portugal.",
+      "Endereço: Rua Cónego Luciano Afonso dos Santos, n.º 338.",
+      "Propósito: Reuniões de parceiros, convite a amigos, promoção da mobilidade verde.",
+      "Expectativa de abertura breve."
+    ]
+  },
+  {
     "id": "INTEL-20261105-183",
     "timestamp_published": "2026-11-05 23:33:14",
     "date_str": "2026-10-20",
