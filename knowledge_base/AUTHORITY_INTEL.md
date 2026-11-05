@@ -10,6 +10,9 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261105-180` | 2026-11-05 N/A | `TIMI-68` | TIMI | Diretiva / Geral | [Ver Anexo](#intel-20261105-180) |
+| `INTEL-20261105-178` | 2026-11-05 N/A | `TIMI-68` | TIMI | Aviso | [Ver Anexo](#intel-20261105-178) |
+| `INTEL-20261105-179` | 2026-11-05 21:45 | `TIMI-68` | Theodore | Diretiva | [Ver Anexo](#intel-20261105-179) |
 | `INTEL-20261029-174` | 2026-10-29 N/A | `TIMI-68` | Denis Cabral | Geral | [Ver Anexo](#intel-20261029-174) |
 | `INTEL-20261029-175` | 2026-10-29 21:58 | `TIMI-68` | jvictor | Geral | [Ver Anexo](#intel-20261029-175) |
 | `INTEL-20261029-176` | 2026-10-29 21:56 | `TIMI-68` | Nuno Rebelo | Geral | [Ver Anexo](#intel-20261029-176) |
@@ -191,6 +194,65 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20261105-180"></a>[INTEL-20261105-180] — Diretiva / Geral
+
+- **📅 Data de Publicação:** 2026-11-05
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Diretiva / Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A equipa se desenvolve através do conhecimento, da experiência com os produtos e da formação de novos membros. No plano de crescimento de elite, participa expandindo o mercado, desenvolvendo líderes e ajudando a equipa a crescer junto com a empresa.
+```
+
+#### 💡 Pontos-Chave:
+- Estratégia de desenvolvimento da equipa
+- Foco em conhecimento e experiência com produtos
+- Formação de novos membros
+- Plano de crescimento de elite
+- Expansão de mercado
+- Desenvolvimento de líderes
+- Crescimento colaborativo com a empresa
+
+---
+
+### <a id="intel-20261105-178"></a>[INTEL-20261105-178] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-05
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+TIMI atualizou a mensagem fixada. ⚠️ Aviso importante da TIMI ⚠️
+```
+
+#### 💡 Pontos-Chave:
+- Mensagem fixada atualizada
+- Indica um aviso importante da TIMI
+
+---
+
+### <a id="intel-20261105-179"></a>[INTEL-20261105-179] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-05
+- **⏰ Hora:** 21:45
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A interação de hoje termina aqui. Após o fim da reunião, podem discutir entre vós. Se tiverem alguma dúvida, contactem-me a qualquer momento, ou contactem o vosso superior
+```
+
+#### 💡 Pontos-Chave:
+- Fim da interação/reunião do dia
+- Instruções para dúvidas pós-reunião: discutir entre colegas, contactar Theodore ou contactar o superior
 
 ---
 

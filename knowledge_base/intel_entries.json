@@ -1,5 +1,58 @@
 [
   {
+    "id": "INTEL-20261105-180",
+    "timestamp_published": "2026-11-05 23:24:11",
+    "date_str": "2026-11-05",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "TIMI",
+    "content_type": "Diretiva / Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A equipa se desenvolve através do conhecimento, da experiência com os produtos e da formação de novos membros. No plano de crescimento de elite, participa expandindo o mercado, desenvolvendo líderes e ajudando a equipa a crescer junto com a empresa.",
+    "key_takeaways": [
+      "Estratégia de desenvolvimento da equipa",
+      "Foco em conhecimento e experiência com produtos",
+      "Formação de novos membros",
+      "Plano de crescimento de elite",
+      "Expansão de mercado",
+      "Desenvolvimento de líderes",
+      "Crescimento colaborativo com a empresa"
+    ]
+  },
+  {
+    "id": "INTEL-20261105-179",
+    "timestamp_published": "2026-11-05 23:24:11",
+    "date_str": "2026-11-05",
+    "time_str": "21:45",
+    "channel": "TIMI-68",
+    "authority": "Theodore",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A interação de hoje termina aqui. Após o fim da reunião, podem discutir entre vós. Se tiverem alguma dúvida, contactem-me a qualquer momento, ou contactem o vosso superior",
+    "key_takeaways": [
+      "Fim da interação/reunião do dia",
+      "Instruções para dúvidas pós-reunião: discutir entre colegas, contactar Theodore ou contactar o superior"
+    ]
+  },
+  {
+    "id": "INTEL-20261105-178",
+    "timestamp_published": "2026-11-05 23:24:11",
+    "date_str": "2026-11-05",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "TIMI",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "TIMI atualizou a mensagem fixada. ⚠️ Aviso importante da TIMI ⚠️",
+    "key_takeaways": [
+      "Mensagem fixada atualizada",
+      "Indica um aviso importante da TIMI"
+    ]
+  },
+  {
     "id": "INTEL-20261029-177",
     "timestamp_published": "2026-10-29 23:21:39",
     "date_str": "2026-09-05",
