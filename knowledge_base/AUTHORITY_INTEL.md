@@ -13,6 +13,7 @@
 | `INTEL-20261106-192` | 2026-11-06 13:45 | `TIMI--NO.08` | TIMI | Anúncio / Promoção / Bónus | [Ver Anexo](#intel-20261106-192) |
 | `INTEL-20261106-191` | 2026-11-06 13:22 | `TIMI--NO.08` | TIMI | Anúncio / Bónus | [Ver Anexo](#intel-20261106-191) |
 | `INTEL-20261106-190` | 2026-11-06 12:47 | `TIMI--NO.08` | TIMI | Aviso / Diretiva / Fraude | [Ver Anexo](#intel-20261106-190) |
+| `INTEL-20261106-193` | 2026-11-06 12:11 | `Equipa de Agentes de Elite da TIMI` | Santiago | Geral | [Ver Anexo](#intel-20261106-193) |
 | `INTEL-20261106-189` | 2026-11-06 10:58 | `TIMI--NO.08` | TIMI | Anúncio / Promoção / Bónus | [Ver Anexo](#intel-20261106-189) |
 | `INTEL-20261105-180` | 2026-11-05 N/A | `TIMI-68` | TIMI | Diretiva / Geral | [Ver Anexo](#intel-20261105-180) |
 | `INTEL-20261105-178` | 2026-11-05 N/A | `TIMI-68` | TIMI | Aviso | [Ver Anexo](#intel-20261105-178) |
@@ -261,6 +262,25 @@ Recompensa de equipa de elite de 1000 USDT recebida com sucesso! 💰
 - Participação na ETG por membros da equipa resultará em despedimento imediato.
 - Diretiva para informar todos os membros da equipa.
 - Reafirmação do compromisso da TIMI no combate à fraude e proteção dos parceiros.
+
+---
+
+### <a id="intel-20261106-193"></a>[INTEL-20261106-193] — Geral
+
+- **📅 Data de Publicação:** 2026-11-06
+- **⏰ Hora:** 12:11
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Santiago`
+- **🏷️ Categoria:** Geral
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Olá, mais um levantamento com sucesso
+```
+
+#### 💡 Pontos-Chave:
+- Relato de sucesso em operação de levantamento.
+- Partilha de dois screenshots como evidência da operação.
+- Screenshots identificados como 'Screenshot_2026-11-06-12-07-24-480_com.google.android.gm.jpg' e 'Screenshot_2026-11-06-12-08-20-034_uni.app.UNIA187B21.jpg', sugerindo origem de email e aplicação interna, respetivamente.
 
 ---
 

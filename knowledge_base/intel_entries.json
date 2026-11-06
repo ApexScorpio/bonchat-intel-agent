@@ -1,5 +1,22 @@
 [
   {
+    "id": "INTEL-20261106-193",
+    "timestamp_published": "2026-11-06 23:48:53",
+    "date_str": "2026-11-06",
+    "time_str": "12:11",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Santiago",
+    "content_type": "Geral",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Olá, mais um levantamento com sucesso",
+    "key_takeaways": [
+      "Relato de sucesso em operação de levantamento.",
+      "Partilha de dois screenshots como evidência da operação.",
+      "Screenshots identificados como 'Screenshot_2026-11-06-12-07-24-480_com.google.android.gm.jpg' e 'Screenshot_2026-11-06-12-08-20-034_uni.app.UNIA187B21.jpg', sugerindo origem de email e aplicação interna, respetivamente."
+    ]
+  },
+  {
     "id": "INTEL-20261106-192",
     "timestamp_published": "2026-11-06 23:29:44",
     "date_str": "2026-11-06",
