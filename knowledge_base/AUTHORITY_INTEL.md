@@ -10,6 +10,10 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261106-192` | 2026-11-06 13:45 | `TIMI--NO.08` | TIMI | Anúncio / Promoção / Bónus | [Ver Anexo](#intel-20261106-192) |
+| `INTEL-20261106-191` | 2026-11-06 13:22 | `TIMI--NO.08` | TIMI | Anúncio / Bónus | [Ver Anexo](#intel-20261106-191) |
+| `INTEL-20261106-190` | 2026-11-06 12:47 | `TIMI--NO.08` | TIMI | Aviso / Diretiva / Fraude | [Ver Anexo](#intel-20261106-190) |
+| `INTEL-20261106-189` | 2026-11-06 10:58 | `TIMI--NO.08` | TIMI | Anúncio / Promoção / Bónus | [Ver Anexo](#intel-20261106-189) |
 | `INTEL-20261105-180` | 2026-11-05 N/A | `TIMI-68` | TIMI | Diretiva / Geral | [Ver Anexo](#intel-20261105-180) |
 | `INTEL-20261105-178` | 2026-11-05 N/A | `TIMI-68` | TIMI | Aviso | [Ver Anexo](#intel-20261105-178) |
 | `INTEL-20261105-188` | 2026-11-05 23:16 | `Equipa de Agentes de Elite da TIMI` | TIMI | Bónus/Recompensa | [Ver Anexo](#intel-20261105-188) |
@@ -202,6 +206,79 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20261106-192"></a>[INTEL-20261106-192] — Anúncio / Promoção / Bónus
+
+- **📅 Data de Publicação:** 2026-11-06
+- **⏰ Hora:** 13:45
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Anúncio / Promoção / Bónus
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Parabéns à Susana por ter ajudado a sua subordinada Sónia Leal a ser promovida a Elite SS! 🎉 Recompensa de equipa de elite de 500 USDT recebida com sucesso! 💰
+```
+
+#### 💡 Pontos-Chave:
+- Promoção de Susana por ajudar Sónia Leal a alcançar Elite SS.
+- Recompensa de equipa de 500 USDT recebida.
+
+---
+
+### <a id="intel-20261106-191"></a>[INTEL-20261106-191] — Anúncio / Bónus
+
+- **📅 Data de Publicação:** 2026-11-06
+- **⏰ Hora:** 13:22
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Anúncio / Bónus
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Recompensa de equipa de elite de 1000 USDT recebida com sucesso! 💰
+```
+
+#### 💡 Pontos-Chave:
+- Recompensa de equipa de 1000 USDT recebida.
+
+---
+
+### <a id="intel-20261106-190"></a>[INTEL-20261106-190] — Aviso / Diretiva / Fraude
+
+- **📅 Data de Publicação:** 2026-11-06
+- **⏰ Hora:** 12:47
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Aviso / Diretiva / Fraude
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+⚠️ Aviso importante da TIMI ⚠️ A TIMI já emitiu vários avisos claros: a ETG suspeita de imitar o modelo de operação da TIMI e de usar indevidamente o nome da TIMI para angariar parceiros, existindo um sério risco de fraude. Contudo, mesmo após os repetidos alertas e avisos da empresa, muitos parceiros continuaram a ignorar os riscos e a participar na ETG. ❌ Ficou decidido: sempre que for detetado um membro da equipa a participar na ETG, a TIMI procederá ao seu despedimento imediato. 🚫 Por favor informem os membros das vossas equipas. ⚠️ A TIMI mantém-se firme no combate e na prevenção de fraudes, colocando a segurança dos fundos e os direitos legítimos dos parceiros em primeiro lugar 🔒 Não toleraremos qualquer comportamento que utilize indevidamente o nome da TIMI engane parceiros ou prejudique os interesses da equipa. 🚫 Prevenir fraudes e preservar a reputação da equipa é uma responsabilidade comum de todos os parceiros da TIMI! 🤝
+```
+
+#### 💡 Pontos-Chave:
+- Aviso crítico sobre a ETG, suspeita de fraude e imitação da TIMI.
+- Participação na ETG por membros da equipa resultará em despedimento imediato.
+- Diretiva para informar todos os membros da equipa.
+- Reafirmação do compromisso da TIMI no combate à fraude e proteção dos parceiros.
+
+---
+
+### <a id="intel-20261106-189"></a>[INTEL-20261106-189] — Anúncio / Promoção / Bónus
+
+- **📅 Data de Publicação:** 2026-11-06
+- **⏰ Hora:** 10:58
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Anúncio / Promoção / Bónus
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Vera e Antonio, a serem promovidas a Elite S! 🎉 Recompensa de equipa de elite de 200 + 400 USDT recebida com sucesso! 💰
+```
+
+#### 💡 Pontos-Chave:
+- Promoção de Vera e Antonio a Elite S.
+- Recompensa de equipa de 600 USDT (200 + 400) recebida.
 
 ---
 

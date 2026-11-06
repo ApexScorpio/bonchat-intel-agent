@@ -1,5 +1,70 @@
 [
   {
+    "id": "INTEL-20261106-192",
+    "timestamp_published": "2026-11-06 23:29:44",
+    "date_str": "2026-11-06",
+    "time_str": "13:45",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI",
+    "content_type": "Anúncio / Promoção / Bónus",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Parabéns à Susana por ter ajudado a sua subordinada Sónia Leal a ser promovida a Elite SS! 🎉 Recompensa de equipa de elite de 500 USDT recebida com sucesso! 💰",
+    "key_takeaways": [
+      "Promoção de Susana por ajudar Sónia Leal a alcançar Elite SS.",
+      "Recompensa de equipa de 500 USDT recebida."
+    ]
+  },
+  {
+    "id": "INTEL-20261106-191",
+    "timestamp_published": "2026-11-06 23:29:44",
+    "date_str": "2026-11-06",
+    "time_str": "13:22",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI",
+    "content_type": "Anúncio / Bónus",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Recompensa de equipa de elite de 1000 USDT recebida com sucesso! 💰",
+    "key_takeaways": [
+      "Recompensa de equipa de 1000 USDT recebida."
+    ]
+  },
+  {
+    "id": "INTEL-20261106-190",
+    "timestamp_published": "2026-11-06 23:29:44",
+    "date_str": "2026-11-06",
+    "time_str": "12:47",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI",
+    "content_type": "Aviso / Diretiva / Fraude",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "⚠️ Aviso importante da TIMI ⚠️ A TIMI já emitiu vários avisos claros: a ETG suspeita de imitar o modelo de operação da TIMI e de usar indevidamente o nome da TIMI para angariar parceiros, existindo um sério risco de fraude. Contudo, mesmo após os repetidos alertas e avisos da empresa, muitos parceiros continuaram a ignorar os riscos e a participar na ETG. ❌ Ficou decidido: sempre que for detetado um membro da equipa a participar na ETG, a TIMI procederá ao seu despedimento imediato. 🚫 Por favor informem os membros das vossas equipas. ⚠️ A TIMI mantém-se firme no combate e na prevenção de fraudes, colocando a segurança dos fundos e os direitos legítimos dos parceiros em primeiro lugar 🔒 Não toleraremos qualquer comportamento que utilize indevidamente o nome da TIMI engane parceiros ou prejudique os interesses da equipa. 🚫 Prevenir fraudes e preservar a reputação da equipa é uma responsabilidade comum de todos os parceiros da TIMI! 🤝",
+    "key_takeaways": [
+      "Aviso crítico sobre a ETG, suspeita de fraude e imitação da TIMI.",
+      "Participação na ETG por membros da equipa resultará em despedimento imediato.",
+      "Diretiva para informar todos os membros da equipa.",
+      "Reafirmação do compromisso da TIMI no combate à fraude e proteção dos parceiros."
+    ]
+  },
+  {
+    "id": "INTEL-20261106-189",
+    "timestamp_published": "2026-11-06 23:29:44",
+    "date_str": "2026-11-06",
+    "time_str": "10:58",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI",
+    "content_type": "Anúncio / Promoção / Bónus",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Vera e Antonio, a serem promovidas a Elite S! 🎉 Recompensa de equipa de elite de 200 + 400 USDT recebida com sucesso! 💰",
+    "key_takeaways": [
+      "Promoção de Vera e Antonio a Elite S.",
+      "Recompensa de equipa de 600 USDT (200 + 400) recebida."
+    ]
+  },
+  {
     "id": "INTEL-20261105-188",
     "timestamp_published": "2026-11-05 23:49:51",
     "date_str": "2026-11-05",
