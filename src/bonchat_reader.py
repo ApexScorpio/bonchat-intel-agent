@@ -67,27 +67,61 @@ class BonChatReader:
         # 1. Enumerate windows directly on TIMI_GHOST
         ghost_wins = get_ghost_windows()
 
-        # First pass: find main Qt5QWindowIcon window
+        def _is_surface_rendering(hwnd_cand: int) -> bool:
+            try:
+                import numpy as np
+                import win32ui
+                wr = win32gui.GetWindowRect(hwnd_cand)
+                w, h = wr[2] - wr[0], wr[3] - wr[1]
+                if w < 200 or h < 200:
+                    return False
+                hdc = win32gui.GetWindowDC(hwnd_cand)
+                mdc = win32ui.CreateDCFromHandle(hdc)
+                sdc = mdc.CreateCompatibleDC()
+                bmp = win32ui.CreateBitmap()
+                bmp.CreateCompatibleBitmap(mdc, w, h)
+                sdc.SelectObject(bmp)
+                res = ctypes.windll.user32.PrintWindow(hwnd_cand, sdc.GetSafeHdc(), 2)
+                if not res:
+                    ctypes.windll.user32.PrintWindow(hwnd_cand, sdc.GetSafeHdc(), 0)
+                bi = bmp.GetInfo()
+                bits = bmp.GetBitmapBits(True)
+                test_img = Image.frombuffer('RGB', (bi['bmWidth'], bi['bmHeight']), bits, 'raw', 'BGRX', 0, 1)
+                win32gui.DeleteObject(bmp.GetHandle())
+                sdc.DeleteDC()
+                mdc.DeleteDC()
+                win32gui.ReleaseDC(hwnd_cand, hdc)
+                arr = np.array(test_img)
+                # Rejeitar superfícies pretas/fantasma sem renderização (mean < 25)
+                return bool(float(arr.mean()) >= 25.0)
+            except Exception:
+                return False
+
+        # First pass: find main Qt5QWindowIcon window that actually renders content
         for w in ghost_wins:
             t = w.get("title", "").lower()
             c = w.get("class", "").lower()
             if "qt5qwindowicon" in c and ("bonchat" in t or w.get("w", 0) > 800):
-                self.hwnd = w["hwnd"]
-                self.is_ghost = True
-                self._ensure_window_layout()
-                logger.info(f"Found BonChat Main Window on TIMI_GHOST: HWND {self.hwnd} ('{w.get('title')}') calibrated (1536x900)")
-                return self.hwnd
+                if _is_surface_rendering(w["hwnd"]):
+                    self.hwnd = w["hwnd"]
+                    self.is_ghost = True
+                    self._ensure_window_layout()
+                    logger.info(f"Found BonChat Main Window on TIMI_GHOST: HWND {self.hwnd} ('{w.get('title')}') calibrated (1536x900)")
+                    return self.hwnd
+                else:
+                    logger.warning(f"Ignorando janela BonChat sem renderização ativa (ecrã preto): HWND {w['hwnd']}")
 
-        # Second pass: any bonchat window that is not a tool save bits window
+        # Second pass: any bonchat window that is not a tool save bits window and renders content
         for w in ghost_wins:
             t = w.get("title", "").lower()
             c = w.get("class", "").lower()
             if ("bonchat" in t or "bonchat" in c or "ajuda" in t) and "toolsavebits" not in c:
-                self.hwnd = w["hwnd"]
-                self.is_ghost = True
-                self._ensure_window_layout()
-                logger.info(f"Found BonChat on TIMI_GHOST: HWND {self.hwnd} ('{w.get('title')}') calibrated (1536x900)")
-                return self.hwnd
+                if _is_surface_rendering(w["hwnd"]):
+                    self.hwnd = w["hwnd"]
+                    self.is_ghost = True
+                    self._ensure_window_layout()
+                    logger.info(f"Found BonChat on TIMI_GHOST: HWND {self.hwnd} ('{w.get('title')}') calibrated (1536x900)")
+                    return self.hwnd
 
         # 2. Check active slot metadata as fallback
         slot_meta = r"C:\Users\lopes\.gemini\antigravity-ide\scratch\TIMI-ativador-repo\_runtime\slots\bonchat.json"

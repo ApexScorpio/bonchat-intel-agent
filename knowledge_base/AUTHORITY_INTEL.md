@@ -10,6 +10,25 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261110-211` | 2026-11-10 N/A | `TIMI--NO.08` | TIMI | Aviso / Sorteio | [Ver Anexo](#intel-20261110-211) |
+| `INTEL-20261110-210` | 2026-11-10 N/A | `TIMI--NO.08` | TIMI--NO.08 | Novidades de Funcionamento | [Ver Anexo](#intel-20261110-210) |
+| `INTEL-20261110-209` | 2026-11-10 N/A | `TIMI--NO.08` | TIMI--NO.08 | Novidades de Funcionamento | [Ver Anexo](#intel-20261110-209) |
+| `INTEL-20261110-208` | 2026-11-10 N/A | `TIMI--NO.08` | TIMI--NO.08 | Sorteio | [Ver Anexo](#intel-20261110-208) |
+| `INTEL-20261110-202` | 2026-11-10 N/A | `TIMI--NO.08` | TIMI-NO.08 | Aviso / Sorteio / Orientação | [Ver Anexo](#intel-20261110-202) |
+| `INTEL-20261110-200` | 2026-11-10 N/A | `TIMI--NO.08` | TIMI--NO.08 (Canal) | Campanha / Sorteio | [Ver Anexo](#intel-20261110-200) |
+| `INTEL-20261110-194` | 2026-11-10 N/A | `TIMI--NO.08` | TIMI--NO.08 | Sorteio / Aviso | [Ver Anexo](#intel-20261110-194) |
+| `INTEL-20261110-195` | 2026-11-10 22:47 | `TIMI--NO.08` | TIMI--NO.08 | Aviso / Novidades de Funcionamento | [Ver Anexo](#intel-20261110-195) |
+| `INTEL-20261110-196` | 2026-11-10 22:30 | `TIMI--NO.08` | PROPRIO CHAT | Discussão / Feedback | [Ver Anexo](#intel-20261110-196) |
+| `INTEL-20261110-198` | 2026-11-10 22:14 | `TIMI--NO.08` | Túlio Vaz | Diretiva / Orientação | [Ver Anexo](#intel-20261110-198) |
+| `INTEL-20261110-197` | 2026-11-10 21:33 | `TIMI--NO.08` | TIMI | Sorteio | [Ver Anexo](#intel-20261110-197) |
+| `INTEL-20261110-199` | 2026-11-10 21:13 | `TIMI--NO.08` | TIMI--NO.08 | Aviso / Diretiva | [Ver Anexo](#intel-20261110-199) |
+| `INTEL-20261110-203` | 2026-11-10 21:03 | `TIMI--NO.08` | Carlos (reportando Theodore) | Diretiva / Reunião | [Ver Anexo](#intel-20261110-203) |
+| `INTEL-20261110-201` | 2026-11-10 21:02 | `TIMI--NO.08` | Carlos | Novidade de Funcionamento / Informação Operacional | [Ver Anexo](#intel-20261110-201) |
+| `INTEL-20261110-205` | 2026-11-10 21:00 | `TIMI--NO.08` | Paulino Couto (citando Carol) | Aviso | [Ver Anexo](#intel-20261110-205) |
+| `INTEL-20261110-206` | 2026-11-10 20:59 | `TIMI--NO.08` | TIMI-NO.08 | Diretiva / Orientação | [Ver Anexo](#intel-20261110-206) |
+| `INTEL-20261110-204` | 2026-11-10 20:59 | `TIMI--NO.08` | Carol | Aviso | [Ver Anexo](#intel-20261110-204) |
+| `INTEL-20261110-207` | 2026-11-10 20:47 | `TIMI--NO.08` | Túlio Vaz | Aviso / Diretiva | [Ver Anexo](#intel-20261110-207) |
+| `INTEL-20261110-212` | 2026-11-10 20:41 | `TIMI--NO.08` | Sonia | Questão Operacional | [Ver Anexo](#intel-20261110-212) |
 | `INTEL-20261106-192` | 2026-11-06 13:45 | `TIMI--NO.08` | TIMI | Anúncio / Promoção / Bónus | [Ver Anexo](#intel-20261106-192) |
 | `INTEL-20261106-191` | 2026-11-06 13:22 | `TIMI--NO.08` | TIMI | Anúncio / Bónus | [Ver Anexo](#intel-20261106-191) |
 | `INTEL-20261106-190` | 2026-11-06 12:47 | `TIMI--NO.08` | TIMI | Aviso / Diretiva / Fraude | [Ver Anexo](#intel-20261106-190) |
@@ -207,6 +226,353 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20261110-211"></a>[INTEL-20261110-211] — Aviso / Sorteio
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Aviso / Sorteio
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+TIMI atualizou a mensagem fixada. Número da sorte de hoje: 831230...
+```
+
+#### 💡 Pontos-Chave:
+- Mensagem fixada atualizada
+- Número da sorte diário: 831230
+
+---
+
+### <a id="intel-20261110-210"></a>[INTEL-20261110-210] — Novidades de Funcionamento
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI--NO.08`
+- **🏷️ Categoria:** Novidades de Funcionamento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A TIMI irá promover no mercado europeu o seguinte plano de desenvolvimento, com base numa filosofia de cooperação de benefício mútuo e num modelo de negócio lucrativo de desenvolvimento conjunto, conjugado com um plano de marketing multinível. O principal país de desenvolvimento da empresa é Portugal. A TIMI encontra-se atualmente a recrutar ativamente talentos locais para colaborarem connosco no desenvolvimento deste projeto, tirando partido das vantagens das equipas locais para expandir o mercado de forma mais eficaz, aumentar a notoriedade da empresa e, em última análise, concretizar o lançamento oficial e a operação contínua do projeto de partilha de bicicletas em Portugal.
+```
+
+#### 💡 Pontos-Chave:
+- Plano de desenvolvimento europeu baseado em cooperação e marketing multinível
+- Portugal é o principal país de desenvolvimento
+- Recrutamento ativo de talentos locais em Portugal
+- Objetivos: expandir mercado, aumentar notoriedade, lançar e operar projeto de partilha de bicicletas em Portugal
+
+---
+
+### <a id="intel-20261110-209"></a>[INTEL-20261110-209] — Novidades de Funcionamento
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI--NO.08`
+- **🏷️ Categoria:** Novidades de Funcionamento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A TIMI é também uma plataforma que conjuga mobilidade partilhada e economia digital. O nosso objetivo é permitir que mais pessoas usufruam de formas de mobilidade convenientes e, simultaneamente, obtenham retornos sustentáveis através da partilha de bicicletas e equipamentos.
+```
+
+#### 💡 Pontos-Chave:
+- TIMI é plataforma de mobilidade partilhada e economia digital
+- Objetivo: oferecer mobilidade conveniente e retornos sustentáveis via partilha de bicicletas e equipamentos
+
+---
+
+### <a id="intel-20261110-208"></a>[INTEL-20261110-208] — Sorteio
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI--NO.08`
+- **🏷️ Categoria:** Sorteio
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Número do sorteio de hoje: 831230.
+```
+
+#### 💡 Pontos-Chave:
+- Número do sorteio diário: 831230
+
+---
+
+### <a id="intel-20261110-202"></a>[INTEL-20261110-202] — Aviso / Sorteio / Orientação
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI-NO.08`
+- **🏷️ Categoria:** Aviso / Sorteio / Orientação
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+TIMI atualizou a mensagem fixada. Número do sorteio de hoje: 831230... no fim, não devemos apenas prestar atenção ao crescimento individual, mas também aprender a ajudar-nos mutuamente, partilhar experiências e progredir em conjunto! Espero que cada parceiro possa retirar inspiração da reunião, transformar as experiências aprendidas em ações concretas, melhorar continuamente e liderar a equipa rumo a novas metas!
+```
+
+#### 💡 Pontos-Chave:
+- Número do sorteio diário divulgado: 831230.
+- Mensagem de orientação estratégica e motivacional, possivelmente um resumo de reunião.
+- Foco no crescimento individual, colaboração, partilha de experiências e liderança para novas metas.
+
+---
+
+### <a id="intel-20261110-200"></a>[INTEL-20261110-200] — Campanha / Sorteio
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI--NO.08 (Canal)`
+- **🏷️ Categoria:** Campanha / Sorteio
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+TIMI atualizou a mensagem fixada. Número do sorteio de hoje: 831230...
+```
+
+#### 💡 Pontos-Chave:
+- Número do sorteio diário: 831230
+
+---
+
+### <a id="intel-20261110-194"></a>[INTEL-20261110-194] — Sorteio / Aviso
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI--NO.08`
+- **🏷️ Categoria:** Sorteio / Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+TIMI atualizou a mensagem fixada. Número da sorte de hoje: 831230.
+```
+
+#### 💡 Pontos-Chave:
+- Número da sorte diário: 831230.
+
+---
+
+### <a id="intel-20261110-195"></a>[INTEL-20261110-195] — Aviso / Novidades de Funcionamento
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** 22:47
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI--NO.08`
+- **🏷️ Categoria:** Aviso / Novidades de Funcionamento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+No dia 8 de setembro, realizou-se com grande destaque a Festa das Vindimas de Palmela, em Portugal! A TIMI, como um dos patrocinadores do evento, teve um palco TIMI exclusivo no local, mostrando ao público a imagem da marca e os resultados do seu desenvolvimento. A TIMI recebeu também um certificado de honra atribuído pela Câmara Municipal, referindo o esforço da empresa em participar ativamente nas atividades culturais locais e apoiar o desenvolvimento da comunidade. Cada aparição é um novo ponto de partida para o desenvolvimento da marca; cada honra é uma nova motivação para a equipa avançar!
+```
+
+#### 💡 Pontos-Chave:
+- TIMI patrocinou a Festa das Vindimas de Palmela em 8 de setembro.
+- Teve um palco exclusivo no evento.
+- Recebeu certificado de honra da Câmara Municipal por apoio à comunidade.
+- Eventos e reconhecimentos são vistos como motivação para a equipa e desenvolvimento da marca.
+
+---
+
+### <a id="intel-20261110-196"></a>[INTEL-20261110-196] — Discussão / Feedback
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** 22:30
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `PROPRIO CHAT`
+- **🏷️ Categoria:** Discussão / Feedback
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+É verdade o palco e o certificado de honra desta vez são ambos muito importantes para o desenvolvimento da comunidade. Muito bem dito cada participação é uma nova acumulação e cada reconhecimento é também uma motivação para continuar a avançar espero que a TIMI tenha mais oportunidades assim no futuro e também estou ansioso por novas surpresas que a próxima atividade nos possa trazer
+```
+
+#### 💡 Pontos-Chave:
+- Reconhecimento da importância do palco e certificado para o desenvolvimento da comunidade.
+- Expressa motivação e antecipação por futuras oportunidades e atividades da TIMI.
+
+---
+
+### <a id="intel-20261110-198"></a>[INTEL-20261110-198] — Diretiva / Orientação
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** 22:14
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Túlio Vaz`
+- **🏷️ Categoria:** Diretiva / Orientação
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Cada partilha de experiência é uma oportunidade de aprendizagem; cada intercâmbio em equipa é um passo importante rumo a novos objetivos. Na TIMI, não devemos apenas prestar atenção ao crescimento individual, mas também aprender a ajudar-nos mutuamente, partilhar experiências e progredir em conjunto! Espero que cada parceiro possa retirar inspiração da reunião, transformar as experiências aprendidas em ações concretas, melhorar continuamente e liderar a equipa rumo a novas metas!
+```
+
+#### 💡 Pontos-Chave:
+- Foco em partilha de experiência e aprendizagem mútua
+- Importância do crescimento coletivo e ajuda mútua
+- Aplicar lições de reuniões em ações concretas
+- Melhoria contínua e liderança para novas metas
+
+---
+
+### <a id="intel-20261110-197"></a>[INTEL-20261110-197] — Sorteio
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** 21:33
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Sorteio
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Número do sorteio de hoje: 831230.
+```
+
+#### 💡 Pontos-Chave:
+- Número do sorteio diário: 831230
+
+---
+
+### <a id="intel-20261110-199"></a>[INTEL-20261110-199] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** 21:13
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI--NO.08`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+⚠️ Alerta antifraude da TIMI ⚠️ ⚠️ Recentemente, detetámos que uma plataforma chamada ETG está alegadamente a usar indevidamente o nome da TIMI para induzir parceiros da TIMI a participar nos seus projetos. ⚠️ Pedimos a todos que aumentem a vigilância, não acreditem facilmente em promessas de rendimentos elevados e, muito menos, participem cegamente em plataformas desconhecidas, para evitar perdas económicas. 🛡️ Combater a fraude e proteger os interesses dos parceiros é um princípio que a TIMI sempre manteve e também uma responsabilidade comum de cada parceiro. 🤝 Pedimos a todos os agentes e parceiros que mantenham em conjunto um ambiente de mercado seguro e saudável!
+```
+
+#### 💡 Pontos-Chave:
+- Alerta sobre a plataforma ETG que está a usar indevidamente o nome da TIMI para induzir parceiros.
+- Pedido para que todos os agentes e parceiros aumentem a vigilância.
+- Não acreditar em promessas de rendimentos elevados de plataformas desconhecidas.
+- Reforço do compromisso da TIMI em combater a fraude e proteger os interesses dos parceiros.
+- Solicitação para manter um ambiente de mercado seguro e saudável.
+
+---
+
+### <a id="intel-20261110-203"></a>[INTEL-20261110-203] — Diretiva / Reunião
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** 21:03
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Carlos (reportando Theodore)`
+- **🏷️ Categoria:** Diretiva / Reunião
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Theodore está a falar na 68
+```
+
+#### 💡 Pontos-Chave:
+- Theodore (liderança) está a comunicar ou em reunião na '68'.
+
+---
+
+### <a id="intel-20261110-201"></a>[INTEL-20261110-201] — Novidade de Funcionamento / Informação Operacional
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** 21:02
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Carlos`
+- **🏷️ Categoria:** Novidade de Funcionamento / Informação Operacional
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Theodore está a falar na 68
+```
+
+#### 💡 Pontos-Chave:
+- Theodore está ativo na sala/canal 68
+
+---
+
+### <a id="intel-20261110-205"></a>[INTEL-20261110-205] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** 21:00
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Paulino Couto (citando Carol)`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Fiquem seguros onde quer que estejam É verdade lá fora está muito perigoso agora
+```
+
+#### 💡 Pontos-Chave:
+- Reforço do alerta de segurança, indicando condições externas perigosas.
+
+---
+
+### <a id="intel-20261110-206"></a>[INTEL-20261110-206] — Diretiva / Orientação
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** 20:59
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI-NO.08`
+- **🏷️ Categoria:** Diretiva / Orientação
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Cada partilha de experiência é uma oportunidade de aprendizagem; cada intercâmbio em equipa é um passo importante rumo a novos objetivos. Na TIMI, não devemos apenas prestar atenção ao crescimento individual, mas também aprender a ajudar-nos mutuamente, partilhar experiências e progredir em conjunto! Espero que cada parceiro possa retirar inspiração da reunião, transformar as experiências aprendidas em ações concretas, melhorar continuamente e liderar a equipa rumo a novas metas!
+```
+
+#### 💡 Pontos-Chave:
+- Foco na partilha de experiências e aprendizagem em equipa
+- Importância da ajuda mútua e progresso conjunto
+- Aplicação prática das lições das reuniões em ações concretas
+- Melhoria contínua e liderança para novas metas
+
+---
+
+### <a id="intel-20261110-204"></a>[INTEL-20261110-204] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** 20:59
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Carol`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Fiquem seguros onde quer que estejam
+```
+
+#### 💡 Pontos-Chave:
+- Alerta de segurança geral para os membros da equipa.
+
+---
+
+### <a id="intel-20261110-207"></a>[INTEL-20261110-207] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** 20:47
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Túlio Vaz`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Aviso importante | Estejam atentos ao anúncio de TV da TIMI! Hora de Portugal: 10 de novembro, às 23h30 Caros parceiros, preparem os vossos telemóveis com antecedência e estejam atentos à informação da TIMI que será transmitida hoje na estação de televisão. Quando virem o anúncio, tirem uma captura de ecrã ou gravem um vídeo atempadamente e partilhem-no no grupo.
+```
+
+#### 💡 Pontos-Chave:
+- Anúncio da TIMI na TV hoje, 10 de novembro, às 23h30 (Hora de Portugal)
+- Obrigatório preparar telemóveis para captura
+- Exigido tirar captura de ecrã ou gravar vídeo do anúncio
+- Partilhar a captura/vídeo no grupo
+
+---
+
+### <a id="intel-20261110-212"></a>[INTEL-20261110-212] — Questão Operacional
+
+- **📅 Data de Publicação:** 2026-11-10
+- **⏰ Hora:** 20:41
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Sonia`
+- **🏷️ Categoria:** Questão Operacional
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Onde é a reunião de ho... grupo 13
+```
+
+#### 💡 Pontos-Chave:
+- Questão sobre o local da reunião do grupo 13
 
 ---
 

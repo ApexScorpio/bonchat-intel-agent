@@ -1,5 +1,314 @@
 [
   {
+    "id": "INTEL-20261110-212",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "20:41",
+    "channel": "TIMI--NO.08",
+    "authority": "Sonia",
+    "content_type": "Questão Operacional",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Onde é a reunião de ho... grupo 13",
+    "key_takeaways": [
+      "Questão sobre o local da reunião do grupo 13"
+    ]
+  },
+  {
+    "id": "INTEL-20261110-211",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "N/A",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI",
+    "content_type": "Aviso / Sorteio",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "TIMI atualizou a mensagem fixada. Número da sorte de hoje: 831230...",
+    "key_takeaways": [
+      "Mensagem fixada atualizada",
+      "Número da sorte diário: 831230"
+    ]
+  },
+  {
+    "id": "INTEL-20261110-210",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "N/A",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI--NO.08",
+    "content_type": "Novidades de Funcionamento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A TIMI irá promover no mercado europeu o seguinte plano de desenvolvimento, com base numa filosofia de cooperação de benefício mútuo e num modelo de negócio lucrativo de desenvolvimento conjunto, conjugado com um plano de marketing multinível. O principal país de desenvolvimento da empresa é Portugal. A TIMI encontra-se atualmente a recrutar ativamente talentos locais para colaborarem connosco no desenvolvimento deste projeto, tirando partido das vantagens das equipas locais para expandir o mercado de forma mais eficaz, aumentar a notoriedade da empresa e, em última análise, concretizar o lançamento oficial e a operação contínua do projeto de partilha de bicicletas em Portugal.",
+    "key_takeaways": [
+      "Plano de desenvolvimento europeu baseado em cooperação e marketing multinível",
+      "Portugal é o principal país de desenvolvimento",
+      "Recrutamento ativo de talentos locais em Portugal",
+      "Objetivos: expandir mercado, aumentar notoriedade, lançar e operar projeto de partilha de bicicletas em Portugal"
+    ]
+  },
+  {
+    "id": "INTEL-20261110-209",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "N/A",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI--NO.08",
+    "content_type": "Novidades de Funcionamento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A TIMI é também uma plataforma que conjuga mobilidade partilhada e economia digital. O nosso objetivo é permitir que mais pessoas usufruam de formas de mobilidade convenientes e, simultaneamente, obtenham retornos sustentáveis através da partilha de bicicletas e equipamentos.",
+    "key_takeaways": [
+      "TIMI é plataforma de mobilidade partilhada e economia digital",
+      "Objetivo: oferecer mobilidade conveniente e retornos sustentáveis via partilha de bicicletas e equipamentos"
+    ]
+  },
+  {
+    "id": "INTEL-20261110-208",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "N/A",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI--NO.08",
+    "content_type": "Sorteio",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Número do sorteio de hoje: 831230.",
+    "key_takeaways": [
+      "Número do sorteio diário: 831230"
+    ]
+  },
+  {
+    "id": "INTEL-20261110-207",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "20:47",
+    "channel": "TIMI--NO.08",
+    "authority": "Túlio Vaz",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Aviso importante | Estejam atentos ao anúncio de TV da TIMI! Hora de Portugal: 10 de novembro, às 23h30 Caros parceiros, preparem os vossos telemóveis com antecedência e estejam atentos à informação da TIMI que será transmitida hoje na estação de televisão. Quando virem o anúncio, tirem uma captura de ecrã ou gravem um vídeo atempadamente e partilhem-no no grupo.",
+    "key_takeaways": [
+      "Anúncio da TIMI na TV hoje, 10 de novembro, às 23h30 (Hora de Portugal)",
+      "Obrigatório preparar telemóveis para captura",
+      "Exigido tirar captura de ecrã ou gravar vídeo do anúncio",
+      "Partilhar a captura/vídeo no grupo"
+    ]
+  },
+  {
+    "id": "INTEL-20261110-206",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "20:59",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI-NO.08",
+    "content_type": "Diretiva / Orientação",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Cada partilha de experiência é uma oportunidade de aprendizagem; cada intercâmbio em equipa é um passo importante rumo a novos objetivos. Na TIMI, não devemos apenas prestar atenção ao crescimento individual, mas também aprender a ajudar-nos mutuamente, partilhar experiências e progredir em conjunto! Espero que cada parceiro possa retirar inspiração da reunião, transformar as experiências aprendidas em ações concretas, melhorar continuamente e liderar a equipa rumo a novas metas!",
+    "key_takeaways": [
+      "Foco na partilha de experiências e aprendizagem em equipa",
+      "Importância da ajuda mútua e progresso conjunto",
+      "Aplicação prática das lições das reuniões em ações concretas",
+      "Melhoria contínua e liderança para novas metas"
+    ]
+  },
+  {
+    "id": "INTEL-20261110-205",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "21:00",
+    "channel": "TIMI--NO.08",
+    "authority": "Paulino Couto (citando Carol)",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Fiquem seguros onde quer que estejam É verdade lá fora está muito perigoso agora",
+    "key_takeaways": [
+      "Reforço do alerta de segurança, indicando condições externas perigosas."
+    ]
+  },
+  {
+    "id": "INTEL-20261110-204",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "20:59",
+    "channel": "TIMI--NO.08",
+    "authority": "Carol",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Fiquem seguros onde quer que estejam",
+    "key_takeaways": [
+      "Alerta de segurança geral para os membros da equipa."
+    ]
+  },
+  {
+    "id": "INTEL-20261110-203",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "21:03",
+    "channel": "TIMI--NO.08",
+    "authority": "Carlos (reportando Theodore)",
+    "content_type": "Diretiva / Reunião",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Theodore está a falar na 68",
+    "key_takeaways": [
+      "Theodore (liderança) está a comunicar ou em reunião na '68'."
+    ]
+  },
+  {
+    "id": "INTEL-20261110-202",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "N/A",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI-NO.08",
+    "content_type": "Aviso / Sorteio / Orientação",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "TIMI atualizou a mensagem fixada. Número do sorteio de hoje: 831230... no fim, não devemos apenas prestar atenção ao crescimento individual, mas também aprender a ajudar-nos mutuamente, partilhar experiências e progredir em conjunto! Espero que cada parceiro possa retirar inspiração da reunião, transformar as experiências aprendidas em ações concretas, melhorar continuamente e liderar a equipa rumo a novas metas!",
+    "key_takeaways": [
+      "Número do sorteio diário divulgado: 831230.",
+      "Mensagem de orientação estratégica e motivacional, possivelmente um resumo de reunião.",
+      "Foco no crescimento individual, colaboração, partilha de experiências e liderança para novas metas."
+    ]
+  },
+  {
+    "id": "INTEL-20261110-201",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "21:02",
+    "channel": "TIMI--NO.08",
+    "authority": "Carlos",
+    "content_type": "Novidade de Funcionamento / Informação Operacional",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Theodore está a falar na 68",
+    "key_takeaways": [
+      "Theodore está ativo na sala/canal 68"
+    ]
+  },
+  {
+    "id": "INTEL-20261110-200",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "N/A",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI--NO.08 (Canal)",
+    "content_type": "Campanha / Sorteio",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "TIMI atualizou a mensagem fixada. Número do sorteio de hoje: 831230...",
+    "key_takeaways": [
+      "Número do sorteio diário: 831230"
+    ]
+  },
+  {
+    "id": "INTEL-20261110-199",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "21:13",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI--NO.08",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "⚠️ Alerta antifraude da TIMI ⚠️ ⚠️ Recentemente, detetámos que uma plataforma chamada ETG está alegadamente a usar indevidamente o nome da TIMI para induzir parceiros da TIMI a participar nos seus projetos. ⚠️ Pedimos a todos que aumentem a vigilância, não acreditem facilmente em promessas de rendimentos elevados e, muito menos, participem cegamente em plataformas desconhecidas, para evitar perdas económicas. 🛡️ Combater a fraude e proteger os interesses dos parceiros é um princípio que a TIMI sempre manteve e também uma responsabilidade comum de cada parceiro. 🤝 Pedimos a todos os agentes e parceiros que mantenham em conjunto um ambiente de mercado seguro e saudável!",
+    "key_takeaways": [
+      "Alerta sobre a plataforma ETG que está a usar indevidamente o nome da TIMI para induzir parceiros.",
+      "Pedido para que todos os agentes e parceiros aumentem a vigilância.",
+      "Não acreditar em promessas de rendimentos elevados de plataformas desconhecidas.",
+      "Reforço do compromisso da TIMI em combater a fraude e proteger os interesses dos parceiros.",
+      "Solicitação para manter um ambiente de mercado seguro e saudável."
+    ]
+  },
+  {
+    "id": "INTEL-20261110-198",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "22:14",
+    "channel": "TIMI--NO.08",
+    "authority": "Túlio Vaz",
+    "content_type": "Diretiva / Orientação",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Cada partilha de experiência é uma oportunidade de aprendizagem; cada intercâmbio em equipa é um passo importante rumo a novos objetivos. Na TIMI, não devemos apenas prestar atenção ao crescimento individual, mas também aprender a ajudar-nos mutuamente, partilhar experiências e progredir em conjunto! Espero que cada parceiro possa retirar inspiração da reunião, transformar as experiências aprendidas em ações concretas, melhorar continuamente e liderar a equipa rumo a novas metas!",
+    "key_takeaways": [
+      "Foco em partilha de experiência e aprendizagem mútua",
+      "Importância do crescimento coletivo e ajuda mútua",
+      "Aplicar lições de reuniões em ações concretas",
+      "Melhoria contínua e liderança para novas metas"
+    ]
+  },
+  {
+    "id": "INTEL-20261110-197",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "21:33",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI",
+    "content_type": "Sorteio",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Número do sorteio de hoje: 831230.",
+    "key_takeaways": [
+      "Número do sorteio diário: 831230"
+    ]
+  },
+  {
+    "id": "INTEL-20261110-196",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "22:30",
+    "channel": "TIMI--NO.08",
+    "authority": "PROPRIO CHAT",
+    "content_type": "Discussão / Feedback",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "É verdade o palco e o certificado de honra desta vez são ambos muito importantes para o desenvolvimento da comunidade. Muito bem dito cada participação é uma nova acumulação e cada reconhecimento é também uma motivação para continuar a avançar espero que a TIMI tenha mais oportunidades assim no futuro e também estou ansioso por novas surpresas que a próxima atividade nos possa trazer",
+    "key_takeaways": [
+      "Reconhecimento da importância do palco e certificado para o desenvolvimento da comunidade.",
+      "Expressa motivação e antecipação por futuras oportunidades e atividades da TIMI."
+    ]
+  },
+  {
+    "id": "INTEL-20261110-195",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "22:47",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI--NO.08",
+    "content_type": "Aviso / Novidades de Funcionamento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "No dia 8 de setembro, realizou-se com grande destaque a Festa das Vindimas de Palmela, em Portugal! A TIMI, como um dos patrocinadores do evento, teve um palco TIMI exclusivo no local, mostrando ao público a imagem da marca e os resultados do seu desenvolvimento. A TIMI recebeu também um certificado de honra atribuído pela Câmara Municipal, referindo o esforço da empresa em participar ativamente nas atividades culturais locais e apoiar o desenvolvimento da comunidade. Cada aparição é um novo ponto de partida para o desenvolvimento da marca; cada honra é uma nova motivação para a equipa avançar!",
+    "key_takeaways": [
+      "TIMI patrocinou a Festa das Vindimas de Palmela em 8 de setembro.",
+      "Teve um palco exclusivo no evento.",
+      "Recebeu certificado de honra da Câmara Municipal por apoio à comunidade.",
+      "Eventos e reconhecimentos são vistos como motivação para a equipa e desenvolvimento da marca."
+    ]
+  },
+  {
+    "id": "INTEL-20261110-194",
+    "timestamp_published": "2026-11-10 23:38:08",
+    "date_str": "2026-11-10",
+    "time_str": "N/A",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI--NO.08",
+    "content_type": "Sorteio / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "TIMI atualizou a mensagem fixada. Número da sorte de hoje: 831230.",
+    "key_takeaways": [
+      "Número da sorte diário: 831230."
+    ]
+  },
+  {
     "id": "INTEL-20261106-193",
     "timestamp_published": "2026-11-06 23:48:53",
     "date_str": "2026-11-06",
