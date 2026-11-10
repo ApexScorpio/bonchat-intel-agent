@@ -1,12 +1,12 @@
 @echo off
-title BonChat Intelligence Agent - Agendador (13:30 e 21:30)
+title BonChat Intelligence Agent - Agendador (00:00, 13:30, 21:30)
 color 0E
 cls
 
 echo.
 echo ========================================================
 echo   BonChat Intelligence Agent - Servico Agendado
-echo   Horarios de envio: 13:30 e 21:30 diariamente
+echo   Horarios de envio: 00:00 (Meia-Noite), 13:30 e 21:30 diariamente
 echo ========================================================
 echo.
 

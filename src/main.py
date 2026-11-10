@@ -171,6 +171,7 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
     )
 
     channel_reports = {}
+    all_discovered_entries = []
     today_str = datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S")
     total_channels = len(targets)
 
@@ -219,6 +220,7 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
         
         # Record structured intel entries into Knowledge Base
         if entries:
+            all_discovered_entries.extend(entries)
             for item in entries:
                 kb.add_entry(
                     date_str=item.get("date_str", datetime.datetime.now().strftime("%Y-%m-%d")),
@@ -253,8 +255,25 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
         new_frames.clear()
         # ─────────────────────────────────────────────────────────────────────
 
-    # 4. Generate final briefing
-    full_digest = ai.generate_full_briefing(channel_reports, shift_label=shift_label)
+    # 4. Agendamento Automático de Reuniões & Atividades no Windows Task Scheduler
+    scheduled_tasks = []
+    try:
+        from src.activity_scheduler import scan_and_schedule_from_entries
+        scheduled_tasks = scan_and_schedule_from_entries(all_discovered_entries)
+        if scheduled_tasks:
+            logger.info(f"📅 [AGENDADOR DINÂMICO] {len(scheduled_tasks)} atividade(s) agendada(s) no Windows Task Scheduler!")
+            for st in scheduled_tasks:
+                logger.info(f"   -> Reunião: {st['meeting_time']} | Tarefa: {st['task_name']} | Motivo: {st['reason']}")
+    except Exception as e_sched:
+        logger.warning(f"Aviso ao executar agendamento dinâmico: {e_sched}")
+
+    # 5. Generate final executive briefing (limpo de código, sem repetições)
+    full_digest = ai.generate_full_briefing(
+        channel_reports,
+        shift_label=shift_label,
+        all_entries=all_discovered_entries,
+        scheduled_tasks=scheduled_tasks
+    )
     logger.info("Executive Briefing finalized.")
 
     # Save digest locally and push immediately to GitHub cloud database

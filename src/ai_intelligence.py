@@ -256,23 +256,23 @@ class AIIntelligence:
                     all_summaries.append(clean_text)
                 continue
 
+            now_month_str = datetime.datetime.now().strftime("%B de %Y")
             prompt = (
                 f"Analisa as capturas do canal '{channel_name}' (Lote {chunk_num}/{total_chunks}).\n\n"
                 f"{pill_ctx_str}\n\n"
                 f"INSTRUÇÃO OPERACIONAL:\n"
-                f"Extrai TODAS as mensagens visíveis enviadas em Setembro de 2026 no canal '{channel_name}', de TODOS os autores e membros (autoridades, líderes, agentes e participantes).\n"
+                f"Filtra e IGNORA 100% de cumprimentos banais ('bom dia', 'olá', 'obrigado'), emojis soltos e conversas paralelas entre membros comuns.\n"
+                f"Foca-te EXCLUSIVAMENTE em diretivas da chefia (Theodore, Jonathan, Márcia), comunicados do canal 08, horários de reuniões obrigatórias, chamadas de presença, novos sorteios e campanhas de bónus.\n"
                 f"- Data: identifica a data de publicação com base nas pílulas de data centrais do BonChat (formato YYYY-MM-DD).\n"
-                f"- Hora: extrai a hora exata (HH:MM) se estiver visível junto ao autor ou cabeçalho da mensagem (ex: '11:42', '19:30'). Se não estiver visível, coloca 'N/A'.\n\n"
-                f"PRODUZ:\n"
-                f"1. Resumo executivo em português com os temas e discussões do canal.\n"
-                f"2. No final, OBRIGATORIAMENTE um bloco ```json com TODAS as mensagens individuais extraídas das capturas:\n"
+                f"- Hora: extrai a hora exata (HH:MM) junto ao autor ou cabeçalho da mensagem (ex: '11:42', '19:30'). Se não estiver visível, coloca 'N/A'.\n\n"
+                f"PRODUZ OBRIGATORIAMENTE um bloco ```json com as mensagens críticas extraídas:\n"
                 f"```json\n"
                 f"[\n"
                 f"  {{\n"
                 f"    \"date_str\": \"YYYY-MM-DD\",\n"
                 f"    \"time_str\": \"HH:MM\",\n"
                 f"    \"authority\": \"Nome do Autor / Remetente\",\n"
-                f"    \"content_type\": \"Aviso / Reunião / Dúvida / Resposta / Diretiva / Geral\",\n"
+                f"    \"content_type\": \"Aviso / Reunião / Diretiva / Campanha / Sorteio\",\n"
                 f"    \"verbatim_text\": \"Texto literal integral da mensagem...\",\n"
                 f"    \"key_takeaways\": [\"Ponto chave 1\", \"Ponto chave 2\"]\n"
                 f"  }}\n"
@@ -285,9 +285,11 @@ class AIIntelligence:
                 self._save_cached_hash_analysis(chunk_hash, analysis)
                 json_m = re.search(r'```json\s*(\[.*?\])\s*```', analysis, re.DOTALL)
                 if json_m:
-                    try: all_entries.extend(json.loads(json_m.group(1)))
-                    except Exception: pass
-                clean_text = re.sub(r'```json\s*\[.*?\]\s*```', '', analysis, flags=re.DOTALL).strip()
+                    try:
+                        all_entries.extend(json.loads(json_m.group(1)))
+                    except Exception:
+                        pass
+                clean_text = re.sub(r'```(?:json)?[\s\S]*?```', '', analysis).strip()
                 if clean_text and "sem novidades" not in clean_text.lower():
                     all_summaries.append(clean_text)
 
@@ -296,16 +298,113 @@ class AIIntelligence:
         combined_summary = "\n\n".join(all_summaries).strip() if all_summaries else "Sem novidades operacionais críticas no turno."
         return combined_summary, all_entries
 
-    def generate_full_briefing(self, channel_summaries: Dict[str, str], shift_label: str = "DIÁRIO") -> str:
-        """Combines per-channel visual findings into an executive Telegram briefing."""
-        valid_items = [
-            f"### {ch}\n{text}" for ch, text in channel_summaries.items() 
-            if text and "sem novidades" not in text.lower()
+    def generate_full_briefing(
+        self,
+        channel_summaries: Dict[str, str],
+        shift_label: str = "DIÁRIO",
+        all_entries: Optional[List[Dict[str, Any]]] = None,
+        scheduled_tasks: Optional[List[Dict[str, Any]]] = None
+    ) -> str:
+        """
+        Gera um Resumo Executivo conciso, limpo e profissional para o Telegram,
+        eliminando 100% de repetições, lixo/conversas banais e resquícios de código.
+        """
+        def sanitize_intel_text(t: str) -> str:
+            if not t: return ""
+            t = re.sub(r'```(?:json|python)?[\s\S]*?```', '', t)
+            t = re.sub(r'\{[^{}]*"date_str"[^{}]*\}', '', t)
+            t = re.sub(r'\[\s*\{[\s\S]*?\}\s*\]', '', t)
+            t = re.sub(r'["\']?(?:date_str|time_str|verbatim_text|key_takeaways|content_type|authority)["\']?\s*:\s*["\']?[^,\n\}]*["\']?', '', t)
+            t = re.sub(r'[\{\}\[\]]', '', t)
+            t = re.sub(r'\n{3,}', '\n\n', t)
+            return t.strip()
+
+        today_str = datetime.datetime.now().strftime("%d/%m/%Y")
+        lines = [
+            f"🚲 *RESUMO EXECUTIVO TIMI* | {today_str} ({shift_label})",
+            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
         ]
 
-        if not valid_items:
-            return f"🚲 *RESUMO OPERACIONAL TIMI ({shift_label})*\n\n✅ Sem novos avisos ou novidades críticas das autoridades registadas neste turno."
+        # A. Atividades Agendadas Dinamicamente
+        if scheduled_tasks:
+            lines.append("\n📅 *ATIVIDADES & REUNIÕES AGENDADAS NO SISTEMA:*")
+            for task in scheduled_tasks:
+                lines.append(f"• ⏰ *{task['meeting_time']}* — {task['reason']}")
+                lines.append(f"  └─ 🤖 *Gatilho Automático:* O `TIMI_GUARDIAN` arranca 15 min antes (Tarefa: `{task['task_name']}`).")
 
-        header = f"🚲 *RESUMO OPERACIONAL TIMI ({shift_label})*\n\n"
-        body = "\n\n".join(valid_items)
-        return header + body
+        # B. Extrair e desduplicar avisos e diretivas
+        seen_takeaways = set()
+        meetings = []
+        authorities_notices = []
+        campaigns_bonuses = []
+        vouchers_codes = []
+
+        if all_entries:
+            for e in all_entries:
+                c_type = (e.get("content_type") or "").lower()
+                text = (e.get("verbatim_text") or " ".join(e.get("key_takeaways", []))).strip()
+                auth = (e.get("authority") or "Oficial").strip()
+
+                t_lower = text.lower()
+                if any(k in t_lower for k in ("bom dia", "boa tarde", "boa noite pessoal", "obrigado", "consegui", "parabéns")):
+                    if not any(k in t_lower for k in ("reunião", "reuniao", "sorteio", "código", "codigo", "bónus", "bonus", "usdt")):
+                        continue
+
+                norm_key = re.sub(r'\W+', '', text[:50].lower())
+                if norm_key in seen_takeaways:
+                    continue
+                seen_takeaways.add(norm_key)
+
+                if any(k in t_lower or k in c_type for k in ("reunião", "reuniao", "presença", "presenca", "live", "encontro")):
+                    time_info = f" ({e.get('time_str')})" if e.get('time_str') and e.get('time_str') != 'N/A' else ""
+                    meetings.append(f"• *[{auth}]{time_info}:* {text[:140]}...")
+                elif any(k in t_lower or k in c_type for k in ("bónus", "bonus", "campanha", "usdt", "meta", "comissão")):
+                    campaigns_bonuses.append(f"• *[{auth}]:* {text[:140]}...")
+                elif any(k in t_lower or k in c_type for k in ("chave", "voucher", "código", "codigo", "sorteio")):
+                    vouchers_codes.append(f"• *[{auth}]:* {text[:140]}...")
+                elif auth in ("Theodore", "Jonathan", "Johnathan", "Marcia", "Márcia", "TIMI") or "diretiva" in c_type or "aviso" in c_type:
+                    authorities_notices.append(f"• *[{auth}]:* {text[:140]}...")
+
+        has_content = False
+
+        if meetings and not scheduled_tasks:
+            lines.append("\n📢 *REUNIÕES & EVENTOS:*")
+            for m in meetings[:3]:
+                lines.append(m)
+            has_content = True
+
+        if authorities_notices:
+            lines.append("\n👑 *DIRETIVAS DA CHEFIA (Theodore / Jonathan):*")
+            for an in authorities_notices[:4]:
+                lines.append(an)
+            has_content = True
+
+        if campaigns_bonuses:
+            lines.append("\n💰 *BÓNUS & CAMPANHAS ATIVAS:*")
+            for cb in campaigns_bonuses[:3]:
+                lines.append(cb)
+            has_content = True
+
+        if vouchers_codes:
+            lines.append("\n⚡ *VOUCHERS & CHAVES DINÂMICAS:*")
+            for vc in vouchers_codes[:2]:
+                lines.append(vc)
+            has_content = True
+
+        if not has_content and not scheduled_tasks:
+            cleaned_summaries = []
+            for ch, s in channel_summaries.items():
+                clean_s = sanitize_intel_text(s)
+                if clean_s and "sem novidades" not in clean_s.lower() and len(clean_s) > 20:
+                    cleaned_summaries.append(f"• *{ch}:* {clean_s[:140]}...")
+            if cleaned_summaries:
+                lines.append("\n📋 *DESTAQUES DOS CANAIS:*")
+                lines.extend(cleaned_summaries[:4])
+            else:
+                lines.append("\n✅ *Sem novos comunicados críticos da chefia neste turno.*")
+                lines.append("Operação regular a decorrer nas 3 contas TIMI.")
+
+        lines.append("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+        lines.append("🛡️ *Sistema Operacional 3/3 Contas Ativas*")
+
+        return sanitize_intel_text("\n".join(lines))
