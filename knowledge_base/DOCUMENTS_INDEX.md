@@ -1,7 +1,7 @@
 # 📁 Acervo de Documentos e Materiais Oficiais TIMI
 
 > **Repositório:** [ApexScorpio/bonchat-intel-agent](https://github.com/ApexScorpio/bonchat-intel-agent)  
-> **Última Atualização:** 2026-11-09 23:00:08  
+> **Última Atualização:** 2026-11-10 23:00:06  
 > **Finalidade:** Todos os ficheiros PDF, guias operacionais e diapositivos partilhados pelas chefias oficiais descarregados e arquivados localmente.
 
 ---
