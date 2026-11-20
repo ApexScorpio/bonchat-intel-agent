@@ -89,6 +89,7 @@
 | `INTEL-20261105-182` | 2026-10-20 13:35 | `TIMI--NO.08` | TIMI | Aviso / Reunião | [Ver Anexo](#intel-20261105-182) |
 | `INTEL-20261022-171` | 2026-10-20 13:35 | `TIMI-NeWs` | N/A | Aviso | [Ver Anexo](#intel-20261022-171) |
 | `INTEL-20261105-181` | 2026-10-20 11:40 | `TIMI--NO.08` | TIMI | Geral / Diretiva | [Ver Anexo](#intel-20261105-181) |
+| `INTEL-20261120-235` | 2026-10-20 11:20 | `Theodore` | Vanessa Samartinho (Comunicado Oficial Jonathan) | Reunião / Aviso / Diretiva / Campanha | [Ver Anexo](#intel-20261120-235) |
 | `INTEL-20261020-144` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-144) |
 | `INTEL-20261020-143` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-143) |
 | `INTEL-20261020-142` | 2026-10-20 11:14 | `TIMI-68` | Gameiro | Reunião | [Ver Anexo](#intel-20261020-142) |
@@ -1763,6 +1764,25 @@ com sucesso a agente de nível 1, com um rendimento acumulado de 3000 dólares. 
 - Confirmação de recebimento de levantamentos e reembolso de 400 USDT por despesas médicas
 - Incentivo para conhecer e aproveitar os benefícios da empresa
 - Chamada à ação para proatividade, comunicação e busca de objetivos
+
+---
+
+### <a id="intel-20261120-235"></a>[INTEL-20261120-235] — Reunião / Aviso / Diretiva / Campanha
+
+- **📅 Data de Publicação:** 2026-10-20
+- **⏰ Hora:** 11:20
+- **👥 Grupo / Canal:** `Theodore`
+- **👑 Autoridade / Emissor:** `Vanessa Samartinho (Comunicado Oficial Jonathan)`
+- **🏷️ Categoria:** Reunião / Aviso / Diretiva / Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Aviso importante de reunião TIMI! Atenção, parceiros: Hora de Portugal, 20 de outubro (terça-feira), às 20:00, o diretor-geral Jonathan realizará uma importante reunião online no grupo TIMI-NO.08. Durante a reunião haverá recompensas de sorte em USDT! ⚠️ A. Compareçam pontualmente Quem faltar sem justificação será penalizado com a dedução de 10 a 50 pontos de credibilidade, conforme o regulamento. Se não puderem participar por motivos de trabalho, família ou outras razões importantes, avisem com antecedência. Organizem o vosso tempo com antecedência e informem os membros da vossa equipa. Lembrem-se uns aos outros de comparecer pontualmente, para não perderem informações importantes e as recompensas de sorte! 🤝
+```
+
+#### 💡 Pontos-Chave:
+- Reunião online obrigatória com Diretor-Geral Jonathan no grupo TIMI-NO.08 em 2026-10-20 às 20:00 (Hora de Portugal).
+- Recompensas de sorte em USDT serão distribuídas durante a reunião.
+- Faltas injustificadas à reunião implicarão penalização de 10 a 50 pontos de credibilidade.
 
 ---
 
