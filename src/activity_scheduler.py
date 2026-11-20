@@ -16,7 +16,9 @@ from typing import List, Dict, Any, Optional, Tuple
 
 logger = logging.getLogger("ActivityScheduler")
 
-PYTHON_EXE = r"C:\Users\lopes\AppData\Local\Programs\Python\Python310\python.exe"
+PYTHON_EXE = r"S:\Users\lopes\AppData\Local\Programs\Python\Python310\pythonw.exe"
+if not os.path.exists(PYTHON_EXE):
+    PYTHON_EXE = r"C:\Users\lopes\AppData\Local\Programs\Python\Python310\pythonw.exe"
 GUARDIAN_SCRIPT = r"S:\Users\lopes\Documents\TIMI_FIELD_WORKSPACE\code\TIMI_GUARDIAN.py"
 SCHEDULED_DB = Path(__file__).resolve().parent.parent / "data" / "scheduled_activities.json"
 

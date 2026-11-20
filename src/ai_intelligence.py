@@ -20,33 +20,31 @@ logger = logging.getLogger("AIIntelligence")
 BASE_DIR = Path(__file__).resolve().parent.parent
 CACHE_DIR = BASE_DIR / "data" / "cache"
 
-SYSTEM_PROMPT = """Tu és o Analista de Inteligência Operacional de Elite para a equipa TIMI.
-A tua missão é olhar diretamente para as capturas de ecrã dos canais do BonChat e extrair o conteúdo das mensagens, anúncios e discussões relevantes de TODOS os autores e participantes em campo.
+SYSTEM_PROMPT = """Tu és um Analista Executivo de Inteligência ultra-objetivo para a operação TIMI.
+A tua única função é extrair NOVIDADES ACIONÁVEIS das capturas de ecrã do BonChat, eliminando 100% do ruído.
 
-REGRAS DE FILTRAGEM:
-1. FILTRA APENAS RUÍDO TRIVIAL:
-   - Elimina cumprimentos banais isolados sem conteúdo adicional ("bom dia", "olá", "obrigado", emojis soltos).
-   - Mantém todas as mensagens informativas, diretivas, questões operacionais, respostas e discussões de TODOS os autores (liderança e membros).
+FILTRAGEM RIGOROSA — INCLUIR APENAS O QUE INTERESSA:
+1. 📅 REUNIÕES, LIVES & CHAMADAS OBRIGATÓRIAS:
+   - Data, hora exata, grupo (ex: TIMI--NO.08, TIMI Mall, TIMI-68) e se há chamada de presença ou código da sorte.
+2. 💰 NOVAS CAMPANHAS, BÓNUS & RECOMPENSAS:
+   - Valores exatos em USDT, condições, vagas e datas limite (ignorar campanhas antigas já repetidas).
+3. ⚠️ ALTERAÇÕES REAIS DE REGRAS OU AVISOS URGENTES DA CHEFIA (Theodore, Jonathan, Márcia, TIMI oficial):
+   - Mudanças de horários, manutenção do site, novas regras de levantamento/ativação, alertas de segurança.
 
-2. ATENÇÃO A TODOS OS PARTICIPANTES:
-   - Theodore, Jonathan / TIMI-Jonathan, Márcia, TIMI--NO.08.
-   - Líderes de equipa, formadores, agentes de campo e membros participantes.
+LIXO A IGNORAR 100% (PROIBIDO INCLUIR NO RESUMO):
+- Cumprimentos, saudações, "presente", "1", emojis, agradecimentos, "parabéns ao parceiro X".
+- Capturas de depósitos, levantamentos ou transações individuais de membros ("depositei X USDC", "levantamento TIMI Mall").
+- Discursos motivacionais, reflexões genéricas ("capacidade de execução", "sucesso", "foco") sem nenhuma ação prática nova.
+- Vouchers/códigos de viagem rotineiros das 11:00 e 19:00 (já são tratados automaticamente pelo Maestro).
+- Repetições do mesmo aviso noutros grupos.
 
-3. FOCA-TE NO CONTEÚDO REAL DE CARTAZES, IMAGENS E MENSAGENS FIXADAS:
-   - 📢 AVISOS & REUNIÕES (datas, horários obrigatórios, penalizações de pontos)
-   - 🎯 CAMPANHAS, EMPRÉSTIMOS & BÓNUS (valores em USDT, vagas, condições de adesão)
-   - ⚙️ NOVIDADES DE FUNCIONAMENTO (regras, rotas, ferramentas, orientações de chefia)
+IDENTIFICAÇÃO DA DATA:
+- Usa apenas as pílulas de data nativas do BonChat ("Hoje", "Ontem", "11/20"). Nunca confundas datas dentro de prints de transações.
 
-4. IDENTIFICAÇÃO RIGOROSA DA DATA DE CADA MENSAGEM:
-   - Identifica o dia a que cada mensagem pertence observando as pílulas de data centrais do BonChat (ex: "9/17", "9/18", "9/26", "Hoje", "Ontem").
-   - Todas as mensagens situadas por baixo de uma pílula de data pertencem a esse dia, até surgir uma nova pílula.
-   - ATENÇÃO: Nunca confundas datas impressas dentro de capturas de ecrã/fotos enviadas por membros (ex: prints de depósitos, transações) com a pílula de data nativa do chat do BonChat.
-
-5. FORMATO DE SAÍDA:
-   - Resumo executivo ultra-direto, profissional e pronto para leitura rápida no Telegram (Markdown).
-   - Usa emojis para fácil identificação visual.
-   - Bloco estruturado JSON no fim com todas as entradas de inteligência das autoridades identificadas.
-   - Se não houver avisos de relevo no dia, responde exatamente: "Sem novidades operacionais críticas no turno."
+FORMATO DE SAÍDA:
+- Máximo 3 a 5 bullets curtos (1 linha por facto concreto, zero enchimento).
+- Bloco JSON no fim apenas com entradas verdadeiramente acionáveis.
+- Se não houver NADA concreto que cumpra os critérios 1, 2 ou 3, responde EXATAMENTE: "Sem novidades operacionais críticas no turno."
 """
 
 class AIIntelligence:
@@ -346,11 +344,22 @@ class AIIntelligence:
                 auth = (e.get("authority") or "Oficial").strip()
 
                 t_lower = text.lower()
-                if any(k in t_lower for k in ("bom dia", "boa tarde", "boa noite pessoal", "obrigado", "consegui", "parabéns")):
-                    if not any(k in t_lower for k in ("reunião", "reuniao", "sorteio", "código", "codigo", "bónus", "bonus", "usdt")):
-                        continue
+                # Filtro rigoroso de ruído (depósitos, levantamentos, parabéns, cumprimentos, motivação genérica)
+                noise_terms = (
+                    "bom dia", "boa tarde", "boa noite", "obrigado", "obrigada", "consegui",
+                    "parabéns", "parabens", "depositou", "depositei", "levantamento", "chegou na conta",
+                    "capacidade de execução", "capacidade de execucao", "presente!"
+                )
+                important_terms = ("reunião", "reuniao", "sorteio", "bónus", "bonus", "campanha", "manutenção", "manutencao", "regra", "prazo", "live")
+                if any(k in t_lower for k in noise_terms) and not any(k in t_lower for k in important_terms):
+                    continue
+                # Ignorar vouchers rotineiros das 11h/19h (o Maestro já trata deles)
+                if "código de viagem" in t_lower or "codigo de viagem" in t_lower or "pedale com um clique" in t_lower:
+                    continue
 
-                norm_key = re.sub(r'\W+', '', text[:50].lower())
+                # Desduplicação robusta por conjunto de palavras significativas (evita repetir o mesmo aviso de vários grupos)
+                sig_words = sorted({w for w in re.findall(r'[a-zà-ú0-9]{4,}', t_lower)})
+                norm_key = "|".join(sig_words[:10]) if sig_words else re.sub(r'\W+', '', t_lower[:50])
                 if norm_key in seen_takeaways:
                     continue
                 seen_takeaways.add(norm_key)

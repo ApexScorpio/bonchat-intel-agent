@@ -579,6 +579,17 @@ class BonChatReader:
 
             w, h = full_img.size
             chat_pane = full_img.crop((300, 45, w - 20, h - 80))
+
+            # 0. Guard contra ecrã em branco/preto ou ecrã de login TIMI001 (nunca aceitar como watermark!)
+            try:
+                from PIL import ImageStat
+                gray_std = ImageStat.Stat(chat_pane.convert("L")).stddev[0]
+                if gray_std < 8.0:
+                    logger.warning(f"⚠️ [BONCHAT_NAO_AUTENTICADO] Frame quase vazio/sólido (stddev={gray_std:.1f}) em '{channel_canonical}' — abortando canal sem gravar watermark.")
+                    break
+            except Exception:
+                pass
+
             frame_hash = watermark_tracker.compute_frame_hash(chat_pane)
 
             # Header region crop (top 200px) is unaffected by animated videos/stickers playing below
