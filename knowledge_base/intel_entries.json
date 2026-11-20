@@ -1,5 +1,56 @@
 [
   {
+    "id": "INTEL-20261120-230",
+    "timestamp_published": "2026-11-20 23:16:16",
+    "date_str": "2026-11-20",
+    "time_str": "23:00",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Andrade",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A campanha de 21.11 a 25.11 vai lá estar disponível na plataforma. As 12 da noite já podes comprar este produto cada parceiro só pode comprar 2 unidades",
+    "key_takeaways": [
+      "Nova campanha TIMI Mall de 21.11 a 25.11.",
+      "Produto disponível a partir das 00:00 de 21.11.",
+      "Limite de compra: 2 unidades por parceiro."
+    ]
+  },
+  {
+    "id": "INTEL-20261120-229",
+    "timestamp_published": "2026-11-20 23:16:16",
+    "date_str": "2026-11-20",
+    "time_str": "23:00",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Davi Andrade",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A campanha de 21.11 a 25.11 vai lá estar disponível na platafu... As 12 da noite já podes comprar este produto cada parceiro só pode comprar 2 unidades",
+    "key_takeaways": [
+      "Nova campanha TIMI Mall de 21.11 a 25.11",
+      "Disponível a partir das 00:00 de 21.11",
+      "Limite de 2 unidades por parceiro"
+    ]
+  },
+  {
+    "id": "INTEL-20261120-228",
+    "timestamp_published": "2026-11-20 23:16:16",
+    "date_str": "2026-11-20",
+    "time_str": "23:11",
+    "channel": "Equipa de Agentes de Elite da TIMI",
+    "authority": "Andrade",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A campanha de 21.11 a 25.11 vai lá estar disponível no platdfo... As 12 da noite já podes comprar este produto cada parceiro só pode comprar 2 unidades",
+    "key_takeaways": [
+      "Nova campanha TIMI Mall de 21.11 a 25.11",
+      "Disponível a partir das 00:00",
+      "Limite de 2 unidades por parceiro"
+    ]
+  },
+  {
     "id": "INTEL-20261120-227",
     "timestamp_published": "2026-11-20 23:14:55",
     "date_str": "2026-11-20",

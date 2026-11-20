@@ -15,6 +15,9 @@
 | `INTEL-20261120-220` | 2026-11-20 N/A | `TIMI Mall` | TIMI | Campanha | [Ver Anexo](#intel-20261120-220) |
 | `INTEL-20261120-219` | 2026-11-20 N/A | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261120-219) |
 | `INTEL-20261120-216` | 2026-11-20 N/A | `TIMI--NO.08` | TIMI Mall -- Administrador | Campanha | [Ver Anexo](#intel-20261120-216) |
+| `INTEL-20261120-228` | 2026-11-20 23:11 | `Equipa de Agentes de Elite da TIMI` | Andrade | Campanha | [Ver Anexo](#intel-20261120-228) |
+| `INTEL-20261120-230` | 2026-11-20 23:00 | `Equipa de Agentes de Elite da TIMI` | Andrade | Campanha | [Ver Anexo](#intel-20261120-230) |
+| `INTEL-20261120-229` | 2026-11-20 23:00 | `Equipa de Agentes de Elite da TIMI` | Davi Andrade | Campanha | [Ver Anexo](#intel-20261120-229) |
 | `INTEL-20261120-213` | 2026-11-20 23:00 | `TIMI--NO.08` | Davi | Campanha | [Ver Anexo](#intel-20261120-213) |
 | `INTEL-20261120-225` | 2026-11-20 22:54 | `TIMI Mall` | TIMI | Aviso Urgente | [Ver Anexo](#intel-20261120-225) |
 | `INTEL-20261120-224` | 2026-11-20 22:54 | `TIMI Mall` | TIMI | Campanha | [Ver Anexo](#intel-20261120-224) |
@@ -337,6 +340,63 @@ TIMI MALL Campanhas de 21 a 24 de novembro
 #### 💡 Pontos-Chave:
 - Nova campanha TIMI Mall
 - Período: 21 a 24 de novembro
+
+---
+
+### <a id="intel-20261120-228"></a>[INTEL-20261120-228] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 23:11
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Andrade`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A campanha de 21.11 a 25.11 vai lá estar disponível no platdfo... As 12 da noite já podes comprar este produto cada parceiro só pode comprar 2 unidades
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha TIMI Mall de 21.11 a 25.11
+- Disponível a partir das 00:00
+- Limite de 2 unidades por parceiro
+
+---
+
+### <a id="intel-20261120-230"></a>[INTEL-20261120-230] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 23:00
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Andrade`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A campanha de 21.11 a 25.11 vai lá estar disponível na plataforma. As 12 da noite já podes comprar este produto cada parceiro só pode comprar 2 unidades
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha TIMI Mall de 21.11 a 25.11.
+- Produto disponível a partir das 00:00 de 21.11.
+- Limite de compra: 2 unidades por parceiro.
+
+---
+
+### <a id="intel-20261120-229"></a>[INTEL-20261120-229] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 23:00
+- **👥 Grupo / Canal:** `Equipa de Agentes de Elite da TIMI`
+- **👑 Autoridade / Emissor:** `Davi Andrade`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A campanha de 21.11 a 25.11 vai lá estar disponível na platafu... As 12 da noite já podes comprar este produto cada parceiro só pode comprar 2 unidades
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha TIMI Mall de 21.11 a 25.11
+- Disponível a partir das 00:00 de 21.11
+- Limite de 2 unidades por parceiro
 
 ---
 
