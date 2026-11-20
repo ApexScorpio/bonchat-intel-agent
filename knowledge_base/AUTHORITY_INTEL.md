@@ -27,6 +27,7 @@
 | `INTEL-20261120-214` | 2026-11-20 22:35 | `TIMI--NO.08` | Sónia Leal assistente | Aviso / Diretiva | [Ver Anexo](#intel-20261120-214) |
 | `INTEL-20261120-215` | 2026-11-20 22:14 | `TIMI--NO.08` | Iris Fernandes — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261120-215) |
 | `INTEL-20261120-217` | 2026-11-20 22:07 | `TIMI--NO.08` | TIMI Mall -- Administrador (Lurdes) | Aviso / Diretiva | [Ver Anexo](#intel-20261120-217) |
+| `INTEL-20261120-234` | 2026-11-20 22:06 | `Teodoro.Grupo de Agentes20` | TIMI-NO.08 | Campanha | [Ver Anexo](#intel-20261120-234) |
 | `INTEL-20261120-218` | 2026-11-20 22:01 | `TIMI--NO.08` | TIMI Mall -- Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261120-218) |
 | `INTEL-20261120-233` | 2026-11-20 21:51 | `TIMI-NeWs` | TIMI Mall Oficial (via BonChat user) | Campanha | [Ver Anexo](#intel-20261120-233) |
 | `INTEL-20261120-232` | 2026-11-20 21:51 | `TIMI-NeWs` | Theodore | Campanha | [Ver Anexo](#intel-20261120-232) |
@@ -565,6 +566,27 @@ Este parceiro falou muito bem, mas quero dizer-te: embora ha... encira a tabela 
 #### 💡 Pontos-Chave:
 - Esclarecimento sobre vagas de campanha
 - 600 vagas diárias por 5 dias
+
+---
+
+### <a id="intel-20261120-234"></a>[INTEL-20261120-234] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 22:06
+- **👥 Grupo / Canal:** `Teodoro.Grupo de Agentes20`
+- **👑 Autoridade / Emissor:** `TIMI-NO.08`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A campanha por tempo limitado do alforje impermeável da TIMI Mall já começou! De 21 a 25 de novembro, com 600 vagas de participação por dia; convidar parceiros dá ainda direito a recompensas adicionais! Para conhecer os detalhes, contacte já o assistente do gestor!
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha: alforje impermeável da TIMI Mall.
+- Período: 21 a 25 de novembro.
+- Vagas: 600 por dia.
+- Bónus: Recompensas adicionais por convidar parceiros.
+- Ação: Contactar assistente do gestor para detalhes.
 
 ---
 

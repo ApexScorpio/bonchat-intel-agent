@@ -1,5 +1,24 @@
 [
   {
+    "id": "INTEL-20261120-234",
+    "timestamp_published": "2026-11-20 23:22:01",
+    "date_str": "2026-11-20",
+    "time_str": "22:06",
+    "channel": "Teodoro.Grupo de Agentes20",
+    "authority": "TIMI-NO.08",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A campanha por tempo limitado do alforje impermeável da TIMI Mall já começou! De 21 a 25 de novembro, com 600 vagas de participação por dia; convidar parceiros dá ainda direito a recompensas adicionais! Para conhecer os detalhes, contacte já o assistente do gestor!",
+    "key_takeaways": [
+      "Nova campanha: alforje impermeável da TIMI Mall.",
+      "Período: 21 a 25 de novembro.",
+      "Vagas: 600 por dia.",
+      "Bónus: Recompensas adicionais por convidar parceiros.",
+      "Ação: Contactar assistente do gestor para detalhes."
+    ]
+  },
+  {
     "id": "INTEL-20261120-233",
     "timestamp_published": "2026-11-20 23:18:51",
     "date_str": "2026-11-20",
