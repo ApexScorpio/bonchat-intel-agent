@@ -10,9 +10,17 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261120-223` | 2026-11-20 N/A | `TIMI Mall` | TIMI | Aviso | [Ver Anexo](#intel-20261120-223) |
+| `INTEL-20261120-222` | 2026-11-20 N/A | `TIMI Mall` | TIMI Mall | Campanha | [Ver Anexo](#intel-20261120-222) |
+| `INTEL-20261120-220` | 2026-11-20 N/A | `TIMI Mall` | TIMI | Campanha | [Ver Anexo](#intel-20261120-220) |
 | `INTEL-20261120-219` | 2026-11-20 N/A | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261120-219) |
 | `INTEL-20261120-216` | 2026-11-20 N/A | `TIMI--NO.08` | TIMI Mall -- Administrador | Campanha | [Ver Anexo](#intel-20261120-216) |
 | `INTEL-20261120-213` | 2026-11-20 23:00 | `TIMI--NO.08` | Davi | Campanha | [Ver Anexo](#intel-20261120-213) |
+| `INTEL-20261120-225` | 2026-11-20 22:54 | `TIMI Mall` | TIMI | Aviso Urgente | [Ver Anexo](#intel-20261120-225) |
+| `INTEL-20261120-224` | 2026-11-20 22:54 | `TIMI Mall` | TIMI | Campanha | [Ver Anexo](#intel-20261120-224) |
+| `INTEL-20261120-221` | 2026-11-20 22:54 | `TIMI Mall` | TIMI | Aviso Urgente | [Ver Anexo](#intel-20261120-221) |
+| `INTEL-20261120-227` | 2026-11-20 22:53 | `TIMI Mall` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261120-227) |
+| `INTEL-20261120-226` | 2026-11-20 22:52 | `TIMI Mall` | TIMI | Campanha | [Ver Anexo](#intel-20261120-226) |
 | `INTEL-20261120-214` | 2026-11-20 22:35 | `TIMI--NO.08` | Sónia Leal assistente | Aviso / Diretiva | [Ver Anexo](#intel-20261120-214) |
 | `INTEL-20261120-215` | 2026-11-20 22:14 | `TIMI--NO.08` | Iris Fernandes — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261120-215) |
 | `INTEL-20261120-217` | 2026-11-20 22:07 | `TIMI--NO.08` | TIMI Mall -- Administrador (Lurdes) | Aviso / Diretiva | [Ver Anexo](#intel-20261120-217) |
@@ -236,6 +244,63 @@
 
 ---
 
+### <a id="intel-20261120-223"></a>[INTEL-20261120-223] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+🎉 Um convidado de peso está prestes a aparecer!! ⭐ O famoso cantor português Quim Barreiros estará presente no terceiro evento de lançamento de produtos da TIMI, no dia 29 de novembro! 🚲 📍 Local: Vilar Oporto Hotel (Porto)
+```
+
+#### 💡 Pontos-Chave:
+- Evento presencial de lançamento de produtos agendado para 29 de novembro.
+- Localização: Vilar Oporto Hotel, Porto.
+- Presença de Quim Barreiros como atração do evento.
+
+---
+
+### <a id="intel-20261120-222"></a>[INTEL-20261120-222] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI Mall`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Campanha de: Alforge de bicicleta impermeável. Produto: Alforge de bicicleta impermeável. Montante Investido: 250. Taxa de juro: 1.97%. Limite de compra: cada parcela. Liquidação: sem ações adicionais. Limite diário: 600 vagas.
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha TIMI Mall: Alforge de bicicleta impermeável.
+- Investimento de 250 USDT com taxa de juro de 1.97%.
+- Limite diário de 600 vagas.
+
+---
+
+### <a id="intel-20261120-220"></a>[INTEL-20261120-220] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Desafio do Primeiro Recrutamento. Dê o primeiro passo com a equipe. Ao recrutar o primeiro parceiro oficial, receba um bónus extra de 20 USDT. Nível avaliado: 1.0, Nível intermédio: 1.0, Nível avançado: 1.0. Recompensa da campanha: 20 USDT. Data de início: 1 de novembro. Data de término: 30 de novembro.
+```
+
+#### 💡 Pontos-Chave:
+- Campanha 'Desafio do Primeiro Recrutamento' ativa.
+- Bónus de 20 USDT por recrutar o primeiro parceiro oficial.
+- Período da campanha: 01/11 a 30/11.
+
+---
+
 ### <a id="intel-20261120-219"></a>[INTEL-20261120-219] — Aviso / Diretiva
 
 - **📅 Data de Publicação:** 2026-11-20
@@ -291,6 +356,98 @@ A campanha de 21.11 a 25.11 vai lá estar disponível na platofrm? As 12 da noit
 - Nova campanha/produto no TIMI Mall de 21.11 a 25.11.
 - Disponível a partir das 00:00 (meia-noite).
 - Limite de compra de 2 unidades por parceiro.
+
+---
+
+### <a id="intel-20261120-225"></a>[INTEL-20261120-225] — Aviso Urgente
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 22:54
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Aviso Urgente
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Por favor, atenção contagem decrescente para a recompensa de desafio; restam 5 dias.
+```
+
+#### 💡 Pontos-Chave:
+- Contagem decrescente para recompensa de desafio
+- Restam 5 dias para o fim do desafio
+
+---
+
+### <a id="intel-20261120-224"></a>[INTEL-20261120-224] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 22:54
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Desafio do Primeiro Recrutamento. Prazo: 20 de Dezembro. Recompensas: 0.8 (20 USDT), 1.0 (30 USDT), 1.2 (40 USDT), 1.4 (50 USDT) ao recrutar o primeiro parceiro oficial.
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha de recrutamento: Desafio do Primeiro Recrutamento
+- Recompensas em USDT: 20, 30, 40 ou 50 USDT
+- Prazo final da campanha: 20 de Dezembro
+
+---
+
+### <a id="intel-20261120-221"></a>[INTEL-20261120-221] — Aviso Urgente
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 22:54
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Aviso Urgente
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Por favor, atenção: contagem decrescente para a recompensa de desafio; restam 5 dias.
+```
+
+#### 💡 Pontos-Chave:
+- Aviso urgente: 5 dias restantes para a recompensa do desafio de recrutamento.
+
+---
+
+### <a id="intel-20261120-227"></a>[INTEL-20261120-227] — Reunião / Evento
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 22:53
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Reunião / Evento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Um convidado de peso está prestes a aparecer! O famoso cantor português Quim Barreiros estará presente no terceiro evento de lançamento de produtos da TIMI, no dia 29 de novembro! Local: Vilar Oporto Hotel (Porto) Endereço detalhado: R. Arcediago Vanzeller 50, 4050-621 Porto Facebook: https://www.facebook.com/share/19uA3Tgj/ Instagram: https://www.instagram.com/reel/Ofnv8Uvj4S/
+```
+
+#### 💡 Pontos-Chave:
+- Evento de lançamento de produtos TIMI com Quim Barreiros
+- Data: 29 de novembro
+- Local: Vilar Oporto Hotel, Porto
+
+---
+
+### <a id="intel-20261120-226"></a>[INTEL-20261120-226] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 22:52
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Desafio do Primeiro Recrutamento. Ao recrutar o primeiro parceiro oficial, receba um bónus extra de controlo base! Recompensa adicional de 10 USDT (para parceiro que compra 10 USDT), 20 USDT (para parceiro que compra 20 USDT), 30 USDT (para parceiro que compra 30 USDT), 50 USDT (para parceiro que compra 50 USDT). Data limite: 24 de Dezembro.
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha de recrutamento 'Desafio do Primeiro Recrutamento'
+- Bónus de 10 a 50 USDT por primeiro parceiro oficial (conforme investimento)
+- Data limite da campanha: 24 de dezembro
 
 ---
 

@@ -1,5 +1,138 @@
 [
   {
+    "id": "INTEL-20261120-227",
+    "timestamp_published": "2026-11-20 23:14:55",
+    "date_str": "2026-11-20",
+    "time_str": "22:53",
+    "channel": "TIMI Mall",
+    "authority": "TIMI",
+    "content_type": "Reunião / Evento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Um convidado de peso está prestes a aparecer! O famoso cantor português Quim Barreiros estará presente no terceiro evento de lançamento de produtos da TIMI, no dia 29 de novembro! Local: Vilar Oporto Hotel (Porto) Endereço detalhado: R. Arcediago Vanzeller 50, 4050-621 Porto Facebook: https://www.facebook.com/share/19uA3Tgj/ Instagram: https://www.instagram.com/reel/Ofnv8Uvj4S/",
+    "key_takeaways": [
+      "Evento de lançamento de produtos TIMI com Quim Barreiros",
+      "Data: 29 de novembro",
+      "Local: Vilar Oporto Hotel, Porto"
+    ]
+  },
+  {
+    "id": "INTEL-20261120-226",
+    "timestamp_published": "2026-11-20 23:14:55",
+    "date_str": "2026-11-20",
+    "time_str": "22:52",
+    "channel": "TIMI Mall",
+    "authority": "TIMI",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Desafio do Primeiro Recrutamento. Ao recrutar o primeiro parceiro oficial, receba um bónus extra de controlo base! Recompensa adicional de 10 USDT (para parceiro que compra 10 USDT), 20 USDT (para parceiro que compra 20 USDT), 30 USDT (para parceiro que compra 30 USDT), 50 USDT (para parceiro que compra 50 USDT). Data limite: 24 de Dezembro.",
+    "key_takeaways": [
+      "Nova campanha de recrutamento 'Desafio do Primeiro Recrutamento'",
+      "Bónus de 10 a 50 USDT por primeiro parceiro oficial (conforme investimento)",
+      "Data limite da campanha: 24 de dezembro"
+    ]
+  },
+  {
+    "id": "INTEL-20261120-225",
+    "timestamp_published": "2026-11-20 23:14:55",
+    "date_str": "2026-11-20",
+    "time_str": "22:54",
+    "channel": "TIMI Mall",
+    "authority": "TIMI",
+    "content_type": "Aviso Urgente",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Por favor, atenção contagem decrescente para a recompensa de desafio; restam 5 dias.",
+    "key_takeaways": [
+      "Contagem decrescente para recompensa de desafio",
+      "Restam 5 dias para o fim do desafio"
+    ]
+  },
+  {
+    "id": "INTEL-20261120-224",
+    "timestamp_published": "2026-11-20 23:14:55",
+    "date_str": "2026-11-20",
+    "time_str": "22:54",
+    "channel": "TIMI Mall",
+    "authority": "TIMI",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Desafio do Primeiro Recrutamento. Prazo: 20 de Dezembro. Recompensas: 0.8 (20 USDT), 1.0 (30 USDT), 1.2 (40 USDT), 1.4 (50 USDT) ao recrutar o primeiro parceiro oficial.",
+    "key_takeaways": [
+      "Nova campanha de recrutamento: Desafio do Primeiro Recrutamento",
+      "Recompensas em USDT: 20, 30, 40 ou 50 USDT",
+      "Prazo final da campanha: 20 de Dezembro"
+    ]
+  },
+  {
+    "id": "INTEL-20261120-223",
+    "timestamp_published": "2026-11-20 23:14:55",
+    "date_str": "2026-11-20",
+    "time_str": "N/A",
+    "channel": "TIMI Mall",
+    "authority": "TIMI",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "🎉 Um convidado de peso está prestes a aparecer!! ⭐ O famoso cantor português Quim Barreiros estará presente no terceiro evento de lançamento de produtos da TIMI, no dia 29 de novembro! 🚲 📍 Local: Vilar Oporto Hotel (Porto)",
+    "key_takeaways": [
+      "Evento presencial de lançamento de produtos agendado para 29 de novembro.",
+      "Localização: Vilar Oporto Hotel, Porto.",
+      "Presença de Quim Barreiros como atração do evento."
+    ]
+  },
+  {
+    "id": "INTEL-20261120-222",
+    "timestamp_published": "2026-11-20 23:14:55",
+    "date_str": "2026-11-20",
+    "time_str": "N/A",
+    "channel": "TIMI Mall",
+    "authority": "TIMI Mall",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Campanha de: Alforge de bicicleta impermeável. Produto: Alforge de bicicleta impermeável. Montante Investido: 250. Taxa de juro: 1.97%. Limite de compra: cada parcela. Liquidação: sem ações adicionais. Limite diário: 600 vagas.",
+    "key_takeaways": [
+      "Nova campanha TIMI Mall: Alforge de bicicleta impermeável.",
+      "Investimento de 250 USDT com taxa de juro de 1.97%.",
+      "Limite diário de 600 vagas."
+    ]
+  },
+  {
+    "id": "INTEL-20261120-221",
+    "timestamp_published": "2026-11-20 23:14:55",
+    "date_str": "2026-11-20",
+    "time_str": "22:54",
+    "channel": "TIMI Mall",
+    "authority": "TIMI",
+    "content_type": "Aviso Urgente",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Por favor, atenção: contagem decrescente para a recompensa de desafio; restam 5 dias.",
+    "key_takeaways": [
+      "Aviso urgente: 5 dias restantes para a recompensa do desafio de recrutamento."
+    ]
+  },
+  {
+    "id": "INTEL-20261120-220",
+    "timestamp_published": "2026-11-20 23:14:55",
+    "date_str": "2026-11-20",
+    "time_str": "N/A",
+    "channel": "TIMI Mall",
+    "authority": "TIMI",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Desafio do Primeiro Recrutamento. Dê o primeiro passo com a equipe. Ao recrutar o primeiro parceiro oficial, receba um bónus extra de 20 USDT. Nível avaliado: 1.0, Nível intermédio: 1.0, Nível avançado: 1.0. Recompensa da campanha: 20 USDT. Data de início: 1 de novembro. Data de término: 30 de novembro.",
+    "key_takeaways": [
+      "Campanha 'Desafio do Primeiro Recrutamento' ativa.",
+      "Bónus de 20 USDT por recrutar o primeiro parceiro oficial.",
+      "Período da campanha: 01/11 a 30/11."
+    ]
+  },
+  {
     "id": "INTEL-20261120-219",
     "timestamp_published": "2026-11-20 23:07:43",
     "date_str": "2026-11-20",
