@@ -28,6 +28,9 @@
 | `INTEL-20261120-215` | 2026-11-20 22:14 | `TIMI--NO.08` | Iris Fernandes — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261120-215) |
 | `INTEL-20261120-217` | 2026-11-20 22:07 | `TIMI--NO.08` | TIMI Mall -- Administrador (Lurdes) | Aviso / Diretiva | [Ver Anexo](#intel-20261120-217) |
 | `INTEL-20261120-218` | 2026-11-20 22:01 | `TIMI--NO.08` | TIMI Mall -- Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261120-218) |
+| `INTEL-20261120-233` | 2026-11-20 21:51 | `TIMI-NeWs` | TIMI Mall Oficial (via BonChat user) | Campanha | [Ver Anexo](#intel-20261120-233) |
+| `INTEL-20261120-232` | 2026-11-20 21:51 | `TIMI-NeWs` | Theodore | Campanha | [Ver Anexo](#intel-20261120-232) |
+| `INTEL-20261120-231` | 2026-11-20 21:51 | `TIMI-NeWs` | Theodore | Campanha | [Ver Anexo](#intel-20261120-231) |
 | `INTEL-20261110-211` | 2026-11-10 N/A | `TIMI--NO.08` | TIMI | Aviso / Sorteio | [Ver Anexo](#intel-20261110-211) |
 | `INTEL-20261110-210` | 2026-11-10 N/A | `TIMI--NO.08` | TIMI--NO.08 | Novidades de Funcionamento | [Ver Anexo](#intel-20261110-210) |
 | `INTEL-20261110-209` | 2026-11-10 N/A | `TIMI--NO.08` | TIMI--NO.08 | Novidades de Funcionamento | [Ver Anexo](#intel-20261110-209) |
@@ -583,6 +586,62 @@ Que vantagens tem o TIMI MALL? 1.Os rendimentos também são calculados aos fins
 - Não requer operações diárias nem códigos
 - Levantamento de capital + rendimentos no vencimento do projeto
 - Permite compra de múltiplos produtos
+
+---
+
+### <a id="intel-20261120-233"></a>[INTEL-20261120-233] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 21:51
+- **👥 Grupo / Canal:** `TIMI-NeWs`
+- **👑 Autoridade / Emissor:** `TIMI Mall Oficial (via BonChat user)`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+TIMI MALL Campanha: de 21 a 25 de novembro. Produto: Alforge de bicicleta impermeável. Membros: 250. Tipo de Recompensa: 10% do valor do produto. Prazo: 1 dia. Duração: 10 dias. Recompensa Total: 250.000. Boa noite! O TIMI Mall lançou um produto de benefício por tempo limitado, que não só tem os direitos do ciclo do produto, como também comissão de recomendação extra e uma lembrança da loja de experiência, já tinhas conhecimento destas informações?
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha TIMI Mall 'Alforge de bicicleta impermeável' de 21 a 25 de novembro (2026).
+- Recompensa de 10% do valor do produto para 250 membros, com recompensa total de 250.000.
+
+---
+
+### <a id="intel-20261120-232"></a>[INTEL-20261120-232] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 21:51
+- **👥 Grupo / Canal:** `TIMI-NeWs`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boa noite! O TIMI Mall lançou um produto de benefício por tempo limitado, que não só tem os direitos do ciclo do produto, como também comissão de recomendação extra e uma lembrança da loja de experiência. Campanha: de 21 a 25 de novembro. Limite de compra: cada pessoa pode comprar um produto, no máximo 2 vezes. Condições: cada utilizador que compre, irá desfrutar de uma comissão de recomendação extra e um brinde da loja de experiência no dia seguinte.
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha TIMI Mall de 21 a 25 de novembro
+- Oferece comissão de recomendação extra e brinde da loja de experiência
+- Limite de compra de 2 produtos por pessoa
+
+---
+
+### <a id="intel-20261120-231"></a>[INTEL-20261120-231] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 21:51
+- **👥 Grupo / Canal:** `TIMI-NeWs`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boa note! O TIMI Mall lançou um produto de benefício por tempo limitado, que não só tem os direitos do ciclo do produto, como também comissão de recomendação extra e uma lembrança da loja de experiência. Já tinhas conhecimento destas informações?
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha TIMI Mall 'Alergias' de 21 a 25 de novembro.
+- Limite de 10 compras por utilizador, preço 250 USDT, 200 vagas.
+- Bónus: 10% comissão de recomendação extra, 100 pontos de experiência, 1 voucher de viagem de 50 USDT.
 
 ---
 

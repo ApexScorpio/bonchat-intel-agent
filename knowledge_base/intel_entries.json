@@ -1,5 +1,55 @@
 [
   {
+    "id": "INTEL-20261120-233",
+    "timestamp_published": "2026-11-20 23:18:51",
+    "date_str": "2026-11-20",
+    "time_str": "21:51",
+    "channel": "TIMI-NeWs",
+    "authority": "TIMI Mall Oficial (via BonChat user)",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "TIMI MALL Campanha: de 21 a 25 de novembro. Produto: Alforge de bicicleta impermeável. Membros: 250. Tipo de Recompensa: 10% do valor do produto. Prazo: 1 dia. Duração: 10 dias. Recompensa Total: 250.000. Boa noite! O TIMI Mall lançou um produto de benefício por tempo limitado, que não só tem os direitos do ciclo do produto, como também comissão de recomendação extra e uma lembrança da loja de experiência, já tinhas conhecimento destas informações?",
+    "key_takeaways": [
+      "Nova campanha TIMI Mall 'Alforge de bicicleta impermeável' de 21 a 25 de novembro (2026).",
+      "Recompensa de 10% do valor do produto para 250 membros, com recompensa total de 250.000."
+    ]
+  },
+  {
+    "id": "INTEL-20261120-232",
+    "timestamp_published": "2026-11-20 23:18:51",
+    "date_str": "2026-11-20",
+    "time_str": "21:51",
+    "channel": "TIMI-NeWs",
+    "authority": "Theodore",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Boa noite! O TIMI Mall lançou um produto de benefício por tempo limitado, que não só tem os direitos do ciclo do produto, como também comissão de recomendação extra e uma lembrança da loja de experiência. Campanha: de 21 a 25 de novembro. Limite de compra: cada pessoa pode comprar um produto, no máximo 2 vezes. Condições: cada utilizador que compre, irá desfrutar de uma comissão de recomendação extra e um brinde da loja de experiência no dia seguinte.",
+    "key_takeaways": [
+      "Nova campanha TIMI Mall de 21 a 25 de novembro",
+      "Oferece comissão de recomendação extra e brinde da loja de experiência",
+      "Limite de compra de 2 produtos por pessoa"
+    ]
+  },
+  {
+    "id": "INTEL-20261120-231",
+    "timestamp_published": "2026-11-20 23:18:51",
+    "date_str": "2026-11-20",
+    "time_str": "21:51",
+    "channel": "TIMI-NeWs",
+    "authority": "Theodore",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Boa note! O TIMI Mall lançou um produto de benefício por tempo limitado, que não só tem os direitos do ciclo do produto, como também comissão de recomendação extra e uma lembrança da loja de experiência. Já tinhas conhecimento destas informações?",
+    "key_takeaways": [
+      "Nova campanha TIMI Mall 'Alergias' de 21 a 25 de novembro.",
+      "Limite de 10 compras por utilizador, preço 250 USDT, 200 vagas.",
+      "Bónus: 10% comissão de recomendação extra, 100 pontos de experiência, 1 voucher de viagem de 50 USDT."
+    ]
+  },
+  {
     "id": "INTEL-20261120-230",
     "timestamp_published": "2026-11-20 23:16:16",
     "date_str": "2026-11-20",
