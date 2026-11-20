@@ -1,5 +1,120 @@
 [
   {
+    "id": "INTEL-20261120-219",
+    "timestamp_published": "2026-11-20 23:07:43",
+    "date_str": "2026-11-20",
+    "time_str": "N/A",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall — Administrador",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "COMUNICADO AOS PARCEIROS\nCaros parceiros,\nPara que todos possam consultar apropriadamente informações importantes e para evitar que mensagens importantes sejam encobertas por grandes quantidades de conversa, pedimos que não compartilhem mensagens banais como \"bom dia\", \"boa tarde\" ou \"boa noite\".\nTodos são bem-vindos a participar ativamente em aprendizagens, partilhas de experiências e trocas de dúvidas relacionadas com a TIMI, mantendo um conjunto um ambiente de comunicação educado e organizado.\nObrigado a cada parceiro pela compreensão, apoio e colaboração ativa!",
+    "key_takeaways": [
+      "Proibido compartilhar mensagens banais (ex: 'bom dia', 'boa tarde', 'boa noite') no grupo TIMI Mall para evitar encobrir informações importantes."
+    ]
+  },
+  {
+    "id": "INTEL-20261120-218",
+    "timestamp_published": "2026-11-20 23:07:43",
+    "date_str": "2026-11-20",
+    "time_str": "22:01",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall -- Administrador",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Que vantagens tem o TIMI MALL? 1.Os rendimentos também são calculados aos fins de semana. 2.Taxa de levantamento de 5%. 3.Não é necessária qualquer operação, não é preciso introduzir códigos nem ativar o equipamento todos os dias. 4.No vencimento do projeto, é feito o acerto e podes levantar o capital + os rendimentos. 5.Podes comprar vários produtos diferentes ao mesmo tempo e receber separadamente os dividendos de lucro de cada produto.",
+    "key_takeaways": [
+      "Rendimentos calculados aos fins de semana",
+      "Taxa de levantamento de 5%",
+      "Não requer operações diárias nem códigos",
+      "Levantamento de capital + rendimentos no vencimento do projeto",
+      "Permite compra de múltiplos produtos"
+    ]
+  },
+  {
+    "id": "INTEL-20261120-217",
+    "timestamp_published": "2026-11-20 23:07:43",
+    "date_str": "2026-11-20",
+    "time_str": "22:07",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall -- Administrador (Lurdes)",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Este parceiro falou muito bem, mas quero dizer-te: embora ha... encira a tabela está errada. Porque a tabela diz explicitamente 600 vagas por dia durante 5 dias.",
+    "key_takeaways": [
+      "Esclarecimento sobre vagas de campanha",
+      "600 vagas diárias por 5 dias"
+    ]
+  },
+  {
+    "id": "INTEL-20261120-216",
+    "timestamp_published": "2026-11-20 23:07:43",
+    "date_str": "2026-11-20",
+    "time_str": "N/A",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall -- Administrador",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "TIMI MALL Campanhas de 21 a 24 de novembro",
+    "key_takeaways": [
+      "Nova campanha TIMI Mall",
+      "Período: 21 a 24 de novembro"
+    ]
+  },
+  {
+    "id": "INTEL-20261120-215",
+    "timestamp_published": "2026-11-20 23:07:43",
+    "date_str": "2026-11-20",
+    "time_str": "22:14",
+    "channel": "TIMI--NO.08",
+    "authority": "Iris Fernandes — Administrador",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Este parceiro falou muito bem, mas quero dizer-te: embora... Então o Flyer está a induzir as pessoas em erro. Está escrito, limite de 600 vagas diárias, após o seu preenchimento só abrirá mais 600 no dia seguinte",
+    "key_takeaways": [
+      "O limite diário de vagas é de 600.",
+      "As vagas reabrem apenas no dia seguinte após o preenchimento.",
+      "Um flyer está a veicular informação incorreta sobre este limite."
+    ]
+  },
+  {
+    "id": "INTEL-20261120-214",
+    "timestamp_published": "2026-11-20 23:07:42",
+    "date_str": "2026-11-20",
+    "time_str": "22:35",
+    "channel": "TIMI--NO.08",
+    "authority": "Sónia Leal assistente",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "final de semana conta? Conta sim 👍",
+    "key_takeaways": [
+      "Confirmação de que o 'final de semana conta' (atividades/ganhos de fim de semana são considerados)."
+    ]
+  },
+  {
+    "id": "INTEL-20261120-213",
+    "timestamp_published": "2026-11-20 23:07:42",
+    "date_str": "2026-11-20",
+    "time_str": "23:00",
+    "channel": "TIMI--NO.08",
+    "authority": "Davi",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A campanha de 21.11 a 25.11 vai lá estar disponível na platofrm? As 12 da noite já podes comprar este produto cada parceiro só pode comprar 2 unidades",
+    "key_takeaways": [
+      "Nova campanha/produto no TIMI Mall de 21.11 a 25.11.",
+      "Disponível a partir das 00:00 (meia-noite).",
+      "Limite de compra de 2 unidades por parceiro."
+    ]
+  },
+  {
     "id": "INTEL-20261110-212",
     "timestamp_published": "2026-11-10 23:38:08",
     "date_str": "2026-11-10",

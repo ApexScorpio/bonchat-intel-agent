@@ -10,6 +10,13 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261120-219` | 2026-11-20 N/A | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261120-219) |
+| `INTEL-20261120-216` | 2026-11-20 N/A | `TIMI--NO.08` | TIMI Mall -- Administrador | Campanha | [Ver Anexo](#intel-20261120-216) |
+| `INTEL-20261120-213` | 2026-11-20 23:00 | `TIMI--NO.08` | Davi | Campanha | [Ver Anexo](#intel-20261120-213) |
+| `INTEL-20261120-214` | 2026-11-20 22:35 | `TIMI--NO.08` | Sónia Leal assistente | Aviso / Diretiva | [Ver Anexo](#intel-20261120-214) |
+| `INTEL-20261120-215` | 2026-11-20 22:14 | `TIMI--NO.08` | Iris Fernandes — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261120-215) |
+| `INTEL-20261120-217` | 2026-11-20 22:07 | `TIMI--NO.08` | TIMI Mall -- Administrador (Lurdes) | Aviso / Diretiva | [Ver Anexo](#intel-20261120-217) |
+| `INTEL-20261120-218` | 2026-11-20 22:01 | `TIMI--NO.08` | TIMI Mall -- Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261120-218) |
 | `INTEL-20261110-211` | 2026-11-10 N/A | `TIMI--NO.08` | TIMI | Aviso / Sorteio | [Ver Anexo](#intel-20261110-211) |
 | `INTEL-20261110-210` | 2026-11-10 N/A | `TIMI--NO.08` | TIMI--NO.08 | Novidades de Funcionamento | [Ver Anexo](#intel-20261110-210) |
 | `INTEL-20261110-209` | 2026-11-10 N/A | `TIMI--NO.08` | TIMI--NO.08 | Novidades de Funcionamento | [Ver Anexo](#intel-20261110-209) |
@@ -226,6 +233,139 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20261120-219"></a>[INTEL-20261120-219] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+COMUNICADO AOS PARCEIROS
+Caros parceiros,
+Para que todos possam consultar apropriadamente informações importantes e para evitar que mensagens importantes sejam encobertas por grandes quantidades de conversa, pedimos que não compartilhem mensagens banais como "bom dia", "boa tarde" ou "boa noite".
+Todos são bem-vindos a participar ativamente em aprendizagens, partilhas de experiências e trocas de dúvidas relacionadas com a TIMI, mantendo um conjunto um ambiente de comunicação educado e organizado.
+Obrigado a cada parceiro pela compreensão, apoio e colaboração ativa!
+```
+
+#### 💡 Pontos-Chave:
+- Proibido compartilhar mensagens banais (ex: 'bom dia', 'boa tarde', 'boa noite') no grupo TIMI Mall para evitar encobrir informações importantes.
+
+---
+
+### <a id="intel-20261120-216"></a>[INTEL-20261120-216] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall -- Administrador`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+TIMI MALL Campanhas de 21 a 24 de novembro
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha TIMI Mall
+- Período: 21 a 24 de novembro
+
+---
+
+### <a id="intel-20261120-213"></a>[INTEL-20261120-213] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 23:00
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Davi`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A campanha de 21.11 a 25.11 vai lá estar disponível na platofrm? As 12 da noite já podes comprar este produto cada parceiro só pode comprar 2 unidades
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha/produto no TIMI Mall de 21.11 a 25.11.
+- Disponível a partir das 00:00 (meia-noite).
+- Limite de compra de 2 unidades por parceiro.
+
+---
+
+### <a id="intel-20261120-214"></a>[INTEL-20261120-214] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 22:35
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Sónia Leal assistente`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+final de semana conta? Conta sim 👍
+```
+
+#### 💡 Pontos-Chave:
+- Confirmação de que o 'final de semana conta' (atividades/ganhos de fim de semana são considerados).
+
+---
+
+### <a id="intel-20261120-215"></a>[INTEL-20261120-215] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 22:14
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Iris Fernandes — Administrador`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Este parceiro falou muito bem, mas quero dizer-te: embora... Então o Flyer está a induzir as pessoas em erro. Está escrito, limite de 600 vagas diárias, após o seu preenchimento só abrirá mais 600 no dia seguinte
+```
+
+#### 💡 Pontos-Chave:
+- O limite diário de vagas é de 600.
+- As vagas reabrem apenas no dia seguinte após o preenchimento.
+- Um flyer está a veicular informação incorreta sobre este limite.
+
+---
+
+### <a id="intel-20261120-217"></a>[INTEL-20261120-217] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 22:07
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall -- Administrador (Lurdes)`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Este parceiro falou muito bem, mas quero dizer-te: embora ha... encira a tabela está errada. Porque a tabela diz explicitamente 600 vagas por dia durante 5 dias.
+```
+
+#### 💡 Pontos-Chave:
+- Esclarecimento sobre vagas de campanha
+- 600 vagas diárias por 5 dias
+
+---
+
+### <a id="intel-20261120-218"></a>[INTEL-20261120-218] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 22:01
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall -- Administrador`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Que vantagens tem o TIMI MALL? 1.Os rendimentos também são calculados aos fins de semana. 2.Taxa de levantamento de 5%. 3.Não é necessária qualquer operação, não é preciso introduzir códigos nem ativar o equipamento todos os dias. 4.No vencimento do projeto, é feito o acerto e podes levantar o capital + os rendimentos. 5.Podes comprar vários produtos diferentes ao mesmo tempo e receber separadamente os dividendos de lucro de cada produto.
+```
+
+#### 💡 Pontos-Chave:
+- Rendimentos calculados aos fins de semana
+- Taxa de levantamento de 5%
+- Não requer operações diárias nem códigos
+- Levantamento de capital + rendimentos no vencimento do projeto
+- Permite compra de múltiplos produtos
 
 ---
 
