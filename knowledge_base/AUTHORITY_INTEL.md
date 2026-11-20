@@ -15,6 +15,7 @@
 | `INTEL-20261120-220` | 2026-11-20 N/A | `TIMI Mall` | TIMI | Campanha | [Ver Anexo](#intel-20261120-220) |
 | `INTEL-20261120-219` | 2026-11-20 N/A | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261120-219) |
 | `INTEL-20261120-216` | 2026-11-20 N/A | `TIMI--NO.08` | TIMI Mall -- Administrador | Campanha | [Ver Anexo](#intel-20261120-216) |
+| `INTEL-20261120-237` | 2026-11-20 23:33 | `Grupo de Recompensas por Objetivos 1` | TIMI Mall — Administrador | Campanha | [Ver Anexo](#intel-20261120-237) |
 | `INTEL-20261120-236` | 2026-11-20 23:33 | `Grupo de reuniões` | TIMI Mall — Administrador | Campanha | [Ver Anexo](#intel-20261120-236) |
 | `INTEL-20261120-228` | 2026-11-20 23:11 | `Equipa de Agentes de Elite da TIMI` | Andrade | Campanha | [Ver Anexo](#intel-20261120-228) |
 | `INTEL-20261120-230` | 2026-11-20 23:00 | `Equipa de Agentes de Elite da TIMI` | Andrade | Campanha | [Ver Anexo](#intel-20261120-230) |
@@ -346,6 +347,26 @@ TIMI MALL Campanhas de 21 a 24 de novembro
 #### 💡 Pontos-Chave:
 - Nova campanha TIMI Mall
 - Período: 21 a 24 de novembro
+
+---
+
+### <a id="intel-20261120-237"></a>[INTEL-20261120-237] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-20
+- **⏰ Hora:** 23:33
+- **👥 Grupo / Canal:** `Grupo de Recompensas por Objetivos 1`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Em termos simples: investes 250 USDT, o ciclo do projeto é de 13 dias e, no vencimento, podes levantar o capital + os rendimentos, num total de 314,025 USDT. Não é necessária qualquer operação adicional durante a participação, o projeto funciona automaticamente de acordo com as regras. A taxa de levantamento é de apenas 5%. Cada parceiro pode comprar no máximo 2 vezes.
+```
+
+#### 💡 Pontos-Chave:
+- Novo projeto TIMI Mall com investimento de 250 USDT.
+- Ciclo de 13 dias com retorno total de 314,025 USDT.
+- Taxa de levantamento de 5%.
+- Limite de 2 compras por parceiro.
 
 ---
 
