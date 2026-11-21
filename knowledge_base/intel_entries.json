@@ -1,5 +1,186 @@
 [
   {
+    "id": "INTEL-20261121-252",
+    "timestamp_published": "2026-11-21 23:12:19",
+    "date_str": "2026-11-21",
+    "time_str": "17:45",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall — Administrador",
+    "content_type": "Aviso / Recompensa",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Caros parceiros, atenção: ao comprarem produtos do Mall, podem dirigir-se ao centro de experiência mais próximo para receber gratuitamente um presente.",
+    "key_takeaways": [
+      "Comprar produtos do Mall dá direito a presente",
+      "Presente deve ser retirado no centro de experiência mais próximo"
+    ]
+  },
+  {
+    "id": "INTEL-20261121-251",
+    "timestamp_published": "2026-11-21 23:12:19",
+    "date_str": "2026-11-21",
+    "time_str": "18:43",
+    "channel": "TIMI--NO.08",
+    "authority": "Yolanda — Administrador",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "É possível usar o meu saldo do Timi e investir no Timi Mall? Só podes primeiro levantar os fundos da conta TIMI para a tua carteira, e só depois podes depositá-los na conta do Timi Mall para comprar o produto que queres.",
+    "key_takeaways": [
+      "Para investir saldo TIMI no Mall, levantar para carteira primeiro",
+      "Depositar da carteira para TIMI Mall para comprar produtos"
+    ]
+  },
+  {
+    "id": "INTEL-20261121-250",
+    "timestamp_published": "2026-11-21 23:12:19",
+    "date_str": "2026-11-21",
+    "time_str": "19:07",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall — Administrador",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Hoje é fim de semana, não podes levantar fundos por enquanto. Por favor espera até segunda-feira de manhã e poderás levantar os fundos normalmente.",
+    "key_takeaways": [
+      "Levantamentos TIMI Mall suspensos no fim de semana",
+      "Levantamentos retomam segunda-feira de manhã"
+    ]
+  },
+  {
+    "id": "INTEL-20261121-249",
+    "timestamp_published": "2026-11-21 23:12:19",
+    "date_str": "2026-11-21",
+    "time_str": "N/A",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI oficial",
+    "content_type": "Aviso Urgente",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "ALERTA DE SEGURANÇA! Por favor, não partilhe o seu código de verificação com ninguém. A TIMI nunca lhe pedirá o seu código de verificação. Ignore qualquer pedido de código de verificação. Mantenha a sua conta segura.",
+    "key_takeaways": [
+      "Não partilhar códigos de verificação",
+      "TIMI nunca pede códigos",
+      "Ignorar pedidos de código"
+    ]
+  },
+  {
+    "id": "INTEL-20261121-248",
+    "timestamp_published": "2026-11-21 23:12:19",
+    "date_str": "2026-11-21",
+    "time_str": "N/A",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "TIMI MALL - Campanha de 21 a 27 de novembro",
+    "key_takeaways": [
+      "Nova campanha TIMI Mall",
+      "Período: 21 a 27 de novembro"
+    ]
+  },
+  {
+    "id": "INTEL-20261121-247",
+    "timestamp_published": "2026-11-21 23:12:19",
+    "date_str": "2026-11-21",
+    "time_str": "20:01",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall — Administrador",
+    "content_type": "Campanha / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Aviso urgente! Os produtos por tempo limitado da TIMI MALL estão disponíveis para compra!\nCaros parceiros, esta campanha tem um total de 600 vagas de compra e 95% já foram preenchidas. As vagas restantes são limitadas!\nQuando as vagas estiverem esgotadas, o produto será temporariamente retirado de venda e só voltará a estar disponível no dia seguinte.\nA oportunidade é limitada! As vagas são preenchidas por ordem de compra. Aproveitem enquanto ainda há disponibilidade!",
+    "key_takeaways": [
+      "Campanha urgente no TIMI Mall: 'TIMI Waterproof Cycling Pannier' com 1.8% de lucro diário por 10 dias, custo de 200 USDT.",
+      "Restam apenas 30 vagas (5% de 600) para a campanha do Pannier.",
+      "A oferta é por tempo limitado; esgotando, o produto retorna no dia seguinte."
+    ]
+  },
+  {
+    "id": "INTEL-20261121-246",
+    "timestamp_published": "2026-11-21 23:12:19",
+    "date_str": "2026-11-21",
+    "time_str": "20:40",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall — Administrador (Morgado)",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Hoje é fim de semana, não podes levantar fundos por enquan... podes investir ao fim de semana mas nao podes retirar. fazia sentido se tambem desse para retirar ao fim de semana",
+    "key_takeaways": [
+      "Levantamentos bloqueados ao fim de semana",
+      "Investimentos permitidos ao fim de semana"
+    ]
+  },
+  {
+    "id": "INTEL-20261121-245",
+    "timestamp_published": "2026-11-21 23:12:19",
+    "date_str": "2026-11-21",
+    "time_str": "20:59",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall — Administrador",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Olá a todos os parceiros! ⚠️ As 600 vagas de hoje do Mall já estão preenchidas! Preparem antecipadamente o montante necessário para a compra — após as 00h00 poderão voltar a comprar! ⚠️ São disponibilizadas apenas 600 vagas por dia.",
+    "key_takeaways": [
+      "As 600 vagas diárias do TIMI Mall foram preenchidas.",
+      "Novas compras no TIMI Mall estarão disponíveis após as 00h00.",
+      "Recomendado preparar o montante necessário para a compra antecipadamente."
+    ]
+  },
+  {
+    "id": "INTEL-20261121-244",
+    "timestamp_published": "2026-11-21 23:12:19",
+    "date_str": "2026-11-21",
+    "time_str": "21:28",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall — Administrador",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "já tenho fundos suficientes preparados, mas infelizmente tam... Podes efetuar a compra depois das 12 horas desta noite, porque há apenas 600 vagas por dia e as vagas de hoje já terminaram.",
+    "key_takeaways": [
+      "Limite diário de 600 vagas para compras.",
+      "Vagas de hoje esgotadas.",
+      "Próxima janela de compra após as 12 horas (meia-noite) desta noite."
+    ]
+  },
+  {
+    "id": "INTEL-20261121-243",
+    "timestamp_published": "2026-11-21 23:12:19",
+    "date_str": "2026-11-21",
+    "time_str": "N/A",
+    "channel": "TIMI--NO.08",
+    "authority": "Administrador TIMI Mall",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "TIMI Mall — Administrador atualizou a mensagem fixada. A mensagem fixada atualizada inclui detalhes sobre a 'Verificação da Travel Rule' para levantamentos, apresentando campos como 'Provedor de serviços de câmbio ou cripto', 'Corretora de destino' e 'Finalidade da transação'.",
+    "key_takeaways": [
+      "Nova exigência de 'Verificação da Travel Rule' para levantamentos.",
+      "O processo de levantamento agora requer preenchimento de dados específicos sobre a origem/destino dos fundos."
+    ]
+  },
+  {
+    "id": "INTEL-20261121-242",
+    "timestamp_published": "2026-11-21 23:12:19",
+    "date_str": "2026-11-21",
+    "time_str": "22:12",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall — Administrador",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Podes efetuar a compra depois das 0 horas desta noite, porque há apenas 600 vagas por dia e as vagas de hoje já terminaram. Por favor aguarda com paciência.",
+    "key_takeaways": [
+      "Vagas diárias para compra de produtos no TIMI Mall limitadas a 600.",
+      "Vagas de hoje esgotadas.",
+      "Compras serão retomadas após as 00:00."
+    ]
+  },
+  {
     "id": "INTEL-20261121-241",
     "timestamp_published": "2026-11-21 23:06:04",
     "date_str": "2026-11-21",

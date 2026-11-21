@@ -10,10 +10,21 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261121-249` | 2026-11-21 N/A | `TIMI--NO.08` | TIMI oficial | Aviso Urgente | [Ver Anexo](#intel-20261121-249) |
+| `INTEL-20261121-248` | 2026-11-21 N/A | `TIMI--NO.08` | TIMI Mall | Campanha | [Ver Anexo](#intel-20261121-248) |
+| `INTEL-20261121-243` | 2026-11-21 N/A | `TIMI--NO.08` | Administrador TIMI Mall | Aviso / Diretiva | [Ver Anexo](#intel-20261121-243) |
 | `INTEL-20261121-241` | 2026-11-21 N/A | `TIMI-68` | TIMI oficial | Aviso | [Ver Anexo](#intel-20261121-241) |
 | `INTEL-20261121-238` | 2026-11-21 22:26 | `TIMI-68` | MORETTO | Live | [Ver Anexo](#intel-20261121-238) |
+| `INTEL-20261121-242` | 2026-11-21 22:12 | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261121-242) |
 | `INTEL-20261121-239` | 2026-11-21 21:56 | `TIMI-68` | TIMI | Reunião / Live / Diretiva | [Ver Anexo](#intel-20261121-239) |
+| `INTEL-20261121-244` | 2026-11-21 21:28 | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261121-244) |
 | `INTEL-20261121-240` | 2026-11-21 21:22 | `TIMI-68` | Duarte | Aviso | [Ver Anexo](#intel-20261121-240) |
+| `INTEL-20261121-245` | 2026-11-21 20:59 | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261121-245) |
+| `INTEL-20261121-246` | 2026-11-21 20:40 | `TIMI--NO.08` | TIMI Mall — Administrador (Morgado) | Aviso / Diretiva | [Ver Anexo](#intel-20261121-246) |
+| `INTEL-20261121-247` | 2026-11-21 20:01 | `TIMI--NO.08` | TIMI Mall — Administrador | Campanha / Aviso | [Ver Anexo](#intel-20261121-247) |
+| `INTEL-20261121-250` | 2026-11-21 19:07 | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso | [Ver Anexo](#intel-20261121-250) |
+| `INTEL-20261121-251` | 2026-11-21 18:43 | `TIMI--NO.08` | Yolanda — Administrador | Diretiva | [Ver Anexo](#intel-20261121-251) |
+| `INTEL-20261121-252` | 2026-11-21 17:45 | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso / Recompensa | [Ver Anexo](#intel-20261121-252) |
 | `INTEL-20261120-223` | 2026-11-20 N/A | `TIMI Mall` | TIMI | Aviso | [Ver Anexo](#intel-20261120-223) |
 | `INTEL-20261120-222` | 2026-11-20 N/A | `TIMI Mall` | TIMI Mall | Campanha | [Ver Anexo](#intel-20261120-222) |
 | `INTEL-20261120-220` | 2026-11-20 N/A | `TIMI Mall` | TIMI | Campanha | [Ver Anexo](#intel-20261120-220) |
@@ -258,6 +269,61 @@
 
 ---
 
+### <a id="intel-20261121-249"></a>[INTEL-20261121-249] — Aviso Urgente
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI oficial`
+- **🏷️ Categoria:** Aviso Urgente
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+ALERTA DE SEGURANÇA! Por favor, não partilhe o seu código de verificação com ninguém. A TIMI nunca lhe pedirá o seu código de verificação. Ignore qualquer pedido de código de verificação. Mantenha a sua conta segura.
+```
+
+#### 💡 Pontos-Chave:
+- Não partilhar códigos de verificação
+- TIMI nunca pede códigos
+- Ignorar pedidos de código
+
+---
+
+### <a id="intel-20261121-248"></a>[INTEL-20261121-248] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+TIMI MALL - Campanha de 21 a 27 de novembro
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha TIMI Mall
+- Período: 21 a 27 de novembro
+
+---
+
+### <a id="intel-20261121-243"></a>[INTEL-20261121-243] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Administrador TIMI Mall`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+TIMI Mall — Administrador atualizou a mensagem fixada. A mensagem fixada atualizada inclui detalhes sobre a 'Verificação da Travel Rule' para levantamentos, apresentando campos como 'Provedor de serviços de câmbio ou cripto', 'Corretora de destino' e 'Finalidade da transação'.
+```
+
+#### 💡 Pontos-Chave:
+- Nova exigência de 'Verificação da Travel Rule' para levantamentos.
+- O processo de levantamento agora requer preenchimento de dados específicos sobre a origem/destino dos fundos.
+
+---
+
 ### <a id="intel-20261121-241"></a>[INTEL-20261121-241] — Aviso
 
 - **📅 Data de Publicação:** 2026-11-21
@@ -296,6 +362,25 @@ https://www.instagram.com/pr.felipe.santos/live/?broadcast_id=185779693990076235
 
 ---
 
+### <a id="intel-20261121-242"></a>[INTEL-20261121-242] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** 22:12
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Podes efetuar a compra depois das 0 horas desta noite, porque há apenas 600 vagas por dia e as vagas de hoje já terminaram. Por favor aguarda com paciência.
+```
+
+#### 💡 Pontos-Chave:
+- Vagas diárias para compra de produtos no TIMI Mall limitadas a 600.
+- Vagas de hoje esgotadas.
+- Compras serão retomadas após as 00:00.
+
+---
+
 ### <a id="intel-20261121-239"></a>[INTEL-20261121-239] — Reunião / Live / Diretiva
 
 - **📅 Data de Publicação:** 2026-11-21
@@ -315,6 +400,25 @@ A inauguração do primeiro Centro de Experiência TIMI no Brasil; Horário do B
 
 ---
 
+### <a id="intel-20261121-244"></a>[INTEL-20261121-244] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** 21:28
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+já tenho fundos suficientes preparados, mas infelizmente tam... Podes efetuar a compra depois das 12 horas desta noite, porque há apenas 600 vagas por dia e as vagas de hoje já terminaram.
+```
+
+#### 💡 Pontos-Chave:
+- Limite diário de 600 vagas para compras.
+- Vagas de hoje esgotadas.
+- Próxima janela de compra após as 12 horas (meia-noite) desta noite.
+
+---
+
 ### <a id="intel-20261121-240"></a>[INTEL-20261121-240] — Aviso
 
 - **📅 Data de Publicação:** 2026-11-21
@@ -330,6 +434,119 @@ As vagas da nossa TIMI MALL já esgotaram. Preparem-se para comprar as 00h00, as
 #### 💡 Pontos-Chave:
 - Vagas da TIMI Mall esgotadas
 - Novas vagas disponíveis para compra às 00:00
+
+---
+
+### <a id="intel-20261121-245"></a>[INTEL-20261121-245] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** 20:59
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Olá a todos os parceiros! ⚠️ As 600 vagas de hoje do Mall já estão preenchidas! Preparem antecipadamente o montante necessário para a compra — após as 00h00 poderão voltar a comprar! ⚠️ São disponibilizadas apenas 600 vagas por dia.
+```
+
+#### 💡 Pontos-Chave:
+- As 600 vagas diárias do TIMI Mall foram preenchidas.
+- Novas compras no TIMI Mall estarão disponíveis após as 00h00.
+- Recomendado preparar o montante necessário para a compra antecipadamente.
+
+---
+
+### <a id="intel-20261121-246"></a>[INTEL-20261121-246] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** 20:40
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador (Morgado)`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Hoje é fim de semana, não podes levantar fundos por enquan... podes investir ao fim de semana mas nao podes retirar. fazia sentido se tambem desse para retirar ao fim de semana
+```
+
+#### 💡 Pontos-Chave:
+- Levantamentos bloqueados ao fim de semana
+- Investimentos permitidos ao fim de semana
+
+---
+
+### <a id="intel-20261121-247"></a>[INTEL-20261121-247] — Campanha / Aviso
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** 20:01
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador`
+- **🏷️ Categoria:** Campanha / Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Aviso urgente! Os produtos por tempo limitado da TIMI MALL estão disponíveis para compra!
+Caros parceiros, esta campanha tem um total de 600 vagas de compra e 95% já foram preenchidas. As vagas restantes são limitadas!
+Quando as vagas estiverem esgotadas, o produto será temporariamente retirado de venda e só voltará a estar disponível no dia seguinte.
+A oportunidade é limitada! As vagas são preenchidas por ordem de compra. Aproveitem enquanto ainda há disponibilidade!
+```
+
+#### 💡 Pontos-Chave:
+- Campanha urgente no TIMI Mall: 'TIMI Waterproof Cycling Pannier' com 1.8% de lucro diário por 10 dias, custo de 200 USDT.
+- Restam apenas 30 vagas (5% de 600) para a campanha do Pannier.
+- A oferta é por tempo limitado; esgotando, o produto retorna no dia seguinte.
+
+---
+
+### <a id="intel-20261121-250"></a>[INTEL-20261121-250] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** 19:07
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Hoje é fim de semana, não podes levantar fundos por enquanto. Por favor espera até segunda-feira de manhã e poderás levantar os fundos normalmente.
+```
+
+#### 💡 Pontos-Chave:
+- Levantamentos TIMI Mall suspensos no fim de semana
+- Levantamentos retomam segunda-feira de manhã
+
+---
+
+### <a id="intel-20261121-251"></a>[INTEL-20261121-251] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** 18:43
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Yolanda — Administrador`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+É possível usar o meu saldo do Timi e investir no Timi Mall? Só podes primeiro levantar os fundos da conta TIMI para a tua carteira, e só depois podes depositá-los na conta do Timi Mall para comprar o produto que queres.
+```
+
+#### 💡 Pontos-Chave:
+- Para investir saldo TIMI no Mall, levantar para carteira primeiro
+- Depositar da carteira para TIMI Mall para comprar produtos
+
+---
+
+### <a id="intel-20261121-252"></a>[INTEL-20261121-252] — Aviso / Recompensa
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** 17:45
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador`
+- **🏷️ Categoria:** Aviso / Recompensa
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Caros parceiros, atenção: ao comprarem produtos do Mall, podem dirigir-se ao centro de experiência mais próximo para receber gratuitamente um presente.
+```
+
+#### 💡 Pontos-Chave:
+- Comprar produtos do Mall dá direito a presente
+- Presente deve ser retirado no centro de experiência mais próximo
 
 ---
 
