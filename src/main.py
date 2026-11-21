@@ -146,23 +146,29 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
 
     kb = KnowledgeBase()
 
-    # 2. Channels to scan
-    targets = cfg.get("channel_targets", [])
+    # 2. Channels to scan (separando canais da Conta 1 vs canais de contas secundárias ex: Conta 3 Agentes)
+    raw_targets = cfg.get("channel_targets", [])
     if specific_channel:
-        targets = [t for t in targets if specific_channel.lower() in t.get("canonical_name", "").lower()]
+        targets = [t for t in raw_targets if specific_channel.lower() in t.get("canonical_name", "").lower()]
         if not targets:
             targets = [{"canonical_name": specific_channel, "display_name": specific_channel, "search_term": specific_channel}]
+        extra_account_targets = []
     else:
-        # Autonomous discovery: restrict strictly to channels currently visible/available
-        available_targets, missing_names = reader.filter_available_channels(targets)
+        primary_targets = [t for t in raw_targets if not t.get("account_exe")]
+        extra_account_targets = [t for t in raw_targets if t.get("account_exe")]
+        # Autonomous discovery on Conta 1
+        available_targets, missing_names = reader.filter_available_channels(primary_targets)
         if available_targets:
             avail_names = [t.get("canonical_name") for t in available_targets]
-            logger.info(f"🔎 [AUTONOMIA] Canais ativos e presentes no BonChat ({len(available_targets)}/{len(targets)}): {avail_names}")
+            logger.info(f"🔎 [AUTONOMIA] Canais ativos na Conta 1 ({len(available_targets)}/{len(primary_targets)}): {avail_names}")
             if missing_names:
-                logger.info(f"ℹ️ [FILTRO] {len(missing_names)} canal(is) configurado(s) não presentes nesta conta (ignorados sem erro): {missing_names}")
+                logger.info(f"ℹ️ [FILTRO] {len(missing_names)} canal(is) não presentes na Conta 1: {missing_names}")
             targets = available_targets
+        else:
+            targets = primary_targets
 
-    logger.info(f"Target channels to scan ({len(targets)} channels)")
+    targets = list(targets) + list(extra_account_targets)
+    logger.info(f"Target channels to scan ({len(targets)} channels, incl. {len(extra_account_targets)} de contas secundárias)")
 
     ai = AIIntelligence(
         gemini_keys=cfg.get("gemini_keys", []),
@@ -174,86 +180,102 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
     all_discovered_entries = []
     today_str = datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S")
     total_channels = len(targets)
+    primary_hwnd = reader.hwnd
+    launched_extra_pids = {}
 
     # 3. Process each channel incrementally
-    for idx_target, target in enumerate(targets, 1):
-        c_name = target.get("canonical_name", "Canal")
-        d_name = target.get("display_name", c_name)
-        step_prefix = f"[PASSO {idx_target}/{total_channels}]"
-        
-        step_msg = f"{step_prefix} [NAVEGAÇÃO] Mudando para o canal '{c_name}'..."
-        logger.info(step_msg)
-        LiveViewBridge.get_instance().emit_event(step_msg)
+    try:
+        for idx_target, target in enumerate(targets, 1):
+            c_name = target.get("canonical_name", "Canal")
+            d_name = target.get("display_name", c_name)
+            step_prefix = f"[PASSO {idx_target}/{total_channels}]"
 
-        ok = reader.select_channel(target)
-        if not ok:
-            warn_msg = f"{step_prefix} [AVISO] Não foi possível selecionar o canal '{c_name}' no sidebar."
-            logger.warning(warn_msg)
-            LiveViewBridge.get_instance().emit_event(warn_msg)
-            continue
+            # Alternar janela para conta secundária (ex: Conta 3 para grupos de agentes) se configurada
+            acc_exe = target.get("account_exe")
+            if acc_exe:
+                sec_hwnd, sec_pid = reader.find_bonchat_window_for_exe(acc_exe, auto_launch=True)
+                if sec_pid:
+                    launched_extra_pids[acc_exe] = sec_pid
+                if not sec_hwnd:
+                    logger.warning(f"{step_prefix} [AVISO] Conta secundária indisponível para '{c_name}'.")
+                    continue
+            else:
+                reader.hwnd = primary_hwnd
 
-        time.sleep(1.0)
+            step_msg = f"{step_prefix} [NAVEGAÇÃO] Mudando para o canal '{c_name}'..."
+            logger.info(step_msg)
+            LiveViewBridge.get_instance().emit_event(step_msg)
 
-        # Deep scroll backwards until hitting previous scan's watermark
-        scroll_msg = f"{step_prefix} [SCROLL] A efetuar leitura incremental de mensagens antigas..."
-        logger.info(scroll_msg)
-        LiveViewBridge.get_instance().emit_event(scroll_msg)
+            ok = reader.select_channel(target)
+            if not ok:
+                warn_msg = f"{step_prefix} [AVISO] Não foi possível selecionar o canal '{c_name}' no sidebar."
+                logger.warning(warn_msg)
+                LiveViewBridge.get_instance().emit_event(warn_msg)
+                continue
 
-        new_frames = reader.scan_channel_incremental(
-            channel_canonical=c_name,
-            watermark_tracker=watermark_tracker,
-            ignore_watermark=deep_extract
-        )
+            time.sleep(1.0)
 
-        if not new_frames:
-            uptodate_msg = f"{step_prefix} [WATERMARK] Canal '{c_name}' 100% atualizado. 0 novas mensagens a processar."
-            logger.info(uptodate_msg)
-            LiveViewBridge.get_instance().emit_event(uptodate_msg)
-            continue
+            # Deep scroll backwards until hitting previous scan's watermark
+            scroll_msg = f"{step_prefix} [SCROLL] A efetuar leitura incremental de mensagens antigas..."
+            logger.info(scroll_msg)
+            LiveViewBridge.get_instance().emit_event(scroll_msg)
 
-        # In-memory AI Multimodal Vision analysis (zero disk bloat)
-        ai_msg = f"{step_prefix} [IA VISION] A analisar {len(new_frames)} novos frames em memória para '{c_name}'..."
-        logger.info(ai_msg)
-        LiveViewBridge.get_instance().emit_event(ai_msg)
+            new_frames = reader.scan_channel_incremental(
+                channel_canonical=c_name,
+                watermark_tracker=watermark_tracker,
+                ignore_watermark=deep_extract
+            )
 
-        analysis, entries = ai.analyze_channel_capture(c_name, new_frames)
-        
-        # Record structured intel entries into Knowledge Base
-        if entries:
-            all_discovered_entries.extend(entries)
-            for item in entries:
-                kb.add_entry(
-                    date_str=item.get("date_str", datetime.datetime.now().strftime("%Y-%m-%d")),
-                    time_str=item.get("time_str", "N/A"),
-                    channel=c_name,
-                    authority=item.get("authority", "Autoridade"),
-                    content_type=item.get("content_type", "Aviso"),
-                    verbatim_text=item.get("verbatim_text", ""),
-                    key_takeaways=item.get("key_takeaways", [])
-                )
-            logger.info(f"{step_prefix} [BASE DE DADOS] {len(entries)} registo(s) estruturado(s) adicionados à base de conhecimento para '{c_name}'.")
+            if not new_frames:
+                uptodate_msg = f"{step_prefix} [WATERMARK] Canal '{c_name}' 100% atualizado. 0 novas mensagens a processar."
+                logger.info(uptodate_msg)
+                LiveViewBridge.get_instance().emit_event(uptodate_msg)
+                continue
 
-        if analysis and "sem novidades" not in analysis.lower():
-            logger.info(f"{step_prefix} [ACHADOS] '{c_name}': {analysis[:80]}...")
-            LiveViewBridge.get_instance().emit_event(f"{step_prefix} [INTELIGÊNCIA] Novidade detetada em '{c_name}'!")
-            channel_reports[d_name] = analysis
-        else:
-            no_news_msg = f"{step_prefix} [STATUS] Sem comunicados críticos da autoridade em '{c_name}'."
-            logger.info(no_news_msg)
-            LiveViewBridge.get_instance().emit_event(no_news_msg)
+            # In-memory AI Multimodal Vision analysis (zero disk bloat)
+            ai_msg = f"{step_prefix} [IA VISION] A analisar {len(new_frames)} novos frames em memória para '{c_name}'..."
+            logger.info(ai_msg)
+            LiveViewBridge.get_instance().emit_event(ai_msg)
 
-        # ── PER-CHANNEL SYNC & PURGE ──────────────────────────────────────────
-        # Immediately commit the new knowledge for this channel to GitHub and
-        # purge all temporary in-flight frame data from the local disk so that
-        # long multi-group runs never fill up S:
-        sync_channel_msg = f"{step_prefix} [SYNC] A sincronizar conhecimento do canal '{c_name}' para o GitHub e a limpar temporários..."
-        logger.info(sync_channel_msg)
-        LiveViewBridge.get_instance().emit_event(sync_channel_msg)
-        sync_to_github(commit_msg=f"chore(intel): [{c_name}] knowledge sync {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}")
-        purge_transient_data(max_digest_days=3)
-        # Release frame list from memory immediately
-        new_frames.clear()
-        # ─────────────────────────────────────────────────────────────────────
+            analysis, entries = ai.analyze_channel_capture(c_name, new_frames)
+
+            # Record structured intel entries into Knowledge Base
+            if entries:
+                for item in entries:
+                    item["channel"] = c_name
+                    kb.add_entry(
+                        date_str=item.get("date_str", datetime.datetime.now().strftime("%Y-%m-%d")),
+                        time_str=item.get("time_str", "N/A"),
+                        channel=c_name,
+                        authority=item.get("authority", "Autoridade"),
+                        content_type=item.get("content_type", "Aviso"),
+                        verbatim_text=item.get("verbatim_text", ""),
+                        key_takeaways=item.get("key_takeaways", [])
+                    )
+                all_discovered_entries.extend(entries)
+                logger.info(f"{step_prefix} [BASE DE DADOS] {len(entries)} registo(s) estruturado(s) adicionados à base de conhecimento para '{c_name}'.")
+
+            if analysis and "sem novidades" not in analysis.lower():
+                logger.info(f"{step_prefix} [ACHADOS] '{c_name}': {analysis[:80]}...")
+                LiveViewBridge.get_instance().emit_event(f"{step_prefix} [INTELIGÊNCIA] Novidade detetada em '{c_name}'!")
+                channel_reports[d_name] = analysis
+            else:
+                no_news_msg = f"{step_prefix} [STATUS] Sem comunicados críticos da autoridade em '{c_name}'."
+                logger.info(no_news_msg)
+                LiveViewBridge.get_instance().emit_event(no_news_msg)
+
+            # ── PER-CHANNEL SYNC & PURGE ──────────────────────────────────────────
+            sync_channel_msg = f"{step_prefix} [SYNC] A sincronizar conhecimento do canal '{c_name}' para o GitHub e a limpar temporários..."
+            logger.info(sync_channel_msg)
+            LiveViewBridge.get_instance().emit_event(sync_channel_msg)
+            sync_to_github(commit_msg=f"chore(intel): [{c_name}] knowledge sync {datetime.datetime.now().strftime('%Y-%m-%d %H:%M')}")
+            purge_transient_data(max_digest_days=3)
+            new_frames.clear()
+            # ─────────────────────────────────────────────────────────────────────
+    finally:
+        for _exe, _pid in launched_extra_pids.items():
+            reader.close_pid(_pid)
+        reader.hwnd = primary_hwnd
 
     # 4. Agendamento Automático de Reuniões & Atividades no Windows Task Scheduler
     scheduled_tasks = []

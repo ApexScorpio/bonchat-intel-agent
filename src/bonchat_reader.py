@@ -161,6 +161,75 @@ class BonChatReader:
         logger.warning("BonChat window not found on TIMI_GHOST.")
         return None
 
+    def find_bonchat_window_for_exe(self, exe_path: str, auto_launch: bool = True) -> Tuple[Optional[int], Optional[int]]:
+        """
+        Localiza (ou lança temporariamente em TIMI_GHOST) a janela do BonChat pertencente
+        a um executável específico (ex: BonChat_Acc3_928250447\\BonChat.exe).
+        Retorna (hwnd, launched_pid) onde launched_pid só é preenchido se foi lançado por nós.
+        """
+        import psutil
+        import win32process
+        from .desktop_isolation import get_ghost_windows, launch_process_on_ghost_desktop
+
+        norm_target = os.path.normcase(os.path.abspath(exe_path))
+
+        def _match_hwnd() -> Optional[int]:
+            for w in get_ghost_windows():
+                c = w.get("class", "").lower()
+                if "qt5qwindowicon" not in c or w.get("w", 0) < 400:
+                    continue
+                try:
+                    _, pid = win32process.GetWindowThreadProcessId(w["hwnd"])
+                    p_exe = os.path.normcase(os.path.abspath(psutil.Process(pid).exe()))
+                    if p_exe == norm_target:
+                        return w["hwnd"]
+                except Exception:
+                    continue
+            return None
+
+        existing = _match_hwnd()
+        if existing:
+            self.hwnd = existing
+            self.is_ghost = True
+            self._ensure_window_layout()
+            logger.info(f"Attached to existing BonChat ({os.path.basename(os.path.dirname(exe_path))}): HWND {existing}")
+            return existing, None
+
+        if auto_launch and os.path.exists(exe_path):
+            logger.info(f"🚀 Lançando temporariamente {exe_path} em TIMI_GHOST para ler canais de agentes...")
+            pid = launch_process_on_ghost_desktop(exe_path)
+            for _ in range(18):
+                time.sleep(1.0)
+                h = _match_hwnd()
+                if h:
+                    time.sleep(4.0)  # Aguardar sincronização da lista de chats
+                    self.hwnd = h
+                    self.is_ghost = True
+                    self._ensure_window_layout()
+                    logger.info(f"✅ BonChat secundário pronto (PID={pid}, HWND={h})")
+                    return h, pid
+            logger.warning(f"Timeout ao aguardar janela de {exe_path} (PID={pid})")
+            return None, pid
+
+        return None, None
+
+    @staticmethod
+    def close_pid(pid: Optional[int]):
+        """Encerra de forma limpa um BonChat secundário lançado temporariamente."""
+        if not pid:
+            return
+        try:
+            import psutil
+            p = psutil.Process(pid)
+            p.terminate()
+            try:
+                p.wait(timeout=4)
+            except Exception:
+                p.kill()
+            logger.info(f"🧹 BonChat secundário (PID={pid}) encerrado após leitura.")
+        except Exception:
+            pass
+
     def capture_window(self) -> Optional[Image.Image]:
         """Captures the BonChat window buffer without stealing focus."""
         if not self.hwnd or not win32gui.IsWindow(self.hwnd):

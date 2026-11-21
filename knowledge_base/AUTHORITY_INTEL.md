@@ -10,6 +10,10 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261121-241` | 2026-11-21 N/A | `TIMI-68` | TIMI oficial | Aviso | [Ver Anexo](#intel-20261121-241) |
+| `INTEL-20261121-238` | 2026-11-21 22:26 | `TIMI-68` | MORETTO | Live | [Ver Anexo](#intel-20261121-238) |
+| `INTEL-20261121-239` | 2026-11-21 21:56 | `TIMI-68` | TIMI | Reunião / Live / Diretiva | [Ver Anexo](#intel-20261121-239) |
+| `INTEL-20261121-240` | 2026-11-21 21:22 | `TIMI-68` | Duarte | Aviso | [Ver Anexo](#intel-20261121-240) |
 | `INTEL-20261120-223` | 2026-11-20 N/A | `TIMI Mall` | TIMI | Aviso | [Ver Anexo](#intel-20261120-223) |
 | `INTEL-20261120-222` | 2026-11-20 N/A | `TIMI Mall` | TIMI Mall | Campanha | [Ver Anexo](#intel-20261120-222) |
 | `INTEL-20261120-220` | 2026-11-20 N/A | `TIMI Mall` | TIMI | Campanha | [Ver Anexo](#intel-20261120-220) |
@@ -251,6 +255,81 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20261121-241"></a>[INTEL-20261121-241] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI oficial`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+⚠️ Aviso importante da TIMI! ⚠️ As 600 vagas de hoje do Mall já estão preenchidas! ⚠️ Preparem antecipadamente o montante necessário para a compra — após as 00h00 poderão voltar a comprar! 👹 ⚠️ São disponibilizadas apenas 600 vagas por dia.
+```
+
+#### 💡 Pontos-Chave:
+- TIMI Mall tem um limite diário de 600 vagas.
+- As vagas do dia atual estão preenchidas.
+- Novas vagas estarão disponíveis após as 00h00.
+- Recomenda-se preparar o montante para a compra antecipadamente.
+
+---
+
+### <a id="intel-20261121-238"></a>[INTEL-20261121-238] — Live
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** 22:26
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `MORETTO`
+- **🏷️ Categoria:** Live
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+https://www.instagram.com/pr.felipe.santos/live/?broadcast_id=185779693990076235 Transmissão da TIMI Brasil no canal do pr Felipe
+```
+
+#### 💡 Pontos-Chave:
+- Transmissão ao vivo da TIMI Brasil no Instagram do pr Felipe
+- Link da live: https://www.instagram.com/pr.felipe.santos/live/
+
+---
+
+### <a id="intel-20261121-239"></a>[INTEL-20261121-239] — Reunião / Live / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** 21:56
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Reunião / Live / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A inauguração do primeiro Centro de Experiência TIMI no Brasil; Horário do Brasil: 19h00 Horário de Portugal: 22h00 Link da transmissão em direto: https://www.instagram.com/timibrasiloficial/?igshid=MWwwdXpjqGg4NHpMa== Pedimos a todos os parceiros que cliquem no link para assistir à transmissão em direto e partilhem uma captura de ecrã no grupo.
+```
+
+#### 💡 Pontos-Chave:
+- Inauguração do 1º Centro de Experiência TIMI no Brasil em 2026-11-26.
+- Live obrigatória às 19:00 BR / 22:00 PT via Instagram.
+- Ação requerida: assistir à live e partilhar captura de ecrã no grupo.
+
+---
+
+### <a id="intel-20261121-240"></a>[INTEL-20261121-240] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** 21:22
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Duarte`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+As vagas da nossa TIMI MALL já esgotaram. Preparem-se para comprar as 00h00, assim podemos começar a ganhar dinheiro mais cedo.
+```
+
+#### 💡 Pontos-Chave:
+- Vagas da TIMI Mall esgotadas
+- Novas vagas disponíveis para compra às 00:00
 
 ---
 

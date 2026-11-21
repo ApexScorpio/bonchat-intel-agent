@@ -1,5 +1,72 @@
 [
   {
+    "id": "INTEL-20261121-241",
+    "timestamp_published": "2026-11-21 23:06:04",
+    "date_str": "2026-11-21",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "TIMI oficial",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "⚠️ Aviso importante da TIMI! ⚠️ As 600 vagas de hoje do Mall já estão preenchidas! ⚠️ Preparem antecipadamente o montante necessário para a compra — após as 00h00 poderão voltar a comprar! 👹 ⚠️ São disponibilizadas apenas 600 vagas por dia.",
+    "key_takeaways": [
+      "TIMI Mall tem um limite diário de 600 vagas.",
+      "As vagas do dia atual estão preenchidas.",
+      "Novas vagas estarão disponíveis após as 00h00.",
+      "Recomenda-se preparar o montante para a compra antecipadamente."
+    ]
+  },
+  {
+    "id": "INTEL-20261121-240",
+    "timestamp_published": "2026-11-21 23:06:04",
+    "date_str": "2026-11-21",
+    "time_str": "21:22",
+    "channel": "TIMI-68",
+    "authority": "Duarte",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "As vagas da nossa TIMI MALL já esgotaram. Preparem-se para comprar as 00h00, assim podemos começar a ganhar dinheiro mais cedo.",
+    "key_takeaways": [
+      "Vagas da TIMI Mall esgotadas",
+      "Novas vagas disponíveis para compra às 00:00"
+    ]
+  },
+  {
+    "id": "INTEL-20261121-239",
+    "timestamp_published": "2026-11-21 23:06:04",
+    "date_str": "2026-11-21",
+    "time_str": "21:56",
+    "channel": "TIMI-68",
+    "authority": "TIMI",
+    "content_type": "Reunião / Live / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A inauguração do primeiro Centro de Experiência TIMI no Brasil; Horário do Brasil: 19h00 Horário de Portugal: 22h00 Link da transmissão em direto: https://www.instagram.com/timibrasiloficial/?igshid=MWwwdXpjqGg4NHpMa== Pedimos a todos os parceiros que cliquem no link para assistir à transmissão em direto e partilhem uma captura de ecrã no grupo.",
+    "key_takeaways": [
+      "Inauguração do 1º Centro de Experiência TIMI no Brasil em 2026-11-26.",
+      "Live obrigatória às 19:00 BR / 22:00 PT via Instagram.",
+      "Ação requerida: assistir à live e partilhar captura de ecrã no grupo."
+    ]
+  },
+  {
+    "id": "INTEL-20261121-238",
+    "timestamp_published": "2026-11-21 23:06:04",
+    "date_str": "2026-11-21",
+    "time_str": "22:26",
+    "channel": "TIMI-68",
+    "authority": "MORETTO",
+    "content_type": "Live",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "https://www.instagram.com/pr.felipe.santos/live/?broadcast_id=185779693990076235 Transmissão da TIMI Brasil no canal do pr Felipe",
+    "key_takeaways": [
+      "Transmissão ao vivo da TIMI Brasil no Instagram do pr Felipe",
+      "Link da live: https://www.instagram.com/pr.felipe.santos/live/"
+    ]
+  },
+  {
     "id": "INTEL-20261120-237",
     "timestamp_published": "2026-11-20 23:37:20",
     "date_str": "2026-11-20",
