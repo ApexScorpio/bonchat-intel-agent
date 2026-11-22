@@ -10,10 +10,12 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261122-281` | 2026-11-22 N/A | `TIMI Mall` | Francisco | Aviso | [Ver Anexo](#intel-20261122-281) |
 | `INTEL-20261122-277` | 2026-11-22 N/A | `TIMI--NO.08` | TIMI Mall | Campanha | [Ver Anexo](#intel-20261122-277) |
 | `INTEL-20261122-263` | 2026-11-22 22:59 | `TIMI-68` | Theodore | Reunião | [Ver Anexo](#intel-20261122-263) |
 | `INTEL-20261122-264` | 2026-11-22 22:58 | `TIMI-68` | Theodore | Recompensa / Bónus | [Ver Anexo](#intel-20261122-264) |
 | `INTEL-20261122-262` | 2026-11-22 22:58 | `TIMI-68` | Theodore | Campanha | [Ver Anexo](#intel-20261122-262) |
+| `INTEL-20261122-279` | 2026-11-22 22:53 | `TIMI Mall` | TIMI | Campanha / Recompensa | [Ver Anexo](#intel-20261122-279) |
 | `INTEL-20261122-265` | 2026-11-22 22:07 | `TIMI-68` | TIMI | Diretiva | [Ver Anexo](#intel-20261122-265) |
 | `INTEL-20261122-266` | 2026-11-22 21:57 | `TIMI-68` | Márcia Pereira (via Denis Cabral) | Aviso / Alteração de Regra | [Ver Anexo](#intel-20261122-266) |
 | `INTEL-20261122-273` | 2026-11-22 21:53 | `TIMI--NO.08` | TIMI Administrator | Aviso / Diretiva | [Ver Anexo](#intel-20261122-273) |
@@ -26,6 +28,13 @@
 | `INTEL-20261122-272` | 2026-11-22 21:37 | `TIMI-68` | Márcia Pereira | Recompensa | [Ver Anexo](#intel-20261122-272) |
 | `INTEL-20261122-276` | 2026-11-22 21:22 | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261122-276) |
 | `INTEL-20261122-275` | 2026-11-22 21:19 | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261122-275) |
+| `INTEL-20261122-280` | 2026-11-22 19:48 | `TIMI Mall` | TIMI | Campanha / Bónus / Recompensa | [Ver Anexo](#intel-20261122-280) |
+| `INTEL-20261122-282` | 2026-11-22 18:41 | `TIMI Mall` | M_aA / Francisco | Aviso / Reunião / Diretiva | [Ver Anexo](#intel-20261122-282) |
+| `INTEL-20261122-283` | 2026-11-22 18:38 | `TIMI Mall` | TIMI oficial | Diretiva | [Ver Anexo](#intel-20261122-283) |
+| `INTEL-20261122-284` | 2026-11-22 18:25 | `TIMI Mall` | M__a | Reunião / Evento | [Ver Anexo](#intel-20261122-284) |
+| `INTEL-20261122-285` | 2026-11-22 18:09 | `TIMI Mall` | Gervásio | Campanha / Sorteio / Diretiva | [Ver Anexo](#intel-20261122-285) |
+| `INTEL-20261122-286` | 2026-11-22 17:48 | `TIMI Mall` | Gervásio | Campanha / Sorteio | [Ver Anexo](#intel-20261122-286) |
+| `INTEL-20261122-287` | 2026-11-22 17:40 | `TIMI Mall` | Gervasio | Diretiva / Regra de Sorteio | [Ver Anexo](#intel-20261122-287) |
 | `INTEL-20261122-278` | 2026-11-22 16:37 | `TIMI--NO.08` | TIMI Mall — Administrador | Diretiva | [Ver Anexo](#intel-20261122-278) |
 | `INTEL-20261121-260` | 2026-11-21 N/A | `TIMI Mall` | TIMI Mall (Admin) | Campanha | [Ver Anexo](#intel-20261121-260) |
 | `INTEL-20261121-249` | 2026-11-21 N/A | `TIMI--NO.08` | TIMI oficial | Aviso Urgente | [Ver Anexo](#intel-20261121-249) |
@@ -295,6 +304,26 @@
 
 ---
 
+### <a id="intel-20261122-281"></a>[INTEL-20261122-281] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `Francisco`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Um convidado de peso está prestes a aparecer! 🥳 O famoso cantor português Quim Barreiros estará presente no terceiro evento de lançamento de produtos da TIMI no dia 29 de novembro! 📍 Local: Vilar Oporto Hotel (Porto) Endereço detalhado: R. Arcebispo Vanzeller 50, 4050-621 Porto Facebook: https://www.facebook.com/share/19uDA5tg2P/ Instagram: https://www.instagram.com/reel/DfnVbuqjA5/ #TIMI #QuimBarreiros #TIMIPortugal #LançamentodeProduto
+```
+
+#### 💡 Pontos-Chave:
+- Terceiro evento de lançamento de produtos TIMI
+- Presença de Quim Barreiros
+- Data: 29 de novembro
+- Local: Vilar Oporto Hotel, Porto
+
+---
+
 ### <a id="intel-20261122-277"></a>[INTEL-20261122-277] — Campanha
 
 - **📅 Data de Publicação:** 2026-11-22
@@ -383,6 +412,24 @@ Atenção Limite de 600 por dia.
 - Custo: 250 USDT por vez, ciclo de 13 dias, liquidação de 314.025 USDT (capital incluído).
 - Comissão de 25 USDT por cada compra de membro da equipa.
 - Limite de 600 por dia, levantamento com 5% de taxa.
+
+---
+
+### <a id="intel-20261122-279"></a>[INTEL-20261122-279] — Campanha / Recompensa
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 22:53
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Campanha / Recompensa
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boas notícias! Os parceiros que comprarem os novos produtos do TIMI Mall podem dirigir-se ao Centro de Experiência presencial da TIMI para receber gratuitamente um presente requisitado! O TIMI Mall abre apenas 600 vagas de compra por dia, quantidade limitada! Os parceiros que já concluíram a compra podem dirigir-se ao centro de experiência TIMI mais próximo para receber gratuitamente um presente; Os parceiros que já participaram também são bem-vindos a partilhar as informações da atividade com os amigos à sua volta, para que mais pessoas conheçam os novos produtos e benefícios do TIMI Mall!
+```
+
+#### 💡 Pontos-Chave:
+- Compre novos produtos TIMI Mall para receber presente grátis em Centro de Experiência
+- Limite de 600 vagas de compra por dia no TIMI Mall
 
 ---
 
@@ -594,6 +641,138 @@ Talvez todos tenham um mal-entendido. Na aplicação TIMI das bicicletas, não �
 #### 💡 Pontos-Chave:
 - Na aplicação TIMI (bicicletas), não é possível ativar equipamento ao fim de semana; rendimentos apenas em 5 dias úteis.
 - No TIMI Mall, os períodos de investimento incluem fins de semana (ex: investimento de 13 dias permite levantamento após 13 dias corridos).
+
+---
+
+### <a id="intel-20261122-280"></a>[INTEL-20261122-280] — Campanha / Bónus / Recompensa
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 19:48
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Campanha / Bónus / Recompensa
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Bónus de convite 2 USDT Prémios das 3 tentativas de sorteio 50 USDT 50 USDT 200 USDT Rendimento de hoje até agora 557 USDT Obrigado ao meu gestor e obrigado à empresa TIMI
+```
+
+#### 💡 Pontos-Chave:
+- Bónus de convite de 2 USDT
+- Prémios de sorteio: 50 USDT, 50 USDT, 200 USDT
+
+---
+
+### <a id="intel-20261122-282"></a>[INTEL-20261122-282] — Aviso / Reunião / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 18:41
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `M_aA / Francisco`
+- **🏷️ Categoria:** Aviso / Reunião / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A morada do evento é R. Arcelago Van Zeller 50 4050-621 Porto todos podem consultar o mapa com antecedência e também podem contactar o gerente para confirmar a organização da participação no local. Acho que a organização de novembro vale bastante a pena acompanhar por um lado o sorteio de 16 a 30 e por outro a apresentação de produtos no Porto a 29 todos podem conhecer as condições do evento de acordo com a sua situação real e
+```
+
+#### 💡 Pontos-Chave:
+- Evento TIMI em Porto a 29/11 (apresentação de produtos)
+- Sorteio de 16 a 30/11
+- Local: R. Arcelago Van Zeller 50 4050-621 Porto
+- Contactar gerente para confirmar participação
+
+---
+
+### <a id="intel-20261122-283"></a>[INTEL-20261122-283] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 18:38
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI oficial`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Se quiseres juntar-te à TIMI, mas não tiveres fundos disponíveis neste momento, o que deves fazer? Vai ao 6º Centro de Experiência; o Fernando ajudar-te-á a resolver este problema. Endereço:R. Amélia Rey Colaço 50C, 2790-017 Carnaxide, Endereço Google:https://share.google.com/ml/m/vSSZnpPbB57R Região: Lisboa.
+```
+
+#### 💡 Pontos-Chave:
+- Solução para aderir à TIMI sem fundos disponíveis
+- Visitar o 6º Centro de Experiência em Carnaxide
+- Fernando auxiliará no local
+- Endereço: R. Amélia Rey Colaço 50C, 2790-017 Carnaxide
+
+---
+
+### <a id="intel-20261122-284"></a>[INTEL-20261122-284] — Reunião / Evento
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 18:25
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `M__a`
+- **🏷️ Categoria:** Reunião / Evento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Já vi o local é no Vilar Oporto Hotel e começa às 15h30 da tar... Pois a segunda apresentação em Lisboa deixou uma impressão profunda a muitos parceiros desta vez a terceira apresentação está novamente organizada no Porto acredito que também haverá muitos parceiros à espera deste encontro
+```
+
+#### 💡 Pontos-Chave:
+- Terceira apresentação TIMI em Porto
+- Local: Vilar Oporto Hotel
+- Início: 15:30
+
+---
+
+### <a id="intel-20261122-285"></a>[INTEL-20261122-285] — Campanha / Sorteio / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 18:09
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `Gervásio`
+- **🏷️ Categoria:** Campanha / Sorteio / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Os prémios incluem 30 50 100 200 500 e 1000 USDT e ainda u... Uau os tipos de prémios são bastante variados no entanto o sorteio deve ser calculado de acordo com o número real de participações obtidas não é por convidar uma pessoa que se ganha necessariamente o telemóvel
+```
+
+#### 💡 Pontos-Chave:
+- Prêmios de sorteio incluem 30, 50, 100, 200, 500 e 1000 USDT.
+- O sorteio é baseado no número real de participações, não em convites para ganhar telemóvel.
+
+---
+
+### <a id="intel-20261122-286"></a>[INTEL-20261122-286] — Campanha / Sorteio
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 17:48
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `Gervásio`
+- **🏷️ Categoria:** Campanha / Sorteio
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Os prémios incluem 30, 50, 100, 200, 500 e 1000 USDT, um iPhone 18 (valor de referência 2200 USDT), uma recompensa de upgrade de experiência de 7 dias e um cupão de isenção da taxa de levantamento de 5%. Por cada novo parceiro elegível convidado, o recomendador recebe a comissão de recrutamento original e o número de participações no sorteio é calculado adicionalmente. Além das participações no sorteio, há outras recompensas por convidar novos parceiros elegíveis.
+```
+
+#### 💡 Pontos-Chave:
+- Prizes: 30-1000 USDT, iPhone 18 (2200 USDT), 7-day experience upgrade, 5% withdrawal fee exemption.
+- Recommenders get recruitment commission and additional lottery entries for inviting new eligible partners.
+- Other rewards exist for inviting new eligible partners beyond lottery entries.
+
+---
+
+### <a id="intel-20261122-287"></a>[INTEL-20261122-287] — Diretiva / Regra de Sorteio
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 17:40
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `Gervasio`
+- **🏷️ Categoria:** Diretiva / Regra de Sorteio
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A organização do T4 é o recomendador recebe 3 participações no sorteio e o próprio novo parceiro recebe 1 ou seja ambas as partes têm oportunidade de participar
+```
+
+#### 💡 Pontos-Chave:
+- Recomendadores T4 recebem 3 participações em sorteio
+- Novos parceiros recomendados por T4 recebem 1 participação em sorteio
 
 ---
 

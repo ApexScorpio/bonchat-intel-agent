@@ -1,5 +1,157 @@
 [
   {
+    "id": "INTEL-20261122-287",
+    "timestamp_published": "2026-11-22 23:19:09",
+    "date_str": "2026-11-22",
+    "time_str": "17:40",
+    "channel": "TIMI Mall",
+    "authority": "Gervasio",
+    "content_type": "Diretiva / Regra de Sorteio",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A organização do T4 é o recomendador recebe 3 participações no sorteio e o próprio novo parceiro recebe 1 ou seja ambas as partes têm oportunidade de participar",
+    "key_takeaways": [
+      "Recomendadores T4 recebem 3 participações em sorteio",
+      "Novos parceiros recomendados por T4 recebem 1 participação em sorteio"
+    ]
+  },
+  {
+    "id": "INTEL-20261122-286",
+    "timestamp_published": "2026-11-22 23:19:09",
+    "date_str": "2026-11-22",
+    "time_str": "17:48",
+    "channel": "TIMI Mall",
+    "authority": "Gervásio",
+    "content_type": "Campanha / Sorteio",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Os prémios incluem 30, 50, 100, 200, 500 e 1000 USDT, um iPhone 18 (valor de referência 2200 USDT), uma recompensa de upgrade de experiência de 7 dias e um cupão de isenção da taxa de levantamento de 5%. Por cada novo parceiro elegível convidado, o recomendador recebe a comissão de recrutamento original e o número de participações no sorteio é calculado adicionalmente. Além das participações no sorteio, há outras recompensas por convidar novos parceiros elegíveis.",
+    "key_takeaways": [
+      "Prizes: 30-1000 USDT, iPhone 18 (2200 USDT), 7-day experience upgrade, 5% withdrawal fee exemption.",
+      "Recommenders get recruitment commission and additional lottery entries for inviting new eligible partners.",
+      "Other rewards exist for inviting new eligible partners beyond lottery entries."
+    ]
+  },
+  {
+    "id": "INTEL-20261122-285",
+    "timestamp_published": "2026-11-22 23:19:09",
+    "date_str": "2026-11-22",
+    "time_str": "18:09",
+    "channel": "TIMI Mall",
+    "authority": "Gervásio",
+    "content_type": "Campanha / Sorteio / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Os prémios incluem 30 50 100 200 500 e 1000 USDT e ainda u... Uau os tipos de prémios são bastante variados no entanto o sorteio deve ser calculado de acordo com o número real de participações obtidas não é por convidar uma pessoa que se ganha necessariamente o telemóvel",
+    "key_takeaways": [
+      "Prêmios de sorteio incluem 30, 50, 100, 200, 500 e 1000 USDT.",
+      "O sorteio é baseado no número real de participações, não em convites para ganhar telemóvel."
+    ]
+  },
+  {
+    "id": "INTEL-20261122-284",
+    "timestamp_published": "2026-11-22 23:19:09",
+    "date_str": "2026-11-22",
+    "time_str": "18:25",
+    "channel": "TIMI Mall",
+    "authority": "M__a",
+    "content_type": "Reunião / Evento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Já vi o local é no Vilar Oporto Hotel e começa às 15h30 da tar... Pois a segunda apresentação em Lisboa deixou uma impressão profunda a muitos parceiros desta vez a terceira apresentação está novamente organizada no Porto acredito que também haverá muitos parceiros à espera deste encontro",
+    "key_takeaways": [
+      "Terceira apresentação TIMI em Porto",
+      "Local: Vilar Oporto Hotel",
+      "Início: 15:30"
+    ]
+  },
+  {
+    "id": "INTEL-20261122-283",
+    "timestamp_published": "2026-11-22 23:19:09",
+    "date_str": "2026-11-22",
+    "time_str": "18:38",
+    "channel": "TIMI Mall",
+    "authority": "TIMI oficial",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Se quiseres juntar-te à TIMI, mas não tiveres fundos disponíveis neste momento, o que deves fazer? Vai ao 6º Centro de Experiência; o Fernando ajudar-te-á a resolver este problema. Endereço:R. Amélia Rey Colaço 50C, 2790-017 Carnaxide, Endereço Google:https://share.google.com/ml/m/vSSZnpPbB57R Região: Lisboa.",
+    "key_takeaways": [
+      "Solução para aderir à TIMI sem fundos disponíveis",
+      "Visitar o 6º Centro de Experiência em Carnaxide",
+      "Fernando auxiliará no local",
+      "Endereço: R. Amélia Rey Colaço 50C, 2790-017 Carnaxide"
+    ]
+  },
+  {
+    "id": "INTEL-20261122-282",
+    "timestamp_published": "2026-11-22 23:19:09",
+    "date_str": "2026-11-22",
+    "time_str": "18:41",
+    "channel": "TIMI Mall",
+    "authority": "M_aA / Francisco",
+    "content_type": "Aviso / Reunião / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A morada do evento é R. Arcelago Van Zeller 50 4050-621 Porto todos podem consultar o mapa com antecedência e também podem contactar o gerente para confirmar a organização da participação no local. Acho que a organização de novembro vale bastante a pena acompanhar por um lado o sorteio de 16 a 30 e por outro a apresentação de produtos no Porto a 29 todos podem conhecer as condições do evento de acordo com a sua situação real e",
+    "key_takeaways": [
+      "Evento TIMI em Porto a 29/11 (apresentação de produtos)",
+      "Sorteio de 16 a 30/11",
+      "Local: R. Arcelago Van Zeller 50 4050-621 Porto",
+      "Contactar gerente para confirmar participação"
+    ]
+  },
+  {
+    "id": "INTEL-20261122-281",
+    "timestamp_published": "2026-11-22 23:19:09",
+    "date_str": "2026-11-22",
+    "time_str": "N/A",
+    "channel": "TIMI Mall",
+    "authority": "Francisco",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Um convidado de peso está prestes a aparecer! 🥳 O famoso cantor português Quim Barreiros estará presente no terceiro evento de lançamento de produtos da TIMI no dia 29 de novembro! 📍 Local: Vilar Oporto Hotel (Porto) Endereço detalhado: R. Arcebispo Vanzeller 50, 4050-621 Porto Facebook: https://www.facebook.com/share/19uDA5tg2P/ Instagram: https://www.instagram.com/reel/DfnVbuqjA5/ #TIMI #QuimBarreiros #TIMIPortugal #LançamentodeProduto",
+    "key_takeaways": [
+      "Terceiro evento de lançamento de produtos TIMI",
+      "Presença de Quim Barreiros",
+      "Data: 29 de novembro",
+      "Local: Vilar Oporto Hotel, Porto"
+    ]
+  },
+  {
+    "id": "INTEL-20261122-280",
+    "timestamp_published": "2026-11-22 23:19:08",
+    "date_str": "2026-11-22",
+    "time_str": "19:48",
+    "channel": "TIMI Mall",
+    "authority": "TIMI",
+    "content_type": "Campanha / Bónus / Recompensa",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Bónus de convite 2 USDT Prémios das 3 tentativas de sorteio 50 USDT 50 USDT 200 USDT Rendimento de hoje até agora 557 USDT Obrigado ao meu gestor e obrigado à empresa TIMI",
+    "key_takeaways": [
+      "Bónus de convite de 2 USDT",
+      "Prémios de sorteio: 50 USDT, 50 USDT, 200 USDT"
+    ]
+  },
+  {
+    "id": "INTEL-20261122-279",
+    "timestamp_published": "2026-11-22 23:19:08",
+    "date_str": "2026-11-22",
+    "time_str": "22:53",
+    "channel": "TIMI Mall",
+    "authority": "TIMI",
+    "content_type": "Campanha / Recompensa",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Boas notícias! Os parceiros que comprarem os novos produtos do TIMI Mall podem dirigir-se ao Centro de Experiência presencial da TIMI para receber gratuitamente um presente requisitado! O TIMI Mall abre apenas 600 vagas de compra por dia, quantidade limitada! Os parceiros que já concluíram a compra podem dirigir-se ao centro de experiência TIMI mais próximo para receber gratuitamente um presente; Os parceiros que já participaram também são bem-vindos a partilhar as informações da atividade com os amigos à sua volta, para que mais pessoas conheçam os novos produtos e benefícios do TIMI Mall!",
+    "key_takeaways": [
+      "Compre novos produtos TIMI Mall para receber presente grátis em Centro de Experiência",
+      "Limite de 600 vagas de compra por dia no TIMI Mall"
+    ]
+  },
+  {
     "id": "INTEL-20261122-278",
     "timestamp_published": "2026-11-22 23:12:40",
     "date_str": "2026-11-22",

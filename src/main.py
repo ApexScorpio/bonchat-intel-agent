@@ -129,9 +129,19 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
     except Exception as e:
         logger.warning(f"Document harvesting note: {e}")
 
-    # 1. Setup reader & find window
+    # 1. Setup reader & find window (prioridade absoluta à conta 928250447 que tem TODOS os grupos, com fallback)
     reader = BonChatReader(tesseract_cmd=cfg.get("tesseract_cmd"))
-    hwnd = reader.find_bonchat_window()
+    primary_exe = cfg.get("primary_account_exe") or r"S:\Users\lopes\AppData\Roaming\BonChat_Acc3_928250447\BonChat.exe"
+    hwnd = None
+    launched_primary_pid = None
+    if primary_exe and os.path.exists(primary_exe):
+        hwnd, launched_primary_pid = reader.find_bonchat_window_for_exe(primary_exe, auto_launch=True)
+        if hwnd:
+            logger.info(f"🎯 [CONTA PRINCIPAL] A usar conta prioritária ({os.path.basename(os.path.dirname(primary_exe))}, HWND {hwnd}).")
+        else:
+            logger.warning(f"⚠️ [FALLBACK] Conta prioritária ({primary_exe}) indisponível — a tentar outra janela BonChat...")
+    if not hwnd:
+        hwnd = reader.find_bonchat_window()
     if not hwnd:
         logger.error("Could not find BonChat window. Ensure BonChat is running on TIMI_GHOST.")
         return False
