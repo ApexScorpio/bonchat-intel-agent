@@ -10,17 +10,23 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261122-277` | 2026-11-22 N/A | `TIMI--NO.08` | TIMI Mall | Campanha | [Ver Anexo](#intel-20261122-277) |
 | `INTEL-20261122-263` | 2026-11-22 22:59 | `TIMI-68` | Theodore | Reunião | [Ver Anexo](#intel-20261122-263) |
 | `INTEL-20261122-264` | 2026-11-22 22:58 | `TIMI-68` | Theodore | Recompensa / Bónus | [Ver Anexo](#intel-20261122-264) |
 | `INTEL-20261122-262` | 2026-11-22 22:58 | `TIMI-68` | Theodore | Campanha | [Ver Anexo](#intel-20261122-262) |
 | `INTEL-20261122-265` | 2026-11-22 22:07 | `TIMI-68` | TIMI | Diretiva | [Ver Anexo](#intel-20261122-265) |
 | `INTEL-20261122-266` | 2026-11-22 21:57 | `TIMI-68` | Márcia Pereira (via Denis Cabral) | Aviso / Alteração de Regra | [Ver Anexo](#intel-20261122-266) |
+| `INTEL-20261122-273` | 2026-11-22 21:53 | `TIMI--NO.08` | TIMI Administrator | Aviso / Diretiva | [Ver Anexo](#intel-20261122-273) |
 | `INTEL-20261122-268` | 2026-11-22 21:45 | `TIMI-68` | Márcia Pereira | Aviso | [Ver Anexo](#intel-20261122-268) |
 | `INTEL-20261122-267` | 2026-11-22 21:44 | `TIMI-68` | Márcia Pereira | Aviso | [Ver Anexo](#intel-20261122-267) |
 | `INTEL-20261122-270` | 2026-11-22 21:42 | `TIMI-68` | Márcia Pereira | Diretiva | [Ver Anexo](#intel-20261122-270) |
 | `INTEL-20261122-269` | 2026-11-22 21:42 | `TIMI-68` | Márcia | Diretiva / Aviso | [Ver Anexo](#intel-20261122-269) |
+| `INTEL-20261122-274` | 2026-11-22 21:41 | `TIMI--NO.08` | Paula (TIMI Mall) | Diretiva / Campanha | [Ver Anexo](#intel-20261122-274) |
 | `INTEL-20261122-271` | 2026-11-22 21:41 | `TIMI-68` | Márcia Pereira | Diretiva | [Ver Anexo](#intel-20261122-271) |
 | `INTEL-20261122-272` | 2026-11-22 21:37 | `TIMI-68` | Márcia Pereira | Recompensa | [Ver Anexo](#intel-20261122-272) |
+| `INTEL-20261122-276` | 2026-11-22 21:22 | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261122-276) |
+| `INTEL-20261122-275` | 2026-11-22 21:19 | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261122-275) |
+| `INTEL-20261122-278` | 2026-11-22 16:37 | `TIMI--NO.08` | TIMI Mall — Administrador | Diretiva | [Ver Anexo](#intel-20261122-278) |
 | `INTEL-20261121-260` | 2026-11-21 N/A | `TIMI Mall` | TIMI Mall (Admin) | Campanha | [Ver Anexo](#intel-20261121-260) |
 | `INTEL-20261121-249` | 2026-11-21 N/A | `TIMI--NO.08` | TIMI oficial | Aviso Urgente | [Ver Anexo](#intel-20261121-249) |
 | `INTEL-20261121-248` | 2026-11-21 N/A | `TIMI--NO.08` | TIMI Mall | Campanha | [Ver Anexo](#intel-20261121-248) |
@@ -289,6 +295,24 @@
 
 ---
 
+### <a id="intel-20261122-277"></a>[INTEL-20261122-277] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Banner: TIMI MALL - Desconto de 20 a 25 de Novembro.
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha de desconto TIMI Mall
+- Válida de 20 a 25 de Novembro
+
+---
+
 ### <a id="intel-20261122-263"></a>[INTEL-20261122-263] — Reunião
 
 - **📅 Data de Publicação:** 2026-11-22
@@ -397,6 +421,25 @@ Quando as acaba as 600 vagas, a 00h abre de novo 600 vagas...
 
 ---
 
+### <a id="intel-20261122-273"></a>[INTEL-20261122-273] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 21:53
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Administrator`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Olá a todos os parceiros! 👋 As 600 vagas de hoje do Mall já estão preenchidas! ⚠️ Preparem antecipadamente o montante necessário para a compra 🛒 – após as 00h00 poderão voltar a comprar 🍓🍒 São disponibilizadas apenas 600 vagas por dia.
+```
+
+#### 💡 Pontos-Chave:
+- TIMI Mall tem um limite diário de 600 vagas para compras.
+- As vagas são repostas diariamente às 00h00.
+- Membros devem preparar o montante necessário antecipadamente para a compra.
+
+---
+
 ### <a id="intel-20261122-268"></a>[INTEL-20261122-268] — Aviso
 
 - **📅 Data de Publicação:** 2026-11-22
@@ -466,6 +509,24 @@ O valor em especie isto quer dizer que primeiro compram o produto do quem querem
 
 ---
 
+### <a id="intel-20261122-274"></a>[INTEL-20261122-274] — Diretiva / Campanha
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 21:41
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Paula (TIMI Mall)`
+- **🏷️ Categoria:** Diretiva / Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+as vagas para o produto de 250 acabaram por hoje. A meia noite em ponto abrem outras 600 vagas!
+```
+
+#### 💡 Pontos-Chave:
+- Vagas para o produto de 250 USDT esgotadas para hoje no TIMI Mall.
+- 600 novas vagas para o produto de 250 USDT abrem à meia-noite.
+
+---
+
 ### <a id="intel-20261122-271"></a>[INTEL-20261122-271] — Diretiva
 
 - **📅 Data de Publicação:** 2026-11-22
@@ -497,6 +558,59 @@ Márcia Pereira Parabéns Neuza Alexandra ganhas o segundo prémio de 60 U... Mu
 
 #### 💡 Pontos-Chave:
 - Neuza Alexandra ganhou um segundo prémio de 60 USDT.
+
+---
+
+### <a id="intel-20261122-276"></a>[INTEL-20261122-276] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 21:22
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Ao fim de semana, o departamento financeiro da empresa TIMI está de folga, por isso não precisam de se preocupar. Se pediste o levantamento dos fundos na quarta-feira, na segunda-feira já poderás recebê-los normalmente.
+```
+
+#### 💡 Pontos-Chave:
+- O departamento financeiro da empresa TIMI está de folga ao fim de semana.
+- Levantamentos solicitados à quarta-feira serão recebidos na segunda-feira seguinte.
+
+---
+
+### <a id="intel-20261122-275"></a>[INTEL-20261122-275] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 21:19
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Talvez todos tenham um mal-entendido. Na aplicação TIMI das bicicletas, não é possível ativar o equipamento ao fim de semana? Por isso, só há 5 dias úteis para obter rendimentos. Mas no TIMI Mall não existem fins de semana; por exemplo: se comprares a mochila agora, ao fim de 13 dias podes levantar os fundos de 314 USDT. Durante estes 13 dias, não precisas de te preocupar com os fins de semana, conseguem compreender?
+```
+
+#### 💡 Pontos-Chave:
+- Na aplicação TIMI (bicicletas), não é possível ativar equipamento ao fim de semana; rendimentos apenas em 5 dias úteis.
+- No TIMI Mall, os períodos de investimento incluem fins de semana (ex: investimento de 13 dias permite levantamento após 13 dias corridos).
+
+---
+
+### <a id="intel-20261122-278"></a>[INTEL-20261122-278] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 16:37
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Não é necessário o sinal '+'.
+```
+
+#### 💡 Pontos-Chave:
+- Ao inserir números de telefone, o sinal '+' não é necessário.
 
 ---
 

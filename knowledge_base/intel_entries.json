@@ -1,5 +1,101 @@
 [
   {
+    "id": "INTEL-20261122-278",
+    "timestamp_published": "2026-11-22 23:12:40",
+    "date_str": "2026-11-22",
+    "time_str": "16:37",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall — Administrador",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Não é necessário o sinal '+'.",
+    "key_takeaways": [
+      "Ao inserir números de telefone, o sinal '+' não é necessário."
+    ]
+  },
+  {
+    "id": "INTEL-20261122-277",
+    "timestamp_published": "2026-11-22 23:12:40",
+    "date_str": "2026-11-22",
+    "time_str": "N/A",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Banner: TIMI MALL - Desconto de 20 a 25 de Novembro.",
+    "key_takeaways": [
+      "Nova campanha de desconto TIMI Mall",
+      "Válida de 20 a 25 de Novembro"
+    ]
+  },
+  {
+    "id": "INTEL-20261122-276",
+    "timestamp_published": "2026-11-22 23:12:40",
+    "date_str": "2026-11-22",
+    "time_str": "21:22",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall — Administrador",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Ao fim de semana, o departamento financeiro da empresa TIMI está de folga, por isso não precisam de se preocupar. Se pediste o levantamento dos fundos na quarta-feira, na segunda-feira já poderás recebê-los normalmente.",
+    "key_takeaways": [
+      "O departamento financeiro da empresa TIMI está de folga ao fim de semana.",
+      "Levantamentos solicitados à quarta-feira serão recebidos na segunda-feira seguinte."
+    ]
+  },
+  {
+    "id": "INTEL-20261122-275",
+    "timestamp_published": "2026-11-22 23:12:40",
+    "date_str": "2026-11-22",
+    "time_str": "21:19",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall — Administrador",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Talvez todos tenham um mal-entendido. Na aplicação TIMI das bicicletas, não é possível ativar o equipamento ao fim de semana? Por isso, só há 5 dias úteis para obter rendimentos. Mas no TIMI Mall não existem fins de semana; por exemplo: se comprares a mochila agora, ao fim de 13 dias podes levantar os fundos de 314 USDT. Durante estes 13 dias, não precisas de te preocupar com os fins de semana, conseguem compreender?",
+    "key_takeaways": [
+      "Na aplicação TIMI (bicicletas), não é possível ativar equipamento ao fim de semana; rendimentos apenas em 5 dias úteis.",
+      "No TIMI Mall, os períodos de investimento incluem fins de semana (ex: investimento de 13 dias permite levantamento após 13 dias corridos)."
+    ]
+  },
+  {
+    "id": "INTEL-20261122-274",
+    "timestamp_published": "2026-11-22 23:12:40",
+    "date_str": "2026-11-22",
+    "time_str": "21:41",
+    "channel": "TIMI--NO.08",
+    "authority": "Paula (TIMI Mall)",
+    "content_type": "Diretiva / Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "as vagas para o produto de 250 acabaram por hoje. A meia noite em ponto abrem outras 600 vagas!",
+    "key_takeaways": [
+      "Vagas para o produto de 250 USDT esgotadas para hoje no TIMI Mall.",
+      "600 novas vagas para o produto de 250 USDT abrem à meia-noite."
+    ]
+  },
+  {
+    "id": "INTEL-20261122-273",
+    "timestamp_published": "2026-11-22 23:12:40",
+    "date_str": "2026-11-22",
+    "time_str": "21:53",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Administrator",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Olá a todos os parceiros! 👋 As 600 vagas de hoje do Mall já estão preenchidas! ⚠️ Preparem antecipadamente o montante necessário para a compra 🛒 – após as 00h00 poderão voltar a comprar 🍓🍒 São disponibilizadas apenas 600 vagas por dia.",
+    "key_takeaways": [
+      "TIMI Mall tem um limite diário de 600 vagas para compras.",
+      "As vagas são repostas diariamente às 00h00.",
+      "Membros devem preparar o montante necessário antecipadamente para a compra."
+    ]
+  },
+  {
     "id": "INTEL-20261122-272",
     "timestamp_published": "2026-11-22 23:05:58",
     "date_str": "2026-11-22",
