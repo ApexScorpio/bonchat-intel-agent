@@ -193,16 +193,24 @@ def parse_meeting_event(
                     date_explicit = True
                     break
 
-    # Extrair Hora
-    # Para remarcações ("passou das 20:00 para as 21:00"), pegar a ÚLTIMA hora mencionada
-    all_times = re.findall(r'(?:às|as|pelas|pela|hora|horário|horario|para\s+as)?\s*\b(\d{1,2})[:hH](\d{2})?\b', text_lower)
+    # Extrair Hora — EXIGE preposição ou formato explícito (às 20:00, pelas 20h, horário 20:00, 20h30, 20 horas)
+    # para NUNCA confundir timestamps de balões de chat (ex: '16:24', '16:36', '16:54') com hora de reunião!
+    explicit_colon = re.findall(
+        r'(?:às|as|ás|pelas|pela|horário|horario|hora(?:\s+de\s+portugal)?|para\s+as|início|inicio)\s*[:\-]?\s*(\d{1,2}):(\d{2})\b',
+        text_lower,
+    )
+    explicit_h = re.findall(
+        r'(?:às|as|ás|pelas|pela|para\s+as)?\s*\b(\d{1,2})[hH](\d{2})?\b',
+        text_lower,
+    )
     valid_times = []
-    for h_str, m_str in all_times:
+    for h_str, m_str in explicit_colon + explicit_h:
         h = int(h_str)
         m = int(m_str) if m_str else 0
         if 0 <= h <= 23 and 0 <= m <= 59:
-            # Evitar confundir "dia 20" sem : ou h (regex já exige : ou h)
-            valid_times.append((h, m))
+            # Reuniões reais ocorrem em múltiplos de 5 min (ignora ruído OCR/timestamps aleatórios como 16:24/16:36/16:54)
+            if m % 5 == 0:
+                valid_times.append((h, m))
 
     hour = None
     minute = 0

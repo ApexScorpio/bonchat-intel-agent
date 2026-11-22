@@ -1,5 +1,180 @@
 [
   {
+    "id": "INTEL-20261122-272",
+    "timestamp_published": "2026-11-22 23:05:58",
+    "date_str": "2026-11-22",
+    "time_str": "21:37",
+    "channel": "TIMI-68",
+    "authority": "Márcia Pereira",
+    "content_type": "Recompensa",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Márcia Pereira Parabéns Neuza Alexandra ganhas o segundo prémio de 60 U... Muitos Parabéns 🎉🎉",
+    "key_takeaways": [
+      "Neuza Alexandra ganhou um segundo prémio de 60 USDT."
+    ]
+  },
+  {
+    "id": "INTEL-20261122-271",
+    "timestamp_published": "2026-11-22 23:05:58",
+    "date_str": "2026-11-22",
+    "time_str": "21:41",
+    "channel": "TIMI-68",
+    "authority": "Márcia Pereira",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "As pessoas que ganharam deveram enviar mensagem ao theodore com o respetivo número que lhe calhou e o respetivo valor",
+    "key_takeaways": [
+      "Vencedores devem contactar Theodore com o número e valor ganhos."
+    ]
+  },
+  {
+    "id": "INTEL-20261122-270",
+    "timestamp_published": "2026-11-22 23:05:58",
+    "date_str": "2026-11-22",
+    "time_str": "21:42",
+    "channel": "TIMI-68",
+    "authority": "Márcia Pereira",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "O valor em espécie isto quer dizer que primeiro compram o produto do que querem gastar até esse valor e depois mandam foto e a respectiva factura",
+    "key_takeaways": [
+      "Clarificação sobre uso de 'valor em espécie': comprar produto até ao valor, enviar foto e fatura."
+    ]
+  },
+  {
+    "id": "INTEL-20261122-269",
+    "timestamp_published": "2026-11-22 23:05:58",
+    "date_str": "2026-11-22",
+    "time_str": "21:42",
+    "channel": "TIMI-68",
+    "authority": "Márcia",
+    "content_type": "Diretiva / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "O valor em especie isto quer dizer que primeiro compram o produto do quem querem gastar até esse valor e depos mandam foto e a respetiva factura",
+    "key_takeaways": [
+      "Processo para usar 'valor em espécie': comprar produto, gastar até o valor, enviar foto e fatura."
+    ]
+  },
+  {
+    "id": "INTEL-20261122-268",
+    "timestamp_published": "2026-11-22 23:05:58",
+    "date_str": "2026-11-22",
+    "time_str": "21:45",
+    "channel": "TIMI-68",
+    "authority": "Márcia Pereira",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Quando as acaba as 600 vagas, a 00h abre de novo 600 vagas por isso todos podem comprar.",
+    "key_takeaways": [
+      "Novas 600 vagas abrem à 00h",
+      "Disponibilidade condicionada ao esgotamento das vagas atuais"
+    ]
+  },
+  {
+    "id": "INTEL-20261122-267",
+    "timestamp_published": "2026-11-22 23:05:58",
+    "date_str": "2026-11-22",
+    "time_str": "21:44",
+    "channel": "TIMI-68",
+    "authority": "Márcia Pereira",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Não esquecer que ainda podem comprar o novo produto da TIMI MALL parceiros",
+    "key_takeaways": [
+      "Lembrete para comprar o novo produto TIMI MALL"
+    ]
+  },
+  {
+    "id": "INTEL-20261122-266",
+    "timestamp_published": "2026-11-22 23:05:58",
+    "date_str": "2026-11-22",
+    "time_str": "21:57",
+    "channel": "TIMI-68",
+    "authority": "Márcia Pereira (via Denis Cabral)",
+    "content_type": "Aviso / Alteração de Regra",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Quando as acaba as 600 vagas, a 00h abre de novo 600 vagas...",
+    "key_takeaways": [
+      "Novas 600 vagas são abertas às 00:00 quando as anteriores se esgotam."
+    ]
+  },
+  {
+    "id": "INTEL-20261122-265",
+    "timestamp_published": "2026-11-22 23:05:58",
+    "date_str": "2026-11-22",
+    "time_str": "22:07",
+    "channel": "TIMI-68",
+    "authority": "TIMI",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Se quiseres juntar-te à TIMI, mas não tiveres fundos disponíveis neste momento, o que deves fazer? Vai ao 6º Centro de Experiência; o Fernando ajudar-te-á a resolver este problema. Endereço:R. Amélia Rey Colaço 50C, 2790-017 Carnaxide, Endereço Google:https://share.google.com/m/m/nSSZnVpPzB57R Região: Lisboa.",
+    "key_takeaways": [
+      "Novo Centro de Experiência (6º) em Carnaxide, Lisboa, para apoio a novos membros sem fundos.",
+      "Contacto: Fernando. Endereço: R. Amélia Rey Colaço 50C, 2790-017 Carnaxide."
+    ]
+  },
+  {
+    "id": "INTEL-20261122-264",
+    "timestamp_published": "2026-11-22 23:05:58",
+    "date_str": "2026-11-22",
+    "time_str": "22:58",
+    "channel": "TIMI-68",
+    "authority": "Theodore",
+    "content_type": "Recompensa / Bónus",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Regras de recompensa por recrutamento:\nRecrutar com sucesso um membro T3 dá-te 1 oportunidade de sorteio.\nRecrutar com sucesso um membro T4 dá-te 3 oportunidades de sorteio, e o teu amigo recebe 1 oportunidade extra.\nRecrutar com sucesso um membro T5 dá-te 3 oportunidades de sorteio, e o teu amigo recebe 2 oportunidades extra.\nQuanto mais alto o nível do equipamento recrutado, mais oportunidades de sorteio ambos recebem!",
+    "key_takeaways": [
+      "Novas regras de recompensa por recrutamento.",
+      "Recrutamento T3: 1 oportunidade de sorteio para o recrutador.",
+      "Recrutamento T4: 3 oportunidades de sorteio para o recrutador, 1 extra para o recrutado.",
+      "Recrutamento T5: 3 oportunidades de sorteio para o recrutador, 2 extra para o recrutado."
+    ]
+  },
+  {
+    "id": "INTEL-20261122-263",
+    "timestamp_published": "2026-11-22 23:05:58",
+    "date_str": "2026-11-22",
+    "time_str": "22:59",
+    "channel": "TIMI-68",
+    "authority": "Theodore",
+    "content_type": "Reunião",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Aviso de reunião do grupo TIMI-68\nA reunião do grupo realiza-se amanhã, dia 23 de novembro, às 21:00 (hora de Portugal), para partilhar com todas as novidades mais recentes da empresa e as tendências futuras.\nContamos com a participação ativa de todos e pedimos que informem os membros da equipa atempadamente. Esta reunião",
+    "key_takeaways": [
+      "Reunião do grupo TIMI-68 amanhã, 23 de novembro, às 21:00 (hora de Portugal).",
+      "Objetivo: partilhar novidades da empresa e tendências futuras.",
+      "Participação ativa é encorajada."
+    ]
+  },
+  {
+    "id": "INTEL-20261122-262",
+    "timestamp_published": "2026-11-22 23:05:58",
+    "date_str": "2026-11-22",
+    "time_str": "22:58",
+    "channel": "TIMI-68",
+    "authority": "Theodore",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Campanha por tempo limitado TIMI MALL | 21 a 25 de novembro\nCada pessoa pode comprar no máximo 2 vezes, sem limite pelo histórico de compra do pacote de boas-vindas.\n- 250 USDT por vez, ciclo de 13 dias\n- Liquidação no vencimento: 314.025 USDT (capital incluído)\n- Por cada compra de um membro da tua equipa, recebes 25 USDT de comissão\n- Compra na loja de experiência e recebe uma lembrança\n- Levantamento apenas com 5% de taxa\nAtenção Limite de 600 por dia.\n*Interessados podem contactar diretamente o assistente*",
+    "key_takeaways": [
+      "Campanha TIMI MALL de 21 a 25 de novembro.",
+      "Custo: 250 USDT por vez, ciclo de 13 dias, liquidação de 314.025 USDT (capital incluído).",
+      "Comissão de 25 USDT por cada compra de membro da equipa.",
+      "Limite de 600 por dia, levantamento com 5% de taxa."
+    ]
+  },
+  {
     "id": "INTEL-20261121-261",
     "timestamp_published": "2026-11-21 23:23:39",
     "date_str": "2026-11-21",

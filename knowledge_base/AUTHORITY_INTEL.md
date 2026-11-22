@@ -10,6 +10,17 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261122-263` | 2026-11-22 22:59 | `TIMI-68` | Theodore | Reunião | [Ver Anexo](#intel-20261122-263) |
+| `INTEL-20261122-264` | 2026-11-22 22:58 | `TIMI-68` | Theodore | Recompensa / Bónus | [Ver Anexo](#intel-20261122-264) |
+| `INTEL-20261122-262` | 2026-11-22 22:58 | `TIMI-68` | Theodore | Campanha | [Ver Anexo](#intel-20261122-262) |
+| `INTEL-20261122-265` | 2026-11-22 22:07 | `TIMI-68` | TIMI | Diretiva | [Ver Anexo](#intel-20261122-265) |
+| `INTEL-20261122-266` | 2026-11-22 21:57 | `TIMI-68` | Márcia Pereira (via Denis Cabral) | Aviso / Alteração de Regra | [Ver Anexo](#intel-20261122-266) |
+| `INTEL-20261122-268` | 2026-11-22 21:45 | `TIMI-68` | Márcia Pereira | Aviso | [Ver Anexo](#intel-20261122-268) |
+| `INTEL-20261122-267` | 2026-11-22 21:44 | `TIMI-68` | Márcia Pereira | Aviso | [Ver Anexo](#intel-20261122-267) |
+| `INTEL-20261122-270` | 2026-11-22 21:42 | `TIMI-68` | Márcia Pereira | Diretiva | [Ver Anexo](#intel-20261122-270) |
+| `INTEL-20261122-269` | 2026-11-22 21:42 | `TIMI-68` | Márcia | Diretiva / Aviso | [Ver Anexo](#intel-20261122-269) |
+| `INTEL-20261122-271` | 2026-11-22 21:41 | `TIMI-68` | Márcia Pereira | Diretiva | [Ver Anexo](#intel-20261122-271) |
+| `INTEL-20261122-272` | 2026-11-22 21:37 | `TIMI-68` | Márcia Pereira | Recompensa | [Ver Anexo](#intel-20261122-272) |
 | `INTEL-20261121-260` | 2026-11-21 N/A | `TIMI Mall` | TIMI Mall (Admin) | Campanha | [Ver Anexo](#intel-20261121-260) |
 | `INTEL-20261121-249` | 2026-11-21 N/A | `TIMI--NO.08` | TIMI oficial | Aviso Urgente | [Ver Anexo](#intel-20261121-249) |
 | `INTEL-20261121-248` | 2026-11-21 N/A | `TIMI--NO.08` | TIMI Mall | Campanha | [Ver Anexo](#intel-20261121-248) |
@@ -275,6 +286,217 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20261122-263"></a>[INTEL-20261122-263] — Reunião
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 22:59
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Reunião
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Aviso de reunião do grupo TIMI-68
+A reunião do grupo realiza-se amanhã, dia 23 de novembro, às 21:00 (hora de Portugal), para partilhar com todas as novidades mais recentes da empresa e as tendências futuras.
+Contamos com a participação ativa de todos e pedimos que informem os membros da equipa atempadamente. Esta reunião
+```
+
+#### 💡 Pontos-Chave:
+- Reunião do grupo TIMI-68 amanhã, 23 de novembro, às 21:00 (hora de Portugal).
+- Objetivo: partilhar novidades da empresa e tendências futuras.
+- Participação ativa é encorajada.
+
+---
+
+### <a id="intel-20261122-264"></a>[INTEL-20261122-264] — Recompensa / Bónus
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 22:58
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Recompensa / Bónus
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Regras de recompensa por recrutamento:
+Recrutar com sucesso um membro T3 dá-te 1 oportunidade de sorteio.
+Recrutar com sucesso um membro T4 dá-te 3 oportunidades de sorteio, e o teu amigo recebe 1 oportunidade extra.
+Recrutar com sucesso um membro T5 dá-te 3 oportunidades de sorteio, e o teu amigo recebe 2 oportunidades extra.
+Quanto mais alto o nível do equipamento recrutado, mais oportunidades de sorteio ambos recebem!
+```
+
+#### 💡 Pontos-Chave:
+- Novas regras de recompensa por recrutamento.
+- Recrutamento T3: 1 oportunidade de sorteio para o recrutador.
+- Recrutamento T4: 3 oportunidades de sorteio para o recrutador, 1 extra para o recrutado.
+- Recrutamento T5: 3 oportunidades de sorteio para o recrutador, 2 extra para o recrutado.
+
+---
+
+### <a id="intel-20261122-262"></a>[INTEL-20261122-262] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 22:58
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Campanha por tempo limitado TIMI MALL | 21 a 25 de novembro
+Cada pessoa pode comprar no máximo 2 vezes, sem limite pelo histórico de compra do pacote de boas-vindas.
+- 250 USDT por vez, ciclo de 13 dias
+- Liquidação no vencimento: 314.025 USDT (capital incluído)
+- Por cada compra de um membro da tua equipa, recebes 25 USDT de comissão
+- Compra na loja de experiência e recebe uma lembrança
+- Levantamento apenas com 5% de taxa
+Atenção Limite de 600 por dia.
+*Interessados podem contactar diretamente o assistente*
+```
+
+#### 💡 Pontos-Chave:
+- Campanha TIMI MALL de 21 a 25 de novembro.
+- Custo: 250 USDT por vez, ciclo de 13 dias, liquidação de 314.025 USDT (capital incluído).
+- Comissão de 25 USDT por cada compra de membro da equipa.
+- Limite de 600 por dia, levantamento com 5% de taxa.
+
+---
+
+### <a id="intel-20261122-265"></a>[INTEL-20261122-265] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 22:07
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Se quiseres juntar-te à TIMI, mas não tiveres fundos disponíveis neste momento, o que deves fazer? Vai ao 6º Centro de Experiência; o Fernando ajudar-te-á a resolver este problema. Endereço:R. Amélia Rey Colaço 50C, 2790-017 Carnaxide, Endereço Google:https://share.google.com/m/m/nSSZnVpPzB57R Região: Lisboa.
+```
+
+#### 💡 Pontos-Chave:
+- Novo Centro de Experiência (6º) em Carnaxide, Lisboa, para apoio a novos membros sem fundos.
+- Contacto: Fernando. Endereço: R. Amélia Rey Colaço 50C, 2790-017 Carnaxide.
+
+---
+
+### <a id="intel-20261122-266"></a>[INTEL-20261122-266] — Aviso / Alteração de Regra
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 21:57
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Márcia Pereira (via Denis Cabral)`
+- **🏷️ Categoria:** Aviso / Alteração de Regra
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Quando as acaba as 600 vagas, a 00h abre de novo 600 vagas...
+```
+
+#### 💡 Pontos-Chave:
+- Novas 600 vagas são abertas às 00:00 quando as anteriores se esgotam.
+
+---
+
+### <a id="intel-20261122-268"></a>[INTEL-20261122-268] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 21:45
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Márcia Pereira`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Quando as acaba as 600 vagas, a 00h abre de novo 600 vagas por isso todos podem comprar.
+```
+
+#### 💡 Pontos-Chave:
+- Novas 600 vagas abrem à 00h
+- Disponibilidade condicionada ao esgotamento das vagas atuais
+
+---
+
+### <a id="intel-20261122-267"></a>[INTEL-20261122-267] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 21:44
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Márcia Pereira`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Não esquecer que ainda podem comprar o novo produto da TIMI MALL parceiros
+```
+
+#### 💡 Pontos-Chave:
+- Lembrete para comprar o novo produto TIMI MALL
+
+---
+
+### <a id="intel-20261122-270"></a>[INTEL-20261122-270] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 21:42
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Márcia Pereira`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+O valor em espécie isto quer dizer que primeiro compram o produto do que querem gastar até esse valor e depois mandam foto e a respectiva factura
+```
+
+#### 💡 Pontos-Chave:
+- Clarificação sobre uso de 'valor em espécie': comprar produto até ao valor, enviar foto e fatura.
+
+---
+
+### <a id="intel-20261122-269"></a>[INTEL-20261122-269] — Diretiva / Aviso
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 21:42
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Márcia`
+- **🏷️ Categoria:** Diretiva / Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+O valor em especie isto quer dizer que primeiro compram o produto do quem querem gastar até esse valor e depos mandam foto e a respetiva factura
+```
+
+#### 💡 Pontos-Chave:
+- Processo para usar 'valor em espécie': comprar produto, gastar até o valor, enviar foto e fatura.
+
+---
+
+### <a id="intel-20261122-271"></a>[INTEL-20261122-271] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 21:41
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Márcia Pereira`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+As pessoas que ganharam deveram enviar mensagem ao theodore com o respetivo número que lhe calhou e o respetivo valor
+```
+
+#### 💡 Pontos-Chave:
+- Vencedores devem contactar Theodore com o número e valor ganhos.
+
+---
+
+### <a id="intel-20261122-272"></a>[INTEL-20261122-272] — Recompensa
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 21:37
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Márcia Pereira`
+- **🏷️ Categoria:** Recompensa
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Márcia Pereira Parabéns Neuza Alexandra ganhas o segundo prémio de 60 U... Muitos Parabéns 🎉🎉
+```
+
+#### 💡 Pontos-Chave:
+- Neuza Alexandra ganhou um segundo prémio de 60 USDT.
 
 ---
 
