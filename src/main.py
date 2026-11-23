@@ -102,6 +102,62 @@ def sync_to_github(commit_msg: str = "chore(intel): auto-sync intelligence and d
     except Exception as e:
         logging.getLogger("GitSync").warning(f"Erro ao sincronizar com GitHub: {e}")
 
+def _start_liveview_for_intel(logger):
+    """Arranca o LiveView (daemon + bridges Ghost) antes do Intel Agent trabalhar."""
+    try:
+        timi_code = r"S:\Users\lopes\Documents\TIMI_FIELD_WORKSPACE\code"
+        if os.path.isdir(timi_code) and timi_code not in sys.path:
+            sys.path.insert(0, timi_code)
+        from timi_liveview_guard import ensure_liveview_subsystem_ready
+        st = ensure_liveview_subsystem_ready(auto_start=True)
+        logger.info(f"🖥️ [LIVEVIEW] Pronto={st.get('ready')} | HTTP_8088={st.get('http_8088')} | BONCHAT={st.get('bonchat_bridge')}")
+    except Exception as e:
+        logger.warning(f"Aviso ao arrancar LiveView para Intel Agent: {e}")
+
+
+def _cleanup_liveview_after_intel(logger, launched_pid=None):
+    """Fecha BonChat + stack LiveView ao terminar o Intel Agent, se Maestro/Guardian não estiverem ativos."""
+    try:
+        import psutil
+        active_other = False
+        for p in psutil.process_iter(["name", "cmdline"]):
+            try:
+                if "python" in (p.info.get("name") or "").lower():
+                    cmd = " ".join(str(c) for c in (p.info.get("cmdline") or [])).lower()
+                    if any(k in cmd for k in ("maestro_timi.py", "timi_guardian.py", "codigo timi -")):
+                        active_other = True
+                        break
+            except Exception:
+                continue
+        if active_other:
+            logger.info("🛡️ [POUPANÇA] Maestro/Guardian ativo — a manter BonChat/LiveView ligados.")
+            return
+        lv_targets = (
+            "liveview_direct_ghost_bridge.py",
+            "liveview_browser_ghost_bridge.py",
+            "timi_capture_persistent.py",
+            "liveview_daemon.py",
+        )
+        closed = 0
+        for p in psutil.process_iter(["pid", "name", "cmdline"]):
+            try:
+                name = (p.info.get("name") or "").lower()
+                if name == "bonchat.exe":
+                    p.terminate()
+                    closed += 1
+                elif "python" in name:
+                    cmd = " ".join(str(c) for c in (p.info.get("cmdline") or [])).lower()
+                    if any(t in cmd for t in lv_targets):
+                        p.terminate()
+                        closed += 1
+            except Exception:
+                continue
+        if closed:
+            logger.info(f"💤 [POUPANÇA] Encerrados {closed} processo(s) BonChat/LiveView após Intel Agent.")
+    except Exception as e:
+        logger.debug(f"Cleanup after intel note: {e}")
+
+
 def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_channel: str = None, deep_extract: bool = False) -> bool:
     logger = logging.getLogger("MainOrchestrator")
     logger.info(f"=== Starting BonChat Intelligence Run: Shift={shift_label}, DeepExtract={deep_extract} ===")
@@ -118,6 +174,9 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
             f"A execução do BonChat Intel Agent foi cancelada para evitar sobreposição de scripts."
         )
         return False
+
+    # 0.0 Arrancar LiveView sempre que o Intel Agent vai trabalhar
+    _start_liveview_for_intel(logger)
 
     cfg = load_config()
 
@@ -327,6 +386,7 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
         print("\n" + "="*50)
         print(full_digest)
         print("="*50 + "\n")
+        _cleanup_liveview_after_intel(logger, launched_pid=launched_primary_pid)
         return True
 
     telegram = TelegramNotifier(
@@ -335,6 +395,7 @@ def run_agent(shift_label: str = "MANUAL", dry_run: bool = False, specific_chann
     )
     sent = telegram.send_message(full_digest)
     logger.info(f"Telegram notification sent: {sent}")
+    _cleanup_liveview_after_intel(logger, launched_pid=launched_primary_pid)
     return sent
 
 def main():
