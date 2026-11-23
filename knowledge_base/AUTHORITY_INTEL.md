@@ -11,6 +11,8 @@
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
 | `INTEL-20261123-289` | 2026-11-23 N/A | `TIMI-68` | TIMI oficial | Aviso | [Ver Anexo](#intel-20261123-289) |
+| `INTEL-20261123-298` | 2026-11-23 23:08 | `TIMI--NO.08` | Theodore | Regras / Bónus | [Ver Anexo](#intel-20261123-298) |
+| `INTEL-20261123-297` | 2026-11-23 23:08 | `TIMI--NO.08` | Theodore | Campanha | [Ver Anexo](#intel-20261123-297) |
 | `INTEL-20261123-288` | 2026-11-23 23:01 | `TIMI-68` | Theodore (via Evgenia) | Diretiva / Aviso | [Ver Anexo](#intel-20261123-288) |
 | `INTEL-20261123-292` | 2026-11-23 22:10 | `TIMI-68` | TIMI-68 (Mensagem de Grupo) | Aviso Urgente | [Ver Anexo](#intel-20261123-292) |
 | `INTEL-20261123-291` | 2026-11-23 22:10 | `TIMI-68` | Mikail | Campanha | [Ver Anexo](#intel-20261123-291) |
@@ -18,7 +20,18 @@
 | `INTEL-20261123-294` | 2026-11-23 22:05 | `TIMI-68` | Elena Marjineanu / Theodore | Aviso / Campanha | [Ver Anexo](#intel-20261123-294) |
 | `INTEL-20261123-296` | 2026-11-23 22:04 | `TIMI-68` | Theodore (via Gku) | Reunião / Campanha / Diretiva | [Ver Anexo](#intel-20261123-296) |
 | `INTEL-20261123-295` | 2026-11-23 22:04 | `TIMI-68` | TIMI Oficial | Sorteio / Recompensa | [Ver Anexo](#intel-20261123-295) |
+| `INTEL-20261123-306` | 2026-11-23 19:00 | `TIMI--NO.08` | Aline (Agente Nível 2 TIMI) | Reunião / Live | [Ver Anexo](#intel-20261123-306) |
+| `INTEL-20261123-302` | 2026-11-23 18:18 | `TIMI--NO.08` | Aline | Reunião / Live | [Ver Anexo](#intel-20261123-302) |
+| `INTEL-20261123-301` | 2026-11-23 18:12 | `TIMI--NO.08` | Theodore | Diretiva / Aviso Urgente | [Ver Anexo](#intel-20261123-301) |
+| `INTEL-20261123-304` | 2026-11-23 18:05 | `TIMI--NO.08` | Theodore | Diretiva / Aviso | [Ver Anexo](#intel-20261123-304) |
+| `INTEL-20261123-305` | 2026-11-23 17:58 | `TIMI--NO.08` | Theodore | Aviso / Diretiva | [Ver Anexo](#intel-20261123-305) |
+| `INTEL-20261123-300` | 2026-11-23 15:42 | `TIMI--NO.08` | Theodore | Live Obrigatória | [Ver Anexo](#intel-20261123-300) |
+| `INTEL-20261123-303` | 2026-11-23 15:21 | `TIMI--NO.08` | Theodore | Diretiva / Aviso | [Ver Anexo](#intel-20261123-303) |
+| `INTEL-20261123-307` | 2026-11-23 14:08 | `TIMI--NO.08` | Theodore | Diretiva | [Ver Anexo](#intel-20261123-307) |
+| `INTEL-20261123-308` | 2026-11-23 11:09 | `TIMI--NO.08` | Theodore | Diretiva | [Ver Anexo](#intel-20261123-308) |
+| `INTEL-20261123-299` | 2026-11-23 10:20 | `TIMI--NO.08` | Theodore | Reunião / Campanha | [Ver Anexo](#intel-20261123-299) |
 | `INTEL-20261123-290` | 2026-11-23 10:17 | `TIMI-68` | TIMIatualizou | Aviso / Diretiva | [Ver Anexo](#intel-20261123-290) |
+| `INTEL-20261123-320` | 2026-11-22 N/A | `TIMI--NO.08` | Theodore | Diretiva / Aviso Urgente | [Ver Anexo](#intel-20261123-320) |
 | `INTEL-20261122-281` | 2026-11-22 N/A | `TIMI Mall` | Francisco | Aviso | [Ver Anexo](#intel-20261122-281) |
 | `INTEL-20261122-277` | 2026-11-22 N/A | `TIMI--NO.08` | TIMI Mall | Campanha | [Ver Anexo](#intel-20261122-277) |
 | `INTEL-20261122-263` | 2026-11-22 22:59 | `TIMI-68` | Theodore | Reunião | [Ver Anexo](#intel-20261122-263) |
@@ -37,14 +50,24 @@
 | `INTEL-20261122-272` | 2026-11-22 21:37 | `TIMI-68` | Márcia Pereira | Recompensa | [Ver Anexo](#intel-20261122-272) |
 | `INTEL-20261122-276` | 2026-11-22 21:22 | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261122-276) |
 | `INTEL-20261122-275` | 2026-11-22 21:19 | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso / Diretiva | [Ver Anexo](#intel-20261122-275) |
+| `INTEL-20261123-312` | 2026-11-22 20:46 | `TIMI--NO.08` | Theodore | Diretiva | [Ver Anexo](#intel-20261123-312) |
+| `INTEL-20261123-311` | 2026-11-22 20:46 | `TIMI--NO.08` | Theodore | Diretiva | [Ver Anexo](#intel-20261123-311) |
+| `INTEL-20261123-310` | 2026-11-22 20:02 | `TIMI--NO.08` | Theodore | Aviso / Diretiva | [Ver Anexo](#intel-20261123-310) |
 | `INTEL-20261122-280` | 2026-11-22 19:48 | `TIMI Mall` | TIMI | Campanha / Bónus / Recompensa | [Ver Anexo](#intel-20261122-280) |
+| `INTEL-20261123-316` | 2026-11-22 19:43 | `TIMI--NO.08` | Theodore | Reunião | [Ver Anexo](#intel-20261123-316) |
+| `INTEL-20261123-313` | 2026-11-22 19:43 | `TIMI--NO.08` | Theodore | Reunião | [Ver Anexo](#intel-20261123-313) |
+| `INTEL-20261123-315` | 2026-11-22 19:19 | `TIMI--NO.08` | Rui Santos | Reunião / Aviso Urgente | [Ver Anexo](#intel-20261123-315) |
+| `INTEL-20261123-314` | 2026-11-22 19:12 | `TIMI--NO.08` | Theodore | Diretiva / Aviso Urgente | [Ver Anexo](#intel-20261123-314) |
 | `INTEL-20261122-282` | 2026-11-22 18:41 | `TIMI Mall` | M_aA / Francisco | Aviso / Reunião / Diretiva | [Ver Anexo](#intel-20261122-282) |
 | `INTEL-20261122-283` | 2026-11-22 18:38 | `TIMI Mall` | TIMI oficial | Diretiva | [Ver Anexo](#intel-20261122-283) |
 | `INTEL-20261122-284` | 2026-11-22 18:25 | `TIMI Mall` | M__a | Reunião / Evento | [Ver Anexo](#intel-20261122-284) |
 | `INTEL-20261122-285` | 2026-11-22 18:09 | `TIMI Mall` | Gervásio | Campanha / Sorteio / Diretiva | [Ver Anexo](#intel-20261122-285) |
 | `INTEL-20261122-286` | 2026-11-22 17:48 | `TIMI Mall` | Gervásio | Campanha / Sorteio | [Ver Anexo](#intel-20261122-286) |
 | `INTEL-20261122-287` | 2026-11-22 17:40 | `TIMI Mall` | Gervasio | Diretiva / Regra de Sorteio | [Ver Anexo](#intel-20261122-287) |
+| `INTEL-20261123-318` | 2026-11-22 17:13 | `TIMI--NO.08` | Theodore | Diretiva / Aviso | [Ver Anexo](#intel-20261123-318) |
+| `INTEL-20261123-317` | 2026-11-22 17:13 | `TIMI--NO.08` | Theodore | Diretiva / Aviso | [Ver Anexo](#intel-20261123-317) |
 | `INTEL-20261122-278` | 2026-11-22 16:37 | `TIMI--NO.08` | TIMI Mall — Administrador | Diretiva | [Ver Anexo](#intel-20261122-278) |
+| `INTEL-20261123-319` | 2026-11-22 16:16 | `TIMI--NO.08` | Theodore | Reunião | [Ver Anexo](#intel-20261123-319) |
 | `INTEL-20261121-260` | 2026-11-21 N/A | `TIMI Mall` | TIMI Mall (Admin) | Campanha | [Ver Anexo](#intel-20261121-260) |
 | `INTEL-20261121-249` | 2026-11-21 N/A | `TIMI--NO.08` | TIMI oficial | Aviso Urgente | [Ver Anexo](#intel-20261121-249) |
 | `INTEL-20261121-248` | 2026-11-21 N/A | `TIMI--NO.08` | TIMI Mall | Campanha | [Ver Anexo](#intel-20261121-248) |
@@ -69,6 +92,7 @@
 | `INTEL-20261121-251` | 2026-11-21 18:43 | `TIMI--NO.08` | Yolanda — Administrador | Diretiva | [Ver Anexo](#intel-20261121-251) |
 | `INTEL-20261121-261` | 2026-11-21 17:45 | `TIMI Mall` | TIMI Mall (Administrador) | Campanha / Recompensa | [Ver Anexo](#intel-20261121-261) |
 | `INTEL-20261121-252` | 2026-11-21 17:45 | `TIMI--NO.08` | TIMI Mall — Administrador | Aviso / Recompensa | [Ver Anexo](#intel-20261121-252) |
+| `INTEL-20261123-309` | 2026-11-21 11:03 | `TIMI--NO.08` | Theodore | Campanha / Aviso | [Ver Anexo](#intel-20261123-309) |
 | `INTEL-20261120-223` | 2026-11-20 N/A | `TIMI Mall` | TIMI | Aviso | [Ver Anexo](#intel-20261120-223) |
 | `INTEL-20261120-222` | 2026-11-20 N/A | `TIMI Mall` | TIMI Mall | Campanha | [Ver Anexo](#intel-20261120-222) |
 | `INTEL-20261120-220` | 2026-11-20 N/A | `TIMI Mall` | TIMI | Campanha | [Ver Anexo](#intel-20261120-220) |
@@ -331,6 +355,58 @@ Também foi mencionada a regra dos 70 pontos e o possível impacto que uma pontu
 
 ---
 
+### <a id="intel-20261123-298"></a>[INTEL-20261123-298] — Regras / Bónus
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 23:08
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Regras / Bónus
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Regras de recompensa por recrutamento:
+Recrutar com sucesso um membro T3 dá-te 1 oportunidade de sorteio.
+Recrutar com sucesso um membro T4 dá-te 3 oportunidades de sorteio, e o teu amigo recebe 1 oportunidade extra.
+Recrutar com sucesso um membro T5 dá-te 3 oportunidades de sorteio, e o teu amigo recebe 2 oportunidades extra.
+Quanto mais alto o nível do equipamento recrutado, mais oportunidades de sorteio ambos recebem!
+```
+
+#### 💡 Pontos-Chave:
+- Novas regras de recompensa por recrutamento para oportunidades de sorteio.
+- Recrutamento T3 concede 1 oportunidade de sorteio.
+- Recrutamento T4 concede 3 oportunidades ao recrutador e 1 extra ao amigo.
+- Recrutamento T5 concede 3 oportunidades ao recrutador e 2 extras ao amigo.
+
+---
+
+### <a id="intel-20261123-297"></a>[INTEL-20261123-297] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 23:08
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Campanha por tempo limitado TIMI MALL | 21 a 25 de novembro
+Cada pessoa pode comprar no máximo 2 vezes, sem limite pelo histórico de compra do pacote de boas-vindas.
+- 250 USDT por vez, ciclo de 13 dias
+- Liquidação no vencimento: 314.025 USDT (capital incluído)
+- Por cada compra de um membro da tua equipa, recebes 25 USDT de comissão
+- Compra na loja de experiência e recebe uma lembrança
+- Levantamento apenas com 5% de taxa
+Atenção ⚠️ Limite de 600 por dia.
+*Interessados podem contactar diretamente o assistente*
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha TIMI MALL ativa de 21 a 25 de novembro.
+- Permite até 2 compras de 250 USDT, com ciclo de 13 dias e liquidação de 314.025 USDT.
+- Oferece 25 USDT de comissão por cada compra de membro da equipa.
+- Limite diário de 600 e taxa de levantamento de 5%.
+
+---
+
 ### <a id="intel-20261123-288"></a>[INTEL-20261123-288] — Diretiva / Aviso
 
 - **📅 Data de Publicação:** 2026-11-23
@@ -457,6 +533,187 @@ Código de resgate
 
 ---
 
+### <a id="intel-20261123-306"></a>[INTEL-20261123-306] — Reunião / Live
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 19:00
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Aline (Agente Nível 2 TIMI)`
+- **🏷️ Categoria:** Reunião / Live
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+E JÁ AMANHÃ É A CONVERSA COM A ALINE! A partir de 23 de novembro, estarei em direto no TikTok todos os dias, das 19h às 20h, para falar sobre a TIMI. Vamos abordar a empresa, equipamentos, projetos, novidades e esclarecer as vossas dúvidas. A tua participação é importante! Traz as tuas perguntas e vem conversar connosco! TikTok: Aline - Agente Nível 2 TIMI Conto contigo!
+```
+
+#### 💡 Pontos-Chave:
+- Live diária com Aline no TikTok
+- A partir de 23/11, das 19h às 20h
+- Tópicos: empresa, equipamentos, projetos, novidades e dúvidas sobre TIMI
+
+---
+
+### <a id="intel-20261123-302"></a>[INTEL-20261123-302] — Reunião / Live
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 18:18
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Aline`
+- **🏷️ Categoria:** Reunião / Live
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A PARTIR DE HOJE! Hoje, dia 23 de novembro, damos início a uma nova iniciativa: A Conversa com a Aline! Todos os dias, das 19h às 20h, teremos uma LIVE dedicada à TIMI onde vamos falar sobre a empresa, equipamentos, projetos, novidades, oportunidades e muito mais! Quero contar com a vossa participação! Tragam as vossas dúvidas. Façam perguntas. Partilhem sugestões e opiniões. Participem na conversa! Todos os dias teremos temas diferentes e um espaço aberto para esclarecer, informar e trocar ideias. Não fiquem apenas a assistir... INTERAJAM! Esta conversa também é vossa! Todos os dias Das 19h às 20h Na nossa página de TikTok Conto convosco! Vamos estar À Conversa?
+```
+
+#### 💡 Pontos-Chave:
+- Nova live diária 'A Conversa com a Aline' inicia hoje, 23/11.
+- Ocorre diariamente das 19h às 20h na página de TikTok da TIMI.
+
+---
+
+### <a id="intel-20261123-301"></a>[INTEL-20261123-301] — Diretiva / Aviso Urgente
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 18:12
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva / Aviso Urgente
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Aviso à equipa de agentes Solicita-se a todos os agentes que se vistam de forma formal, usem o cartão de identificação e gravem um vídeo-convite para a conferência de imprensa de lançamento dos produtos TIMI. Sugestão de conteúdo para o vídeo: Olá a todos, sou o/a XXX e atualmente sou agente TIMI na região de XXX. A TIMI vai realizar a sua terceira conferência de imprensa de produtos no dia 29 de novembro, no Viar Oporto Hotel, no Porto. Convido cordialmente todos a virem participar e a testemunhar connosco o desenvolvimento da mobilidade verde da TIMI! Peço a todos que se preparem com atenção, mantenham uma aparência cuidada, e que a expressão no vídeo seja natural e confiante, mostrando a boa imagem da equipa.
+```
+
+#### 💡 Pontos-Chave:
+- Agentes devem gravar vídeo-convite formal (com ID) para a conferência de imprensa
+- Conferência de imprensa: 29 de novembro, Viar Oporto Hotel, Porto
+
+---
+
+### <a id="intel-20261123-304"></a>[INTEL-20261123-304] — Diretiva / Aviso
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 18:05
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva / Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Ultimamente muitos membros não participam nas reuniões nem respondem às mensagens. Cada uma das vossas equipas precisa de perceber a situação e resolver este problema. Se precisarem da minha ajuda, digam-me a qualquer momento. Mas também espero que todos tenham um pouco de respeito mútuo. Pelo menos, mantenham uma comunicação básica.
+```
+
+#### 💡 Pontos-Chave:
+- Baixa participação em reuniões e comunicação
+- Equipes devem resolver o problema
+- Manter comunicação básica e respeito mútuo
+
+---
+
+### <a id="intel-20261123-305"></a>[INTEL-20261123-305] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 17:58
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Todos devem considerar uma questão: os rendimentos da loja online podem ser levantados juntamente com o capital.
+```
+
+#### 💡 Pontos-Chave:
+- Rendimentos da loja online podem ser levantados com o capital
+
+---
+
+### <a id="intel-20261123-300"></a>[INTEL-20261123-300] — Live Obrigatória
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 15:42
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Live Obrigatória
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Das 19h às 20h Na nossa página de TikTok Conto convosco! Vamos estar À Conversa? 💚💛
+```
+
+#### 💡 Pontos-Chave:
+- Live 'À Conversa' na página TikTok
+- Horário: 19:00 às 20:00
+
+---
+
+### <a id="intel-20261123-303"></a>[INTEL-20261123-303] — Diretiva / Aviso
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 15:21
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva / Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Aviso à equipa de agentes Solícita-se a todos os agentes que se vistam de forma formal, usem o cartão de identificação e gravem um vídeo-convite para a conferência de imprensa de lançamento dos produtos TIMI. Sugestão de conteúdo para o vídeo: Olá a todos, sou o/a XXX e atualmente sou agente TIMI na região de XXX. A TIMI vai realizar a sua terceira conferência de imprensa de produtos no dia 29 de novembro, no Vilar Oporto Hotel, no Porto. Convido cordialmente todos a virem participar e a testemunhar connosco o desenvolvimento da mobilidade verde da TIMI! Peço a todos que se preparem com atenção, mantenham uma aparência cuidada, e que a expressão no vídeo seja natural e confiante, mostrando a boa imagem da equipa.
+```
+
+#### 💡 Pontos-Chave:
+- Agentes devem preparar-se para a 3ª conferência de imprensa de produtos TIMI a 29 de novembro no Vilar Oporto Hotel, Porto.
+- Requisitos: vestuário formal, uso de cartão de identificação, gravação de vídeo-convite.
+
+---
+
+### <a id="intel-20261123-307"></a>[INTEL-20261123-307] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 14:08
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Bom dia a todos! Neste momento, ainda há bastantes parceiros que não compraram o pacote de ciclismo. Gostaria de pedir a todos que me ajudassem a perceber os motivos concretos: é por não gostarem do produto, ou por acharem que o rendimento não corresponde às expectativas, ou por terem outras dúvidas? Peço que recolham o feedback com sinceridade. Vou organizar tudo e depois transmitir à empresa, para ver se há algo que precise de ser melhorado. Além disso, lembrem-se: a compra é totalmente voluntária, não forcem ninguém. Só precisamos de conhecer as opiniões verdadeiras e manter uma boa comunicação.
+```
+
+#### 💡 Pontos-Chave:
+- Recolher feedback sincero sobre o pacote de ciclismo (motivos de não compra, rendimento, dúvidas).
+- Reforçar que a compra é voluntária e não forçar ninguém.
+
+---
+
+### <a id="intel-20261123-308"></a>[INTEL-20261123-308] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 11:09
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A excelente agente Micaela, de Portimão, partilhou o plano de crescimento de elite nesta atividade presencial. Vejam juntos como ela explica e partilha a experiência, e espero que todos aprendam uns com os outros, troquem ideias e apliquem as boas experiências nas vossas próprias equipas!
+```
+
+#### 💡 Pontos-Chave:
+- Rever e aplicar o plano de crescimento de elite partilhado pela agente Micaela.
+- Incentivo a aprender, trocar ideias e aplicar boas práticas nas equipas.
+
+---
+
+### <a id="intel-20261123-299"></a>[INTEL-20261123-299] — Reunião / Campanha
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 10:20
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Reunião / Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Já avisaram todos os membros da equipa para participarem pontualmente na reunião desta noite? Esta noite vou preparar duas recompensas de sorte para todos participarem na compra! Peço também aos gestores que transmitam uns aos outros e lembrem os membros da equipa de participarem ativamente na reunião, de estarem online pontualmente e de não perderem o conteúdo e as recompensas!
+```
+
+#### 💡 Pontos-Chave:
+- Reunião obrigatória esta noite
+- Duas recompensas de sorte para participantes na 'compra'
+
+---
+
 ### <a id="intel-20261123-290"></a>[INTEL-20261123-290] — Aviso / Diretiva
 
 - **📅 Data de Publicação:** 2026-11-23
@@ -472,6 +729,25 @@ Regra citada: menos de 70 pontos pode afetar rendimentos do equipamento, e as au
 #### 💡 Pontos-Chave:
 - Presença em reuniões abaixo de 70 pontos pode afetar rendimentos do equipamento.
 - Ausências em reuniões devem ser comunicadas com antecedência.
+
+---
+
+### <a id="intel-20261123-320"></a>[INTEL-20261123-320] — Diretiva / Aviso Urgente
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva / Aviso Urgente
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Boa tarde a todos! Peço aos agentes que transmitam uns aos outros que a reunião de agentes de hoje à noite deve ser comparecida pontualmente e com colaboração ativa. O departamento administrativo estará presente durante toda a reunião, para aprender e fazer o balanço em conjunto. Os agentes que faltarem sem justificação ou que saírem depois de enviar mensagens serão penalizados com dedução de pontos, conforme as regras. Espero que os agentes da minha equipa valorizem a reunião, participem ativamente e demonstrem sentido de responsabilidade e capacidade de execução da equipa!
+```
+
+#### 💡 Pontos-Chave:
+- Reunião obrigatória e pontual
+- Colaboração ativa esperada
+- Penalização (dedução de pontos) por ausência injustificada ou saída antecipada da reunião
 
 ---
 
@@ -815,6 +1091,57 @@ Talvez todos tenham um mal-entendido. Na aplicação TIMI das bicicletas, não �
 
 ---
 
+### <a id="intel-20261123-312"></a>[INTEL-20261123-312] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 20:46
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Nas reuniões já foi dito muitas vezes; a recompensa é distribuída de acordo com a contribuição real e as regras da empresa, para quem realmente participou no apoio e na ajuda. O facto de seres o convidador não significa que a recompensa tenha de ser obrigatoriamente tua.
+```
+
+#### 💡 Pontos-Chave:
+- Recompensas são distribuídas com base na contribuição real e regras da empresa, não apenas por ser o convidado.
+
+---
+
+### <a id="intel-20261123-311"></a>[INTEL-20261123-311] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 20:46
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Como agente, quando apoias um membro a tornar-se Elite S, não devias comunicar e reportar previamente ao gerente? Ou o gerente tem de adivinhar quem se vai tornar Elite S e depois ir ativamente enviar-te a recompensa?
+```
+
+#### 💡 Pontos-Chave:
+- Agentes devem comunicar e reportar proativamente ao gerente quando um membro se tornar Elite S para garantir o bónus.
+
+---
+
+### <a id="intel-20261123-310"></a>[INTEL-20261123-310] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 20:02
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Ainda há muitos agentes que não participaram na reunião. Vão avisar uns aos outros. Quem não participar na reunião e não avisar antecipadamente terá 20 pontos deduzidos e o salário de agente suspenso.
+```
+
+#### 💡 Pontos-Chave:
+- Agentes que faltarem a reuniões obrigatórias sem aviso prévio terão 20 pontos deduzidos e salário suspenso.
+
+---
+
 ### <a id="intel-20261122-280"></a>[INTEL-20261122-280] — Campanha / Bónus / Recompensa
 
 - **📅 Data de Publicação:** 2026-11-22
@@ -830,6 +1157,80 @@ Bónus de convite 2 USDT Prémios das 3 tentativas de sorteio 50 USDT 50 USDT 20
 #### 💡 Pontos-Chave:
 - Bónus de convite de 2 USDT
 - Prémios de sorteio: 50 USDT, 50 USDT, 200 USDT
+
+---
+
+### <a id="intel-20261123-316"></a>[INTEL-20261123-316] — Reunião
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 19:43
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Reunião
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A reunião de agentes é já a seguir. Estão todos prontos para participar na reunião de agentes?
+```
+
+#### 💡 Pontos-Chave:
+- Reunião de agentes iminente
+
+---
+
+### <a id="intel-20261123-313"></a>[INTEL-20261123-313] — Reunião
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 19:43
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Reunião
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A reunião de agentes é já a seguir: Estão todos prontos para participar na reunião de agentes?
+```
+
+#### 💡 Pontos-Chave:
+- Reunião obrigatória de agentes
+- Início iminente
+
+---
+
+### <a id="intel-20261123-315"></a>[INTEL-20261123-315] — Reunião / Aviso Urgente
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 19:19
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Rui Santos`
+- **🏷️ Categoria:** Reunião / Aviso Urgente
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Avisa todos para participarem pontualmente na reunião de agentes desta noite. O departamento administrativo também vai participar na reunião. Não deixem que vos tirem pontos.
+```
+
+#### 💡 Pontos-Chave:
+- Reunião de agentes esta noite
+- Participação pontual obrigatória
+- Departamento administrativo presente
+- Risco de perda de pontos por não participação/pontualidade
+
+---
+
+### <a id="intel-20261123-314"></a>[INTEL-20261123-314] — Diretiva / Aviso Urgente
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 19:12
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva / Aviso Urgente
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Caros agentes, o salário já foi pago, por favor verifiquem-no atempadamente. Após receberem o salário, enviem a captura de ecrã da chegada à conta para o grupo, para facilitar a verificação e a contagem uniformes. Agradecemos a vossa colaboração!
+```
+
+#### 💡 Pontos-Chave:
+- Salário pago
+- Verificar recebimento atempadamente
+- Enviar captura de ecrã da chegada do salário ao grupo para verificação
 
 ---
 
@@ -947,6 +1348,40 @@ A organização do T4 é o recomendador recebe 3 participações no sorteio e o 
 
 ---
 
+### <a id="intel-20261123-318"></a>[INTEL-20261123-318] — Diretiva / Aviso
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 17:13
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva / Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+https://academia-timi.netlify.app/
+```
+
+#### 💡 Pontos-Chave:
+- Link da academia TIMI: https://academia-timi.netlify.app/
+
+---
+
+### <a id="intel-20261123-317"></a>[INTEL-20261123-317] — Diretiva / Aviso
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 17:13
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva / Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Todos devem dar importância a este link de ensino. Pode ser usado tanto para formações como para reuniões de jantar.
+```
+
+#### 💡 Pontos-Chave:
+- Importância de link de ensino para formações e reuniões.
+
+---
+
 ### <a id="intel-20261122-278"></a>[INTEL-20261122-278] — Diretiva
 
 - **📅 Data de Publicação:** 2026-11-22
@@ -961,6 +1396,26 @@ Não é necessário o sinal '+'.
 
 #### 💡 Pontos-Chave:
 - Ao inserir números de telefone, o sinal '+' não é necessário.
+
+---
+
+### <a id="intel-20261123-319"></a>[INTEL-20261123-319] — Reunião
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 16:16
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Reunião
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Hoje à noite, às 20:00, no grupo de agentes de Jonathan, começa pontualmente.
+```
+
+#### 💡 Pontos-Chave:
+- Reunião obrigatória
+- Grupo: agentes de Jonathan
+- Hora: 20:00
+- Início pontual
 
 ---
 
@@ -1407,6 +1862,26 @@ Caros parceiros, atenção: ao comprarem produtos do Mall, podem dirigir-se ao c
 #### 💡 Pontos-Chave:
 - Comprar produtos do Mall dá direito a presente
 - Presente deve ser retirado no centro de experiência mais próximo
+
+---
+
+### <a id="intel-20261123-309"></a>[INTEL-20261123-309] — Campanha / Aviso
+
+- **📅 Data de Publicação:** 2026-11-21
+- **⏰ Hora:** 11:03
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Campanha / Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Aviso urgente! Os produtos por tempo limitado do TIMI MALL estão disponíveis para compra! Caros parceiros, esta campanha tem um total de 600 vagas de compra e 50% já foram preenchidas. As vagas restantes são limitadas! Quando todas as vagas estiverem esgotadas, o produto será temporariamente retirado de venda e só voltará a estar disponível no dia seguinte. A oportunidade é limitada! As vagas são atribuídas por ordem de compra. Aproveitem enquanto ainda há vagas disponíveis!
+```
+
+#### 💡 Pontos-Chave:
+- Campanha de produtos TIMI MALL com vagas limitadas
+- Total de 600 vagas, 50% já preenchidas (300 restantes)
+- Vagas atribuídas por ordem de compra
+- Produto retirado de venda ao esgotar vagas, retorna no dia seguinte
 
 ---
 

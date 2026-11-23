@@ -1,5 +1,396 @@
 [
   {
+    "id": "INTEL-20261123-320",
+    "timestamp_published": "2026-11-23 23:17:03",
+    "date_str": "2026-11-22",
+    "time_str": "N/A",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Diretiva / Aviso Urgente",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Boa tarde a todos! Peço aos agentes que transmitam uns aos outros que a reunião de agentes de hoje à noite deve ser comparecida pontualmente e com colaboração ativa. O departamento administrativo estará presente durante toda a reunião, para aprender e fazer o balanço em conjunto. Os agentes que faltarem sem justificação ou que saírem depois de enviar mensagens serão penalizados com dedução de pontos, conforme as regras. Espero que os agentes da minha equipa valorizem a reunião, participem ativamente e demonstrem sentido de responsabilidade e capacidade de execução da equipa!",
+    "key_takeaways": [
+      "Reunião obrigatória e pontual",
+      "Colaboração ativa esperada",
+      "Penalização (dedução de pontos) por ausência injustificada ou saída antecipada da reunião"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-319",
+    "timestamp_published": "2026-11-23 23:17:03",
+    "date_str": "2026-11-22",
+    "time_str": "16:16",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Reunião",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Hoje à noite, às 20:00, no grupo de agentes de Jonathan, começa pontualmente.",
+    "key_takeaways": [
+      "Reunião obrigatória",
+      "Grupo: agentes de Jonathan",
+      "Hora: 20:00",
+      "Início pontual"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-318",
+    "timestamp_published": "2026-11-23 23:17:03",
+    "date_str": "2026-11-22",
+    "time_str": "17:13",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Diretiva / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "https://academia-timi.netlify.app/",
+    "key_takeaways": [
+      "Link da academia TIMI: https://academia-timi.netlify.app/"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-317",
+    "timestamp_published": "2026-11-23 23:17:03",
+    "date_str": "2026-11-22",
+    "time_str": "17:13",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Diretiva / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Todos devem dar importância a este link de ensino. Pode ser usado tanto para formações como para reuniões de jantar.",
+    "key_takeaways": [
+      "Importância de link de ensino para formações e reuniões."
+    ]
+  },
+  {
+    "id": "INTEL-20261123-316",
+    "timestamp_published": "2026-11-23 23:17:03",
+    "date_str": "2026-11-22",
+    "time_str": "19:43",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Reunião",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A reunião de agentes é já a seguir. Estão todos prontos para participar na reunião de agentes?",
+    "key_takeaways": [
+      "Reunião de agentes iminente"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-315",
+    "timestamp_published": "2026-11-23 23:17:03",
+    "date_str": "2026-11-22",
+    "time_str": "19:19",
+    "channel": "TIMI--NO.08",
+    "authority": "Rui Santos",
+    "content_type": "Reunião / Aviso Urgente",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Avisa todos para participarem pontualmente na reunião de agentes desta noite. O departamento administrativo também vai participar na reunião. Não deixem que vos tirem pontos.",
+    "key_takeaways": [
+      "Reunião de agentes esta noite",
+      "Participação pontual obrigatória",
+      "Departamento administrativo presente",
+      "Risco de perda de pontos por não participação/pontualidade"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-314",
+    "timestamp_published": "2026-11-23 23:17:03",
+    "date_str": "2026-11-22",
+    "time_str": "19:12",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Diretiva / Aviso Urgente",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Caros agentes, o salário já foi pago, por favor verifiquem-no atempadamente. Após receberem o salário, enviem a captura de ecrã da chegada à conta para o grupo, para facilitar a verificação e a contagem uniformes. Agradecemos a vossa colaboração!",
+    "key_takeaways": [
+      "Salário pago",
+      "Verificar recebimento atempadamente",
+      "Enviar captura de ecrã da chegada do salário ao grupo para verificação"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-313",
+    "timestamp_published": "2026-11-23 23:17:03",
+    "date_str": "2026-11-22",
+    "time_str": "19:43",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Reunião",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A reunião de agentes é já a seguir: Estão todos prontos para participar na reunião de agentes?",
+    "key_takeaways": [
+      "Reunião obrigatória de agentes",
+      "Início iminente"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-312",
+    "timestamp_published": "2026-11-23 23:17:03",
+    "date_str": "2026-11-22",
+    "time_str": "20:46",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Nas reuniões já foi dito muitas vezes; a recompensa é distribuída de acordo com a contribuição real e as regras da empresa, para quem realmente participou no apoio e na ajuda. O facto de seres o convidador não significa que a recompensa tenha de ser obrigatoriamente tua.",
+    "key_takeaways": [
+      "Recompensas são distribuídas com base na contribuição real e regras da empresa, não apenas por ser o convidado."
+    ]
+  },
+  {
+    "id": "INTEL-20261123-311",
+    "timestamp_published": "2026-11-23 23:17:03",
+    "date_str": "2026-11-22",
+    "time_str": "20:46",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Como agente, quando apoias um membro a tornar-se Elite S, não devias comunicar e reportar previamente ao gerente? Ou o gerente tem de adivinhar quem se vai tornar Elite S e depois ir ativamente enviar-te a recompensa?",
+    "key_takeaways": [
+      "Agentes devem comunicar e reportar proativamente ao gerente quando um membro se tornar Elite S para garantir o bónus."
+    ]
+  },
+  {
+    "id": "INTEL-20261123-310",
+    "timestamp_published": "2026-11-23 23:17:02",
+    "date_str": "2026-11-22",
+    "time_str": "20:02",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Ainda há muitos agentes que não participaram na reunião. Vão avisar uns aos outros. Quem não participar na reunião e não avisar antecipadamente terá 20 pontos deduzidos e o salário de agente suspenso.",
+    "key_takeaways": [
+      "Agentes que faltarem a reuniões obrigatórias sem aviso prévio terão 20 pontos deduzidos e salário suspenso."
+    ]
+  },
+  {
+    "id": "INTEL-20261123-309",
+    "timestamp_published": "2026-11-23 23:17:02",
+    "date_str": "2026-11-21",
+    "time_str": "11:03",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Campanha / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Aviso urgente! Os produtos por tempo limitado do TIMI MALL estão disponíveis para compra! Caros parceiros, esta campanha tem um total de 600 vagas de compra e 50% já foram preenchidas. As vagas restantes são limitadas! Quando todas as vagas estiverem esgotadas, o produto será temporariamente retirado de venda e só voltará a estar disponível no dia seguinte. A oportunidade é limitada! As vagas são atribuídas por ordem de compra. Aproveitem enquanto ainda há vagas disponíveis!",
+    "key_takeaways": [
+      "Campanha de produtos TIMI MALL com vagas limitadas",
+      "Total de 600 vagas, 50% já preenchidas (300 restantes)",
+      "Vagas atribuídas por ordem de compra",
+      "Produto retirado de venda ao esgotar vagas, retorna no dia seguinte"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-308",
+    "timestamp_published": "2026-11-23 23:17:02",
+    "date_str": "2026-11-23",
+    "time_str": "11:09",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A excelente agente Micaela, de Portimão, partilhou o plano de crescimento de elite nesta atividade presencial. Vejam juntos como ela explica e partilha a experiência, e espero que todos aprendam uns com os outros, troquem ideias e apliquem as boas experiências nas vossas próprias equipas!",
+    "key_takeaways": [
+      "Rever e aplicar o plano de crescimento de elite partilhado pela agente Micaela.",
+      "Incentivo a aprender, trocar ideias e aplicar boas práticas nas equipas."
+    ]
+  },
+  {
+    "id": "INTEL-20261123-307",
+    "timestamp_published": "2026-11-23 23:17:02",
+    "date_str": "2026-11-23",
+    "time_str": "14:08",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Bom dia a todos! Neste momento, ainda há bastantes parceiros que não compraram o pacote de ciclismo. Gostaria de pedir a todos que me ajudassem a perceber os motivos concretos: é por não gostarem do produto, ou por acharem que o rendimento não corresponde às expectativas, ou por terem outras dúvidas? Peço que recolham o feedback com sinceridade. Vou organizar tudo e depois transmitir à empresa, para ver se há algo que precise de ser melhorado. Além disso, lembrem-se: a compra é totalmente voluntária, não forcem ninguém. Só precisamos de conhecer as opiniões verdadeiras e manter uma boa comunicação.",
+    "key_takeaways": [
+      "Recolher feedback sincero sobre o pacote de ciclismo (motivos de não compra, rendimento, dúvidas).",
+      "Reforçar que a compra é voluntária e não forçar ninguém."
+    ]
+  },
+  {
+    "id": "INTEL-20261123-306",
+    "timestamp_published": "2026-11-23 23:17:02",
+    "date_str": "2026-11-23",
+    "time_str": "19:00",
+    "channel": "TIMI--NO.08",
+    "authority": "Aline (Agente Nível 2 TIMI)",
+    "content_type": "Reunião / Live",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "E JÁ AMANHÃ É A CONVERSA COM A ALINE! A partir de 23 de novembro, estarei em direto no TikTok todos os dias, das 19h às 20h, para falar sobre a TIMI. Vamos abordar a empresa, equipamentos, projetos, novidades e esclarecer as vossas dúvidas. A tua participação é importante! Traz as tuas perguntas e vem conversar connosco! TikTok: Aline - Agente Nível 2 TIMI Conto contigo!",
+    "key_takeaways": [
+      "Live diária com Aline no TikTok",
+      "A partir de 23/11, das 19h às 20h",
+      "Tópicos: empresa, equipamentos, projetos, novidades e dúvidas sobre TIMI"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-305",
+    "timestamp_published": "2026-11-23 23:17:02",
+    "date_str": "2026-11-23",
+    "time_str": "17:58",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Todos devem considerar uma questão: os rendimentos da loja online podem ser levantados juntamente com o capital.",
+    "key_takeaways": [
+      "Rendimentos da loja online podem ser levantados com o capital"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-304",
+    "timestamp_published": "2026-11-23 23:17:02",
+    "date_str": "2026-11-23",
+    "time_str": "18:05",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Diretiva / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Ultimamente muitos membros não participam nas reuniões nem respondem às mensagens. Cada uma das vossas equipas precisa de perceber a situação e resolver este problema. Se precisarem da minha ajuda, digam-me a qualquer momento. Mas também espero que todos tenham um pouco de respeito mútuo. Pelo menos, mantenham uma comunicação básica.",
+    "key_takeaways": [
+      "Baixa participação em reuniões e comunicação",
+      "Equipes devem resolver o problema",
+      "Manter comunicação básica e respeito mútuo"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-303",
+    "timestamp_published": "2026-11-23 23:17:02",
+    "date_str": "2026-11-23",
+    "time_str": "15:21",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Diretiva / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Aviso à equipa de agentes Solícita-se a todos os agentes que se vistam de forma formal, usem o cartão de identificação e gravem um vídeo-convite para a conferência de imprensa de lançamento dos produtos TIMI. Sugestão de conteúdo para o vídeo: Olá a todos, sou o/a XXX e atualmente sou agente TIMI na região de XXX. A TIMI vai realizar a sua terceira conferência de imprensa de produtos no dia 29 de novembro, no Vilar Oporto Hotel, no Porto. Convido cordialmente todos a virem participar e a testemunhar connosco o desenvolvimento da mobilidade verde da TIMI! Peço a todos que se preparem com atenção, mantenham uma aparência cuidada, e que a expressão no vídeo seja natural e confiante, mostrando a boa imagem da equipa.",
+    "key_takeaways": [
+      "Agentes devem preparar-se para a 3ª conferência de imprensa de produtos TIMI a 29 de novembro no Vilar Oporto Hotel, Porto.",
+      "Requisitos: vestuário formal, uso de cartão de identificação, gravação de vídeo-convite."
+    ]
+  },
+  {
+    "id": "INTEL-20261123-302",
+    "timestamp_published": "2026-11-23 23:17:02",
+    "date_str": "2026-11-23",
+    "time_str": "18:18",
+    "channel": "TIMI--NO.08",
+    "authority": "Aline",
+    "content_type": "Reunião / Live",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A PARTIR DE HOJE! Hoje, dia 23 de novembro, damos início a uma nova iniciativa: A Conversa com a Aline! Todos os dias, das 19h às 20h, teremos uma LIVE dedicada à TIMI onde vamos falar sobre a empresa, equipamentos, projetos, novidades, oportunidades e muito mais! Quero contar com a vossa participação! Tragam as vossas dúvidas. Façam perguntas. Partilhem sugestões e opiniões. Participem na conversa! Todos os dias teremos temas diferentes e um espaço aberto para esclarecer, informar e trocar ideias. Não fiquem apenas a assistir... INTERAJAM! Esta conversa também é vossa! Todos os dias Das 19h às 20h Na nossa página de TikTok Conto convosco! Vamos estar À Conversa?",
+    "key_takeaways": [
+      "Nova live diária 'A Conversa com a Aline' inicia hoje, 23/11.",
+      "Ocorre diariamente das 19h às 20h na página de TikTok da TIMI."
+    ]
+  },
+  {
+    "id": "INTEL-20261123-301",
+    "timestamp_published": "2026-11-23 23:17:02",
+    "date_str": "2026-11-23",
+    "time_str": "18:12",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Diretiva / Aviso Urgente",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Aviso à equipa de agentes Solicita-se a todos os agentes que se vistam de forma formal, usem o cartão de identificação e gravem um vídeo-convite para a conferência de imprensa de lançamento dos produtos TIMI. Sugestão de conteúdo para o vídeo: Olá a todos, sou o/a XXX e atualmente sou agente TIMI na região de XXX. A TIMI vai realizar a sua terceira conferência de imprensa de produtos no dia 29 de novembro, no Viar Oporto Hotel, no Porto. Convido cordialmente todos a virem participar e a testemunhar connosco o desenvolvimento da mobilidade verde da TIMI! Peço a todos que se preparem com atenção, mantenham uma aparência cuidada, e que a expressão no vídeo seja natural e confiante, mostrando a boa imagem da equipa.",
+    "key_takeaways": [
+      "Agentes devem gravar vídeo-convite formal (com ID) para a conferência de imprensa",
+      "Conferência de imprensa: 29 de novembro, Viar Oporto Hotel, Porto"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-300",
+    "timestamp_published": "2026-11-23 23:17:02",
+    "date_str": "2026-11-23",
+    "time_str": "15:42",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Live Obrigatória",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Das 19h às 20h Na nossa página de TikTok Conto convosco! Vamos estar À Conversa? 💚💛",
+    "key_takeaways": [
+      "Live 'À Conversa' na página TikTok",
+      "Horário: 19:00 às 20:00"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-299",
+    "timestamp_published": "2026-11-23 23:17:02",
+    "date_str": "2026-11-23",
+    "time_str": "10:20",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Reunião / Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Já avisaram todos os membros da equipa para participarem pontualmente na reunião desta noite? Esta noite vou preparar duas recompensas de sorte para todos participarem na compra! Peço também aos gestores que transmitam uns aos outros e lembrem os membros da equipa de participarem ativamente na reunião, de estarem online pontualmente e de não perderem o conteúdo e as recompensas!",
+    "key_takeaways": [
+      "Reunião obrigatória esta noite",
+      "Duas recompensas de sorte para participantes na 'compra'"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-298",
+    "timestamp_published": "2026-11-23 23:17:02",
+    "date_str": "2026-11-23",
+    "time_str": "23:08",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Regras / Bónus",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Regras de recompensa por recrutamento:\nRecrutar com sucesso um membro T3 dá-te 1 oportunidade de sorteio.\nRecrutar com sucesso um membro T4 dá-te 3 oportunidades de sorteio, e o teu amigo recebe 1 oportunidade extra.\nRecrutar com sucesso um membro T5 dá-te 3 oportunidades de sorteio, e o teu amigo recebe 2 oportunidades extra.\nQuanto mais alto o nível do equipamento recrutado, mais oportunidades de sorteio ambos recebem!",
+    "key_takeaways": [
+      "Novas regras de recompensa por recrutamento para oportunidades de sorteio.",
+      "Recrutamento T3 concede 1 oportunidade de sorteio.",
+      "Recrutamento T4 concede 3 oportunidades ao recrutador e 1 extra ao amigo.",
+      "Recrutamento T5 concede 3 oportunidades ao recrutador e 2 extras ao amigo."
+    ]
+  },
+  {
+    "id": "INTEL-20261123-297",
+    "timestamp_published": "2026-11-23 23:17:02",
+    "date_str": "2026-11-23",
+    "time_str": "23:08",
+    "channel": "TIMI--NO.08",
+    "authority": "Theodore",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Campanha por tempo limitado TIMI MALL | 21 a 25 de novembro\nCada pessoa pode comprar no máximo 2 vezes, sem limite pelo histórico de compra do pacote de boas-vindas.\n- 250 USDT por vez, ciclo de 13 dias\n- Liquidação no vencimento: 314.025 USDT (capital incluído)\n- Por cada compra de um membro da tua equipa, recebes 25 USDT de comissão\n- Compra na loja de experiência e recebe uma lembrança\n- Levantamento apenas com 5% de taxa\nAtenção ⚠️ Limite de 600 por dia.\n*Interessados podem contactar diretamente o assistente*",
+    "key_takeaways": [
+      "Nova campanha TIMI MALL ativa de 21 a 25 de novembro.",
+      "Permite até 2 compras de 250 USDT, com ciclo de 13 dias e liquidação de 314.025 USDT.",
+      "Oferece 25 USDT de comissão por cada compra de membro da equipa.",
+      "Limite diário de 600 e taxa de levantamento de 5%."
+    ]
+  },
+  {
     "id": "INTEL-20261123-296",
     "timestamp_published": "2026-11-23 23:08:55",
     "date_str": "2026-11-23",
