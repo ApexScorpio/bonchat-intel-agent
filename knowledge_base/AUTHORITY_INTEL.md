@@ -10,7 +10,9 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261123-327` | 2026-11-29 20:13 | `TIMI Mall` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261123-327) |
 | `INTEL-20261123-289` | 2026-11-23 N/A | `TIMI-68` | TIMI oficial | Aviso | [Ver Anexo](#intel-20261123-289) |
+| `INTEL-20261123-321` | 2026-11-23 23:09 | `TIMI Mall` | TIMI | Campanha / Aviso Urgente | [Ver Anexo](#intel-20261123-321) |
 | `INTEL-20261123-298` | 2026-11-23 23:08 | `TIMI--NO.08` | Theodore | Regras / Bónus | [Ver Anexo](#intel-20261123-298) |
 | `INTEL-20261123-297` | 2026-11-23 23:08 | `TIMI--NO.08` | Theodore | Campanha | [Ver Anexo](#intel-20261123-297) |
 | `INTEL-20261123-288` | 2026-11-23 23:01 | `TIMI-68` | Theodore (via Evgenia) | Diretiva / Aviso | [Ver Anexo](#intel-20261123-288) |
@@ -20,6 +22,17 @@
 | `INTEL-20261123-294` | 2026-11-23 22:05 | `TIMI-68` | Elena Marjineanu / Theodore | Aviso / Campanha | [Ver Anexo](#intel-20261123-294) |
 | `INTEL-20261123-296` | 2026-11-23 22:04 | `TIMI-68` | Theodore (via Gku) | Reunião / Campanha / Diretiva | [Ver Anexo](#intel-20261123-296) |
 | `INTEL-20261123-295` | 2026-11-23 22:04 | `TIMI-68` | TIMI Oficial | Sorteio / Recompensa | [Ver Anexo](#intel-20261123-295) |
+| `INTEL-20261123-323` | 2026-11-23 20:29 | `TIMI Mall` | TIMI-NO.08 | Evento / Reunião Obrigatória | [Ver Anexo](#intel-20261123-323) |
+| `INTEL-20261123-322` | 2026-11-23 20:29 | `TIMI Mall` | Plataforma TIMI | Recompensa | [Ver Anexo](#intel-20261123-322) |
+| `INTEL-20261123-325` | 2026-11-23 20:23 | `TIMI Mall` | TIMI-NO.08 | Reunião / Evento | [Ver Anexo](#intel-20261123-325) |
+| `INTEL-20261123-324` | 2026-11-23 20:23 | `TIMI Mall` | TIMI-NO.08 | Aviso / Evento | [Ver Anexo](#intel-20261123-324) |
+| `INTEL-20261123-326` | 2026-11-23 20:18 | `TIMI Mall` | Marcia Prietsch | Reunião | [Ver Anexo](#intel-20261123-326) |
+| `INTEL-20261123-329` | 2026-11-23 20:09 | `TIMI Mall` | Maia | Reunião / Live | [Ver Anexo](#intel-20261123-329) |
+| `INTEL-20261123-328` | 2026-11-23 20:08 | `TIMI Mall` | Mala | Reunião / Live | [Ver Anexo](#intel-20261123-328) |
+| `INTEL-20261123-330` | 2026-11-23 20:05 | `TIMI Mall` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261123-330) |
+| `INTEL-20261123-331` | 2026-11-23 20:02 | `TIMI Mall` | Nicolas Tavares | Código da Sorte / Presença | [Ver Anexo](#intel-20261123-331) |
+| `INTEL-20261123-332` | 2026-11-23 19:57 | `TIMI Mall` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261123-332) |
+| `INTEL-20261123-333` | 2026-11-23 19:52 | `TIMI Mall` | TIMI | Evento | [Ver Anexo](#intel-20261123-333) |
 | `INTEL-20261123-306` | 2026-11-23 19:00 | `TIMI--NO.08` | Aline (Agente Nível 2 TIMI) | Reunião / Live | [Ver Anexo](#intel-20261123-306) |
 | `INTEL-20261123-302` | 2026-11-23 18:18 | `TIMI--NO.08` | Aline | Reunião / Live | [Ver Anexo](#intel-20261123-302) |
 | `INTEL-20261123-301` | 2026-11-23 18:12 | `TIMI--NO.08` | Theodore | Diretiva / Aviso Urgente | [Ver Anexo](#intel-20261123-301) |
@@ -337,6 +350,26 @@
 
 ---
 
+### <a id="intel-20261123-327"></a>[INTEL-20261123-327] — Reunião / Evento
+
+- **📅 Data de Publicação:** 2026-11-29
+- **⏰ Hora:** 20:13
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Reunião / Evento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Cátia convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos! Quim Barreiros estará presente como surpresa! Porto, Portugal
+```
+
+#### 💡 Pontos-Chave:
+- Terceira apresentação de produtos
+- Local: Porto, Portugal
+- Data: 29/11/2026
+- Atração: Quim Barreiros
+
+---
+
 ### <a id="intel-20261123-289"></a>[INTEL-20261123-289] — Aviso
 
 - **📅 Data de Publicação:** 2026-11-23
@@ -352,6 +385,25 @@ Também foi mencionada a regra dos 70 pontos e o possível impacto que uma pontu
 #### 💡 Pontos-Chave:
 - Alerta sobre a regra dos 70 pontos
 - Impacto da pontuação nos rendimentos dos equipamentos
+
+---
+
+### <a id="intel-20261123-321"></a>[INTEL-20261123-321] — Campanha / Aviso Urgente
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 23:09
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Campanha / Aviso Urgente
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Contagem decrescente dos benefícios do TIMI Mall | Restam apenas 2 dias! ⏳ Apenas 600 vagas por dia, quantidade limitada! 🎁 Durante o período da atividade, ao comprar produtos do TIMI Mall, podes dirigir-te ao Centro de Experiência TIMI para receber gratuitamente um presente especial! 🤝 Os parceiros que já participaram também não se devem esquecer de avisar os amigos à sua volta, para que mais pessoas conheçam este benefício do Mall!
+```
+
+#### 💡 Pontos-Chave:
+- Benefícios do TIMI Mall terminam em 2 dias.
+- Limite de 600 vagas diárias para os benefícios.
+- Receber um presente especial no Centro de Experiência TIMI ao comprar produtos do Mall.
 
 ---
 
@@ -530,6 +582,220 @@ Código de resgate
 
 #### 💡 Pontos-Chave:
 - Novo código de resgate disponível
+
+---
+
+### <a id="intel-20261123-323"></a>[INTEL-20261123-323] — Evento / Reunião Obrigatória
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 20:29
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI-NO.08`
+- **🏷️ Categoria:** Evento / Reunião Obrigatória
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Um convidado de peso está prestes a aparecer! O famoso cantor português Quim Barreiros estará presente no terceiro evento de lançamento de produtos da TIML no dia 29 de novembro! Local: Vilar Oporto Hotel (Porto) Endereço detalhado: R. Arcediago Vanzeller 50, 4050-621 Porto Facebook: https://facebook.com/share/19UdA5Tq2P/ Instagram: https://instagram.com/reel/DfnVBuVqAf5/ #TIMI #QuimBarreiros #TIMIPortugal #LançamentodeProduto #Portugal #BicicletasPartilhadas #MobilidadedeVerde
+```
+
+#### 💡 Pontos-Chave:
+- Terceiro evento de lançamento de produtos TIML
+- Presença do cantor Quim Barreiros
+- Data: 29 de novembro
+- Local: Vilar Oporto Hotel, R. Arcediago Vanzeller 50, 4050-621 Porto
+
+---
+
+### <a id="intel-20261123-322"></a>[INTEL-20261123-322] — Recompensa
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 20:29
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `Plataforma TIMI`
+- **🏷️ Categoria:** Recompensa
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
++60 USDT Recompensas do Desafio Oferta da plataforma
+```
+
+#### 💡 Pontos-Chave:
+- Recompensa de 60 USDT atribuída
+- Origem: Recompensas do Desafio
+
+---
+
+### <a id="intel-20261123-325"></a>[INTEL-20261123-325] — Reunião / Evento
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 20:23
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI-NO.08`
+- **🏷️ Categoria:** Reunião / Evento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Daniela convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos!
+📍 Quim Barreiros estará presente como surpresa!
+📍 Porto, Portugal
+📅 29/11/2026
+```
+
+#### 💡 Pontos-Chave:
+- Terceira apresentação de produtos em Porto, Portugal
+- Data do evento: 29/11/2026
+- Presença de Quim Barreiros confirmada
+
+---
+
+### <a id="intel-20261123-324"></a>[INTEL-20261123-324] — Aviso / Evento
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 20:23
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI-NO.08`
+- **🏷️ Categoria:** Aviso / Evento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+29/11/2026
+Daniela convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos!
+Quim Barreiros estará presente como surpresa!
+Porto, Portugal
+```
+
+#### 💡 Pontos-Chave:
+- 3ª apresentação de produtos
+- Data: 29/11/2026
+- Local: Porto, Portugal
+- Convidado especial: Quim Barreiros
+
+---
+
+### <a id="intel-20261123-326"></a>[INTEL-20261123-326] — Reunião
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 20:18
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `Marcia Prietsch`
+- **🏷️ Categoria:** Reunião
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Nesse horário a reunião acontece no grupo Timi stars 19
+```
+
+#### 💡 Pontos-Chave:
+- Reunião no grupo Timi stars 19
+- Horário: 20:18
+
+---
+
+### <a id="intel-20261123-329"></a>[INTEL-20261123-329] — Reunião / Live
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 20:09
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `Maia`
+- **🏷️ Categoria:** Reunião / Live
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Junte-se a nós todas as noites às 19:30 para explorar conteúdos ainda mais interessantes sobre a TIMI! Na minha transmissão em direto, não só aprenderá técnicas para gerar rendimentos, como também ficará a par de todas as novidades da TIMI. - Horário da Transmissão em Direto: 23 de novembro de 2026 (segunda-feira), das 19:30 às 20:30 - Link da Transmissão em Direto: https://www.youtube.com/live/50QvFRbVnZQ?si=gaQznuxXRvYt0w - Link da Página Inicial: https://www.youtube.com/@timisharinginstrucoes
+```
+
+#### 💡 Pontos-Chave:
+- Live de Maia em 23/11/2026 (segunda-feira) das 19:30 às 20:30.
+- Foco em técnicas de rendimento e novidades TIMI.
+- Links para transmissão e página inicial fornecidos.
+
+---
+
+### <a id="intel-20261123-328"></a>[INTEL-20261123-328] — Reunião / Live
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 20:08
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `Mala`
+- **🏷️ Categoria:** Reunião / Live
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Junte-se a nós todas as noites às 19:30 para explorar conteúdos ainda mais interessantes sobre a TIMI! Na minha transmissão em direto, não só aprenderá técnicas para gerar rendimentos, como também ficará a par de todas as Novidades da TIMI. ❤️ Horário da Transmissão em Direto: 23 de novembro de 2026 (segunda-feira), das 19:30 às 20:30 Link da Transmissão em Direto: https://www.youtube.com/live/5Qqvf86YNZg?feature=share Link da Página Inicial: https://www.youtube.com/@timisharinginstrucoes
+```
+
+#### 💡 Pontos-Chave:
+- Live TIMI agendada para 23/11/2026 (segunda-feira) das 19:30 às 20:30
+- Tópicos: conteúdos TIMI, técnicas de rendimento e novidades
+- Link da transmissão: https://www.youtube.com/live/5Qqvf86YNZg?feature=share
+
+---
+
+### <a id="intel-20261123-330"></a>[INTEL-20261123-330] — Reunião / Evento
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 20:05
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Reunião / Evento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Daniela convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos! Quem Barreiros estará presente como surpresa! 📍 Porto, Portugal
+```
+
+#### 💡 Pontos-Chave:
+- Terceira apresentação de produtos
+- Data do evento: 29/11/2026
+- Local: Porto, Portugal
+- Convidado surpresa: Quem Barreiros
+
+---
+
+### <a id="intel-20261123-331"></a>[INTEL-20261123-331] — Código da Sorte / Presença
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 20:02
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `Nicolas Tavares`
+- **🏷️ Categoria:** Código da Sorte / Presença
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Armando Saraiva (20:02): Boa noite alguém pode informar o código de hoje
+Nicolas Tavares (20:02): 173554
+```
+
+#### 💡 Pontos-Chave:
+- Código diário '173554' para o grupo TIMI--NO.08
+
+---
+
+### <a id="intel-20261123-332"></a>[INTEL-20261123-332] — Reunião / Evento
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 19:57
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Reunião / Evento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+29/11/2026 Celsus convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos! 📍 Porto, Portugal
+```
+
+#### 💡 Pontos-Chave:
+- Celsus convida para 3ª apresentação de produtos em Porto, Portugal
+- Data do evento: 29/11/2026
+
+---
+
+### <a id="intel-20261123-333"></a>[INTEL-20261123-333] — Evento
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 19:52
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Evento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Miguel convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos! 📌 Quim Barreiros estará presente como surpresa! 📍 Porto, Portugal
+```
+
+#### 💡 Pontos-Chave:
+- Terceira apresentação de produtos em Porto, Portugal.
+- Data do evento: 29/11/2026.
+- Presença de Quim Barreiros como surpresa.
 
 ---
 
