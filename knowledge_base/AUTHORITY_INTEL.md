@@ -10,6 +10,15 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261123-289` | 2026-11-23 N/A | `TIMI-68` | TIMI oficial | Aviso | [Ver Anexo](#intel-20261123-289) |
+| `INTEL-20261123-288` | 2026-11-23 23:01 | `TIMI-68` | Theodore (via Evgenia) | Diretiva / Aviso | [Ver Anexo](#intel-20261123-288) |
+| `INTEL-20261123-292` | 2026-11-23 22:10 | `TIMI-68` | TIMI-68 (Mensagem de Grupo) | Aviso Urgente | [Ver Anexo](#intel-20261123-292) |
+| `INTEL-20261123-291` | 2026-11-23 22:10 | `TIMI-68` | Mikail | Campanha | [Ver Anexo](#intel-20261123-291) |
+| `INTEL-20261123-293` | 2026-11-23 22:08 | `TIMI-68` | Fernando | Aviso | [Ver Anexo](#intel-20261123-293) |
+| `INTEL-20261123-294` | 2026-11-23 22:05 | `TIMI-68` | Elena Marjineanu / Theodore | Aviso / Campanha | [Ver Anexo](#intel-20261123-294) |
+| `INTEL-20261123-296` | 2026-11-23 22:04 | `TIMI-68` | Theodore (via Gku) | Reunião / Campanha / Diretiva | [Ver Anexo](#intel-20261123-296) |
+| `INTEL-20261123-295` | 2026-11-23 22:04 | `TIMI-68` | TIMI Oficial | Sorteio / Recompensa | [Ver Anexo](#intel-20261123-295) |
+| `INTEL-20261123-290` | 2026-11-23 10:17 | `TIMI-68` | TIMIatualizou | Aviso / Diretiva | [Ver Anexo](#intel-20261123-290) |
 | `INTEL-20261122-281` | 2026-11-22 N/A | `TIMI Mall` | Francisco | Aviso | [Ver Anexo](#intel-20261122-281) |
 | `INTEL-20261122-277` | 2026-11-22 N/A | `TIMI--NO.08` | TIMI Mall | Campanha | [Ver Anexo](#intel-20261122-277) |
 | `INTEL-20261122-263` | 2026-11-22 22:59 | `TIMI-68` | Theodore | Reunião | [Ver Anexo](#intel-20261122-263) |
@@ -301,6 +310,168 @@
 ---
 
 ## 📌 Registos Integrais (100% Inalterados)
+
+---
+
+### <a id="intel-20261123-289"></a>[INTEL-20261123-289] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI oficial`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Também foi mencionada a regra dos 70 pontos e o possível impacto que uma pontuação inferior poderá ter nos rendimentos dos equipamentos.
+```
+
+#### 💡 Pontos-Chave:
+- Alerta sobre a regra dos 70 pontos
+- Impacto da pontuação nos rendimentos dos equipamentos
+
+---
+
+### <a id="intel-20261123-288"></a>[INTEL-20261123-288] — Diretiva / Aviso
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 23:01
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Theodore (via Evgenia)`
+- **🏷️ Categoria:** Diretiva / Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Resumo da reunião TIMI Na reunião de hoje, o Theodore destacou cinco pontos principais: * Participação nas reuniões - É importante acompanhar as novidades e cumprir a regra dos 70 pontos. * Acompanhamento da equipa - Apoiar os novos membros, explicar as regras e esclarecer dúvidas. * Desenvolvimento pessoal - Procurar evoluir para Agente L1 e atualizar o equipamento para T6. * Projetos TIMI Mall - Conhecer as novas oportunidades, prazos, condições e possíveis rendimentos. * Comunicação da equipa - Partilhar informações sobre campanhas e apoiar o crescimento da equipa. Mensagem principal: O crescimento da equipa depende da participação, responsabilidade, aprendizagem e apoio mútuo. Obrigado ao Theodore pela reunião e por todas as informações partilhadas!
+```
+
+#### 💡 Pontos-Chave:
+- Importância da participação em reuniões
+- Obrigação de cumprir a regra dos 70 pontos
+
+---
+
+### <a id="intel-20261123-292"></a>[INTEL-20261123-292] — Aviso Urgente
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 22:10
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI-68 (Mensagem de Grupo)`
+- **🏷️ Categoria:** Aviso Urgente
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Obrigado, Theodore, por nos incentivares a crescer e a participar nas reuniões. É assim que podemos compreender melhor o desenvolvimento da TIMI e acompanhar todas as novidades. Faltam apenas dois dias para terminar a oportunidade do pacote de 250 dólares. Espero que todos possam aproveitar esta oportunidade com responsabilidade e confiança.
+```
+
+#### 💡 Pontos-Chave:
+- Confirmação: oportunidade de pacote de 250 dólares
+- Alerta de prazo: faltam apenas dois dias para terminar
+
+---
+
+### <a id="intel-20261123-291"></a>[INTEL-20261123-291] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 22:10
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Mikail`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Theodore, obrigado por nos explicares a importância das reuniões e do nosso desenvolvimento dentro da TIMI. É importante estamos sempre informados sobre o crescimento da empresa. Temos também esta oportunidade do pacote de 250 dólares, que termina dentro de dois dias. Cada um deve analisar bem e tomar a sua decisão com tranquilidade.
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha: pacote de 250 dólares
+- Prazo limite: termina em dois dias
+
+---
+
+### <a id="intel-20261123-293"></a>[INTEL-20261123-293] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 22:08
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Fernando`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Ainda da tempo, vou participar desta campanha de benefícios da Mall e espero que um dos membros da minha equipe também se anime. Posso contar com vocês? Esta fase acaba em dois dias.
+```
+
+#### 💡 Pontos-Chave:
+- Fase atual da campanha de benefícios da Mall termina em dois dias.
+
+---
+
+### <a id="intel-20261123-294"></a>[INTEL-20261123-294] — Aviso / Campanha
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 22:05
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Elena Marjineanu / Theodore`
+- **🏷️ Categoria:** Aviso / Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Theodore explicou que existem várias oportunidades para aumentar os rendimentos e crescer dentro da TIMI. Para isso, é importante melhorar o nível de agente, atualizar os equipamentos e aprender mais sobre a TIMI Mall. Também falou de uma campanha especial com produtos promocionais, na qual existem limites de quantidade e um prazo definido. Incentivou todos a conhecerem as condições e a partilharem as informações com as suas equipas
+```
+
+#### 💡 Pontos-Chave:
+- Theodore anunciou uma campanha especial com produtos promocionais.
+- A campanha tem limites de quantidade e um prazo definido.
+- É necessário conhecer as condições e partilhar com as equipas.
+
+---
+
+### <a id="intel-20261123-296"></a>[INTEL-20261123-296] — Reunião / Campanha / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 22:04
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Theodore (via Gku)`
+- **🏷️ Categoria:** Reunião / Campanha / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Na reunião, Theodore apresentou três formas de desenvolvimento na TIMI: subir ao nível de agente 1, melhorar o equipamento até T6 e conhecer os produtos promocionais da TIMI Mall. Explicou também os possíveis rendimentos e os prémios adicionais para quem cumprir os requisitos. Na TIMI Mall, apresentou uma campanha com produtos que, segundo o projeto, permitem receber o capital inicial e os rendimentos no final. É importante conhecer bem as regras, os valores e os prazos antes de participar
+```
+
+#### 💡 Pontos-Chave:
+- Theodore detalhou 3 formas de desenvolvimento TIMI (agente 1, equipamento T6, produtos TIMI Mall).
+- Lançada nova campanha no TIMI Mall com produtos que garantem capital inicial e rendimentos.
+- Importante conhecer regras, valores e prazos da nova campanha para prémios adicionais.
+
+---
+
+### <a id="intel-20261123-295"></a>[INTEL-20261123-295] — Sorteio / Recompensa
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 22:04
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI Oficial`
+- **🏷️ Categoria:** Sorteio / Recompensa
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Código de resgate
+```
+
+#### 💡 Pontos-Chave:
+- Novo código de resgate disponível
+
+---
+
+### <a id="intel-20261123-290"></a>[INTEL-20261123-290] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 10:17
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMIatualizou`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Regra citada: menos de 70 pontos pode afetar rendimentos do equipamento, e as ausências devem ser comunicadas com antecedência ao responsável ou superior.
+```
+
+#### 💡 Pontos-Chave:
+- Presença em reuniões abaixo de 70 pontos pode afetar rendimentos do equipamento.
+- Ausências em reuniões devem ser comunicadas com antecedência.
 
 ---
 

@@ -1,5 +1,149 @@
 [
   {
+    "id": "INTEL-20261123-296",
+    "timestamp_published": "2026-11-23 23:08:55",
+    "date_str": "2026-11-23",
+    "time_str": "22:04",
+    "channel": "TIMI-68",
+    "authority": "Theodore (via Gku)",
+    "content_type": "Reunião / Campanha / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Na reunião, Theodore apresentou três formas de desenvolvimento na TIMI: subir ao nível de agente 1, melhorar o equipamento até T6 e conhecer os produtos promocionais da TIMI Mall. Explicou também os possíveis rendimentos e os prémios adicionais para quem cumprir os requisitos. Na TIMI Mall, apresentou uma campanha com produtos que, segundo o projeto, permitem receber o capital inicial e os rendimentos no final. É importante conhecer bem as regras, os valores e os prazos antes de participar",
+    "key_takeaways": [
+      "Theodore detalhou 3 formas de desenvolvimento TIMI (agente 1, equipamento T6, produtos TIMI Mall).",
+      "Lançada nova campanha no TIMI Mall com produtos que garantem capital inicial e rendimentos.",
+      "Importante conhecer regras, valores e prazos da nova campanha para prémios adicionais."
+    ]
+  },
+  {
+    "id": "INTEL-20261123-295",
+    "timestamp_published": "2026-11-23 23:08:55",
+    "date_str": "2026-11-23",
+    "time_str": "22:04",
+    "channel": "TIMI-68",
+    "authority": "TIMI Oficial",
+    "content_type": "Sorteio / Recompensa",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Código de resgate",
+    "key_takeaways": [
+      "Novo código de resgate disponível"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-294",
+    "timestamp_published": "2026-11-23 23:08:55",
+    "date_str": "2026-11-23",
+    "time_str": "22:05",
+    "channel": "TIMI-68",
+    "authority": "Elena Marjineanu / Theodore",
+    "content_type": "Aviso / Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Theodore explicou que existem várias oportunidades para aumentar os rendimentos e crescer dentro da TIMI. Para isso, é importante melhorar o nível de agente, atualizar os equipamentos e aprender mais sobre a TIMI Mall. Também falou de uma campanha especial com produtos promocionais, na qual existem limites de quantidade e um prazo definido. Incentivou todos a conhecerem as condições e a partilharem as informações com as suas equipas",
+    "key_takeaways": [
+      "Theodore anunciou uma campanha especial com produtos promocionais.",
+      "A campanha tem limites de quantidade e um prazo definido.",
+      "É necessário conhecer as condições e partilhar com as equipas."
+    ]
+  },
+  {
+    "id": "INTEL-20261123-293",
+    "timestamp_published": "2026-11-23 23:08:55",
+    "date_str": "2026-11-23",
+    "time_str": "22:08",
+    "channel": "TIMI-68",
+    "authority": "Fernando",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Ainda da tempo, vou participar desta campanha de benefícios da Mall e espero que um dos membros da minha equipe também se anime. Posso contar com vocês? Esta fase acaba em dois dias.",
+    "key_takeaways": [
+      "Fase atual da campanha de benefícios da Mall termina em dois dias."
+    ]
+  },
+  {
+    "id": "INTEL-20261123-292",
+    "timestamp_published": "2026-11-23 23:08:55",
+    "date_str": "2026-11-23",
+    "time_str": "22:10",
+    "channel": "TIMI-68",
+    "authority": "TIMI-68 (Mensagem de Grupo)",
+    "content_type": "Aviso Urgente",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Obrigado, Theodore, por nos incentivares a crescer e a participar nas reuniões. É assim que podemos compreender melhor o desenvolvimento da TIMI e acompanhar todas as novidades. Faltam apenas dois dias para terminar a oportunidade do pacote de 250 dólares. Espero que todos possam aproveitar esta oportunidade com responsabilidade e confiança.",
+    "key_takeaways": [
+      "Confirmação: oportunidade de pacote de 250 dólares",
+      "Alerta de prazo: faltam apenas dois dias para terminar"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-291",
+    "timestamp_published": "2026-11-23 23:08:55",
+    "date_str": "2026-11-23",
+    "time_str": "22:10",
+    "channel": "TIMI-68",
+    "authority": "Mikail",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Theodore, obrigado por nos explicares a importância das reuniões e do nosso desenvolvimento dentro da TIMI. É importante estamos sempre informados sobre o crescimento da empresa. Temos também esta oportunidade do pacote de 250 dólares, que termina dentro de dois dias. Cada um deve analisar bem e tomar a sua decisão com tranquilidade.",
+    "key_takeaways": [
+      "Nova campanha: pacote de 250 dólares",
+      "Prazo limite: termina em dois dias"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-290",
+    "timestamp_published": "2026-11-23 23:08:55",
+    "date_str": "2026-11-23",
+    "time_str": "10:17",
+    "channel": "TIMI-68",
+    "authority": "TIMIatualizou",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Regra citada: menos de 70 pontos pode afetar rendimentos do equipamento, e as ausências devem ser comunicadas com antecedência ao responsável ou superior.",
+    "key_takeaways": [
+      "Presença em reuniões abaixo de 70 pontos pode afetar rendimentos do equipamento.",
+      "Ausências em reuniões devem ser comunicadas com antecedência."
+    ]
+  },
+  {
+    "id": "INTEL-20261123-289",
+    "timestamp_published": "2026-11-23 23:08:55",
+    "date_str": "2026-11-23",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "TIMI oficial",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Também foi mencionada a regra dos 70 pontos e o possível impacto que uma pontuação inferior poderá ter nos rendimentos dos equipamentos.",
+    "key_takeaways": [
+      "Alerta sobre a regra dos 70 pontos",
+      "Impacto da pontuação nos rendimentos dos equipamentos"
+    ]
+  },
+  {
+    "id": "INTEL-20261123-288",
+    "timestamp_published": "2026-11-23 23:08:55",
+    "date_str": "2026-11-23",
+    "time_str": "23:01",
+    "channel": "TIMI-68",
+    "authority": "Theodore (via Evgenia)",
+    "content_type": "Diretiva / Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Resumo da reunião TIMI Na reunião de hoje, o Theodore destacou cinco pontos principais: * Participação nas reuniões - É importante acompanhar as novidades e cumprir a regra dos 70 pontos. * Acompanhamento da equipa - Apoiar os novos membros, explicar as regras e esclarecer dúvidas. * Desenvolvimento pessoal - Procurar evoluir para Agente L1 e atualizar o equipamento para T6. * Projetos TIMI Mall - Conhecer as novas oportunidades, prazos, condições e possíveis rendimentos. * Comunicação da equipa - Partilhar informações sobre campanhas e apoiar o crescimento da equipa. Mensagem principal: O crescimento da equipa depende da participação, responsabilidade, aprendizagem e apoio mútuo. Obrigado ao Theodore pela reunião e por todas as informações partilhadas!",
+    "key_takeaways": [
+      "Importância da participação em reuniões",
+      "Obrigação de cumprir a regra dos 70 pontos"
+    ]
+  },
+  {
     "id": "INTEL-20261122-287",
     "timestamp_published": "2026-11-22 23:19:09",
     "date_str": "2026-11-22",
