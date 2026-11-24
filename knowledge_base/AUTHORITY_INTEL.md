@@ -14,6 +14,7 @@
 | `INTEL-20261124-341` | 2026-11-29 22:14 | `TIMI-68` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261124-341) |
 | `INTEL-20261123-327` | 2026-11-29 20:13 | `TIMI Mall` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261123-327) |
 | `INTEL-20261124-335` | 2026-11-29 10:05 | `TIMI-68` | TIMI | Aviso / Evento | [Ver Anexo](#intel-20261124-335) |
+| `INTEL-20261124-345` | 2026-11-24 N/A | `TIMI--NO.08` | TIMI Administrador | Diretiva | [Ver Anexo](#intel-20261124-345) |
 | `INTEL-20261124-343` | 2026-11-24 22:30 | `TIMI-68` | Svitlana | Campanha / Oportunidade | [Ver Anexo](#intel-20261124-343) |
 | `INTEL-20261124-338` | 2026-11-24 22:30 | `TIMI-68` | Bob | Campanha | [Ver Anexo](#intel-20261124-338) |
 | `INTEL-20261124-337` | 2026-11-24 22:30 | `TIMI-68` | TIMI oficial | Campanha / Aviso Urgente | [Ver Anexo](#intel-20261124-337) |
@@ -433,6 +434,28 @@ Ramiro convida cordialmente você a participar na terceira apresentação de pro
 - Terceira apresentação de produtos em 29/11/2026.
 - Local: Porto, Portugal.
 - Convidado surpresa: Quim Barreiros.
+
+---
+
+### <a id="intel-20261124-345"></a>[INTEL-20261124-345] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-24
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Administrador`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+COMUNICADO AOS PARCEIROS
+Caros parceiros,
+Para que todos possam consultar atrepadamente as informações importantes do grupo e evitar que mensagens importantes sejam encobertas por grandes quantidades de conversa, pedimos que não revisem no grupo saudações diárias como "bom dia", "boa tarde" ou "boa noite".
+Todos são bem vindos a participar ativamente em aprendizagens, partilhas de experiências e trocas de dúvidas relacionadas com a TIMI, mantendo um conjunto um ambiente de comunicação eficiente e organizado.
+Obrigado a cada parceiro pela compreensão, apoio e colaboração ativa!
+```
+
+#### 💡 Pontos-Chave:
+- Evitar saudações diárias no grupo (bom dia/tarde/noite) para garantir a visibilidade de informações importantes.
+- Manter um ambiente de comunicação eficiente e organizado no grupo.
 
 ---
 

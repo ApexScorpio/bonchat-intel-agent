@@ -1,5 +1,21 @@
 [
   {
+    "id": "INTEL-20261124-345",
+    "timestamp_published": "2026-11-24 23:32:02",
+    "date_str": "2026-11-24",
+    "time_str": "N/A",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Administrador",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "COMUNICADO AOS PARCEIROS\nCaros parceiros,\nPara que todos possam consultar atrepadamente as informações importantes do grupo e evitar que mensagens importantes sejam encobertas por grandes quantidades de conversa, pedimos que não revisem no grupo saudações diárias como \"bom dia\", \"boa tarde\" ou \"boa noite\".\nTodos são bem vindos a participar ativamente em aprendizagens, partilhas de experiências e trocas de dúvidas relacionadas com a TIMI, mantendo um conjunto um ambiente de comunicação eficiente e organizado.\nObrigado a cada parceiro pela compreensão, apoio e colaboração ativa!",
+    "key_takeaways": [
+      "Evitar saudações diárias no grupo (bom dia/tarde/noite) para garantir a visibilidade de informações importantes.",
+      "Manter um ambiente de comunicação eficiente e organizado no grupo."
+    ]
+  },
+  {
     "id": "INTEL-20261124-344",
     "timestamp_published": "2026-11-24 23:13:03",
     "date_str": "2026-11-24",
