@@ -62,22 +62,40 @@ KNOWN_GROUPS = [
 
 
 def _extract_target_channel(text: str, default_channel: str = "TIMI--NO.08") -> str:
-    """Identifica se o texto menciona explicitamente um grupo/canal específico."""
+    """
+    Identifica em que grupo/canal vai REALMENTE decorrer a reunião.
+    Dá prioridade absoluta a menções explícitas de local ('no grupo X', 'em X', 'canal X', 'sala X')
+    para não confundir o grupo onde o anúncio foi publicado ou menções a produtos (ex: 'produto TIMI Mall').
+    """
     tl = text.lower()
-    if "timi mall" in tl or "timimall" in tl:
-        return "TIMI Mall"
-    if "timi-68" in tl or "timi 68" in tl:
-        return "TIMI-68"
-    if "no.08" in tl or "no 08" in tl or "no08" in tl or "canal 08" in tl or "grupo 08" in tl:
-        return "TIMI--NO.08"
-    if "agentes20" in tl or "agentes 20" in tl:
-        return "Theodore.Grupo de Agentes20"
-    if "agentes de elite" in tl or "grupo de agentes" in tl:
-        return "Equipa de Agentes de Elite da TIMI"
-    if "grupo de reuni" in tl:
-        return "Grupo de reuniões"
-    if "dream team" in tl:
-        return "TIMI PORTUGAL DREAM TEAM"
+    group_patterns = [
+        ("TIMI-68", r'(?:timi[\s\-]*68|grupo\s*68|canal\s*68)'),
+        ("TIMI--NO.08", r'(?:timi[\s\-]*no\.?\s*08|no\.?\s*08|no08|grupo\s*08|canal\s*08)'),
+        ("Theodore.Grupo de Agentes20", r'(?:agentes\s*20|theodore\.?\s*grupo\s*de\s*agentes\s*20)'),
+        ("Equipa de Agentes de Elite da TIMI", r'(?:agentes\s+de\s+elite|equipa\s+de\s+agentes)'),
+        ("Grupo de reuniões", r'(?:grupo\s+de\s+reuni[oõ]es)'),
+        ("TIMI PORTUGAL DREAM TEAM", r'(?:dream\s+team)'),
+        ("Grupo de Recompensas por Objetivos", r'(?:recompensas\s+por\s+objetivos)'),
+        ("TIMI Mall", r'(?:timi\s*mall|timimall)'),
+    ]
+
+    # 1. Prioridade máxima: contexto explícito de local ("no grupo ...", "no canal ...", "em ...", "sala ...")
+    loc_prefix = r'(?:no\s+grupo|na\s+sala|no\s+canal|grupo\s*[:\-]|canal\s*[:\-]|local\s*[:\-]|em\s+(?:direto\s+no\s+)?(?:grupo\s+)?)\s*'
+    for grp_name, pat in group_patterns:
+        if re.search(loc_prefix + pat, tl):
+            return grp_name
+
+    # 2. Se disser explicitamente "neste grupo" / "aqui no grupo", usar o canal de origem
+    if re.search(r'\b(neste\s+grupo|aqui\s+no\s+grupo|neste\s+canal)\b', tl):
+        return default_channel or "TIMI--NO.08"
+
+    # 3. Menção direta de grupo (evitando 'produto timi mall' / 'campanha timi mall')
+    for grp_name, pat in group_patterns:
+        if grp_name == "TIMI Mall" and re.search(r'(?:produto|campanha|loja|compra\w*)\s+(?:da\s+|do\s+)?timi\s*mall', tl):
+            continue
+        if re.search(pat, tl):
+            return grp_name
+
     return default_channel or "TIMI--NO.08"
 
 
@@ -289,7 +307,11 @@ def _save_db(records: Dict[str, Dict[str, Any]]):
 def _ps_unregister_task(task_name: str) -> bool:
     ps = f"Unregister-ScheduledTask -TaskName '{task_name}' -Confirm:$false -ErrorAction SilentlyContinue"
     try:
-        res = subprocess.run(["powershell", "-NoProfile", "-Command", ps], capture_output=True, text=True, check=False)
+        res = subprocess.run(
+            ["powershell", "-NoProfile", "-Command", ps],
+            capture_output=True, text=True, check=False,
+            creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0),
+        )
         return res.returncode == 0
     except Exception:
         return False
@@ -308,7 +330,11 @@ def _ps_register_once_task(task_name: str, launch_dt: datetime.datetime, channel
         f"Register-ScheduledTask -TaskName '{task_name}' -Action $act -Trigger $trig -Settings $set -Force | Out-Null"
     )
     try:
-        res = subprocess.run(["powershell", "-NoProfile", "-Command", ps], capture_output=True, text=True, check=False)
+        res = subprocess.run(
+            ["powershell", "-NoProfile", "-Command", ps],
+            capture_output=True, text=True, check=False,
+            creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0),
+        )
         if res.returncode != 0:
             logger.error(f"Erro PowerShell ao registar '{task_name}': {res.stderr.strip()}")
             return False

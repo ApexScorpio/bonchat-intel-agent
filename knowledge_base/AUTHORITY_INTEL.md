@@ -10,7 +10,17 @@
 
 | ID | Data / Hora | Grupo / Canal | Autoridade | Assunto Principal | Anexo Visual |
 |---|---|---|---|---|:---:|
+| `INTEL-20261124-339` | 2026-11-29 N/A | `TIMI-68` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261124-339) |
+| `INTEL-20261124-341` | 2026-11-29 22:14 | `TIMI-68` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261124-341) |
 | `INTEL-20261123-327` | 2026-11-29 20:13 | `TIMI Mall` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261123-327) |
+| `INTEL-20261124-335` | 2026-11-29 10:05 | `TIMI-68` | TIMI | Aviso / Evento | [Ver Anexo](#intel-20261124-335) |
+| `INTEL-20261124-343` | 2026-11-24 22:30 | `TIMI-68` | Svitlana | Campanha / Oportunidade | [Ver Anexo](#intel-20261124-343) |
+| `INTEL-20261124-338` | 2026-11-24 22:30 | `TIMI-68` | Bob | Campanha | [Ver Anexo](#intel-20261124-338) |
+| `INTEL-20261124-337` | 2026-11-24 22:30 | `TIMI-68` | TIMI oficial | Campanha / Aviso Urgente | [Ver Anexo](#intel-20261124-337) |
+| `INTEL-20261124-342` | 2026-11-24 22:22 | `TIMI-68` | Theodore | Aviso / Campanha | [Ver Anexo](#intel-20261124-342) |
+| `INTEL-20261124-340` | 2026-11-24 22:21 | `TIMI-68` | Liderança TIMI (via Eva Horta) | Aviso / Diretiva | [Ver Anexo](#intel-20261124-340) |
+| `INTEL-20261124-344` | 2026-11-24 22:12 | `TIMI-68` | TIMI oficial | Aviso / Diretiva / Alteração de Regras | [Ver Anexo](#intel-20261124-344) |
+| `INTEL-20261124-334` | 2026-11-24 21:44 | `TIMI-68` | TIMI oficial | Reunião / Campanha / Aviso Urgente | [Ver Anexo](#intel-20261124-334) |
 | `INTEL-20261123-289` | 2026-11-23 N/A | `TIMI-68` | TIMI oficial | Aviso | [Ver Anexo](#intel-20261123-289) |
 | `INTEL-20261123-321` | 2026-11-23 23:09 | `TIMI Mall` | TIMI | Campanha / Aviso Urgente | [Ver Anexo](#intel-20261123-321) |
 | `INTEL-20261123-298` | 2026-11-23 23:08 | `TIMI--NO.08` | Theodore | Regras / Bónus | [Ver Anexo](#intel-20261123-298) |
@@ -19,6 +29,7 @@
 | `INTEL-20261123-292` | 2026-11-23 22:10 | `TIMI-68` | TIMI-68 (Mensagem de Grupo) | Aviso Urgente | [Ver Anexo](#intel-20261123-292) |
 | `INTEL-20261123-291` | 2026-11-23 22:10 | `TIMI-68` | Mikail | Campanha | [Ver Anexo](#intel-20261123-291) |
 | `INTEL-20261123-293` | 2026-11-23 22:08 | `TIMI-68` | Fernando | Aviso | [Ver Anexo](#intel-20261123-293) |
+| `INTEL-20261124-336` | 2026-11-23 22:06 | `TIMI-68` | Mariana (Theodore's directives) | Diretiva / Campanha | [Ver Anexo](#intel-20261124-336) |
 | `INTEL-20261123-294` | 2026-11-23 22:05 | `TIMI-68` | Elena Marjineanu / Theodore | Aviso / Campanha | [Ver Anexo](#intel-20261123-294) |
 | `INTEL-20261123-296` | 2026-11-23 22:04 | `TIMI-68` | Theodore (via Gku) | Reunião / Campanha / Diretiva | [Ver Anexo](#intel-20261123-296) |
 | `INTEL-20261123-295` | 2026-11-23 22:04 | `TIMI-68` | TIMI Oficial | Sorteio / Recompensa | [Ver Anexo](#intel-20261123-295) |
@@ -350,6 +361,42 @@
 
 ---
 
+### <a id="intel-20261124-339"></a>[INTEL-20261124-339] — Reunião / Evento
+
+- **📅 Data de Publicação:** 2026-11-29
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Reunião / Evento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Rafaela convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos! Quim Barreiros estará presente como surpresa! Porto, Portugal
+```
+
+#### 💡 Pontos-Chave:
+- Convite para 3ª apresentação de produtos em Porto, Portugal
+- Presença de Quim Barreiros
+
+---
+
+### <a id="intel-20261124-341"></a>[INTEL-20261124-341] — Reunião / Evento
+
+- **📅 Data de Publicação:** 2026-11-29
+- **⏰ Hora:** 22:14
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Reunião / Evento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Hugo convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos! Quem Barreiros estará presente como surpresa! Porto, Portugal
+```
+
+#### 💡 Pontos-Chave:
+- Terceira apresentação de produtos em Porto, Portugal
+- Data: 29/11/2026
+
+---
+
 ### <a id="intel-20261123-327"></a>[INTEL-20261123-327] — Reunião / Evento
 
 - **📅 Data de Publicação:** 2026-11-29
@@ -367,6 +414,153 @@ Cátia convida cordialmente você a participar na terceira apresentação de pro
 - Local: Porto, Portugal
 - Data: 29/11/2026
 - Atração: Quim Barreiros
+
+---
+
+### <a id="intel-20261124-335"></a>[INTEL-20261124-335] — Aviso / Evento
+
+- **📅 Data de Publicação:** 2026-11-29
+- **⏰ Hora:** 10:05
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Aviso / Evento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Ramiro convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos! Quim Barreiros estará presente como surpresa! Porto, Portugal
+```
+
+#### 💡 Pontos-Chave:
+- Terceira apresentação de produtos em 29/11/2026.
+- Local: Porto, Portugal.
+- Convidado surpresa: Quim Barreiros.
+
+---
+
+### <a id="intel-20261124-343"></a>[INTEL-20261124-343] — Campanha / Oportunidade
+
+- **📅 Data de Publicação:** 2026-11-24
+- **⏰ Hora:** 22:30
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Svitlana`
+- **🏷️ Categoria:** Campanha / Oportunidade
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Muito obrigado, Theodore, por toda a informação e pelo apoio que nos dás. As reuniões são importantes para aprendermos, crescemos e acompanhamos o futuro da TIMI. Não podemos esquecer que faltam apenas dois dias para terminar a oportunidade do pacote de 250 dólares. Vamos continuar a aprender, a evoluir e a tomar decisões conscientes e seguras.
+```
+
+#### 💡 Pontos-Chave:
+- Oportunidade do pacote de 250 dólares termina em 2 dias.
+
+---
+
+### <a id="intel-20261124-338"></a>[INTEL-20261124-338] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-24
+- **⏰ Hora:** 22:30
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Bob`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Aviso urgente! Os produtos por tempo limitado da TIMI MALL estão disponíveis para compra! Caros parceiros, esta campanha tem um total de 600 vagas de compra e 90% já foram preenchidas. As vagas restantes são limitadas!
+```
+
+#### 💡 Pontos-Chave:
+- Produtos TIMI MALL por tempo limitado disponíveis para compra
+- Campanha com 600 vagas, 90% preenchidas
+- Vagas restantes são limitadas
+
+---
+
+### <a id="intel-20261124-337"></a>[INTEL-20261124-337] — Campanha / Aviso Urgente
+
+- **📅 Data de Publicação:** 2026-11-24
+- **⏰ Hora:** 22:30
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI oficial`
+- **🏷️ Categoria:** Campanha / Aviso Urgente
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+estão disponíveis para compra! Caros parceiros, esta campanha tem um total de 600 vagas de compra e 90% já foram preenchidas. As vagas restantes são limitadas! Quando todas as vagas estiverem esgotadas, o produto será temporariamente retirado de venda e só voltará a estar disponível no dia seguinte. A oportunidade é limitada! As vagas são atribuídas por ordem de compra. Aproveitem enquanto ainda há vagas disponíveis!
+```
+
+#### 💡 Pontos-Chave:
+- Campanha com 600 vagas totais, 90% preenchidas (60 restantes).
+- Produto será retirado de venda ao esgotar vagas e retorna no dia seguinte.
+- Vagas atribuídas por ordem de compra.
+
+---
+
+### <a id="intel-20261124-342"></a>[INTEL-20261124-342] — Aviso / Campanha
+
+- **📅 Data de Publicação:** 2026-11-24
+- **⏰ Hora:** 22:22
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Aviso / Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Muito obrigado, Theodore, por toda a informação e pelo apoio que nos dás. As reuniões são importantes para aprendermos, crescermos e acompanharmos o futuro da TIMI. Não podemos esquecer que faltam apenas dois dias para terminar a oportunidade do pacote de 250 dólares. Vamos continuar a aprender, a evoluir e a tomar decisões conscientes e seguras.
+```
+
+#### 💡 Pontos-Chave:
+- Oportunidade do pacote de 250 dólares termina em 2 dias.
+
+---
+
+### <a id="intel-20261124-340"></a>[INTEL-20261124-340] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-24
+- **⏰ Hora:** 22:21
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Liderança TIMI (via Eva Horta)`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+resumo da reunião foi falado em incentivar o crescimento da equipaforam falados pontospripaisem acompanhar as reuniões e perceber do que voce fala e não vir aqui so para dizer boa noite e apanhar o código e não assistir a reunião, ate pork as reuniões é importantes falou dos ganhos esclarecer e orientar a nossa equipa e quando ganha gosta de dividir conosco e ajudar a promover os agentes e deu a conhecer mais da atimi mall como e importante seguimos as condições e regras e tudo o que faz e para nos ajudar
+```
+
+#### 💡 Pontos-Chave:
+- Importância de acompanhar e assistir às reuniões
+- Não comparecer apenas para 'apanhar o código'
+
+---
+
+### <a id="intel-20261124-344"></a>[INTEL-20261124-344] — Aviso / Diretiva / Alteração de Regras
+
+- **📅 Data de Publicação:** 2026-11-24
+- **⏰ Hora:** 22:12
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI oficial`
+- **🏷️ Categoria:** Aviso / Diretiva / Alteração de Regras
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+1. Reuniões. O desenvolvimento da equipa não vem de esperar mais de participação ativa. Critica-se quem falta ou entra só para dizer «boa noite» e sai, esperando recompensas: é irresponsável para consigo próprio. As reuniões servem para atualizações, produtos e problemas concretos; os gestores têm de compreender e transmitir bem a informação. Regra citada: menos de 70 pontos pode afetar rendimentos do equipamento, e as ausências devem ser comunicadas com antecedência ao responsável ou superior.
+```
+
+#### 💡 Pontos-Chave:
+- Faltas a reuniões podem afetar rendimentos (menos de 70 pontos).
+- Ausências a reuniões devem ser comunicadas com antecedência.
+
+---
+
+### <a id="intel-20261124-334"></a>[INTEL-20261124-334] — Reunião / Campanha / Aviso Urgente
+
+- **📅 Data de Publicação:** 2026-11-24
+- **⏰ Hora:** 21:44
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `TIMI oficial`
+- **🏷️ Categoria:** Reunião / Campanha / Aviso Urgente
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+AVISO IMPORTANTE DE REUNIÃO DA TIMI Data de reunião: 25 de novembro (Quarta-feira) Às 20:00 Local de reunião: TIMI-NO.08 Haverá prémios Lucky em USDT durante a reunião! Por favor, todos os parceiros organizem o vosso tempo com antecedência e informem os membros da vossa equipa, para garantir que as informações importantes chegam a todos. Os parceiros que não participarem na reunião sem justificação terão uma penalização de 10 a 20 pontos de reputação, conforme o regulamento de gestão da empresa. Caso não possam participar por motivos de trabalho, família ou outro razão importante, por favor, comuniquem com antecedência ao vosso gestor.
+```
+
+#### 💡 Pontos-Chave:
+- Reunião obrigatória TIMI-NO.08 em 25/11/2026 (Quarta-feira) às 20:00.
+- Prémios Lucky em USDT serão distribuídos durante a reunião.
+- Ausência injustificada resultará em penalização de 10-20 pontos de reputação.
+- Comunicar ao gestor em caso de ausência justificada.
 
 ---
 
@@ -527,6 +721,24 @@ Ainda da tempo, vou participar desta campanha de benefícios da Mall e espero qu
 
 #### 💡 Pontos-Chave:
 - Fase atual da campanha de benefícios da Mall termina em dois dias.
+
+---
+
+### <a id="intel-20261124-336"></a>[INTEL-20261124-336] — Diretiva / Campanha
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 22:06
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Mariana (Theodore's directives)`
+- **🏷️ Categoria:** Diretiva / Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Resumo da reunião de hoje - 23/11/26 O foco manteve- nas oportunidades de crescimento na TIMI O Theodore partilhou novas estratégias para aumentar os rendimentos na TIMI. Para atingir melhores resultados, os agentes devem focar-se em quatro prioridades: subir de nível, manter os equipamentos atualizados, dominar o TIMI Mall e aproveitar as campanhas em vigor. Destaca-se ainda uma campanha especial com prazo definido e unidades limitadas. Recomenda-se que todos consultem as condições e partilhem esta informação com as respetivas equipas.
+```
+
+#### 💡 Pontos-Chave:
+- Theodore definiu 4 prioridades para agentes: subir de nível, atualizar equipamentos, dominar TIMI Mall, aproveitar campanhas.
+- Mencionada campanha especial com prazo e unidades limitadas.
 
 ---
 

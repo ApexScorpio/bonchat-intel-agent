@@ -1,5 +1,184 @@
 [
   {
+    "id": "INTEL-20261124-344",
+    "timestamp_published": "2026-11-24 23:13:03",
+    "date_str": "2026-11-24",
+    "time_str": "22:12",
+    "channel": "TIMI-68",
+    "authority": "TIMI oficial",
+    "content_type": "Aviso / Diretiva / Alteração de Regras",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "1. Reuniões. O desenvolvimento da equipa não vem de esperar mais de participação ativa. Critica-se quem falta ou entra só para dizer «boa noite» e sai, esperando recompensas: é irresponsável para consigo próprio. As reuniões servem para atualizações, produtos e problemas concretos; os gestores têm de compreender e transmitir bem a informação. Regra citada: menos de 70 pontos pode afetar rendimentos do equipamento, e as ausências devem ser comunicadas com antecedência ao responsável ou superior.",
+    "key_takeaways": [
+      "Faltas a reuniões podem afetar rendimentos (menos de 70 pontos).",
+      "Ausências a reuniões devem ser comunicadas com antecedência."
+    ]
+  },
+  {
+    "id": "INTEL-20261124-343",
+    "timestamp_published": "2026-11-24 23:13:03",
+    "date_str": "2026-11-24",
+    "time_str": "22:30",
+    "channel": "TIMI-68",
+    "authority": "Svitlana",
+    "content_type": "Campanha / Oportunidade",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Muito obrigado, Theodore, por toda a informação e pelo apoio que nos dás. As reuniões são importantes para aprendermos, crescemos e acompanhamos o futuro da TIMI. Não podemos esquecer que faltam apenas dois dias para terminar a oportunidade do pacote de 250 dólares. Vamos continuar a aprender, a evoluir e a tomar decisões conscientes e seguras.",
+    "key_takeaways": [
+      "Oportunidade do pacote de 250 dólares termina em 2 dias."
+    ]
+  },
+  {
+    "id": "INTEL-20261124-342",
+    "timestamp_published": "2026-11-24 23:13:03",
+    "date_str": "2026-11-24",
+    "time_str": "22:22",
+    "channel": "TIMI-68",
+    "authority": "Theodore",
+    "content_type": "Aviso / Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Muito obrigado, Theodore, por toda a informação e pelo apoio que nos dás. As reuniões são importantes para aprendermos, crescermos e acompanharmos o futuro da TIMI. Não podemos esquecer que faltam apenas dois dias para terminar a oportunidade do pacote de 250 dólares. Vamos continuar a aprender, a evoluir e a tomar decisões conscientes e seguras.",
+    "key_takeaways": [
+      "Oportunidade do pacote de 250 dólares termina em 2 dias."
+    ]
+  },
+  {
+    "id": "INTEL-20261124-341",
+    "timestamp_published": "2026-11-24 23:13:03",
+    "date_str": "2026-11-29",
+    "time_str": "22:14",
+    "channel": "TIMI-68",
+    "authority": "TIMI",
+    "content_type": "Reunião / Evento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Hugo convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos! Quem Barreiros estará presente como surpresa! Porto, Portugal",
+    "key_takeaways": [
+      "Terceira apresentação de produtos em Porto, Portugal",
+      "Data: 29/11/2026"
+    ]
+  },
+  {
+    "id": "INTEL-20261124-340",
+    "timestamp_published": "2026-11-24 23:13:03",
+    "date_str": "2026-11-24",
+    "time_str": "22:21",
+    "channel": "TIMI-68",
+    "authority": "Liderança TIMI (via Eva Horta)",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "resumo da reunião foi falado em incentivar o crescimento da equipaforam falados pontospripaisem acompanhar as reuniões e perceber do que voce fala e não vir aqui so para dizer boa noite e apanhar o código e não assistir a reunião, ate pork as reuniões é importantes falou dos ganhos esclarecer e orientar a nossa equipa e quando ganha gosta de dividir conosco e ajudar a promover os agentes e deu a conhecer mais da atimi mall como e importante seguimos as condições e regras e tudo o que faz e para nos ajudar",
+    "key_takeaways": [
+      "Importância de acompanhar e assistir às reuniões",
+      "Não comparecer apenas para 'apanhar o código'"
+    ]
+  },
+  {
+    "id": "INTEL-20261124-339",
+    "timestamp_published": "2026-11-24 23:13:03",
+    "date_str": "2026-11-29",
+    "time_str": "N/A",
+    "channel": "TIMI-68",
+    "authority": "TIMI",
+    "content_type": "Reunião / Evento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Rafaela convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos! Quim Barreiros estará presente como surpresa! Porto, Portugal",
+    "key_takeaways": [
+      "Convite para 3ª apresentação de produtos em Porto, Portugal",
+      "Presença de Quim Barreiros"
+    ]
+  },
+  {
+    "id": "INTEL-20261124-338",
+    "timestamp_published": "2026-11-24 23:13:03",
+    "date_str": "2026-11-24",
+    "time_str": "22:30",
+    "channel": "TIMI-68",
+    "authority": "Bob",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Aviso urgente! Os produtos por tempo limitado da TIMI MALL estão disponíveis para compra! Caros parceiros, esta campanha tem um total de 600 vagas de compra e 90% já foram preenchidas. As vagas restantes são limitadas!",
+    "key_takeaways": [
+      "Produtos TIMI MALL por tempo limitado disponíveis para compra",
+      "Campanha com 600 vagas, 90% preenchidas",
+      "Vagas restantes são limitadas"
+    ]
+  },
+  {
+    "id": "INTEL-20261124-337",
+    "timestamp_published": "2026-11-24 23:13:03",
+    "date_str": "2026-11-24",
+    "time_str": "22:30",
+    "channel": "TIMI-68",
+    "authority": "TIMI oficial",
+    "content_type": "Campanha / Aviso Urgente",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "estão disponíveis para compra! Caros parceiros, esta campanha tem um total de 600 vagas de compra e 90% já foram preenchidas. As vagas restantes são limitadas! Quando todas as vagas estiverem esgotadas, o produto será temporariamente retirado de venda e só voltará a estar disponível no dia seguinte. A oportunidade é limitada! As vagas são atribuídas por ordem de compra. Aproveitem enquanto ainda há vagas disponíveis!",
+    "key_takeaways": [
+      "Campanha com 600 vagas totais, 90% preenchidas (60 restantes).",
+      "Produto será retirado de venda ao esgotar vagas e retorna no dia seguinte.",
+      "Vagas atribuídas por ordem de compra."
+    ]
+  },
+  {
+    "id": "INTEL-20261124-336",
+    "timestamp_published": "2026-11-24 23:13:03",
+    "date_str": "2026-11-23",
+    "time_str": "22:06",
+    "channel": "TIMI-68",
+    "authority": "Mariana (Theodore's directives)",
+    "content_type": "Diretiva / Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Resumo da reunião de hoje - 23/11/26 O foco manteve- nas oportunidades de crescimento na TIMI O Theodore partilhou novas estratégias para aumentar os rendimentos na TIMI. Para atingir melhores resultados, os agentes devem focar-se em quatro prioridades: subir de nível, manter os equipamentos atualizados, dominar o TIMI Mall e aproveitar as campanhas em vigor. Destaca-se ainda uma campanha especial com prazo definido e unidades limitadas. Recomenda-se que todos consultem as condições e partilhem esta informação com as respetivas equipas.",
+    "key_takeaways": [
+      "Theodore definiu 4 prioridades para agentes: subir de nível, atualizar equipamentos, dominar TIMI Mall, aproveitar campanhas.",
+      "Mencionada campanha especial com prazo e unidades limitadas."
+    ]
+  },
+  {
+    "id": "INTEL-20261124-335",
+    "timestamp_published": "2026-11-24 23:13:03",
+    "date_str": "2026-11-29",
+    "time_str": "10:05",
+    "channel": "TIMI-68",
+    "authority": "TIMI",
+    "content_type": "Aviso / Evento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Ramiro convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos! Quim Barreiros estará presente como surpresa! Porto, Portugal",
+    "key_takeaways": [
+      "Terceira apresentação de produtos em 29/11/2026.",
+      "Local: Porto, Portugal.",
+      "Convidado surpresa: Quim Barreiros."
+    ]
+  },
+  {
+    "id": "INTEL-20261124-334",
+    "timestamp_published": "2026-11-24 23:13:03",
+    "date_str": "2026-11-24",
+    "time_str": "21:44",
+    "channel": "TIMI-68",
+    "authority": "TIMI oficial",
+    "content_type": "Reunião / Campanha / Aviso Urgente",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "AVISO IMPORTANTE DE REUNIÃO DA TIMI Data de reunião: 25 de novembro (Quarta-feira) Às 20:00 Local de reunião: TIMI-NO.08 Haverá prémios Lucky em USDT durante a reunião! Por favor, todos os parceiros organizem o vosso tempo com antecedência e informem os membros da vossa equipa, para garantir que as informações importantes chegam a todos. Os parceiros que não participarem na reunião sem justificação terão uma penalização de 10 a 20 pontos de reputação, conforme o regulamento de gestão da empresa. Caso não possam participar por motivos de trabalho, família ou outro razão importante, por favor, comuniquem com antecedência ao vosso gestor.",
+    "key_takeaways": [
+      "Reunião obrigatória TIMI-NO.08 em 25/11/2026 (Quarta-feira) às 20:00.",
+      "Prémios Lucky em USDT serão distribuídos durante a reunião.",
+      "Ausência injustificada resultará em penalização de 10-20 pontos de reputação.",
+      "Comunicar ao gestor em caso de ausência justificada."
+    ]
+  },
+  {
     "id": "INTEL-20261123-333",
     "timestamp_published": "2026-11-23 23:27:29",
     "date_str": "2026-11-23",
