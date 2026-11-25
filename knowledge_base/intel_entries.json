@@ -1,5 +1,155 @@
 [
   {
+    "id": "INTEL-20261125-364",
+    "timestamp_published": "2026-11-25 23:27:32",
+    "date_str": "2026-11-24",
+    "time_str": "20:26",
+    "channel": "TIMI-NeWs",
+    "authority": "Rodrigo Carvalho",
+    "content_type": "Reunião / Evento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Rodrigo convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos! Quim Barreiros estará presente como surpresa! Porto, Portugal",
+    "key_takeaways": [
+      "Terceira apresentação de produtos em 29/11/2026",
+      "Local: Porto, Portugal",
+      "Convidado surpresa: Quim Barreiros"
+    ]
+  },
+  {
+    "id": "INTEL-20261125-363",
+    "timestamp_published": "2026-11-25 23:27:32",
+    "date_str": "2026-11-24",
+    "time_str": "23:08",
+    "channel": "TIMI-NeWs",
+    "authority": "Theodore",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Regras de recompensa por recrutamento: Recrutar com sucesso um membro T3 dá-te 1 oportunidade de sorteio. Recrutar com sucesso um membro T4 dá-te 3 oportunidades de sorteio, e o teu amigo recebe 1 oportunidade extra. Recrutar com sucesso um membro T5 dá-te 3 oportunidades de sorteio, e o teu amigo recebe 2 oportunidades extra. Quanto mais alto o nível do equipamento recrutado, mais oportunidades de sorteio ambos recebem!",
+    "key_takeaways": [
+      "Nova campanha de recompensas por recrutamento de membros.",
+      "Recrutar membro T3 concede 1 oportunidade de sorteio ao recrutador.",
+      "Recrutar membro T4 concede 3 oportunidades de sorteio ao recrutador e 1 extra ao amigo recrutado.",
+      "Recrutar membro T5 concede 3 oportunidades de sorteio ao recrutador e 2 extra ao amigo recrutado.",
+      "O número de oportunidades de sorteio aumenta para ambos com o nível do equipamento recrutado."
+    ]
+  },
+  {
+    "id": "INTEL-20261125-362",
+    "timestamp_published": "2026-11-25 23:27:32",
+    "date_str": "2026-11-25",
+    "time_str": "16:46",
+    "channel": "TIMI-NeWs",
+    "authority": "Theodore",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Caros agentes de excelência, A partir de hoje, vou estabelecer tarefas semanais individuais para todos os agentes de nível 1 ou superior. Cada um deverá entrar em contacto comigo por iniciativa própria para receber as suas tarefas semanais e cumpri-las com empenho e responsabilidade. O objetivo destas tarefas não é apenas ajudar-vos a desenvolver as vossas capacidades individuais, mas também ensinar-vos a liderar; gerir e impulsionar as vossas equipas, promovendo o crescimento e o progresso de todos os membros. Lembrem-se: a força de uma pessoa é limitada, mas a força de uma equipa é enorme. Quanto maior e mais forte for a vossa equipa, maiores serão os resultados que poderão alcançar e maiores serão também os vossos rendimentos. Espero que todos assumam a iniciativa, cumpram as suas responsabilidades e liderem as suas equipas rumo a um crescimento contínuo. Vamos trabalhar juntos, crescer juntos e alcançar objetivos cada vez maiores!",
+    "key_takeaways": [
+      "Theodore vai estabelecer tarefas semanais individuais para agentes de nível 1 ou superior.",
+      "Agentes devem contactar Theodore por iniciativa própria para receber e cumprir as tarefas."
+    ]
+  },
+  {
+    "id": "INTEL-20261125-361",
+    "timestamp_published": "2026-11-25 23:27:32",
+    "date_str": "2026-11-25",
+    "time_str": "18:45",
+    "channel": "TIMI-NeWs",
+    "authority": "Aline",
+    "content_type": "Live",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Alô pessoal, faltam 15 minutos para a nossa live 🎶 https://tiktok.com/@alineab84?_r=1&_t=ZlS-9RbgAngVelln",
+    "key_takeaways": [
+      "Live da Aline em 15 minutos (início previsto às 19:00)",
+      "Link da live: https://tiktok.com/@alineab84?_r=1&_t=ZlS-9RbgAngVelln"
+    ]
+  },
+  {
+    "id": "INTEL-20261125-360",
+    "timestamp_published": "2026-11-25 23:27:32",
+    "date_str": "2026-11-24",
+    "time_str": "20:58",
+    "channel": "TIMI-NeWs",
+    "authority": "Theodore",
+    "content_type": "Sorteio / Bónus",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Hoje, na interação, vou enviar um envelope vermelho de sort...",
+    "key_takeaways": [
+      "Theodore enviará um envelope vermelho de sorte na interação de hoje."
+    ]
+  },
+  {
+    "id": "INTEL-20261125-359",
+    "timestamp_published": "2026-11-25 23:27:32",
+    "date_str": "2026-11-24",
+    "time_str": "10:20",
+    "channel": "TIMI-NeWs",
+    "authority": "Theodore",
+    "content_type": "Reunião",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Bom dia a todos, já se avisaram uns aos outros sobre a reunião do grupo 08 desta noite?",
+    "key_takeaways": [
+      "Reunião obrigatória do grupo TIMI-08 esta noite."
+    ]
+  },
+  {
+    "id": "INTEL-20261125-358",
+    "timestamp_published": "2026-11-25 23:27:32",
+    "date_str": "2026-11-25",
+    "time_str": "N/A",
+    "channel": "TIMI-NeWs",
+    "authority": "Theodore",
+    "content_type": "Reunião / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A reunião desta noite é importante. É preciso avisar os membros da sua equipa para que compareçam no horário. O diretor geral, Jonathan, anunciará alguns planos novos para ajudar todos a",
+    "key_takeaways": [
+      "Reunião obrigatória esta noite",
+      "Diretor Geral Jonathan anunciará novos planos",
+      "Presença no horário é essencial"
+    ]
+  },
+  {
+    "id": "INTEL-20261125-357",
+    "timestamp_published": "2026-11-25 23:27:32",
+    "date_str": "2026-11-25",
+    "time_str": "10:21",
+    "channel": "TIMI-NeWs",
+    "authority": "Theodore",
+    "content_type": "Aviso / Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Além disso, lembrem-se de que hoje é o último dia da atividade da bolsa impermeável para bagagem da TIMI MALL. Neste momento, restam menos de 600 vagas; após esgotarem, o investimento será encerrado.",
+    "key_takeaways": [
+      "Hoje é o último dia para a atividade da bolsa impermeável TIMI Mall",
+      "Restam menos de 600 vagas",
+      "O investimento será encerrado após esgotarem as vagas"
+    ]
+  },
+  {
+    "id": "INTEL-20261125-356",
+    "timestamp_published": "2026-11-25 23:27:32",
+    "date_str": "2026-11-25",
+    "time_str": "22:34",
+    "channel": "TIMI-NeWs",
+    "authority": "Bica / Theodore / Nuno Ferreira TIMI",
+    "content_type": "Campanha / Bónus",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "As contas ficarão assim: - o novo membro entra com 100$ para fazer o teste por 3 dias num equipamento T4 - recebe por isso 90$ - fica com um saldo de 190$ Exemplo: T3 custa 560$ menos os 190$ de que já tem de saldo, só precisa de investir mais 370$ que em euros são 336,68€, sendo o seu investimento total de 427,68€ Exemplo 2: T4 custa 1300$ menos 190$ que já tem de saldo, o montante a investir é de 1110$",
+    "key_takeaways": [
+      "Nova campanha para membros novos: entrada de 100 USDT para teste T4 (3 dias) com bónus de 90 USDT, resultando em saldo de 190 USDT.",
+      "Elegibilidade estendida a registados sem compra prévia e a quem já realizou o teste.",
+      "Possibilidade de adquirir equipamento diretamente e solicitar subsídio de 90 USDT a Theodore, sem período experimental.",
+      "Valores de investimento adicionais após bónus: T3 (370 USDT), T4 (1110 USDT)."
+    ]
+  },
+  {
     "id": "INTEL-20261125-355",
     "timestamp_published": "2026-11-25 23:12:06",
     "date_str": "2026-11-24",

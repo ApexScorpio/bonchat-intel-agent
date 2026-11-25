@@ -14,8 +14,14 @@
 | `INTEL-20261124-341` | 2026-11-29 22:14 | `TIMI-68` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261124-341) |
 | `INTEL-20261123-327` | 2026-11-29 20:13 | `TIMI Mall` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261123-327) |
 | `INTEL-20261124-335` | 2026-11-29 10:05 | `TIMI-68` | TIMI | Aviso / Evento | [Ver Anexo](#intel-20261124-335) |
+| `INTEL-20261125-358` | 2026-11-25 N/A | `TIMI-NeWs` | Theodore | Reunião / Diretiva | [Ver Anexo](#intel-20261125-358) |
+| `INTEL-20261125-356` | 2026-11-25 22:34 | `TIMI-NeWs` | Bica / Theodore / Nuno Ferreira TIMI | Campanha / Bónus | [Ver Anexo](#intel-20261125-356) |
+| `INTEL-20261125-361` | 2026-11-25 18:45 | `TIMI-NeWs` | Aline | Live | [Ver Anexo](#intel-20261125-361) |
+| `INTEL-20261125-362` | 2026-11-25 16:46 | `TIMI-NeWs` | Theodore | Diretiva | [Ver Anexo](#intel-20261125-362) |
 | `INTEL-20261125-346` | 2026-11-25 14:28 | `TIMI--NO.08` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261125-346) |
+| `INTEL-20261125-357` | 2026-11-25 10:21 | `TIMI-NeWs` | Theodore | Aviso / Campanha | [Ver Anexo](#intel-20261125-357) |
 | `INTEL-20261124-345` | 2026-11-24 N/A | `TIMI--NO.08` | TIMI Administrador | Diretiva | [Ver Anexo](#intel-20261124-345) |
+| `INTEL-20261125-363` | 2026-11-24 23:08 | `TIMI-NeWs` | Theodore | Campanha | [Ver Anexo](#intel-20261125-363) |
 | `INTEL-20261125-355` | 2026-11-24 22:58 | `TIMI Mall` | TIMI | Aviso / Campanha | [Ver Anexo](#intel-20261125-355) |
 | `INTEL-20261124-343` | 2026-11-24 22:30 | `TIMI-68` | Svitlana | Campanha / Oportunidade | [Ver Anexo](#intel-20261124-343) |
 | `INTEL-20261124-338` | 2026-11-24 22:30 | `TIMI-68` | Bob | Campanha | [Ver Anexo](#intel-20261124-338) |
@@ -25,6 +31,9 @@
 | `INTEL-20261124-344` | 2026-11-24 22:12 | `TIMI-68` | TIMI oficial | Aviso / Diretiva / Alteração de Regras | [Ver Anexo](#intel-20261124-344) |
 | `INTEL-20261125-354` | 2026-11-24 22:03 | `TIMI Mall` | Ivieira Assistente | Aviso | [Ver Anexo](#intel-20261125-354) |
 | `INTEL-20261124-334` | 2026-11-24 21:44 | `TIMI-68` | TIMI oficial | Reunião / Campanha / Aviso Urgente | [Ver Anexo](#intel-20261124-334) |
+| `INTEL-20261125-360` | 2026-11-24 20:58 | `TIMI-NeWs` | Theodore | Sorteio / Bónus | [Ver Anexo](#intel-20261125-360) |
+| `INTEL-20261125-364` | 2026-11-24 20:26 | `TIMI-NeWs` | Rodrigo Carvalho | Reunião / Evento | [Ver Anexo](#intel-20261125-364) |
+| `INTEL-20261125-359` | 2026-11-24 10:20 | `TIMI-NeWs` | Theodore | Reunião | [Ver Anexo](#intel-20261125-359) |
 | `INTEL-20261123-289` | 2026-11-23 N/A | `TIMI-68` | TIMI oficial | Aviso | [Ver Anexo](#intel-20261123-289) |
 | `INTEL-20261125-347` | 2026-11-23 23:16 | `TIMI--NO.08` | TIMI | Aviso | [Ver Anexo](#intel-20261125-347) |
 | `INTEL-20261125-348` | 2026-11-23 23:15 | `TIMI--NO.08` | TIMI | Aviso | [Ver Anexo](#intel-20261125-348) |
@@ -447,6 +456,81 @@ Ramiro convida cordialmente você a participar na terceira apresentação de pro
 
 ---
 
+### <a id="intel-20261125-358"></a>[INTEL-20261125-358] — Reunião / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-25
+- **⏰ Hora:** N/A
+- **👥 Grupo / Canal:** `TIMI-NeWs`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Reunião / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A reunião desta noite é importante. É preciso avisar os membros da sua equipa para que compareçam no horário. O diretor geral, Jonathan, anunciará alguns planos novos para ajudar todos a
+```
+
+#### 💡 Pontos-Chave:
+- Reunião obrigatória esta noite
+- Diretor Geral Jonathan anunciará novos planos
+- Presença no horário é essencial
+
+---
+
+### <a id="intel-20261125-356"></a>[INTEL-20261125-356] — Campanha / Bónus
+
+- **📅 Data de Publicação:** 2026-11-25
+- **⏰ Hora:** 22:34
+- **👥 Grupo / Canal:** `TIMI-NeWs`
+- **👑 Autoridade / Emissor:** `Bica / Theodore / Nuno Ferreira TIMI`
+- **🏷️ Categoria:** Campanha / Bónus
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+As contas ficarão assim: - o novo membro entra com 100$ para fazer o teste por 3 dias num equipamento T4 - recebe por isso 90$ - fica com um saldo de 190$ Exemplo: T3 custa 560$ menos os 190$ de que já tem de saldo, só precisa de investir mais 370$ que em euros são 336,68€, sendo o seu investimento total de 427,68€ Exemplo 2: T4 custa 1300$ menos 190$ que já tem de saldo, o montante a investir é de 1110$
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha para membros novos: entrada de 100 USDT para teste T4 (3 dias) com bónus de 90 USDT, resultando em saldo de 190 USDT.
+- Elegibilidade estendida a registados sem compra prévia e a quem já realizou o teste.
+- Possibilidade de adquirir equipamento diretamente e solicitar subsídio de 90 USDT a Theodore, sem período experimental.
+- Valores de investimento adicionais após bónus: T3 (370 USDT), T4 (1110 USDT).
+
+---
+
+### <a id="intel-20261125-361"></a>[INTEL-20261125-361] — Live
+
+- **📅 Data de Publicação:** 2026-11-25
+- **⏰ Hora:** 18:45
+- **👥 Grupo / Canal:** `TIMI-NeWs`
+- **👑 Autoridade / Emissor:** `Aline`
+- **🏷️ Categoria:** Live
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Alô pessoal, faltam 15 minutos para a nossa live 🎶 https://tiktok.com/@alineab84?_r=1&_t=ZlS-9RbgAngVelln
+```
+
+#### 💡 Pontos-Chave:
+- Live da Aline em 15 minutos (início previsto às 19:00)
+- Link da live: https://tiktok.com/@alineab84?_r=1&_t=ZlS-9RbgAngVelln
+
+---
+
+### <a id="intel-20261125-362"></a>[INTEL-20261125-362] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-25
+- **⏰ Hora:** 16:46
+- **👥 Grupo / Canal:** `TIMI-NeWs`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Caros agentes de excelência, A partir de hoje, vou estabelecer tarefas semanais individuais para todos os agentes de nível 1 ou superior. Cada um deverá entrar em contacto comigo por iniciativa própria para receber as suas tarefas semanais e cumpri-las com empenho e responsabilidade. O objetivo destas tarefas não é apenas ajudar-vos a desenvolver as vossas capacidades individuais, mas também ensinar-vos a liderar; gerir e impulsionar as vossas equipas, promovendo o crescimento e o progresso de todos os membros. Lembrem-se: a força de uma pessoa é limitada, mas a força de uma equipa é enorme. Quanto maior e mais forte for a vossa equipa, maiores serão os resultados que poderão alcançar e maiores serão também os vossos rendimentos. Espero que todos assumam a iniciativa, cumpram as suas responsabilidades e liderem as suas equipas rumo a um crescimento contínuo. Vamos trabalhar juntos, crescer juntos e alcançar objetivos cada vez maiores!
+```
+
+#### 💡 Pontos-Chave:
+- Theodore vai estabelecer tarefas semanais individuais para agentes de nível 1 ou superior.
+- Agentes devem contactar Theodore por iniciativa própria para receber e cumprir as tarefas.
+
+---
+
 ### <a id="intel-20261125-346"></a>[INTEL-20261125-346] — Reunião / Evento
 
 - **📅 Data de Publicação:** 2026-11-25
@@ -463,6 +547,25 @@ Hugo convida cordialmente você a participar na terceira apresentação de produ
 - 3ª apresentação de produtos em Porto, Portugal
 - Data do evento: 29/11/2026
 - Presença de Quem Barreiros como surpresa
+
+---
+
+### <a id="intel-20261125-357"></a>[INTEL-20261125-357] — Aviso / Campanha
+
+- **📅 Data de Publicação:** 2026-11-25
+- **⏰ Hora:** 10:21
+- **👥 Grupo / Canal:** `TIMI-NeWs`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Aviso / Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Além disso, lembrem-se de que hoje é o último dia da atividade da bolsa impermeável para bagagem da TIMI MALL. Neste momento, restam menos de 600 vagas; após esgotarem, o investimento será encerrado.
+```
+
+#### 💡 Pontos-Chave:
+- Hoje é o último dia para a atividade da bolsa impermeável TIMI Mall
+- Restam menos de 600 vagas
+- O investimento será encerrado após esgotarem as vagas
 
 ---
 
@@ -485,6 +588,27 @@ Obrigado a cada parceiro pela compreensão, apoio e colaboração ativa!
 #### 💡 Pontos-Chave:
 - Evitar saudações diárias no grupo (bom dia/tarde/noite) para garantir a visibilidade de informações importantes.
 - Manter um ambiente de comunicação eficiente e organizado no grupo.
+
+---
+
+### <a id="intel-20261125-363"></a>[INTEL-20261125-363] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-24
+- **⏰ Hora:** 23:08
+- **👥 Grupo / Canal:** `TIMI-NeWs`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Regras de recompensa por recrutamento: Recrutar com sucesso um membro T3 dá-te 1 oportunidade de sorteio. Recrutar com sucesso um membro T4 dá-te 3 oportunidades de sorteio, e o teu amigo recebe 1 oportunidade extra. Recrutar com sucesso um membro T5 dá-te 3 oportunidades de sorteio, e o teu amigo recebe 2 oportunidades extra. Quanto mais alto o nível do equipamento recrutado, mais oportunidades de sorteio ambos recebem!
+```
+
+#### 💡 Pontos-Chave:
+- Nova campanha de recompensas por recrutamento de membros.
+- Recrutar membro T3 concede 1 oportunidade de sorteio ao recrutador.
+- Recrutar membro T4 concede 3 oportunidades de sorteio ao recrutador e 1 extra ao amigo recrutado.
+- Recrutar membro T5 concede 3 oportunidades de sorteio ao recrutador e 2 extra ao amigo recrutado.
+- O número de oportunidades de sorteio aumenta para ambos com o nível do equipamento recrutado.
 
 ---
 
@@ -648,6 +772,59 @@ AVISO IMPORTANTE DE REUNIÃO DA TIMI Data de reunião: 25 de novembro (Quarta-fe
 - Prémios Lucky em USDT serão distribuídos durante a reunião.
 - Ausência injustificada resultará em penalização de 10-20 pontos de reputação.
 - Comunicar ao gestor em caso de ausência justificada.
+
+---
+
+### <a id="intel-20261125-360"></a>[INTEL-20261125-360] — Sorteio / Bónus
+
+- **📅 Data de Publicação:** 2026-11-24
+- **⏰ Hora:** 20:58
+- **👥 Grupo / Canal:** `TIMI-NeWs`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Sorteio / Bónus
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Hoje, na interação, vou enviar um envelope vermelho de sort...
+```
+
+#### 💡 Pontos-Chave:
+- Theodore enviará um envelope vermelho de sorte na interação de hoje.
+
+---
+
+### <a id="intel-20261125-364"></a>[INTEL-20261125-364] — Reunião / Evento
+
+- **📅 Data de Publicação:** 2026-11-24
+- **⏰ Hora:** 20:26
+- **👥 Grupo / Canal:** `TIMI-NeWs`
+- **👑 Autoridade / Emissor:** `Rodrigo Carvalho`
+- **🏷️ Categoria:** Reunião / Evento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Rodrigo convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos! Quim Barreiros estará presente como surpresa! Porto, Portugal
+```
+
+#### 💡 Pontos-Chave:
+- Terceira apresentação de produtos em 29/11/2026
+- Local: Porto, Portugal
+- Convidado surpresa: Quim Barreiros
+
+---
+
+### <a id="intel-20261125-359"></a>[INTEL-20261125-359] — Reunião
+
+- **📅 Data de Publicação:** 2026-11-24
+- **⏰ Hora:** 10:20
+- **👥 Grupo / Canal:** `TIMI-NeWs`
+- **👑 Autoridade / Emissor:** `Theodore`
+- **🏷️ Categoria:** Reunião
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Bom dia a todos, já se avisaram uns aos outros sobre a reunião do grupo 08 desta noite?
+```
+
+#### 💡 Pontos-Chave:
+- Reunião obrigatória do grupo TIMI-08 esta noite.
 
 ---
 
