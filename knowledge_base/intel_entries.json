@@ -1,5 +1,135 @@
 [
   {
+    "id": "INTEL-20261125-353",
+    "timestamp_published": "2026-11-25 23:10:27",
+    "date_str": "2026-11-22",
+    "time_str": "17:45",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI",
+    "content_type": "Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Caros parceiros, atenção: ao comprarem produtos do Mall, podem dirigir-se ao centro de experiência mais próximo para receber gratuitamente um presente.",
+    "key_takeaways": [
+      "Campanha TIMI Mall de 21 a 25 de novembro.",
+      "Compre produtos do Mall para receber presente gratuito e participar em jogo para ganhar dinheiro em espécie no centro de experiência."
+    ]
+  },
+  {
+    "id": "INTEL-20261125-352",
+    "timestamp_published": "2026-11-25 23:10:27",
+    "date_str": "2026-11-23",
+    "time_str": "10:51",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI-NO.08",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "A lista dos 70 premiados do sorteio para agentes TIMI já foi divulgada! iPhone, televisores de grande dimensão, cartões de experiência e recompensas em USDT foram atribuídos aos respetivos vencedores! Verifique já o o seu número e descubra se está entre os premiados!",
+    "key_takeaways": [
+      "Lista dos 70 premiados do sorteio para agentes TIMI divulgada.",
+      "Verificar número para prémios (iPhone, TVs, cartões de experiência, USDT)."
+    ]
+  },
+  {
+    "id": "INTEL-20261125-351",
+    "timestamp_published": "2026-11-25 23:10:27",
+    "date_str": "2026-11-23",
+    "time_str": "13:17",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Quero partilhar convosco um guia da TIMI que contém várias informações úteis, como registo de conta, carregamentos, depósitos, alteração da palavra-passe, cursos de formação, perguntas frequentes e muito mais. Aceder à Academia TIMI https://academia-timi.netlify.app/ Recomendo que guardem este guia e o consultem sempre que tiverem dúvidas. Pode ser uma grande ajuda para todos!",
+    "key_takeaways": [
+      "Aceder ao guia da Academia TIMI para informações sobre conta, depósitos, palavra-passe e formação.",
+      "URL: https://academia-timi.netlify.app/"
+    ]
+  },
+  {
+    "id": "INTEL-20261125-350",
+    "timestamp_published": "2026-11-25 23:10:27",
+    "date_str": "2026-11-23",
+    "time_str": "14:36",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI",
+    "content_type": "Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Este é mais um momento importante no desenvolvimento da TIMI no mercado brasileiro, e também significa que mais amigos locais têm a oportunidade de conhecer de perto os produtos de bicicletas partilhadas da TIMI! A abertura de um centro de experiência é apenas o novo ponto de partida! Esperamos ver, no futuro, centros de experiência TIMI a abrir sucessivamente em mais cidades do Brasil, levando a mobilidade verde à vida de mais pessoas! Convidamos os parceiros de todo o Brasil a trazerem os seus familiares e amigos e a visitarem pessoalmente o centro de experiência, para conhecerem as características dos produtos das bicicletas partilhadas TIMI, a experiência de condução e a filosofia de mobilidade verde! Endereço: R. Jaime Pantaleão de Morais, 53 - Sl 2 - Aterrado Endereço Google: https://maps.app.goo.gl/dUEhFfRCSuPumLA",
+    "key_takeaways": [
+      "Abertura de novo centro de experiência TIMI no Brasil.",
+      "Convite para parceiros visitarem o centro de experiência.",
+      "Endereço do centro: R. Jaime Pantaleão de Morais, 53 - Sl 2 - Aterrado."
+    ]
+  },
+  {
+    "id": "INTEL-20261125-349",
+    "timestamp_published": "2026-11-25 23:10:27",
+    "date_str": "2026-11-23",
+    "time_str": "18:38",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Vai ao 6º Centro de Experiência, o Fernando ajudar-te-á a resolver este problema. Endereço:R. Amélia Rey Colaço 50C, 2790-017 Carnaxide. Endereço Google:https://share.google.com/m/kmm/n55zhypPlz85rT Região: Lisboa.",
+    "key_takeaways": [
+      "Endereço do 6º Centro de Experiência: R. Amélia Rey Colaço 50C, 2790-017 Carnaxide, Lisboa.",
+      "Contacto: Fernando para assistência em problemas."
+    ]
+  },
+  {
+    "id": "INTEL-20261125-348",
+    "timestamp_published": "2026-11-25 23:10:27",
+    "date_str": "2026-11-23",
+    "time_str": "23:15",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Supermercado N.º 967 Nome: TIMI.NO.967 Drogaria Aguas Lindas Perel Endereço Google: https://maps.app.goo.gl/bfGgumq1wqFMxRz6 Região: Brasil",
+    "key_takeaways": [
+      "Novo Supermercado N.º 967 (TIMI.NO.967 Drogaria Aguas Lindas Perel) anunciado.",
+      "Localização: Brasil, com link Google Maps fornecido."
+    ]
+  },
+  {
+    "id": "INTEL-20261125-347",
+    "timestamp_published": "2026-11-25 23:10:27",
+    "date_str": "2026-11-23",
+    "time_str": "23:16",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Mercearia N.º 958 Nome: Timim.n.º 958 produtos naturais Endereço Google: https://maps.app.goo.gl/pFEkyqVfn6msrhg77 g_st**w Região: Brasil",
+    "key_takeaways": [
+      "Nova Mercearia N.º 958 (Timim.n.º 958 produtos naturais) anunciada.",
+      "Localização: Brasil, com link Google Maps fornecido."
+    ]
+  },
+  {
+    "id": "INTEL-20261125-346",
+    "timestamp_published": "2026-11-25 23:10:27",
+    "date_str": "2026-11-25",
+    "time_str": "14:28",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI",
+    "content_type": "Reunião / Evento",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Hugo convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos! Quem Barreiros estará presente como surpresa! Porto, Portugal 29/11/2026",
+    "key_takeaways": [
+      "3ª apresentação de produtos em Porto, Portugal",
+      "Data do evento: 29/11/2026",
+      "Presença de Quem Barreiros como surpresa"
+    ]
+  },
+  {
     "id": "INTEL-20261124-345",
     "timestamp_published": "2026-11-24 23:32:02",
     "date_str": "2026-11-24",

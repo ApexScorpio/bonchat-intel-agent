@@ -14,6 +14,7 @@
 | `INTEL-20261124-341` | 2026-11-29 22:14 | `TIMI-68` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261124-341) |
 | `INTEL-20261123-327` | 2026-11-29 20:13 | `TIMI Mall` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261123-327) |
 | `INTEL-20261124-335` | 2026-11-29 10:05 | `TIMI-68` | TIMI | Aviso / Evento | [Ver Anexo](#intel-20261124-335) |
+| `INTEL-20261125-346` | 2026-11-25 14:28 | `TIMI--NO.08` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261125-346) |
 | `INTEL-20261124-345` | 2026-11-24 N/A | `TIMI--NO.08` | TIMI Administrador | Diretiva | [Ver Anexo](#intel-20261124-345) |
 | `INTEL-20261124-343` | 2026-11-24 22:30 | `TIMI-68` | Svitlana | Campanha / Oportunidade | [Ver Anexo](#intel-20261124-343) |
 | `INTEL-20261124-338` | 2026-11-24 22:30 | `TIMI-68` | Bob | Campanha | [Ver Anexo](#intel-20261124-338) |
@@ -23,6 +24,8 @@
 | `INTEL-20261124-344` | 2026-11-24 22:12 | `TIMI-68` | TIMI oficial | Aviso / Diretiva / Alteração de Regras | [Ver Anexo](#intel-20261124-344) |
 | `INTEL-20261124-334` | 2026-11-24 21:44 | `TIMI-68` | TIMI oficial | Reunião / Campanha / Aviso Urgente | [Ver Anexo](#intel-20261124-334) |
 | `INTEL-20261123-289` | 2026-11-23 N/A | `TIMI-68` | TIMI oficial | Aviso | [Ver Anexo](#intel-20261123-289) |
+| `INTEL-20261125-347` | 2026-11-23 23:16 | `TIMI--NO.08` | TIMI | Aviso | [Ver Anexo](#intel-20261125-347) |
+| `INTEL-20261125-348` | 2026-11-23 23:15 | `TIMI--NO.08` | TIMI | Aviso | [Ver Anexo](#intel-20261125-348) |
 | `INTEL-20261123-321` | 2026-11-23 23:09 | `TIMI Mall` | TIMI | Campanha / Aviso Urgente | [Ver Anexo](#intel-20261123-321) |
 | `INTEL-20261123-298` | 2026-11-23 23:08 | `TIMI--NO.08` | Theodore | Regras / Bónus | [Ver Anexo](#intel-20261123-298) |
 | `INTEL-20261123-297` | 2026-11-23 23:08 | `TIMI--NO.08` | Theodore | Campanha | [Ver Anexo](#intel-20261123-297) |
@@ -46,14 +49,18 @@
 | `INTEL-20261123-332` | 2026-11-23 19:57 | `TIMI Mall` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261123-332) |
 | `INTEL-20261123-333` | 2026-11-23 19:52 | `TIMI Mall` | TIMI | Evento | [Ver Anexo](#intel-20261123-333) |
 | `INTEL-20261123-306` | 2026-11-23 19:00 | `TIMI--NO.08` | Aline (Agente Nível 2 TIMI) | Reunião / Live | [Ver Anexo](#intel-20261123-306) |
+| `INTEL-20261125-349` | 2026-11-23 18:38 | `TIMI--NO.08` | TIMI | Diretiva | [Ver Anexo](#intel-20261125-349) |
 | `INTEL-20261123-302` | 2026-11-23 18:18 | `TIMI--NO.08` | Aline | Reunião / Live | [Ver Anexo](#intel-20261123-302) |
 | `INTEL-20261123-301` | 2026-11-23 18:12 | `TIMI--NO.08` | Theodore | Diretiva / Aviso Urgente | [Ver Anexo](#intel-20261123-301) |
 | `INTEL-20261123-304` | 2026-11-23 18:05 | `TIMI--NO.08` | Theodore | Diretiva / Aviso | [Ver Anexo](#intel-20261123-304) |
 | `INTEL-20261123-305` | 2026-11-23 17:58 | `TIMI--NO.08` | Theodore | Aviso / Diretiva | [Ver Anexo](#intel-20261123-305) |
 | `INTEL-20261123-300` | 2026-11-23 15:42 | `TIMI--NO.08` | Theodore | Live Obrigatória | [Ver Anexo](#intel-20261123-300) |
 | `INTEL-20261123-303` | 2026-11-23 15:21 | `TIMI--NO.08` | Theodore | Diretiva / Aviso | [Ver Anexo](#intel-20261123-303) |
+| `INTEL-20261125-350` | 2026-11-23 14:36 | `TIMI--NO.08` | TIMI | Aviso / Diretiva | [Ver Anexo](#intel-20261125-350) |
 | `INTEL-20261123-307` | 2026-11-23 14:08 | `TIMI--NO.08` | Theodore | Diretiva | [Ver Anexo](#intel-20261123-307) |
+| `INTEL-20261125-351` | 2026-11-23 13:17 | `TIMI--NO.08` | TIMI | Diretiva | [Ver Anexo](#intel-20261125-351) |
 | `INTEL-20261123-308` | 2026-11-23 11:09 | `TIMI--NO.08` | Theodore | Diretiva | [Ver Anexo](#intel-20261123-308) |
+| `INTEL-20261125-352` | 2026-11-23 10:51 | `TIMI--NO.08` | TIMI-NO.08 | Aviso | [Ver Anexo](#intel-20261125-352) |
 | `INTEL-20261123-299` | 2026-11-23 10:20 | `TIMI--NO.08` | Theodore | Reunião / Campanha | [Ver Anexo](#intel-20261123-299) |
 | `INTEL-20261123-290` | 2026-11-23 10:17 | `TIMI-68` | TIMIatualizou | Aviso / Diretiva | [Ver Anexo](#intel-20261123-290) |
 | `INTEL-20261123-320` | 2026-11-22 N/A | `TIMI--NO.08` | Theodore | Diretiva / Aviso Urgente | [Ver Anexo](#intel-20261123-320) |
@@ -88,6 +95,7 @@
 | `INTEL-20261122-284` | 2026-11-22 18:25 | `TIMI Mall` | M__a | Reunião / Evento | [Ver Anexo](#intel-20261122-284) |
 | `INTEL-20261122-285` | 2026-11-22 18:09 | `TIMI Mall` | Gervásio | Campanha / Sorteio / Diretiva | [Ver Anexo](#intel-20261122-285) |
 | `INTEL-20261122-286` | 2026-11-22 17:48 | `TIMI Mall` | Gervásio | Campanha / Sorteio | [Ver Anexo](#intel-20261122-286) |
+| `INTEL-20261125-353` | 2026-11-22 17:45 | `TIMI--NO.08` | TIMI | Campanha | [Ver Anexo](#intel-20261125-353) |
 | `INTEL-20261122-287` | 2026-11-22 17:40 | `TIMI Mall` | Gervasio | Diretiva / Regra de Sorteio | [Ver Anexo](#intel-20261122-287) |
 | `INTEL-20261123-318` | 2026-11-22 17:13 | `TIMI--NO.08` | Theodore | Diretiva / Aviso | [Ver Anexo](#intel-20261123-318) |
 | `INTEL-20261123-317` | 2026-11-22 17:13 | `TIMI--NO.08` | Theodore | Diretiva / Aviso | [Ver Anexo](#intel-20261123-317) |
@@ -437,6 +445,25 @@ Ramiro convida cordialmente você a participar na terceira apresentação de pro
 
 ---
 
+### <a id="intel-20261125-346"></a>[INTEL-20261125-346] — Reunião / Evento
+
+- **📅 Data de Publicação:** 2026-11-25
+- **⏰ Hora:** 14:28
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Reunião / Evento
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Hugo convida cordialmente você a participar na terceira apresentação de produtos, juntamente com a sua família e amigos! Quem Barreiros estará presente como surpresa! Porto, Portugal 29/11/2026
+```
+
+#### 💡 Pontos-Chave:
+- 3ª apresentação de produtos em Porto, Portugal
+- Data do evento: 29/11/2026
+- Presença de Quem Barreiros como surpresa
+
+---
+
 ### <a id="intel-20261124-345"></a>[INTEL-20261124-345] — Diretiva
 
 - **📅 Data de Publicação:** 2026-11-24
@@ -602,6 +629,42 @@ Também foi mencionada a regra dos 70 pontos e o possível impacto que uma pontu
 #### 💡 Pontos-Chave:
 - Alerta sobre a regra dos 70 pontos
 - Impacto da pontuação nos rendimentos dos equipamentos
+
+---
+
+### <a id="intel-20261125-347"></a>[INTEL-20261125-347] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 23:16
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Mercearia N.º 958 Nome: Timim.n.º 958 produtos naturais Endereço Google: https://maps.app.goo.gl/pFEkyqVfn6msrhg77 g_st**w Região: Brasil
+```
+
+#### 💡 Pontos-Chave:
+- Nova Mercearia N.º 958 (Timim.n.º 958 produtos naturais) anunciada.
+- Localização: Brasil, com link Google Maps fornecido.
+
+---
+
+### <a id="intel-20261125-348"></a>[INTEL-20261125-348] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 23:15
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Supermercado N.º 967 Nome: TIMI.NO.967 Drogaria Aguas Lindas Perel Endereço Google: https://maps.app.goo.gl/bfGgumq1wqFMxRz6 Região: Brasil
+```
+
+#### 💡 Pontos-Chave:
+- Novo Supermercado N.º 967 (TIMI.NO.967 Drogaria Aguas Lindas Perel) anunciado.
+- Localização: Brasil, com link Google Maps fornecido.
 
 ---
 
@@ -1053,6 +1116,24 @@ E JÁ AMANHÃ É A CONVERSA COM A ALINE! A partir de 23 de novembro, estarei em 
 
 ---
 
+### <a id="intel-20261125-349"></a>[INTEL-20261125-349] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 18:38
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Vai ao 6º Centro de Experiência, o Fernando ajudar-te-á a resolver este problema. Endereço:R. Amélia Rey Colaço 50C, 2790-017 Carnaxide. Endereço Google:https://share.google.com/m/kmm/n55zhypPlz85rT Região: Lisboa.
+```
+
+#### 💡 Pontos-Chave:
+- Endereço do 6º Centro de Experiência: R. Amélia Rey Colaço 50C, 2790-017 Carnaxide, Lisboa.
+- Contacto: Fernando para assistência em problemas.
+
+---
+
 ### <a id="intel-20261123-302"></a>[INTEL-20261123-302] — Reunião / Live
 
 - **📅 Data de Publicação:** 2026-11-23
@@ -1161,6 +1242,25 @@ Aviso à equipa de agentes Solícita-se a todos os agentes que se vistam de form
 
 ---
 
+### <a id="intel-20261125-350"></a>[INTEL-20261125-350] — Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 14:36
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Este é mais um momento importante no desenvolvimento da TIMI no mercado brasileiro, e também significa que mais amigos locais têm a oportunidade de conhecer de perto os produtos de bicicletas partilhadas da TIMI! A abertura de um centro de experiência é apenas o novo ponto de partida! Esperamos ver, no futuro, centros de experiência TIMI a abrir sucessivamente em mais cidades do Brasil, levando a mobilidade verde à vida de mais pessoas! Convidamos os parceiros de todo o Brasil a trazerem os seus familiares e amigos e a visitarem pessoalmente o centro de experiência, para conhecerem as características dos produtos das bicicletas partilhadas TIMI, a experiência de condução e a filosofia de mobilidade verde! Endereço: R. Jaime Pantaleão de Morais, 53 - Sl 2 - Aterrado Endereço Google: https://maps.app.goo.gl/dUEhFfRCSuPumLA
+```
+
+#### 💡 Pontos-Chave:
+- Abertura de novo centro de experiência TIMI no Brasil.
+- Convite para parceiros visitarem o centro de experiência.
+- Endereço do centro: R. Jaime Pantaleão de Morais, 53 - Sl 2 - Aterrado.
+
+---
+
 ### <a id="intel-20261123-307"></a>[INTEL-20261123-307] — Diretiva
 
 - **📅 Data de Publicação:** 2026-11-23
@@ -1179,6 +1279,24 @@ Bom dia a todos! Neste momento, ainda há bastantes parceiros que não compraram
 
 ---
 
+### <a id="intel-20261125-351"></a>[INTEL-20261125-351] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 13:17
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Quero partilhar convosco um guia da TIMI que contém várias informações úteis, como registo de conta, carregamentos, depósitos, alteração da palavra-passe, cursos de formação, perguntas frequentes e muito mais. Aceder à Academia TIMI https://academia-timi.netlify.app/ Recomendo que guardem este guia e o consultem sempre que tiverem dúvidas. Pode ser uma grande ajuda para todos!
+```
+
+#### 💡 Pontos-Chave:
+- Aceder ao guia da Academia TIMI para informações sobre conta, depósitos, palavra-passe e formação.
+- URL: https://academia-timi.netlify.app/
+
+---
+
 ### <a id="intel-20261123-308"></a>[INTEL-20261123-308] — Diretiva
 
 - **📅 Data de Publicação:** 2026-11-23
@@ -1194,6 +1312,24 @@ A excelente agente Micaela, de Portimão, partilhou o plano de crescimento de el
 #### 💡 Pontos-Chave:
 - Rever e aplicar o plano de crescimento de elite partilhado pela agente Micaela.
 - Incentivo a aprender, trocar ideias e aplicar boas práticas nas equipas.
+
+---
+
+### <a id="intel-20261125-352"></a>[INTEL-20261125-352] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-23
+- **⏰ Hora:** 10:51
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI-NO.08`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+A lista dos 70 premiados do sorteio para agentes TIMI já foi divulgada! iPhone, televisores de grande dimensão, cartões de experiência e recompensas em USDT foram atribuídos aos respetivos vencedores! Verifique já o o seu número e descubra se está entre os premiados!
+```
+
+#### 💡 Pontos-Chave:
+- Lista dos 70 premiados do sorteio para agentes TIMI divulgada.
+- Verificar número para prémios (iPhone, TVs, cartões de experiência, USDT).
 
 ---
 
@@ -1828,6 +1964,24 @@ Os prémios incluem 30, 50, 100, 200, 500 e 1000 USDT, um iPhone 18 (valor de re
 - Prizes: 30-1000 USDT, iPhone 18 (2200 USDT), 7-day experience upgrade, 5% withdrawal fee exemption.
 - Recommenders get recruitment commission and additional lottery entries for inviting new eligible partners.
 - Other rewards exist for inviting new eligible partners beyond lottery entries.
+
+---
+
+### <a id="intel-20261125-353"></a>[INTEL-20261125-353] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-22
+- **⏰ Hora:** 17:45
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Caros parceiros, atenção: ao comprarem produtos do Mall, podem dirigir-se ao centro de experiência mais próximo para receber gratuitamente um presente.
+```
+
+#### 💡 Pontos-Chave:
+- Campanha TIMI Mall de 21 a 25 de novembro.
+- Compre produtos do Mall para receber presente gratuito e participar em jogo para ganhar dinheiro em espécie no centro de experiência.
 
 ---
 
