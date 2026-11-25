@@ -1,5 +1,36 @@
 [
   {
+    "id": "INTEL-20261125-355",
+    "timestamp_published": "2026-11-25 23:12:06",
+    "date_str": "2026-11-24",
+    "time_str": "22:58",
+    "channel": "TIMI Mall",
+    "authority": "TIMI",
+    "content_type": "Aviso / Campanha",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Últimas 2 horas para o pacote do MALL! Os parceiros que ainda não receberam, não percam tempo e recebam já!",
+    "key_takeaways": [
+      "Prazo final para o pacote do TIMI Mall em 2 horas"
+    ]
+  },
+  {
+    "id": "INTEL-20261125-354",
+    "timestamp_published": "2026-11-25 23:12:06",
+    "date_str": "2026-11-24",
+    "time_str": "22:03",
+    "channel": "TIMI Mall",
+    "authority": "Ivieira Assistente",
+    "content_type": "Aviso",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "USDC na Polygon está suspensa na OKX até às 22h10, tambem. Agora na OKX dizem que a USDC Polygon está suspensa até às 04h00 de amanha.",
+    "key_takeaways": [
+      "USDC Polygon suspenso na OKX até 22:10 (2026-11-24)",
+      "Suspensão estendida até 04:00 (2026-11-25)"
+    ]
+  },
+  {
     "id": "INTEL-20261125-353",
     "timestamp_published": "2026-11-25 23:10:27",
     "date_str": "2026-11-22",

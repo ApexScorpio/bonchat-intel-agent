@@ -16,12 +16,14 @@
 | `INTEL-20261124-335` | 2026-11-29 10:05 | `TIMI-68` | TIMI | Aviso / Evento | [Ver Anexo](#intel-20261124-335) |
 | `INTEL-20261125-346` | 2026-11-25 14:28 | `TIMI--NO.08` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261125-346) |
 | `INTEL-20261124-345` | 2026-11-24 N/A | `TIMI--NO.08` | TIMI Administrador | Diretiva | [Ver Anexo](#intel-20261124-345) |
+| `INTEL-20261125-355` | 2026-11-24 22:58 | `TIMI Mall` | TIMI | Aviso / Campanha | [Ver Anexo](#intel-20261125-355) |
 | `INTEL-20261124-343` | 2026-11-24 22:30 | `TIMI-68` | Svitlana | Campanha / Oportunidade | [Ver Anexo](#intel-20261124-343) |
 | `INTEL-20261124-338` | 2026-11-24 22:30 | `TIMI-68` | Bob | Campanha | [Ver Anexo](#intel-20261124-338) |
 | `INTEL-20261124-337` | 2026-11-24 22:30 | `TIMI-68` | TIMI oficial | Campanha / Aviso Urgente | [Ver Anexo](#intel-20261124-337) |
 | `INTEL-20261124-342` | 2026-11-24 22:22 | `TIMI-68` | Theodore | Aviso / Campanha | [Ver Anexo](#intel-20261124-342) |
 | `INTEL-20261124-340` | 2026-11-24 22:21 | `TIMI-68` | Liderança TIMI (via Eva Horta) | Aviso / Diretiva | [Ver Anexo](#intel-20261124-340) |
 | `INTEL-20261124-344` | 2026-11-24 22:12 | `TIMI-68` | TIMI oficial | Aviso / Diretiva / Alteração de Regras | [Ver Anexo](#intel-20261124-344) |
+| `INTEL-20261125-354` | 2026-11-24 22:03 | `TIMI Mall` | Ivieira Assistente | Aviso | [Ver Anexo](#intel-20261125-354) |
 | `INTEL-20261124-334` | 2026-11-24 21:44 | `TIMI-68` | TIMI oficial | Reunião / Campanha / Aviso Urgente | [Ver Anexo](#intel-20261124-334) |
 | `INTEL-20261123-289` | 2026-11-23 N/A | `TIMI-68` | TIMI oficial | Aviso | [Ver Anexo](#intel-20261123-289) |
 | `INTEL-20261125-347` | 2026-11-23 23:16 | `TIMI--NO.08` | TIMI | Aviso | [Ver Anexo](#intel-20261125-347) |
@@ -486,6 +488,23 @@ Obrigado a cada parceiro pela compreensão, apoio e colaboração ativa!
 
 ---
 
+### <a id="intel-20261125-355"></a>[INTEL-20261125-355] — Aviso / Campanha
+
+- **📅 Data de Publicação:** 2026-11-24
+- **⏰ Hora:** 22:58
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI`
+- **🏷️ Categoria:** Aviso / Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Últimas 2 horas para o pacote do MALL! Os parceiros que ainda não receberam, não percam tempo e recebam já!
+```
+
+#### 💡 Pontos-Chave:
+- Prazo final para o pacote do TIMI Mall em 2 horas
+
+---
+
 ### <a id="intel-20261124-343"></a>[INTEL-20261124-343] — Campanha / Oportunidade
 
 - **📅 Data de Publicação:** 2026-11-24
@@ -591,6 +610,24 @@ resumo da reunião foi falado em incentivar o crescimento da equipaforam falados
 #### 💡 Pontos-Chave:
 - Faltas a reuniões podem afetar rendimentos (menos de 70 pontos).
 - Ausências a reuniões devem ser comunicadas com antecedência.
+
+---
+
+### <a id="intel-20261125-354"></a>[INTEL-20261125-354] — Aviso
+
+- **📅 Data de Publicação:** 2026-11-24
+- **⏰ Hora:** 22:03
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `Ivieira Assistente`
+- **🏷️ Categoria:** Aviso
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+USDC na Polygon está suspensa na OKX até às 22h10, tambem. Agora na OKX dizem que a USDC Polygon está suspensa até às 04h00 de amanha.
+```
+
+#### 💡 Pontos-Chave:
+- USDC Polygon suspenso na OKX até 22:10 (2026-11-24)
+- Suspensão estendida até 04:00 (2026-11-25)
 
 ---
 
