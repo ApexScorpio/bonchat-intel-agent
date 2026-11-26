@@ -14,7 +14,9 @@
 | `INTEL-20261124-341` | 2026-11-29 22:14 | `TIMI-68` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261124-341) |
 | `INTEL-20261123-327` | 2026-11-29 20:13 | `TIMI Mall` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261123-327) |
 | `INTEL-20261124-335` | 2026-11-29 10:05 | `TIMI-68` | TIMI | Aviso / Evento | [Ver Anexo](#intel-20261124-335) |
+| `INTEL-20261126-365` | 2026-11-26 10:58 | `TIMI Mall` | TIMI Mall — Administrador | Campanha | [Ver Anexo](#intel-20261126-365) |
 | `INTEL-20261125-358` | 2026-11-25 N/A | `TIMI-NeWs` | Theodore | Reunião / Diretiva | [Ver Anexo](#intel-20261125-358) |
+| `INTEL-20261126-366` | 2026-11-25 22:51 | `TIMI Mall` | TIMI Mall — Administrador | Campanha | [Ver Anexo](#intel-20261126-366) |
 | `INTEL-20261125-356` | 2026-11-25 22:34 | `TIMI-NeWs` | Bica / Theodore / Nuno Ferreira TIMI | Campanha / Bónus | [Ver Anexo](#intel-20261125-356) |
 | `INTEL-20261125-361` | 2026-11-25 18:45 | `TIMI-NeWs` | Aline | Live | [Ver Anexo](#intel-20261125-361) |
 | `INTEL-20261125-362` | 2026-11-25 16:46 | `TIMI-NeWs` | Theodore | Diretiva | [Ver Anexo](#intel-20261125-362) |
@@ -456,6 +458,25 @@ Ramiro convida cordialmente você a participar na terceira apresentação de pro
 
 ---
 
+### <a id="intel-20261126-365"></a>[INTEL-20261126-365] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-26
+- **⏰ Hora:** 10:58
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Aviso urgente! Os produtos por tempo limitado da TIMI MALL já estão disponíveis para compra! Caros parceiros, esta campanha disponibiliza um total de 600 vagas de compra. Atualmente, 30% das vagas já foram ocupadas, pelo que as vagas restantes são limitadas! A campanha termina hoje! Aproveitem esta última oportunidade e concluam as vossas compras o quanto antes!
+```
+
+#### 💡 Pontos-Chave:
+- Uma nova campanha de produtos por tempo limitado na TIMI Mall está disponível para compra.
+- A campanha oferece 600 vagas de compra, com 30% já ocupadas.
+- A campanha termina hoje, 26 de novembro de 2026.
+
+---
+
 ### <a id="intel-20261125-358"></a>[INTEL-20261125-358] — Reunião / Diretiva
 
 - **📅 Data de Publicação:** 2026-11-25
@@ -472,6 +493,24 @@ A reunião desta noite é importante. É preciso avisar os membros da sua equipa
 - Reunião obrigatória esta noite
 - Diretor Geral Jonathan anunciará novos planos
 - Presença no horário é essencial
+
+---
+
+### <a id="intel-20261126-366"></a>[INTEL-20261126-366] — Campanha
+
+- **📅 Data de Publicação:** 2026-11-25
+- **⏰ Hora:** 22:51
+- **👥 Grupo / Canal:** `TIMI Mall`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador`
+- **🏷️ Categoria:** Campanha
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+TIMI MALL - Campanha: de 21 a 25 de novembro. Juros diários: 1.97% (1 dia), 2.00% (3 dias), 2.03% (7 dias), 2.06% (15 dias), 2.09% (30 dias). Total de vagas: 314,925. Condições: Limite diário: 500 vagas. As vagas são limitadas e a oferta é redefinida no dia seguinte. Cada parceiro pode comprar este produto, no máximo, 2 vezes. Liquidação sem juros após a compra. No final do projeto, pode levantar o principal e os juros. Limite de liquidação: 500 vagas.
+```
+
+#### 💡 Pontos-Chave:
+- A campanha TIMI Mall está ativa até 25 de novembro, oferecendo juros diários de 1.97% a 2.09% para durações de 1 a 30 dias.
+- A campanha tem um limite diário de 500 vagas e cada parceiro pode comprar o produto no máximo duas vezes.
 
 ---
 

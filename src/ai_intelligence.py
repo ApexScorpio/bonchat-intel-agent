@@ -259,10 +259,14 @@ class AIIntelligence:
                 f"Analisa as capturas do canal '{channel_name}' (Lote {chunk_num}/{total_chunks}).\n\n"
                 f"{pill_ctx_str}\n\n"
                 f"INSTRUÇÃO OPERACIONAL:\n"
-                f"Filtra e IGNORA 100% de cumprimentos banais ('bom dia', 'olá', 'obrigado'), emojis soltos e conversas paralelas entre membros comuns.\n"
-                f"Foca-te EXCLUSIVAMENTE em diretivas da chefia (Theodore, Jonathan, Márcia), comunicados do canal 08, horários de reuniões obrigatórias, chamadas de presença, novos sorteios e campanhas de bónus.\n"
+                f"Filtra e IGNORA 100% de:\n"
+                f"- Cumprimentos banais ('bom dia', 'olá', 'obrigado'), emojis soltos e conversas entre membros comuns;\n"
+                f"- Aberturas de lojas/mercearias/supermercados/drogarias no Brasil ('Região: Brasil', links Google Maps) e endereços de centros de experiência;\n"
+                f"- Convites pessoais de membros ('X convida cordialmente você...') e textos puramente motivacionais sem ação prática.\n"
+                f"Foca-te EXCLUSIVAMENTE em informação acionável para Portugal: horários e grupos de reuniões/lives futuras, chamadas de presença, novos sorteios/códigos, campanhas de bónus com valores e prazos, alterações de regras/levantamentos/taxas e manutenção do site.\n"
                 f"- Data: identifica a data de publicação com base nas pílulas de data centrais do BonChat (formato YYYY-MM-DD).\n"
-                f"- Hora: extrai a hora exata (HH:MM) junto ao autor ou cabeçalho da mensagem (ex: '11:42', '19:30'). Se não estiver visível, coloca 'N/A'.\n\n"
+                f"- Hora: extrai a hora exata (HH:MM) junto ao autor ou cabeçalho da mensagem (ex: '11:42', '19:30'). Se não estiver visível, coloca 'N/A'.\n"
+                f"- Em 'key_takeaways', escreve 1 a 3 frases curtas, completas e diretas em PT-PT com o essencial (datas, horas, grupos, valores, prazos) — nunca frases cortadas.\n\n"
                 f"PRODUZ OBRIGATORIAMENTE um bloco ```json com as mensagens críticas extraídas:\n"
                 f"```json\n"
                 f"[\n"
@@ -330,7 +334,29 @@ class AIIntelligence:
                 lines.append(f"• ⏰ *{task['meeting_time']}* — {task['reason']}")
                 lines.append(f"  └─ 🤖 *Gatilho Automático:* O `TIMI_GUARDIAN` arranca 15 min antes (Tarefa: `{task['task_name']}`).")
 
-        # B. Extrair e desduplicar avisos e diretivas
+        def format_clean_summary(entry: Dict[str, Any], max_len: int = 420) -> str:
+            """Usa os key_takeaways (completos e objetivos) ou o texto limpo sem cortar a meio de palavras."""
+            takeaways = [
+                re.sub(r'\s+', ' ', str(k).strip()).rstrip('.')
+                for k in (entry.get("key_takeaways") or [])
+                if str(k).strip()
+            ]
+            if takeaways:
+                body = ". ".join(takeaways[:3]) + "."
+            else:
+                body = re.sub(r'https?://\S+', '', str(entry.get("verbatim_text") or "")).strip()
+                body = re.sub(r'\s+', ' ', body)
+            if len(body) <= max_len:
+                return body
+            # Cortar na última frase completa dentro do limite, ou na última palavra inteira
+            cut = body[:max_len]
+            last_dot = max(cut.rfind('. '), cut.rfind('! '), cut.rfind('? '))
+            if last_dot >= int(max_len * 0.55):
+                return cut[:last_dot + 1].strip()
+            last_space = cut.rfind(' ')
+            return (cut[:last_space].rstrip(' ,;:-') + "…") if last_space > 0 else (cut + "…")
+
+        # B. Extrair, filtrar ruído irrelevante e desduplicar avisos acionáveis
         seen_takeaways = set()
         meetings = []
         authorities_notices = []
@@ -340,57 +366,77 @@ class AIIntelligence:
         if all_entries:
             for e in all_entries:
                 c_type = (e.get("content_type") or "").lower()
-                text = (e.get("verbatim_text") or " ".join(e.get("key_takeaways", []))).strip()
+                raw_verbatim = (e.get("verbatim_text") or "").strip()
+                takeaways_joined = " ".join(str(k) for k in (e.get("key_takeaways") or []))
+                text_for_filter = f"{raw_verbatim} {takeaways_joined}".strip()
                 auth = (e.get("authority") or "Oficial").strip()
+                channel = (e.get("channel") or "").strip()
 
-                t_lower = text.lower()
-                # Filtro rigoroso de ruído (depósitos, levantamentos, parabéns, cumprimentos, motivação genérica)
+                t_lower = text_for_filter.lower()
+                # 1. Bloquear ruído sem utilidade prática (lojas do Brasil, spam de convites, conversa banal)
+                hard_irrelevant = (
+                    "região: brasil", "regiao: brasil", "mercado brasileiro",
+                    "mercearia n.", "supermercado n.", "drogaria ", "maps.app.goo.gl",
+                    "convida cordialmente", "quim barreiros",
+                    "código de viagem", "codigo de viagem", "pedale com um clique",
+                    "centro de experiência", "centro de experiencia", "carnaxide",
+                    "já se avisaram uns aos outros", "ja se avisaram uns aos outros",
+                    "resumo da reunião de hoje", "resumo da reuniao de hoje",
+                )
+                if any(k in t_lower for k in hard_irrelevant):
+                    continue
+
                 noise_terms = (
                     "bom dia", "boa tarde", "boa noite", "obrigado", "obrigada", "consegui",
-                    "parabéns", "parabens", "depositou", "depositei", "levantamento", "chegou na conta",
+                    "parabéns", "parabens", "depositou", "depositei", "chegou na conta",
                     "capacidade de execução", "capacidade de execucao", "presente!"
                 )
-                important_terms = ("reunião", "reuniao", "sorteio", "bónus", "bonus", "campanha", "manutenção", "manutencao", "regra", "prazo", "live")
+                important_terms = (
+                    "reunião", "reuniao", "sorteio", "bónus", "bonus", "campanha",
+                    "manutenção", "manutencao", "regra", "prazo", "live", "taxa", "levantamento"
+                )
                 if any(k in t_lower for k in noise_terms) and not any(k in t_lower for k in important_terms):
                     continue
-                # Ignorar vouchers rotineiros das 11h/19h (o Maestro já trata deles)
-                if "código de viagem" in t_lower or "codigo de viagem" in t_lower or "pedale com um clique" in t_lower:
-                    continue
 
-                # Desduplicação robusta por conjunto de palavras significativas (evita repetir o mesmo aviso de vários grupos)
+                # 2. Desduplicação robusta por conjunto de palavras significativas
                 sig_words = sorted({w for w in re.findall(r'[a-zà-ú0-9]{4,}', t_lower)})
                 norm_key = "|".join(sig_words[:10]) if sig_words else re.sub(r'\W+', '', t_lower[:50])
                 if norm_key in seen_takeaways:
                     continue
                 seen_takeaways.add(norm_key)
 
+                summary_str = format_clean_summary(e, max_len=420)
+                if not summary_str or len(summary_str) < 12:
+                    continue
+                ch_tag = f" [{channel}]" if channel else ""
+                time_info = f" ({e.get('time_str')})" if e.get('time_str') and e.get('time_str') != 'N/A' else ""
+
                 if any(k in t_lower or k in c_type for k in ("reunião", "reuniao", "presença", "presenca", "live", "encontro")):
-                    time_info = f" ({e.get('time_str')})" if e.get('time_str') and e.get('time_str') != 'N/A' else ""
-                    meetings.append(f"• *[{auth}]{time_info}:* {text[:140]}...")
-                elif any(k in t_lower or k in c_type for k in ("bónus", "bonus", "campanha", "usdt", "meta", "comissão")):
-                    campaigns_bonuses.append(f"• *[{auth}]:* {text[:140]}...")
-                elif any(k in t_lower or k in c_type for k in ("chave", "voucher", "código", "codigo", "sorteio")):
-                    vouchers_codes.append(f"• *[{auth}]:* {text[:140]}...")
-                elif auth in ("Theodore", "Jonathan", "Johnathan", "Marcia", "Márcia", "TIMI") or "diretiva" in c_type or "aviso" in c_type:
-                    authorities_notices.append(f"• *[{auth}]:* {text[:140]}...")
+                    meetings.append(f"• *{auth}{ch_tag}{time_info}:* {summary_str}")
+                elif any(k in t_lower or k in c_type for k in ("bónus", "bonus", "campanha", "usdt", "meta", "comissão", "sorteio", "prémio", "premio")):
+                    campaigns_bonuses.append(f"• *{auth}{ch_tag}:* {summary_str}")
+                elif any(k in t_lower or k in c_type for k in ("manutenção", "manutencao", "regra", "taxa", "levantamento", "penalização", "penalizacao", "aviso urgente", "diretiva")):
+                    authorities_notices.append(f"• *{auth}{ch_tag}:* {summary_str}")
+                elif auth in ("Theodore", "Jonathan", "Johnathan", "Marcia", "Márcia") and any(k in t_lower for k in ("obrigatóri", "obrigatori", "altera", "novo", "nova", "atenção", "atencao", "importante")):
+                    authorities_notices.append(f"• *{auth}{ch_tag}:* {summary_str}")
 
         has_content = False
 
         if meetings and not scheduled_tasks:
             lines.append("\n📢 *REUNIÕES & EVENTOS:*")
-            for m in meetings[:3]:
+            for m in meetings[:4]:
                 lines.append(m)
             has_content = True
 
         if authorities_notices:
-            lines.append("\n👑 *DIRETIVAS DA CHEFIA (Theodore / Jonathan):*")
+            lines.append("\n⚠️ *REGRAS, AVISOS & DIRETIVAS CRÍTICAS:*")
             for an in authorities_notices[:4]:
                 lines.append(an)
             has_content = True
 
         if campaigns_bonuses:
-            lines.append("\n💰 *BÓNUS & CAMPANHAS ATIVAS:*")
-            for cb in campaigns_bonuses[:3]:
+            lines.append("\n💰 *BÓNUS, CAMPANHAS & SORTEIOS:*")
+            for cb in campaigns_bonuses[:4]:
                 lines.append(cb)
             has_content = True
 
@@ -401,17 +447,8 @@ class AIIntelligence:
             has_content = True
 
         if not has_content and not scheduled_tasks:
-            cleaned_summaries = []
-            for ch, s in channel_summaries.items():
-                clean_s = sanitize_intel_text(s)
-                if clean_s and "sem novidades" not in clean_s.lower() and len(clean_s) > 20:
-                    cleaned_summaries.append(f"• *{ch}:* {clean_s[:140]}...")
-            if cleaned_summaries:
-                lines.append("\n📋 *DESTAQUES DOS CANAIS:*")
-                lines.extend(cleaned_summaries[:4])
-            else:
-                lines.append("\n✅ *Sem novos comunicados críticos da chefia neste turno.*")
-                lines.append("Operação regular a decorrer nas 3 contas TIMI.")
+            lines.append("\n✅ *Sem novidades críticas ou acionáveis neste turno.*")
+            lines.append("Operação regular a decorrer nas 3 contas TIMI.")
 
         lines.append("\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
         lines.append("🛡️ *Sistema Operacional 3/3 Contas Ativas*")
