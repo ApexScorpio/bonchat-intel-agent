@@ -1,5 +1,20 @@
 [
   {
+    "id": "INTEL-20261127-367",
+    "timestamp_published": "2026-11-27 23:06:57",
+    "date_str": "2026-11-27",
+    "time_str": "20:11",
+    "channel": "TIMI-68",
+    "authority": "Andrea",
+    "content_type": "Reunião / Live",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "https://www.youtube.com/live/QOPtbC3DvhY?is=0v5rd5HnFpfzCbxC",
+    "key_takeaways": [
+      "Live da TIMI para o grupo TIMI-68 disponível no YouTube no dia 27 de novembro de 2026 às 20:11."
+    ]
+  },
+  {
     "id": "INTEL-20261126-366",
     "timestamp_published": "2026-11-26 23:14:11",
     "date_str": "2026-11-25",

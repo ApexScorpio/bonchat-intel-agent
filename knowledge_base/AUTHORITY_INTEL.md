@@ -14,6 +14,7 @@
 | `INTEL-20261124-341` | 2026-11-29 22:14 | `TIMI-68` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261124-341) |
 | `INTEL-20261123-327` | 2026-11-29 20:13 | `TIMI Mall` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261123-327) |
 | `INTEL-20261124-335` | 2026-11-29 10:05 | `TIMI-68` | TIMI | Aviso / Evento | [Ver Anexo](#intel-20261124-335) |
+| `INTEL-20261127-367` | 2026-11-27 20:11 | `TIMI-68` | Andrea | Reunião / Live | [Ver Anexo](#intel-20261127-367) |
 | `INTEL-20261126-365` | 2026-11-26 10:58 | `TIMI Mall` | TIMI Mall — Administrador | Campanha | [Ver Anexo](#intel-20261126-365) |
 | `INTEL-20261125-358` | 2026-11-25 N/A | `TIMI-NeWs` | Theodore | Reunião / Diretiva | [Ver Anexo](#intel-20261125-358) |
 | `INTEL-20261126-366` | 2026-11-25 22:51 | `TIMI Mall` | TIMI Mall — Administrador | Campanha | [Ver Anexo](#intel-20261126-366) |
@@ -455,6 +456,23 @@ Ramiro convida cordialmente você a participar na terceira apresentação de pro
 - Terceira apresentação de produtos em 29/11/2026.
 - Local: Porto, Portugal.
 - Convidado surpresa: Quim Barreiros.
+
+---
+
+### <a id="intel-20261127-367"></a>[INTEL-20261127-367] — Reunião / Live
+
+- **📅 Data de Publicação:** 2026-11-27
+- **⏰ Hora:** 20:11
+- **👥 Grupo / Canal:** `TIMI-68`
+- **👑 Autoridade / Emissor:** `Andrea`
+- **🏷️ Categoria:** Reunião / Live
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+https://www.youtube.com/live/QOPtbC3DvhY?is=0v5rd5HnFpfzCbxC
+```
+
+#### 💡 Pontos-Chave:
+- Live da TIMI para o grupo TIMI-68 disponível no YouTube no dia 27 de novembro de 2026 às 20:11.
 
 ---
 
