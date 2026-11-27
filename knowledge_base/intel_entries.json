@@ -1,5 +1,53 @@
 [
   {
+    "id": "INTEL-20261127-370",
+    "timestamp_published": "2026-11-27 23:16:47",
+    "date_str": "2026-11-27",
+    "time_str": "18:05",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall — Administrador",
+    "content_type": "Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Por favor, atenção: os parceiros que precisam de registar uma conta no TIMI Mall só podem fazê-lo utilizando o link do vosso convidador. Se tiverem alguma dúvida, podem contactar o vosso convidador ou o assistente do gestor.",
+    "key_takeaways": [
+      "Parceiros devem registar contas no TIMI Mall apenas através do link do seu convidador.",
+      "Em caso de dúvidas sobre o registo, devem contactar o convidador ou o assistente do gestor."
+    ]
+  },
+  {
+    "id": "INTEL-20261127-369",
+    "timestamp_published": "2026-11-27 23:16:47",
+    "date_str": "2026-11-27",
+    "time_str": "10:17",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall – Administrador",
+    "content_type": "Campanha / Aviso / Diretiva",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Período da promoção: 27 de novembro a 1 de dezembro. Quero partilhar convosco algumas vantagens da MALL: 1. Fácil de utilizar. 2. Taxa de levantamento: É cobrada uma taxa de 5% no momento do levantamento. 3. Rendimentos ao fim de semana: Mesmo aos fins de semana, podes continuar a obter rendimentos de acordo com as regras do produto. 4. Comissões por convite: Sempre que um membro que se registou através do teu link se convidar comprar qualquer produto da MALL, recebes uma comissão de 10% independentemente do produto. Uma compra da direta a uma comissão. Se forem realizadas 100 compras elegíveis, podes receber 100 comissões.",
+    "key_takeaways": [
+      "Promoção TIMI Mall ativa de 27 de novembro a 1 de dezembro.",
+      "Comissão de 10% por convite direto que compre produtos no TIMI Mall, com bónus de 100 comissões por 100 compras elegíveis.",
+      "É aplicada uma taxa de 5% sobre os levantamentos no TIMI Mall."
+    ]
+  },
+  {
+    "id": "INTEL-20261127-368",
+    "timestamp_published": "2026-11-27 23:16:47",
+    "date_str": "2026-11-26",
+    "time_str": "23:06",
+    "channel": "TIMI--NO.08",
+    "authority": "TIMI Mall — Administrador",
+    "content_type": "Alteração de Regra",
+    "image_asset": "",
+    "image_sha256": "",
+    "verbatim_text": "Alguém me sabe dizer se quem já utilizou a campanha de boas-vindas para novos utilizadores, então agora já não podes continuar a comprar o pacote de boas-vindas para novos utilizadores. Agradecemos a tua compreensão.",
+    "key_takeaways": [
+      "A campanha de boas-vindas do TIMI Mall não pode ser utilizada novamente por quem já a usou."
+    ]
+  },
+  {
     "id": "INTEL-20261127-367",
     "timestamp_published": "2026-11-27 23:06:57",
     "date_str": "2026-11-27",

@@ -15,6 +15,9 @@
 | `INTEL-20261123-327` | 2026-11-29 20:13 | `TIMI Mall` | TIMI | Reunião / Evento | [Ver Anexo](#intel-20261123-327) |
 | `INTEL-20261124-335` | 2026-11-29 10:05 | `TIMI-68` | TIMI | Aviso / Evento | [Ver Anexo](#intel-20261124-335) |
 | `INTEL-20261127-367` | 2026-11-27 20:11 | `TIMI-68` | Andrea | Reunião / Live | [Ver Anexo](#intel-20261127-367) |
+| `INTEL-20261127-370` | 2026-11-27 18:05 | `TIMI--NO.08` | TIMI Mall — Administrador | Diretiva | [Ver Anexo](#intel-20261127-370) |
+| `INTEL-20261127-369` | 2026-11-27 10:17 | `TIMI--NO.08` | TIMI Mall – Administrador | Campanha / Aviso / Diretiva | [Ver Anexo](#intel-20261127-369) |
+| `INTEL-20261127-368` | 2026-11-26 23:06 | `TIMI--NO.08` | TIMI Mall — Administrador | Alteração de Regra | [Ver Anexo](#intel-20261127-368) |
 | `INTEL-20261126-365` | 2026-11-26 10:58 | `TIMI Mall` | TIMI Mall — Administrador | Campanha | [Ver Anexo](#intel-20261126-365) |
 | `INTEL-20261125-358` | 2026-11-25 N/A | `TIMI-NeWs` | Theodore | Reunião / Diretiva | [Ver Anexo](#intel-20261125-358) |
 | `INTEL-20261126-366` | 2026-11-25 22:51 | `TIMI Mall` | TIMI Mall — Administrador | Campanha | [Ver Anexo](#intel-20261126-366) |
@@ -473,6 +476,60 @@ https://www.youtube.com/live/QOPtbC3DvhY?is=0v5rd5HnFpfzCbxC
 
 #### 💡 Pontos-Chave:
 - Live da TIMI para o grupo TIMI-68 disponível no YouTube no dia 27 de novembro de 2026 às 20:11.
+
+---
+
+### <a id="intel-20261127-370"></a>[INTEL-20261127-370] — Diretiva
+
+- **📅 Data de Publicação:** 2026-11-27
+- **⏰ Hora:** 18:05
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador`
+- **🏷️ Categoria:** Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Por favor, atenção: os parceiros que precisam de registar uma conta no TIMI Mall só podem fazê-lo utilizando o link do vosso convidador. Se tiverem alguma dúvida, podem contactar o vosso convidador ou o assistente do gestor.
+```
+
+#### 💡 Pontos-Chave:
+- Parceiros devem registar contas no TIMI Mall apenas através do link do seu convidador.
+- Em caso de dúvidas sobre o registo, devem contactar o convidador ou o assistente do gestor.
+
+---
+
+### <a id="intel-20261127-369"></a>[INTEL-20261127-369] — Campanha / Aviso / Diretiva
+
+- **📅 Data de Publicação:** 2026-11-27
+- **⏰ Hora:** 10:17
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall – Administrador`
+- **🏷️ Categoria:** Campanha / Aviso / Diretiva
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Período da promoção: 27 de novembro a 1 de dezembro. Quero partilhar convosco algumas vantagens da MALL: 1. Fácil de utilizar. 2. Taxa de levantamento: É cobrada uma taxa de 5% no momento do levantamento. 3. Rendimentos ao fim de semana: Mesmo aos fins de semana, podes continuar a obter rendimentos de acordo com as regras do produto. 4. Comissões por convite: Sempre que um membro que se registou através do teu link se convidar comprar qualquer produto da MALL, recebes uma comissão de 10% independentemente do produto. Uma compra da direta a uma comissão. Se forem realizadas 100 compras elegíveis, podes receber 100 comissões.
+```
+
+#### 💡 Pontos-Chave:
+- Promoção TIMI Mall ativa de 27 de novembro a 1 de dezembro.
+- Comissão de 10% por convite direto que compre produtos no TIMI Mall, com bónus de 100 comissões por 100 compras elegíveis.
+- É aplicada uma taxa de 5% sobre os levantamentos no TIMI Mall.
+
+---
+
+### <a id="intel-20261127-368"></a>[INTEL-20261127-368] — Alteração de Regra
+
+- **📅 Data de Publicação:** 2026-11-26
+- **⏰ Hora:** 23:06
+- **👥 Grupo / Canal:** `TIMI--NO.08`
+- **👑 Autoridade / Emissor:** `TIMI Mall — Administrador`
+- **🏷️ Categoria:** Alteração de Regra
+#### 📝 Conteúdo Literal 100% Inalterado:
+```text
+Alguém me sabe dizer se quem já utilizou a campanha de boas-vindas para novos utilizadores, então agora já não podes continuar a comprar o pacote de boas-vindas para novos utilizadores. Agradecemos a tua compreensão.
+```
+
+#### 💡 Pontos-Chave:
+- A campanha de boas-vindas do TIMI Mall não pode ser utilizada novamente por quem já a usou.
 
 ---
 
